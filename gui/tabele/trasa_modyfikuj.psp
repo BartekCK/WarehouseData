@@ -1,0 +1,39 @@
+﻿<%@ page language="PL/SQL" %>
+<%@ plsql procedure="trasa_modyfikuj" %>
+<%@ plsql parameter="ID_TRASY_MOD" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="MIASTO_ODJAZDU_NOWE" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="MIASTO_PRZYJAZDU_NOWE" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="CENA_BILETU_NOR_NOWA" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="CENA_BILETU_ULG_NOWA" type="VARCHAR2" default="NULL"%>
+<%!
+	USUNIETY BOOLEAN:=FALSE;
+	WYJATEK EXCEPTION;
+    WYJATEK2 EXCEPTION;
+%>
+
+<%
+	IF ID_TRASY_MOD IS NULL OR MIASTO_ODJAZDU_NOWE IS NULL OR MIASTO_PRZYJAZDU_NOWE IS NULL OR CENA_BILETU_NOR_NOWA IS NULL OR CENA_BILETU_ULG_NOWA IS NULL THEN RAISE WYJATEK;
+    ELSE
+  		FOR I IN (SELECT * FROM TRASA)
+            LOOP
+                IF I.ID_TRASY = TO_NUMBER(ID_TRASY_MOD,9999999999) THEN
+                   	UPDATE TRASA SET MIASTO_ODJAZDU = MIASTO_ODJAZDU_NOWE, MIASTO_PRZYJAZDU = MIASTO_PRZYJAZDU_NOWE, CENA_BILETU_NOR = CENA_BILETU_NOR_NOWA, CENA_BILETU_ULG = CENA_BILETU_ULG_NOWA WHERE ID_TRASY = ID_TRASY_MOD;
+                    USUNIETY := TRUE;
+                END IF;
+            END LOOP;
+    		IF USUNIETY = FALSE THEN RAISE WYJATEK2;
+            END IF;
+    END IF;
+    trasa_tab();
+%>
+
+<% EXCEPTION WHEN WYJATEK THEN %>
+				<strong><center>Nie podano wystarczajacych danych</center></strong>
+				<center><a href="trasa_tab">WROC</a></center>
+<% WHEN WYJATEK2 THEN %>
+				<strong><center>Rekord nie istnieje</center></strong>
+				<center><a href="trasa_tab">WROC</a></center>
+<% WHEN OTHERS THEN %>
+				<strong><center>Wystapil nieoczekiwany blad</center></strong>
+				<center><a href="trasa_tab">WROC</a></center>
+

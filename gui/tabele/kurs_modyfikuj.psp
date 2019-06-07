@@ -1,0 +1,53 @@
+﻿<%@ page language="PL/SQL" %>
+<%@ plsql procedure="kurs_modyfikuj" %>
+<%@ plsql parameter="ID_TRASY_NOWE" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="ID_POJAZDU_NOWE" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="ID_KIEROWCY_NOWE" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="ID_CZASU_NOWE" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="ILOSC_BILETOW_NOR_NOWA" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="ILOSC_BILETOW_ULG_NOWA" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="CZAS_PRZEJAZDU_NOWY" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="POZIOM_WYPELNIENIA_NOWY" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="ODLEGLOSC_NOWA" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="PRZYCHOD_NOWY" type="VARCHAR2" default="NULL"%>
+<%!
+	USUNIETY BOOLEAN:=FALSE;
+	WYJATEK EXCEPTION;
+    WYJATEK2 EXCEPTION;
+%>
+
+<%
+	IF ID_TRASY_NOWE IS NULL OR ID_POJAZDU_NOWE IS NULL OR ID_KIEROWCY_NOWE IS NULL OR ID_CZASU_NOWE IS NULL OR ILOSC_BILETOW_NOR_NOWA IS NULL OR ILOSC_BILETOW_ULG_NOWA IS NULL OR CZAS_PRZEJAZDU_NOWY IS NULL OR POZIOM_WYPELNIENIA_NOWY IS NULL OR ODLEGLOSC_NOWA IS NULL OR PRZYCHOD_NOWY IS NULL THEN RAISE WYJATEK;
+    ELSE
+  		FOR I IN (SELECT * FROM KURS)
+            LOOP
+                IF I.ID_TRASY = TO_NUMBER(ID_TRASY_NOWE,9999999999) AND
+				I.ID_POJAZDU = TO_NUMBER(ID_POJAZDU_NOWE,9999999999) AND
+				I.ID_KIEROWCY = TO_NUMBER(ID_KIEROWCY_NOWE,9999999999) AND
+				I.ID_CZASU = TO_NUMBER(ID_CZASU_NOWE,9999999999)
+				THEN
+                   	UPDATE KURS SET ILOSC_BILETOW_NOR = ILOSC_BILETOW_NOR_NOWA, ILOSC_BILETOW_ULG = ILOSC_BILETOW_ULG_NOWA,
+					CZAS_PRZEJAZDU = CZAS_PRZEJAZDU_NOWY, POZIOM_WYPELNIENIA = POZIOM_WYPELNIENIA_NOWY,
+					ODLEGLOSC = ODLEGLOSC_NOWA, PRZYCHOD = PRZYCHOD_NOWY 
+					WHERE 
+					ID_TRASY = ID_TRASY_NOWE AND ID_POJAZDU = ID_POJAZDU_NOWE AND ID_KIEROWCY = ID_KIEROWCY_NOWE AND
+					ID_CZASU = ID_CZASU_NOWE;
+					USUNIETY := TRUE;
+                END IF;
+            END LOOP;
+    		IF USUNIETY = FALSE THEN RAISE WYJATEK2;
+            END IF;
+    END IF;
+    kurs_tab();
+%>
+
+<% EXCEPTION WHEN WYJATEK THEN %>
+				<strong><center>Nie podano wystarczajacych danych</center></strong>
+				<center><a href="kurs_tab">WROC</a></center>
+<% WHEN WYJATEK2 THEN %>
+				<strong><center>Rekord nie istnieje</center></strong>
+				<center><a href="kurs_tab">WROC</a></center>
+<% WHEN OTHERS THEN %>
+				<strong><center>Wystapil nieoczekiwany blad</center></strong>
+				<center><a href="kurs_tab">WROC</a></center>
+

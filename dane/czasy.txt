@@ -1,0 +1,6 @@
+load data
+infile 'czasy.csv'
+into table CZAS
+replace
+fields terminated by ','
+(ID_CZASU,CZAS_ODJAZDU,CZAS_PRZYJAZDU,DATA)

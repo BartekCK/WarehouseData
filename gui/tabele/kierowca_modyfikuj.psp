@@ -1,0 +1,40 @@
+﻿<%@ page language="PL/SQL" %>
+<%@ plsql procedure="kierowca_modyfikuj" %>
+<%@ plsql parameter="ID_KIEROWCY_MOD" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="IMIE_NOWE" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="NAZWISKO_NOWE" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="PESEL_NOWY" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="PRAWO_JAZDY_NOWE" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="PENSJA_BRUTTO_NOWA" type="VARCHAR2" default="NULL"%>
+<%!
+	USUNIETY BOOLEAN:=FALSE;
+	WYJATEK EXCEPTION;
+    WYJATEK2 EXCEPTION;
+%>
+
+<%
+	IF ID_KIEROWCY_MOD IS NULL OR NAZWISKO_NOWE IS NULL OR IMIE_NOWE IS NULL OR PESEL_NOWY IS NULL OR PRAWO_JAZDY_NOWE IS NULL OR PENSJA_BRUTTO_NOWA IS NULL THEN RAISE WYJATEK;
+    ELSE
+  		FOR I IN (SELECT * FROM KIEROWCA)
+            LOOP
+                IF I.ID_KIEROWCY = TO_NUMBER(ID_KIEROWCY_MOD,9999999999) THEN
+                   	UPDATE KIEROWCA SET NAZWISKO = NAZWISKO_NOWE, IMIE = IMIE_NOWE, PESEL = PESEL_NOWY, PRAWO_JAZDY = PRAWO_JAZDY_NOWE, PENSJA_BRUTTO = PENSJA_BRUTTO_NOWA WHERE ID_KIEROWCY = ID_KIEROWCY_MOD;
+                    USUNIETY := TRUE;
+                END IF;
+            END LOOP;
+    		IF USUNIETY = FALSE THEN RAISE WYJATEK2;
+            END IF;
+    END IF;
+    kierowca_tab();
+%>
+
+<% EXCEPTION WHEN WYJATEK THEN %>
+				<strong><center>Nie podano wystarczajacych danych</center></strong>
+				<center><a href="kierowca_tab">WROC</a></center>
+<% WHEN WYJATEK2 THEN %>
+				<strong><center>Rekord nie istnieje</center></strong>
+				<center><a href="kierowca_tab">WROC</a></center>
+<% WHEN OTHERS THEN %>
+				<strong><center>Wystapil nieoczekiwany blad</center></strong>
+				<center><a href="kierowca_tab">WROC</a></center>
+

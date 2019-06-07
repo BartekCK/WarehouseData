@@ -1,0 +1,368 @@
+﻿<%@ page language="PL/SQL" %>
+<%@ plsql procedure="kurs_tab" %>
+<%@ plsql parameter="KOLUMNA" type="VARCHAR2" default="'ID_KURSU'" %>
+
+<html>
+	<head>
+		<title>Tabela KURS</title>
+		
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript">
+ $(function() {
+		/* For zebra striping */
+        $("table tr:nth-child(odd)").addClass("odd-row");
+		/* For cell text alignment */
+		$("table td:first-child, table th:first-child").addClass("first");
+		/* For removing the last border */
+		$("table td:last-child, table th:last-child").addClass("last");
+});
+</script>
+
+<style type="text/css">
+
+	h1 {
+	margin: 10px 5px 15px 10px;
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	color: #555;
+	text-align:left;
+}
+
+	html, body, div, span, object, iframe,
+	h2, h3, h4, h5, h6, p, blockquote, pre,
+	abbr, address, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strong, sub, sup, var,
+	b, i,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+		font-size:100%;
+		vertical-align:baseline;
+		background:transparent;
+	}
+	
+	body {
+		margin:0;
+		padding:0;
+		font:12px/15px "Helvetica Neue",Arial, Helvetica, sans-serif;
+		color: #555;
+		background:#f5f5f5 url(images/bg.jpg);
+	}
+	
+	a {color:#666;}
+	
+	#content {width:65%; max-width:690px; margin:6% auto 0;}
+	
+	
+	table {
+		overflow:hidden;
+		border:1px solid #d3d3d3;
+		background:#fefefe;
+		width:70%;
+		margin:5% auto 0;
+		-moz-border-radius:5px; /* FF1+ */
+		-webkit-border-radius:5px; /* Saf3-4 */
+		border-radius:5px;
+		-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	}
+	
+	th, td {padding:18px 28px 18px; text-align:center; }
+	
+	th {padding-top:22px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
+	
+	td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
+	
+	tr.odd-row td {background:#f6f6f6;}
+	
+	td.first, th.first {text-align:left}
+	
+	td.last {border-right:none;}
+	
+	
+	td {
+		background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));
+	}
+	
+	tr.odd-row td {
+		background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+	}
+	
+	th {
+		background: -moz-linear-gradient(100% 20% 90deg, #e8eaeb, #ededed);
+		background: -webkit-gradient(linear, 0% 0%, 0% 20%, from(#ededed), to(#e8eaeb));
+	}
+	
+	
+	tr:first-child th.first {
+		-moz-border-radius-topleft:5px;
+		-webkit-border-top-left-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:first-child th.last {
+		-moz-border-radius-topright:5px;
+		-webkit-border-top-right-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:last-child td.first {
+		-moz-border-radius-bottomleft:5px;
+		-webkit-border-bottom-left-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:last-child td.last {
+		-moz-border-radius-bottomright:5px;
+		-webkit-border-bottom-right-radius:5px; /* Saf3-4 */
+}
+		
+
+</style>
+	</head>
+	<body>
+	
+	
+			<table>
+			<tr>
+			<th>
+				<h1>Dodawanie do tabeli: </h1>
+			</th>
+			<td>
+				<form action="kurs_dodaj" method="get">
+				<span style="padding-left:5px;">ID Trasy: </span>
+				<input type="text" name="ID_TRASY">
+				<span style="padding-left:5px;">ID Pojazdu: </span>
+				<input type="text" name="ID_POJAZDU">
+				<span style="padding-left:5px;">ID Kierowcy: </span>
+				<input type="text" name="ID_KIEROWCY">
+				<span style="padding-left:5px;">ID Czasu: </span>
+				<input type="text" name="ID_CZASU">
+				<span style="padding-left:5px;">Ilość biletów normalnych: </span>
+				<input type="text" name="ILOSC_BILETOW_NOR">
+				<span style="padding-left:5px;">Ilość biletów ulgowych: </span>
+				<input type="text" name="ILOSC_BILETOW_ULG">
+				<span style="padding-left:5px;">Czas przejazdu: </span>
+				<input type="text" name="CZAS_PRZEJAZDU">
+				<span style="padding-left:5px;">Poziom wypelnienia: </span>
+				<input type="text" name="POZIOM_WYPELNIENIA">
+				<span style="padding-left:5px;">Odleglosc: </span>
+				<input type="text" name="ODLEGLOSC">
+				<span style="padding-left:5px;">Przychod: </span>
+				<input type="text" name="PRZYCHOD">
+				<input type="submit" value="DODAJ">
+				</form>
+			</td>
+		
+			<th>
+			<h1>Usuwanie z tabeli: </h1>
+			</th>
+			<td>
+			<form action="kurs_usun" method="post">
+				<span style="padding-left:5px;">ID Trasy: </span>
+				<input type="text" name="ID_KURSU1_USUN">
+				<span style="padding-left:5px;">ID Pojazdu: </span>
+				<input type="text" name="ID_KURSU2_USUN">
+				<span style="padding-left:5px;">ID Kierowcy: </span>
+				<input type="text" name="ID_KURSU3_USUN">
+				<span style="padding-left:5px;">ID Czasu: </span>
+				<input type="text" name="ID_KURSU4_USUN">
+				<input type="submit" value="USUN">
+			</form>
+			</td>
+			
+			
+			<th>
+			<h1>Modyfikacja: </h1>
+			</th>
+			<td>
+			<form action="kurs_modyfikuj" method="post">
+				<span style="padding-left:5px;">ID Trasy: </span>
+				<input type="text" name="ID_TRASY_NOWE">
+				<span style="padding-left:5px;">ID Pojazdu: </span>
+				<input type="text" name="ID_POJAZDU_NOWE">
+				<span style="padding-left:5px;">ID Kierowcy: </span>
+				<input type="text" name="ID_KIEROWCY_NOWE">
+				<span style="padding-left:5px;">ID_CZASU: </span>
+				<input type="text" name="ID_CZASU_NOWE">
+				<span style="padding-left:5px;">Ilość biletów normalnych: </span>
+				<input type="text" name="ILOSC_BILETOW_NOR_NOWA">
+				<span style="padding-left:5px;">Ilość biletów ulgowych: </span>
+				<input type="text" name="ILOSC_BILETOW_ULG_NOWA">
+				<span style="padding-left:5px;">Czas przejazdu: </span>
+				<input type="text" name="CZAS_PRZEJAZDU_NOWY">
+				<span style="padding-left:5px;">Poziom wypełnienia: </span>
+				<input type="text" name="POZIOM_WYPELNIENIA_NOWY">
+				<span style="padding-left:5px;">Odległość: </span>
+				<input type="text" name="ODLEGLOSC_NOWA">
+				<span style="padding-left:5px;">Przychód: </span>
+				<input type="text" name="PRZYCHOD_NOWY">
+				<input type="submit" value="MODYFIKUJ">
+			</form>
+			</td>
+			</tr>
+			</table>
+	
+				
+				<center>	
+				<table border="1">
+				<tr>
+				
+				<th>
+				<form action="kurs_tab?KOLUMNA=ID_TRASY" method="post">
+				<input type="submit" value="ID_TRASY ROSNACO">
+				</form>
+				<form action="kurs_tab?KOLUMNA=ID_TRASY_DESC" method="post">
+				<input type="submit" value="ID_TRASY MALEJACO">
+				</form>
+				</th>
+				
+				
+				<th>
+				<form action="kurs_tab?KOLUMNA=ID_POJAZDU" method="post">
+				<input type="submit" value="ID_POJAZDU ROSNACO">
+				</form>
+				<form action="kurs_tab?KOLUMNA=ID_POJAZDU_DESC" method="post">
+				<input type="submit" value="ID_POJAZDU MALEJACO"> 
+				</form>
+				</th>
+				
+				
+				<th>
+				<form action="kurs_tab?KOLUMNA=ID_KIEROWCY" method="post">
+				<input type="submit" value="ID_KIEROWCY ROSNACO">
+				</form>
+				<form action="kurs_tab?KOLUMNA=ID_KIEROWCY_DESC" method="post">
+				<input type="submit" value="ID_KIEROWCY MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="kurs_tab?KOLUMNA=ID_CZASU" method="post">
+				<input type="submit" value="ID_CZASU ROSNACO">
+				</form>
+				<form action="kurs_tab?KOLUMNA=ID_CZASU_DESC" method="post">
+				<input type="submit" value="ID_CZASU MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="kurs_tab?KOLUMNA=ILOSC_BILETOW_NOR" method="post">
+				<input type="submit" value="ILOSC_BILETOW_NOR ROSNACO">
+				</form>
+				<form action="kurs_tab?KOLUMNA=ILOSC_BILETOW_NOR_DESC" method="post">
+				<input type="submit" value="ILOSC_BILETOW_NOR MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="kurs_tab?KOLUMNA=ILOSC_BILETOW_ULG" method="post">
+				<input type="submit" value="ILOSC_BILETOW_ULG ROSNACO">
+				</form>
+				<form action="kurs_tab?KOLUMNA=ILOSC_BILETOW_ULG_DESC" method="post">
+				<input type="submit" value="ILOSC_BILETOW_ULG MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="kurs_tab?KOLUMNA=CZAS_PRZEJAZDU" method="post">
+				<input type="submit" value="CZAS_PRZEJAZDU ROSNACO">
+				</form>
+				<form action="kurs_tab?KOLUMNA=CZAS_PRZEJAZDU_DESC" method="post">
+				<input type="submit" value="CZAS_PRZEJAZDU MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="kurs_tab?KOLUMNA=POZIOM_WYPELNIENIA" method="post">
+				<input type="submit" value="POZIOM_WYPELNIENIA ROSNACO">
+				</form>
+				<form action="kurs_tab?KOLUMNA=POZIOM_WYPELNIENIA_DESC" method="post">
+				<input type="submit" value="POZIOM_WYPELNIENIA MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="kurs_tab?KOLUMNA=ODLEGLOSC" method="post">
+				<input type="submit" value="ODLEGLOSC ROSNACO">
+				</form>
+				<form action="kurs_tab?KOLUMNA=ODLEGLOSC_DESC" method="post">
+				<input type="submit" value="ODLEGLOSC MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="kurs_tab?KOLUMNA=PRZYCHOD" method="post">
+				<input type="submit" value="PRZYCHOD ROSNACO">
+				</form>
+				<form action="kurs_tab?KOLUMNA=PRZYCHOD_DESC" method="post">
+				<input type="submit" value="PRZYCHOD MALEJACO">
+				</form>
+				</th>
+				
+				</tr>
+				
+				<td><b>ID_TRASY</b></td>
+				<td><b>ID_POJAZDU</b></td>
+				<td><b>ID_KIEROWCY</b></td>
+				<td><b>ID_CZASU</b></td>
+				<td><b>ILOSC_BILETOW_NOR</b></td>
+				<td><b>ILOSC_BILETOW_ULG</b></td>
+				<td><b>CZAS_PRZEJAZDU</b></td>
+				<td><b>POZIOM_WYPELNIENIA</b></td>
+				<td><b>ODLEGLOSC</b></td>
+				<td><b>PRZYCHOD</b></td>
+				
+				<% FOR I IN (SELECT * FROM KURS ORDER BY 
+					CASE WHEN KOLUMNA = 'ID_TRASY' THEN KURS.ID_TRASY END ASC,
+					CASE WHEN KOLUMNA = 'ID_TRASY_DESC' THEN KURS.ID_TRASY END DESC,
+					CASE WHEN KOLUMNA = 'ID_POJAZDU' THEN KURS.ID_POJAZDU END ASC,
+					CASE WHEN KOLUMNA = 'ID_POJAZDU_DESC' THEN KURS.ID_POJAZDU END DESC,
+					CASE WHEN KOLUMNA = 'ID_KIEROWCY' THEN KURS.ID_KIEROWCY END ASC,
+					CASE WHEN KOLUMNA = 'ID_KIEROWCY_DESC' THEN KURS.ID_KIEROWCY END DESC,
+					CASE WHEN KOLUMNA = 'ID_CZASU' THEN KURS.ID_CZASU END ASC,
+					CASE WHEN KOLUMNA = 'ID_CZASU_DESC' THEN KURS.ID_CZASU END DESC,
+					CASE WHEN KOLUMNA = 'ILOSC_BILETOW_NOR' THEN KURS.ILOSC_BILETOW_NOR END ASC,
+					CASE WHEN KOLUMNA = 'ILOSC_BILETOW_NOR_DESC' THEN KURS.ILOSC_BILETOW_NOR END DESC,
+					CASE WHEN KOLUMNA = 'ILOSC_BILETOW_ULG' THEN KURS.ILOSC_BILETOW_ULG END ASC,
+					CASE WHEN KOLUMNA = 'ILOSC_BILETOW_ULG_DESC' THEN KURS.ILOSC_BILETOW_ULG END DESC,
+					CASE WHEN KOLUMNA = 'CZAS_PRZEJAZDU' THEN KURS.CZAS_PRZEJAZDU END ASC,
+					CASE WHEN KOLUMNA = 'CZAS_PRZEJAZDU_DESC' THEN KURS.CZAS_PRZEJAZDU END DESC,
+					CASE WHEN KOLUMNA = 'POZIOM_WYPELNIENIA' THEN KURS.POZIOM_WYPELNIENIA END ASC,
+					CASE WHEN KOLUMNA = 'POZIOM_WYPELNIENIA_DESC' THEN KURS.POZIOM_WYPELNIENIA END DESC,
+					CASE WHEN KOLUMNA = 'ODLEGLOSC' THEN KURS.ODLEGLOSC END ASC,
+					CASE WHEN KOLUMNA = 'ODLEGLOSC_DESC' THEN KURS.ODLEGLOSC END DESC,
+					CASE WHEN KOLUMNA = 'PRZYCHOD' THEN KURS.PRZYCHOD END ASC,
+					CASE WHEN KOLUMNA = 'PRZYCHOD_DESC' THEN KURS.PRZYCHOD END DESC)
+				LOOP %>
+				
+				<tr>
+					<td><b><%= I.ID_TRASY %></b></td>
+					<td><b><%= I.ID_POJAZDU%></b></td>
+					<td><b><%= I.ID_KIEROWCY%></b></td>
+					<td><b><%= I.ID_CZASU %></b></td>
+					<td><b><%= I.ILOSC_BILETOW_NOR%></b></td>
+					<td><b><%= I.ILOSC_BILETOW_ULG %></b></td>
+					<td><b><%= I.CZAS_PRZEJAZDU %></b></td>
+					<td><b><%= I.POZIOM_WYPELNIENIA %></b></td>
+					<td><b><%= I.ODLEGLOSC %></b></td>
+					<td><b><%= I.PRZYCHOD %></b></td>
+					<% END LOOP; %>
+				</tr>
+			</table>
+			</center>
+
+			
+			<% EXCEPTION
+				WHEN OTHERS THEN %>
+				<strong><center>Wystapil nieoczekiwany blad</center></strong>
+	</body>
+</html>

@@ -1,0 +1,6 @@
+load data
+infile 'pojazdy.csv'
+into table POJAZD
+replace
+fields terminated by ','
+(ID_POJAZDU,MARKA,MODEL,POJEMNOSC_SILNIKA,MOC,LICZBA_MIEJSC)

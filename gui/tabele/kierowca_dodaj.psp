@@ -1,0 +1,35 @@
+﻿<%@ page language="PL/SQL" %>
+<%@ plsql procedure="kierowca_dodaj" %>
+<%@ plsql parameter="NAZWISKO" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="IMIE" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="PESEL" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="PRAWO_JAZDY" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="PENSJA_BRUTTO" type="VARCHAR2" default="NULL"%>
+
+<%!
+	NR_MAX NUMBER(6);
+    WYJATEK EXCEPTION;
+%>
+
+<%
+	SELECT MAX(ID_KIEROWCY) INTO NR_MAX FROM KIEROWCA;
+	IF NAZWISKO IS NULL OR IMIE IS NULL OR PESEL IS NULL OR PRAWO_JAZDY IS NULL OR PENSJA_BRUTTO IS NULL THEN RAISE WYJATEK;
+	END IF;
+	IF NR_MAX IS NULL THEN
+	INSERT INTO KIEROWCA VALUES(1,NAZWISKO,IMIE,PESEL,PRAWO_JAZDY,PENSJA_BRUTTO);
+	END IF;
+	IF NR_MAX IS NOT NULL THEN
+	INSERT INTO KIEROWCA VALUES(NR_MAX+1,NAZWISKO,IMIE,PESEL,PRAWO_JAZDY,PENSJA_BRUTTO);
+	END IF;
+	kierowca_tab();
+%>
+
+<% EXCEPTION WHEN WYJATEK THEN %>
+	<strong><center>Nie podano wystarczajacych danych</center></strong>
+	<center><a href="kierowca_tab">WROC</a></center>
+<% WHEN OTHERS THEN %>
+	<strong><center>Wystapil nieoczekiwany blad</center></strong>
+	<center><a href="kierowca_tab">WROC</a></center>
+
+
+

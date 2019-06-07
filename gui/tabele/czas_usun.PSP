@@ -1,0 +1,12 @@
+<%@ page language="PL/SQL" %>
+<%@ plsql procedure="czas_usun" %>
+<%@ plsql parameter="ID_CZASU_USUN" type="VARCHAR2" default="NULL" %>
+
+<%
+	DELETE FROM CZAS WHERE CZAS.ID_CZASU = TO_NUMBER(ID_CZASU_USUN,999999999);
+	czas_tab();
+%>
+
+<% EXCEPTION WHEN OTHERS THEN %>
+	<strong><center>Wystapil nieoczekiwany blad</center></strong>
+	<center><a href="czas_tab">WROC</a></center>

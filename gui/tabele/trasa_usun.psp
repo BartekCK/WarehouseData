@@ -1,0 +1,12 @@
+﻿<%@ page language="PL/SQL" %>
+<%@ plsql procedure="trasa_usun" %>
+<%@ plsql parameter="ID_TRASY_USUN" type="VARCHAR2" default="NULL" %>
+
+<%
+	DELETE FROM TRASA WHERE TRASA.ID_TRASY = TO_NUMBER(ID_TRASY_USUN,999999999);
+	trasa_tab();
+%>
+
+<% EXCEPTION WHEN OTHERS THEN %>
+	<strong><center>Wystapil nieoczekiwany blad</center></strong>
+	<center><a href="trasa_tab">WROC</a></center>

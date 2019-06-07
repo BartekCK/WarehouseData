@@ -1,0 +1,292 @@
+﻿<%@ page language="PL/SQL" %>
+<%@ plsql procedure="kierowca_tab" %>
+<%@ plsql parameter="KOLUMNA" type="VARCHAR2" default="'ID_KIEROWCY'" %>
+
+<html>
+	<head>
+		<title>Tabela Kierowca</title>
+		
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript">
+ $(function() {
+		/* For zebra striping */
+        $("table tr:nth-child(odd)").addClass("odd-row");
+		/* For cell text alignment */
+		$("table td:first-child, table th:first-child").addClass("first");
+		/* For removing the last border */
+		$("table td:last-child, table th:last-child").addClass("last");
+});
+</script>
+
+<style type="text/css">
+
+	h1 {
+	margin: 10px 5px 15px 10px;
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	color: #555;
+	text-align:left;
+}
+
+	html, body, div, span, object, iframe,
+	h2, h3, h4, h5, h6, p, blockquote, pre,
+	abbr, address, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strong, sub, sup, var,
+	b, i,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+		font-size:100%;
+		vertical-align:baseline;
+		background:transparent;
+	}
+	
+	body {
+		margin:0;
+		padding:0;
+		font:12px/15px "Helvetica Neue",Arial, Helvetica, sans-serif;
+		color: #555;
+		background:#f5f5f5 url(images/bg.jpg);
+	}
+	
+	a {color:#666;}
+	
+	#content {width:65%; max-width:690px; margin:6% auto 0;}
+	
+	
+	table {
+		overflow:hidden;
+		border:1px solid #d3d3d3;
+		background:#fefefe;
+		width:70%;
+		margin:5% auto 0;
+		-moz-border-radius:5px; /* FF1+ */
+		-webkit-border-radius:5px; /* Saf3-4 */
+		border-radius:5px;
+		-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	}
+	
+	th, td {padding:18px 28px 18px; text-align:center; }
+	
+	th {padding-top:22px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
+	
+	td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
+	
+	tr.odd-row td {background:#f6f6f6;}
+	
+	td.first, th.first {text-align:left}
+	
+	td.last {border-right:none;}
+	
+	
+	td {
+		background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));
+	}
+	
+	tr.odd-row td {
+		background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+	}
+	
+	th {
+		background: -moz-linear-gradient(100% 20% 90deg, #e8eaeb, #ededed);
+		background: -webkit-gradient(linear, 0% 0%, 0% 20%, from(#ededed), to(#e8eaeb));
+	}
+	
+	
+	tr:first-child th.first {
+		-moz-border-radius-topleft:5px;
+		-webkit-border-top-left-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:first-child th.last {
+		-moz-border-radius-topright:5px;
+		-webkit-border-top-right-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:last-child td.first {
+		-moz-border-radius-bottomleft:5px;
+		-webkit-border-bottom-left-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:last-child td.last {
+		-moz-border-radius-bottomright:5px;
+		-webkit-border-bottom-right-radius:5px; /* Saf3-4 */
+}
+		
+
+</style>
+	</head>
+	<body>
+	
+	
+			<table>
+			<tr>
+			<th>
+				<h1>Dodawanie do tabeli: </h1>
+			</th>
+			<td>
+				<form action="kierowca_dodaj" method="get">
+				<span style="padding-left:5px;">Nazwisko: </span>
+				<input type="text" name="NAZWISKO">
+				<span style="padding-left:5px;">Imię: </span>
+				<input type="text" name="IMIE">
+				<span style="padding-left:5px;">PESEL: </span>
+				<input type="text" name="PESEL">
+				<span style="padding-left:5px;">Prawo Jazdy: </span>
+				<input type="text" name="PRAWO_JAZDY">
+				<span style="padding-left:5px;">Pensja Brutto: </span>
+				<input type="text" name="PENSJA_BRUTTO">
+				<input type="submit" value="DODAJ">
+				</form>
+			</td>
+		
+			<th>
+			<h1>Usuwanie z tabeli: </h1>
+			</th>
+			<td>
+			<form action="kierowca_usun" method="post">
+				<span style="padding-left:5px;">ID Kierowcy: </span>
+				<input type="text" name="ID_KIEROWCY_USUN">
+				<input type="submit" value="USUN">
+			</form>
+			</td>
+			
+			
+			<th>
+			<h1>Modyfikacja: </h1>
+			</th>
+			<td>
+			<form action="kierowca_modyfikuj" method="post">
+				<span style="padding-left:5px;">ID Kierowcy: </span>
+				<input type="text" name="ID_KIEROWCY_MOD">
+				<span style="padding-left:5px;">Nazwisko: </span>
+				<input type="text" name="NAZWISKO_NOWE">
+				<span style="padding-left:5px;">Imię: </span>
+				<input type="text" name="IMIE_NOWE">
+				<span style="padding-left:5px;">PESEL: </span>
+				<input type="text" name="PESEL_NOWY">
+				<span style="padding-left:5px;">Prawo jazdy: </span>
+				<input type="text" name="PRAWO_JAZDY_NOWE">
+				<span style="padding-left:5px;">Pensja Brutto: </span>
+				<input type="text" name="PENSJA_BRUTTO_NOWA">
+				<input type="submit" value="MODYFIKUJ">
+			</form>
+			</td>
+			</tr>
+			</table>
+	
+				
+				<center>	
+				<table border="1">
+				<tr>
+				
+				<th>
+				<form action="kierowca_tab?KOLUMNA=ID_KIEROWCY" method="post">
+				<input type="submit" value="ID_KIEROWCY ROSNACO">
+				</form>
+				<form action="kierowca_tab?KOLUMNA=ID_KIEROWCY_DESC" method="post">
+				<input type="submit" value="ID_KIEROWCY MALEJACO">
+				</form>
+				</th>
+				
+				
+				<th>
+				<form action="kierowca_tab?KOLUMNA=NAZWISKO" method="post">
+				<input type="submit" value="NAZWISKO ROSNACO">
+				</form>
+				<form action="kierowca_tab?KOLUMNA=NAZWISKO_DESC" method="post">
+				<input type="submit" value="NAZWISKO MALEJACO"> 
+				</form>
+				</th>
+				
+				
+				<th>
+				<form action="kierowca_tab?KOLUMNA=IMIE" method="post">
+				<input type="submit" value="IMIE ROSNACO">
+				</form>
+				<form action="kierowca_tab?KOLUMNA=IMIE_DESC" method="post">
+				<input type="submit" value="IMIE MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="kierowca_tab?KOLUMNA=PESEL" method="post">
+				<input type="submit" value="PESEL ROSNACO">
+				</form>
+				<form action="kierowca_tab?KOLUMNA=PESEL_DESC" method="post">
+				<input type="submit" value="PESEL MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="kierowca_tab?KOLUMNA=PRAWO_JAZDY" method="post">
+				<input type="submit" value="PRAWO_JAZDY ROSNACO">
+				</form>
+				<form action="kierowca_tab?KOLUMNA=PRAWO_JAZDY_DESC" method="post">
+				<input type="submit" value="PRAWO_JAZDY MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="kierowca_tab?KOLUMNA=PENSJA_BRUTTO" method="post">
+				<input type="submit" value="PENSJA_BRUTTO ROSNACO">
+				</form>
+				<form action="kierowca_tab?KOLUMNA=PENSJA_BRUTTO_DESC" method="post">
+				<input type="submit" value="PENSJA_BRUTTO MALEJACO">
+				</form>
+				</th>
+				
+				</tr>
+				
+				<td><b>ID_KIEROWCY</b></td>
+				<td><b>NAZWISKO</b></td>
+				<td><b>IMIE</b></td>
+				<td><b>PESEL</b></td>
+				<td><b>PRAWO_JAZDY</b></td>
+				<td><b>PENSJA_BRUTTO</b></td>
+				
+				<% FOR I IN (SELECT * FROM KIEROWCA ORDER BY 
+					CASE WHEN KOLUMNA = 'ID_KIEROWCY' THEN KIEROWCA.ID_KIEROWCY END ASC,
+					CASE WHEN KOLUMNA = 'ID_KIEROWCY_DESC' THEN KIEROWCA.ID_KIEROWCY END DESC,
+					CASE WHEN KOLUMNA = 'NAZWISKO' THEN KIEROWCA.NAZWISKO END ASC,
+					CASE WHEN KOLUMNA = 'NAZWISKO_DESC' THEN KIEROWCA.NAZWISKO END DESC,
+					CASE WHEN KOLUMNA = 'IMIE' THEN KIEROWCA.IMIE END ASC,
+					CASE WHEN KOLUMNA = 'IMIE_DESC' THEN KIEROWCA.IMIE END DESC,
+					CASE WHEN KOLUMNA = 'PESEL' THEN KIEROWCA.PESEL END ASC,
+					CASE WHEN KOLUMNA = 'PESEL_DESC' THEN KIEROWCA.PESEL END DESC,
+					CASE WHEN KOLUMNA = 'PRAWO_JAZDY' THEN KIEROWCA.PRAWO_JAZDY END ASC,
+					CASE WHEN KOLUMNA = 'PRAWO_JAZDY_DESC' THEN KIEROWCA.PRAWO_JAZDY END DESC,
+					CASE WHEN KOLUMNA = 'PENSJA_BRUTTO' THEN KIEROWCA.PENSJA_BRUTTO END ASC,
+					CASE WHEN KOLUMNA = 'PENSJA_BRUTTO_DESC' THEN KIEROWCA.PENSJA_BRUTTO END DESC)
+				LOOP %>
+				
+				<tr>
+					<td><b><%= I.ID_KIEROWCY %></b></td>
+					<td><b><%= I.NAZWISKO%></b></td>
+					<td><b><%= I.IMIE %></b></td>
+					<td><b><%= I.PESEL %></b></td>
+					<td><b><%= I.PRAWO_JAZDY%></b></td>
+					<td><b><%= I.PENSJA_BRUTTO %></b></td>
+					<% END LOOP; %>
+				</tr>
+			</table>
+			</center>
+
+			
+			<% EXCEPTION
+				WHEN OTHERS THEN %>
+				<strong><center>Wystapil nieoczekiwany blad</center></strong>
+	</body>
+</html>

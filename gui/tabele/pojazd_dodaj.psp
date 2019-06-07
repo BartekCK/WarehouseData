@@ -1,0 +1,34 @@
+﻿<%@ page language="PL/SQL" %>
+<%@ plsql procedure="pojazd_dodaj"%>
+<%@ plsql parameter="MARKA" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="MODEL" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="POJEMNOSC_SILNIKA" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="MOC" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="LICZBA_MIEJSC" type="VARCHAR2" default="NULL"%>
+<%!
+	NR_MAX NUMBER(6);
+    WYJATEK EXCEPTION;
+%>
+
+<%
+	SELECT MAX(ID_POJAZDU) INTO NR_MAX FROM POJAZD;
+	IF MARKA IS NULL OR MODEL IS NULL OR POJEMNOSC_SILNIKA IS NULL OR MOC IS NULL OR LICZBA_MIEJSC IS NULL THEN RAISE WYJATEK;
+	END IF;
+	IF NR_MAX IS NULL THEN
+	INSERT INTO POJAZD VALUES(1,MARKA,MODEL,POJEMNOSC_SILNIKA,MOC,LICZBA_MIEJSC);
+	END IF;
+	IF NR_MAX IS NOT NULL THEN
+	INSERT INTO POJAZD VALUES(NR_MAX+1,MARKA,MODEL,POJEMNOSC_SILNIKA,MOC,LICZBA_MIEJSC);
+	END IF;
+	pojazd_tab();
+%>
+
+<% EXCEPTION WHEN WYJATEK THEN %>
+	<strong><center>Nie podano wystarczajacych danych</center></strong>
+	<center><a href="pojazd_tab">WROC</a></center>
+<% WHEN OTHERS THEN %>
+	<strong><center>Wystapil nieoczekiwany blad</center></strong>
+	<center><a href="pojazd_tab">WROC</a></center>
+
+
+

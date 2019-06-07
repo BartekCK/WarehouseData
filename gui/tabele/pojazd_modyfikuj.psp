@@ -1,0 +1,40 @@
+﻿<%@ page language="PL/SQL" %>
+<%@ plsql procedure="pojazd_modyfikuj" %>
+<%@ plsql parameter="ID_POJAZDU_MOD" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="MARKA_NOWA" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="MODEL_NOWY" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="POJEMNOSC_SILNIKA_NOWA" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="MOC_NOWA" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="LICZBA_MIEJSC_NOWA" type="VARCHAR2" default="NULL"%>
+<%!
+	USUNIETY BOOLEAN:=FALSE;
+	WYJATEK EXCEPTION;
+    WYJATEK2 EXCEPTION;
+%>
+
+<%
+	IF ID_POJAZDU_MOD IS NULL OR MARKA_NOWA IS NULL OR MODEL_NOWY IS NULL OR POJEMNOSC_SILNIKA_NOWA IS NULL OR MOC_NOWA IS NULL OR LICZBA_MIEJSC_NOWA IS NULL THEN RAISE WYJATEK;
+    ELSE
+  		FOR I IN (SELECT * FROM POJAZD)
+            LOOP
+                IF I.ID_POJAZDU = TO_NUMBER(ID_POJAZDU_MOD,9999999999) THEN
+                   	UPDATE POJAZD SET MARKA = MARKA_NOWA, MODEL = MODEL_NOWY, POJEMNOSC_SILNIKA = POJEMNOSC_SILNIKA_NOWA, MOC = MOC_NOWA, LICZBA_MIEJSC = LICZBA_MIEJSC_NOWA WHERE ID_POJAZDU = ID_POJAZDU_MOD;
+                    USUNIETY := TRUE;
+                END IF;
+            END LOOP;
+    		IF USUNIETY = FALSE THEN RAISE WYJATEK2;
+            END IF;
+    END IF;
+    pojazd_tab();
+%>
+
+<% EXCEPTION WHEN WYJATEK THEN %>
+				<strong><center>Nie podano wystarczajacych danych</center></strong>
+				<center><a href="pojazd_tab">WROC</a></center>
+<% WHEN WYJATEK2 THEN %>
+				<strong><center>Rekord nie istnieje</center></strong>
+				<center><a href="pojazd_tab">WROC</a></center>
+<% WHEN OTHERS THEN %>
+				<strong><center>Wystapil nieoczekiwany blad</center></strong>
+				<center><a href="pojazd_tab">WROC</a></center>
+

@@ -1,0 +1,33 @@
+<%@ page language="PL/SQL" %>
+<%@ plsql procedure="czas_dodaj" %>
+<%@ plsql parameter="CZAS_ODJAZDU" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="CZAS_PRZYJAZDU" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="DATA" type="VARCHAR2" default="NULL"%>
+
+<%!
+	NR_MAX NUMBER(6);
+    WYJATEK EXCEPTION;
+%>
+
+<%
+	SELECT MAX(ID_CZASU) INTO NR_MAX FROM CZAS;
+	IF CZAS_ODJAZDU IS NULL OR CZAS_PRZYJAZDU IS NULL OR DATA IS NULL THEN RAISE WYJATEK;
+	END IF;
+	IF NR_MAX IS NULL THEN
+	INSERT INTO CZAS VALUES(1,CZAS_ODJAZDU,CZAS_PRZYJAZDU,DATA);
+	END IF;
+	IF NR_MAX IS NOT NULL THEN
+	INSERT INTO CZAS VALUES(NR_MAX+1,CZAS_ODJAZDU,CZAS_PRZYJAZDU,DATA);
+	END IF;
+	czas_tab();
+%>
+
+<% EXCEPTION WHEN WYJATEK THEN %>
+	<strong><center>Nie podano wystarczajacych danych</center></strong>
+	<center><a href="czas_tab">WROC</a></center>
+<% WHEN OTHERS THEN %>
+	<strong><center>Wystapil nieoczekiwany blad</center></strong>
+	<center><a href="czas_tab">WROC</a></center>
+
+
+

@@ -1,0 +1,11 @@
+loadpsp -replace -user blyskawica/blyskawica "p1.psp"
+loadpsp -replace -user blyskawica/blyskawica "p2.psp"
+loadpsp -replace -user blyskawica/blyskawica "p3.psp"
+loadpsp -replace -user blyskawica/blyskawica "p4.psp"
+loadpsp -replace -user blyskawica/blyskawica "p5.psp"
+loadpsp -replace -user blyskawica/blyskawica "p6.psp"
+loadpsp -replace -user blyskawica/blyskawica "p7.psp"
+loadpsp -replace -user blyskawica/blyskawica "p8.psp"
+loadpsp -replace -user blyskawica/blyskawica "p9.psp"
+loadpsp -replace -user blyskawica/blyskawica "p10.psp"
+pause

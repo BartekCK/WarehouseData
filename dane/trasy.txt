@@ -1,0 +1,6 @@
+load data
+infile 'trasy.csv'
+into table TRASA
+replace
+fields terminated by ','
+(ID_TRASY,MIASTO_ODJAZDU,MIASTO_PRZYJAZDU,CENA_BILETU_NOR "TO_NUMBER(:CENA_BILETU_NOR,'999.99')",CENA_BILETU_ULG "TO_NUMBER(:CENA_BILETU_ULG,'999.99')")

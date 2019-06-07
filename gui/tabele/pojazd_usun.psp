@@ -1,0 +1,12 @@
+﻿<%@ page language="PL/SQL" %>
+<%@ plsql procedure="pojazd_usun" %>
+<%@ plsql parameter="ID_POJAZDU_USUN" type="VARCHAR2" default="NULL" %>
+
+<%
+	DELETE FROM POJAZD WHERE POJAZD.ID_POJAZDU = TO_NUMBER(ID_POJAZDU_USUN,999999999);
+	pojazd_tab();
+%>
+
+<% EXCEPTION WHEN OTHERS THEN %>
+	<strong><center>Nie mozna usunac elementu ze wzgledu na wizy spojnosci</center></strong>
+	<center><a href="pojazd_tab">WROC</a></center>

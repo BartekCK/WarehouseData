@@ -1,0 +1,285 @@
+﻿<%@ page language="PL/SQL" %>
+<%@ plsql procedure="pojazd_tab" %>
+<%@ plsql parameter="KOLUMNA" type="VARCHAR2" default="'ID_POJAZDU'" %>
+
+<html>
+	<head>
+		<title>Tabela POJAZD</title>
+		
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript">
+ $(function() {
+		/* For zebra striping */
+        $("table tr:nth-child(odd)").addClass("odd-row");
+		/* For cell text alignment */
+		$("table td:first-child, table th:first-child").addClass("first");
+		/* For removing the last border */
+		$("table td:last-child, table th:last-child").addClass("last");
+});
+</script>
+
+<style type="text/css">
+
+	h1 {
+	margin: 10px 5px 15px 10px;
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	color: #555;
+	text-align:left;
+}
+
+	html, body, div, span, object, iframe,
+	h2, h3, h4, h5, h6, p, blockquote, pre,
+	abbr, address, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strong, sub, sup, var,
+	b, i,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+		font-size:100%;
+		vertical-align:baseline;
+		background:transparent;
+	}
+	
+	body {
+		margin:0;
+		padding:0;
+		font:12px/15px "Helvetica Neue",Arial, Helvetica, sans-serif;
+		color: #555;
+		background:#f5f5f5 url(images/bg.jpg);
+	}
+	
+	a {color:#666;}
+	
+	#content {width:65%; max-width:690px; margin:6% auto 0;}
+	
+	
+	table {
+		overflow:hidden;
+		border:1px solid #d3d3d3;
+		background:#fefefe;
+		width:70%;
+		margin:5% auto 0;
+		-moz-border-radius:5px; /* FF1+ */
+		-webkit-border-radius:5px; /* Saf3-4 */
+		border-radius:5px;
+		-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	}
+	
+	th, td {padding:18px 28px 18px; text-align:center; }
+	
+	th {padding-top:22px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
+	
+	td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
+	
+	tr.odd-row td {background:#f6f6f6;}
+	
+	td.first, th.first {text-align:left}
+	
+	td.last {border-right:none;}
+	
+	
+	td {
+		background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));
+	}
+	
+	tr.odd-row td {
+		background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+	}
+	
+	th {
+		background: -moz-linear-gradient(100% 20% 90deg, #e8eaeb, #ededed);
+		background: -webkit-gradient(linear, 0% 0%, 0% 20%, from(#ededed), to(#e8eaeb));
+	}
+	
+	
+	tr:first-child th.first {
+		-moz-border-radius-topleft:5px;
+		-webkit-border-top-left-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:first-child th.last {
+		-moz-border-radius-topright:5px;
+		-webkit-border-top-right-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:last-child td.first {
+		-moz-border-radius-bottomleft:5px;
+		-webkit-border-bottom-left-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:last-child td.last {
+		-moz-border-radius-bottomright:5px;
+		-webkit-border-bottom-right-radius:5px; /* Saf3-4 */
+}
+		
+
+</style>
+	</head>
+	<body>
+				<table>
+				<tr>
+				<th>
+				<h1>Dodawanie do tabeli: </h1>
+				</th>
+				<td>
+				<form action="pojazd_dodaj" method="get">
+				<span style="margin-left:20px;">Marka: </span>
+				<input type="text" name="MARKA">
+				<span style="margin-left:20px;">Model: </span>
+				<input type="text" name="MODEL">
+				<span style="margin-left:20px;">Pojemnosc silnika: </span>
+				<input type="text" name="POJEMNOSC_SILNIKA">
+				<span style="margin-left:20px;">Moc: </span>
+				<input type="text" name="MOC">
+				<span style="margin-left:20px;">Liczba miejsc: </span>
+				<input type="text" name="LICZBA_MIEJSC">
+				<input type="submit" value="DODAJ">
+				</form>
+				</td>
+				
+			<th>
+			<h1>Usuwanie z tabeli: </h1>
+			</th>
+			<td>
+			<form action="pojazd_usun" method="post">
+				<span style="margin-left:20px;">ID Pojazdu: </span>
+				<input type="text" name="ID_POJAZDU_USUN">
+				<input type="submit" value="USUN">
+			</form>
+			</td>
+
+			<th>
+			<h1>Modyfikacja: </h1>
+			</th>
+			<td>
+			<form action="pojazd_modyfikuj" method="post">
+				<span style="padding-left:5px;">ID Pojazdu: </span>
+				<input type="text" name="ID_POJAZDU_MOD">
+				<span style="padding-left:5px;">Marka: </span>
+				<input type="text" name="MARKA_NOWA">
+				<span style="padding-left:5px;">Model: </span>
+				<input type="text" name="MODEL_NOWY">
+				<span style="padding-left:5px;">Pojemnosc silnika: </span>
+				<input type="text" name="POJEMNOSC_SILNIKA_NOWA">
+				<span style="padding-left:5px;">Moc: </span>
+				<input type="text" name="MOC_NOWA">
+				<span style="padding-left:5px;">Liczba miejsc: </span>
+				<input type="text" name="LICZBA_MIEJSC_NOWA">
+				<input type="submit" value="MODYFIKUJ">
+			</form>
+			</td>
+			</tr>
+			</table>
+	
+				<center>	
+				<table border="1">
+				<tr>
+				<th>
+				<form action="pojazd_tab?KOLUMNA=ID_POJAZDU" method="post">
+				<input type="submit" value="ID_POJAZDU ROSNACO">
+				</form>
+				<form action="pojazd_tab?KOLUMNA=ID_POJAZDU_DESC" method="post">
+				<input type="submit" value="ID_POJAZDU MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="pojazd_tab?KOLUMNA=MARKA" method="post">
+				<input type="submit" value="MARKA ROSNACO">
+				</form>
+				<form action="pojazd_tab?KOLUMNA=MARKA_DESC" method="post">
+				<input type="submit" value="MARKA MALEJACO"> 
+				</form>
+				</th>
+				
+				
+				<th>
+				<form action="pojazd_tab?KOLUMNA=MODEL" method="post">
+				<input type="submit" value="MODEL ROSNACO">
+				</form>
+				<form action="pojazd_tab?KOLUMNA=MODEL_DESC" method="post">
+				<input type="submit" value="MODEL MALEJACO">
+				</form>
+				</th>
+
+				<th>
+				<form action="pojazd_tab?KOLUMNA=POJEMNOSC_SILNIKA" method="post">
+				<input type="submit" value="POJEMNOSC_SILNIKA ROSNACO">
+				</form>
+				<form action="pojazd_tab?KOLUMNA=POJEMNOSC_SILNIKA_DESC" method="post">
+				<input type="submit" value="POJEMNOSC_SILNIKA MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="pojazd_tab?KOLUMNA=MOC" method="post">
+				<input type="submit" value="MOC ROSNACO">
+				</form>
+				<form action="pojazd_tab?KOLUMNA=MOC_DESC" method="post">
+				<input type="submit" value="MOC MALEJACO">
+				</form>
+				</th>
+				
+				<th>
+				<form action="pojazd_tab?KOLUMNA=LICZBA_MIEJSC" method="post">
+				<input type="submit" value="LICZBA_MIEJSC ROSNACO">
+				</form>
+				<form action="pojazd_tab?KOLUMNA=LICZBA_MIEJSC_DESC" method="post">
+				<input type="submit" value="LICZBA_MIEJSC MALEJACO">
+				</form>
+				</th>
+				</tr>
+				
+				
+				<td><b>ID_POJAZDU</b></td>
+				<td><b>MARKA</b></td>
+				<td><b>MODEL</b></td>
+				<td><b>POJEMNOSC_SILNIKA</b></td>
+				<td><b>MOC</b></td>
+				<td><b>LICZBA_MIEJSC</b></td>
+				<% FOR I IN (SELECT * FROM POJAZD ORDER BY 
+					CASE WHEN KOLUMNA = 'ID_POJAZDU' THEN POJAZD.ID_POJAZDU END ASC,
+					CASE WHEN KOLUMNA = 'ID_POJAZDU_DESC' THEN POJAZD.ID_POJAZDU END DESC,
+					CASE WHEN KOLUMNA = 'MARKA' THEN POJAZD.MARKA END ASC,
+					CASE WHEN KOLUMNA = 'MARKA_DESC' THEN POJAZD.MARKA END DESC,
+					CASE WHEN KOLUMNA = 'MODEL' THEN POJAZD.MODEL END ASC,
+					CASE WHEN KOLUMNA = 'MODEL_DESC' THEN POJAZD.MODEL END DESC,
+					CASE WHEN KOLUMNA = 'POJEMNOSC_SILNIKA' THEN POJAZD.POJEMNOSC_SILNIKA END ASC,
+					CASE WHEN KOLUMNA = 'POJEMNOSC_SILNIKA_DESC' THEN POJAZD.POJEMNOSC_SILNIKA END DESC,
+					CASE WHEN KOLUMNA = 'MOC' THEN POJAZD.MOC END ASC,
+					CASE WHEN KOLUMNA = 'MOC_DESC' THEN POJAZD.MOC END DESC,
+					CASE WHEN KOLUMNA = 'LICZBA_MIEJSC' THEN POJAZD.LICZBA_MIEJSC END ASC,
+					CASE WHEN KOLUMNA = 'LICZBA_MIEJSC_DESC' THEN POJAZD.LICZBA_MIEJSC END DESC)
+				LOOP %>
+				
+				<tr>
+					<td><b><%= I.ID_POJAZDU %></b></td>
+					<td><b><%= I.MARKA%></b></td>
+					<td><b><%= I.MODEL %></b></td>
+					<td><b><%= I.POJEMNOSC_SILNIKA %></b></td>
+					<td><b><%= I.MOC %></b></td>
+					<td><b><%= I.LICZBA_MIEJSC %></b></td>
+					<% END LOOP; %>
+				</tr>
+			</table>
+			</center>
+
+			
+			<% EXCEPTION
+				WHEN OTHERS THEN %>
+				<strong><center>Wystapil nieoczekiwany blad</center></strong>
+	</body>
+</html>

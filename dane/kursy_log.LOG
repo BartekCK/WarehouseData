@@ -1,0 +1,57 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Œr Cze 5 16:06:49 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   kursy.txt
+Data File:      kursy.csv
+  Bad File:     kursy.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table KURS, loaded from every logical record.
+Insert option in effect for this table: REPLACE
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID_TRASY                            FIRST     *   ,       CHARACTER            
+ID_POJAZDU                           NEXT     *   ,       CHARACTER            
+ID_KIEROWCY                          NEXT     *   ,       CHARACTER            
+ID_CZASU                             NEXT     *   ,       CHARACTER            
+ILOSC_BILETOW_NOR                    NEXT     *   ,       CHARACTER            
+ILOSC_BILETOW_ULG                    NEXT     *   ,       CHARACTER            
+CZAS_PRZEJAZDU                       NEXT     *   ,       CHARACTER            
+POZIOM_WYPELNIENIA                   NEXT     *   ,       CHARACTER            
+ODLEGLOSC                            NEXT     *   ,       CHARACTER            
+PRZYCHOD                             NEXT     *   ,       CHARACTER            
+    SQL string for column : "TO_NUMBER(:PRZYCHOD,'9999.99')"
+
+
+Table KURS:
+  5000 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 165120 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          5000
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Œr Cze 05 16:06:49 2019
+Run ended on Œr Cze 05 16:06:50 2019
+
+Elapsed time was:     00:00:00.25
+CPU time was:         00:00:00.11

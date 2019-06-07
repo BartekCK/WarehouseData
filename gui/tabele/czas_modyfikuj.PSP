@@ -1,0 +1,39 @@
+<%@ page language="PL/SQL" %>
+<%@ plsql procedure="czas_modyfikuj" %>
+<%@ plsql parameter="ID_CZASU_MOD" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="CZAS_ODJAZDU_NOWY" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="CZAS_PRZYJAZDU_NOWY" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="DATA_NOWA" type="VARCHAR2" default="NULL"%>
+
+<%!
+	USUNIETY BOOLEAN:=FALSE;
+	WYJATEK EXCEPTION;
+    WYJATEK2 EXCEPTION;
+%>
+
+<%
+	IF ID_CZASU_MOD IS NULL OR CZAS_ODJAZDU_NOWY IS NULL OR CZAS_PRZYJAZDU_NOWY IS NULL OR DATA_NOWA IS NULL THEN RAISE WYJATEK;
+    ELSE
+  		FOR I IN (SELECT * FROM CZAS)
+            LOOP
+                IF I.ID_CZASU = TO_NUMBER(ID_CZASU_MOD,9999999999) THEN
+                   	UPDATE CZAS SET CZAS_ODJAZDU = CZAS_ODJAZDU_NOWY, CZAS_PRZYJAZDU = CZAS_PRZYJAZDU_NOWY, DATA = DATA_NOWA WHERE ID_CZASU = ID_CZASU_MOD;
+                    USUNIETY := TRUE;
+                END IF;
+            END LOOP;
+    		IF USUNIETY = FALSE THEN RAISE WYJATEK2;
+            END IF;
+    END IF;
+    czas_tab();
+%>
+
+<% EXCEPTION WHEN WYJATEK THEN %>
+				<strong><center>Nie podano wystarczajacych danych</center></strong>
+				<center><a href="czas_tab">WROC</a></center>
+<% WHEN WYJATEK2 THEN %>
+				<strong><center>Rekord nie istnieje</center></strong>
+				<center><a href="czas_tab">WROC</a></center>
+<% WHEN OTHERS THEN %>
+				<strong><center>Wystapil nieoczekiwany blad</center></strong>
+				<center><a href="czas_tab">WROC</a></center>
+

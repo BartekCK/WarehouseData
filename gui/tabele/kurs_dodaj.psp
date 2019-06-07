@@ -1,0 +1,35 @@
+﻿<%@ page language="PL/SQL" %>
+<%@ plsql procedure="kurs_dodaj" %>
+<%@ plsql parameter="ID_TRASY" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="ID_POJAZDU" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="ID_KIEROWCY" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="ID_CZASU" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="ILOSC_BILETOW_NOR" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="ILOSC_BILETOW_ULG" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="CZAS_PRZEJAZDU" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="POZIOM_WYPELNIENIA" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="ODLEGLOSC" type="VARCHAR2" default="NULL"%>
+<%@ plsql parameter="PRZYCHOD" type="VARCHAR2" default="NULL"%>
+
+<%!
+    WYJATEK EXCEPTION;
+%>
+
+
+<%
+	
+	IF ID_TRASY IS NULL OR ID_POJAZDU IS NULL OR ID_KIEROWCY IS NULL OR ID_CZASU IS NULL OR ILOSC_BILETOW_NOR IS NULL OR ILOSC_BILETOW_ULG IS NULL OR CZAS_PRZEJAZDU IS NULL OR POZIOM_WYPELNIENIA IS NULL OR ODLEGLOSC IS NULL OR PRZYCHOD IS NULL THEN RAISE WYJATEK;
+	END IF;
+	INSERT INTO KURS VALUES(ID_TRASY,ID_POJAZDU,ID_KIEROWCY,ID_CZASU,ILOSC_BILETOW_NOR,ILOSC_BILETOW_ULG,CZAS_PRZEJAZDU,POZIOM_WYPELNIENIA, ODLEGLOSC, PRZYCHOD);
+	kurs_tab();
+%>
+
+<% EXCEPTION WHEN WYJATEK THEN %>
+	<strong><center>Nie podano wystarczajacych danych</center></strong>
+	<center><a href="kurs_tab">WROC</a></center>
+<% WHEN OTHERS THEN %>
+	<strong><center>Wystapil nieoczekiwany blad</center></strong>
+	<center><a href="kurs_tab">WROC</a></center>
+
+
+

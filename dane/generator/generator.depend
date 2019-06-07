@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1558356098 source:c:\users\marcin\desktop\projektbd2\dane\generator\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
