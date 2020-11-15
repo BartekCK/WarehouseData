@@ -6,6 +6,7 @@ const LegalForms = require('./models/legalForms.generate');
 const Calls = require('./models/calls.generate');
 const OperatorContracts = require('./models/operatorContracts.generate');
 const TelecommunicationsAddresses = require('./models/telecommunicationsAddresses.generate');
+const Krs = require('./models/krs.generate');
 
 const cars = Car.cars(2500);
 Car.createCsvForCars(cars);
@@ -36,3 +37,7 @@ const telecommunicationsAddresses = TelecommunicationsAddresses.telecommunicatio
 TelecommunicationsAddresses.createCsvForTelecommunicationsAddresses(
     telecommunicationsAddresses,
 );
+
+
+const krs = Krs.krs(legalForms, 2500);
+Krs.createCsvForKrs(krs);
