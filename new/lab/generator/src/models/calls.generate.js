@@ -9,7 +9,7 @@ const moment = require('moment');
 const generateRandomCalls = (count) => {
     const calls = [];
     for (let i = 0; i < count; i++) {
-        const startDate = getRandomDate(new Date(2012, 0, 1), new Date(Date.now()));
+        const startDate = getRandomDate(new Date(1990, 0, 1), new Date(Date.now()));
         const endDate = getRandomDate(startDate, getMaxDate(startDate, 0, 0, 1));
         calls.push({
             id: i + 1,

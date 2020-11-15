@@ -10,7 +10,7 @@ const generateRandomKrs = (legalForms, count) => {
     const krs = [];
     for (let i = 0; i < count; i++) {
         const registerDate = getRandomDate(
-            new Date(2012, 0, 1),
+            new Date(1990, 0, 1),
             new Date(Date.now()),
         );
         krs.push({

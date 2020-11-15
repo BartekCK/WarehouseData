@@ -49,7 +49,7 @@ create table krs (
 	regon varchar(20) not null,
 	data_rejestracji datetime not null, 
 	id_formy_prawnej int not null references formy_prawne(id),
-	kapital_zalozycielski float not null check(kapital_zalozycielski >= 5000),
+	  float not null check(kapital_zalozycielski >= 5000),
 );
 
 create table rodzaje_przestepstw (
@@ -95,7 +95,7 @@ create table podejrzani (
 	obecnosc_na_miejscu_zbrodni bit not null,
 	liczba_lat_wyroku int default 0,
 	rozpoczecie_pozbawienia_wolnosci datetime, 
-	zakoñczenie_pozbawienia_wolnosci datetime, 
+	zakonczenie_pozbawienia_wolnosci datetime, 
 );
 
 

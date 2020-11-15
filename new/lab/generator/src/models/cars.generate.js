@@ -16,7 +16,7 @@ const generateRandomCars = (count) => {
         const { brand, models } = allCars[getRandIntNumberFromRange(0, countMark)];
         const model = models[getRandIntNumberFromRange(0, models.length)];
         const productionDate = getRandomDate(
-            new Date(2012, 0, 1),
+            new Date(1990, 0, 1),
             new Date(Date.now()),
         );
         const registerDate = getRandomDate(
