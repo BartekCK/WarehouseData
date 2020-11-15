@@ -40,7 +40,7 @@ create table polaczenia (
 
 create table formy_prawne (
 	id int not null primary key,
-	opis varchar(30) not null,
+	opis varchar(150) not null,
 );
 
 create table krs (
@@ -49,7 +49,7 @@ create table krs (
 	regon varchar(20) not null,
 	data_rejestracji datetime not null, 
 	id_formy_prawnej int not null references formy_prawne(id),
-	  float not null check(kapital_zalozycielski >= 5000),
+	kapital_zalozycielski float not null check(kapital_zalozycielski >= 5000),
 );
 
 create table rodzaje_przestepstw (
@@ -65,7 +65,7 @@ create table pojazdy (
 	data_produkcji datetime not null, 
 	data_rejestracji datetime not null, 
 	numer_rej varchar(10) not null check(len(numer_rej) > 0), 
-	numer_vin varchar(10) not null check(len(numer_vin) = 17), 
+	numer_vin varchar(20) not null check(len(numer_vin) > 0), 
 );
 
 create table adresy (

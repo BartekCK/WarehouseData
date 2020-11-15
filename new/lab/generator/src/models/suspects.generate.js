@@ -30,8 +30,8 @@ const generateRandomSuspects = (
             krsID: krs[getRandIntNumberFromRange(0, krs.length)].id,
             isOnCriminalPlace: getRandIntNumberFromRange(0, 2),
             numberOfYear: 0,
-            startTime: null,
-            endTime: null,
+            startTime: 'null',
+            endTime: 'null',
         };
         if (getRandIntNumberFromRange(1, 5) === 1) {
             const startTime = getRandomDate(
@@ -41,8 +41,8 @@ const generateRandomSuspects = (
             const endTime = getRandomDate(startTime, getMaxDate(startTime, 3, 0, 0));
             const numberOfYear = endTime.getFullYear() - startTime.getFullYear();
 
-            suspect.startTime = moment(startTime).format('YYYY-MM-DD HH:mm:ss');
-            suspect.endTime = moment(endTime).format('YYYY-MM-DD HH:mm:ss');
+            suspect.startTime = moment(startTime).format('YYYY-MM-DD');
+            suspect.endTime = moment(endTime).format('YYYY-MM-DD');
             suspect.numberOfYear = numberOfYear === 0 ? 1 : numberOfYear;
         }
         suspects.push(suspect);
@@ -61,7 +61,7 @@ const headers = [
     { id: 'isOnCriminalPlace', title: 'obecnosc_na_miejscu_zbrodni' },
     { id: 'numberOfYear', title: 'liczba_lat_wyroku' },
     { id: 'startTime', title: 'rozpoczecie_pozbawienia_wolnosci' },
-    { id: 'endTime', title: 'zakoczenie_pozbawienia_wolnosci' },
+    { id: 'endTime', title: 'zakonczenie_pozbawienia_wolnosci'},
 ];
 
 const createCsvForSuspects = (suspects) => {
