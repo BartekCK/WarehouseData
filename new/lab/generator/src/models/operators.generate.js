@@ -1,20 +1,20 @@
-const allCrimes = require('../data/crimeTypes.json');
+const allOperators = require('../data/operators.json');
 const { createCsv } = require('../utils/utils');
 
-const generateRandomCrimes = () => {
-    return allCrimes.map((crimeName, id) => ({ id: id + 1, crimeName }));
+const generateRandomOperators = () => {
+    return allOperators.map((operatorName, id) => ({ id: id + 1, operatorName }));
 };
 
 const headers = [
     { id: 'id', title: 'id' },
-    { id: 'crimeName', title: 'opis' },
+    { id: 'operatorName', title: 'nazwa' },
 ];
 
-const createCsvForCrime = (crimes) => {
-    createCsv('rodzaje-przestepstw', headers, crimes);
+const createCsvForOperators = (operators) => {
+    createCsv('operatorzy', headers, operators);
 };
 
 module.exports = {
-    crimes: () => generateRandomCrimes(),
-    createCsvForCrime,
+    operators: () => generateRandomOperators(),
+    createCsvForOperators,
 };

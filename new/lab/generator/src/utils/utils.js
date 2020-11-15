@@ -30,7 +30,7 @@ module.exports = {
         csvWriter
             .writeRecords(records) // returns a promise
             .then(() => {
-                console.log(`${csvName} was created`);
+                console.log(`${csvName} created`);
             });
     },
 };
