@@ -4,11 +4,12 @@ const Crimes = require('./models/crimes.generate');
 const Operators = require('./models/operators.generate');
 const LegalForms = require('./models/legalForms.generate');
 const Calls = require('./models/calls.generate');
+const OperatorContracts = require('./models/operatorContracts.generate');
 
-const cars = Car.cars(500);
+const cars = Car.cars(2500);
 Car.createCsvForCars(cars);
 
-const addresses = Address.addresses(500);
+const addresses = Address.addresses(2500);
 Address.createCsvForAddresses(addresses);
 
 const crimes = Crimes.crimes();
@@ -20,5 +21,10 @@ Operators.createCsvForOperators(operators);
 const legalForms = LegalForms.legalForms();
 LegalForms.createCsvForLegalForms(legalForms);
 
-const calls = Calls.calls(500);
+const calls = Calls.calls(2500);
 Calls.createCsvForCalls(calls);
+
+// ------------------------------------------------
+
+const operatorContracts = OperatorContracts.operatorContracts(operators, 2500);
+OperatorContracts.createCsvForOperatorContracts(operatorContracts);
