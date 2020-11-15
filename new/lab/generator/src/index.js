@@ -5,6 +5,7 @@ const Operators = require('./models/operators.generate');
 const LegalForms = require('./models/legalForms.generate');
 const Calls = require('./models/calls.generate');
 const OperatorContracts = require('./models/operatorContracts.generate');
+const TelecommunicationsAddresses = require('./models/telecommunicationsAddresses.generate');
 
 const cars = Car.cars(2500);
 Car.createCsvForCars(cars);
@@ -28,3 +29,10 @@ Calls.createCsvForCalls(calls);
 
 const operatorContracts = OperatorContracts.operatorContracts(operators, 2500);
 OperatorContracts.createCsvForOperatorContracts(operatorContracts);
+
+const telecommunicationsAddresses = TelecommunicationsAddresses.telecommunicationsAddresses(
+    operatorContracts,
+);
+TelecommunicationsAddresses.createCsvForTelecommunicationsAddresses(
+    telecommunicationsAddresses,
+);
