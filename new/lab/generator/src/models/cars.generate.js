@@ -20,8 +20,8 @@ const generateRandomCars = (count) => {
             new Date(Date.now()),
         );
         const registerDate = getRandomDate(
-            new Date(productionDate),
-            getMaxDate(productionDate),
+            productionDate,
+            getMaxDate(productionDate, 1, 0, 0),
         );
         cars.push({
             id: i + 1,
