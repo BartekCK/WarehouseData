@@ -5,7 +5,7 @@ const {
 } = require('../utils/utils');
 const moment = require('moment');
 
-const generateRandomTimes = (count) => {
+const generateRandomTimes = async (count) => {
     const times = [];
     for (let i = 0; i < count; i++) {
         const startDate = getRandomDate(new Date(2020, 0, 1), new Date(Date.now()));
@@ -32,11 +32,11 @@ const headers = [
     { id: 'date', title: 'data_kursu' },
 ];
 
-const createCsvForTimes = (times) => {
-    createCsv('czas', headers, times);
+const createCsvForTimes = async (times) => {
+    await createCsv('czas', headers, times);
 };
 
 module.exports = {
-    times: (count) => generateRandomTimes(count),
+    times: async (count) => await generateRandomTimes(count),
     createCsvForTimes,
 };

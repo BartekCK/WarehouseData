@@ -5,7 +5,7 @@ const allSurnames = require('../data/surnames.json');
 
 const { getRandIntNumberFromRange, createCsv } = require('../utils/utils');
 
-const generateIdentityCards = (count) => {
+const generateIdentityCards = async (count) => {
     const identityCards = [];
     for (let i = 0; i < count; i++) {
         identityCards.push({
@@ -36,11 +36,11 @@ const headers = [
     { id: 'identityCardNumber', title: 'numer_dowodu' },
 ];
 
-const createCsvForIdentityCards = (identityCards) => {
-    createCsv('dowody_osobiste', headers, identityCards);
+const createCsvForIdentityCards = async (identityCards) => {
+    await createCsv('dowody_osobiste', headers, identityCards);
 };
 
 module.exports = {
-    identityCards: (count) => generateIdentityCards(count),
+    identityCards: async (count) => await generateIdentityCards(count),
     createCsvForIdentityCards,
 };

@@ -5,7 +5,7 @@ const {
 } = require('../utils/utils');
 const moment = require('moment');
 
-const generateRandomEmployees = (drivers, addresses) => {
+const generateRandomEmployees = async (drivers, addresses) => {
     const employees = [];
     for (let i = 0; i < drivers.length; i++) {
         const startDate = getRandomDate(new Date(1990, 0, 1), new Date(2015, 0, 1));
@@ -28,11 +28,12 @@ const headers = [
     { id: 'date', title: 'data_podpisania_umowy' },
 ];
 
-const createCsvForEmployees = (employees) => {
-    createCsv('pracownicy', headers, employees);
+const createCsvForEmployees = async (employees) => {
+    await createCsv('pracownicy', headers, employees);
 };
 
 module.exports = {
-    employees: (drivers, addresses) => generateRandomEmployees(drivers, addresses),
+    employees: async (drivers, addresses) =>
+        await generateRandomEmployees(drivers, addresses),
     createCsvForEmployees,
 };

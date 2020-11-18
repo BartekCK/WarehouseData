@@ -7,28 +7,32 @@ const Times = require('./models/time.generate');
 const Cars = require('./models/cars.generate');
 const Courses = require('./models/courses.generate');
 
-const identityCards = IdentityCards.identityCards(2500);
-IdentityCards.createCsvForIdentityCards(identityCards);
+const startApp = async () => {
+    const identityCards = await IdentityCards.identityCards(2500);
+    await IdentityCards.createCsvForIdentityCards(identityCards);
 
-const drivers = Drivers.drivers(identityCards);
-Drivers.createCsvForDrivers(drivers);
+    const drivers = await Drivers.drivers(identityCards);
+    await Drivers.createCsvForDrivers(drivers);
 
-const addresses = Addresses.addresses(2500);
-Addresses.createCsvForAddresses(addresses);
+    const addresses = await Addresses.addresses(2500);
+    await Addresses.createCsvForAddresses(addresses);
 
-const employees = Employees.employees(drivers, addresses);
-Employees.createCsvForEmployees(employees);
+    const employees = await Employees.employees(drivers, addresses);
+    await Employees.createCsvForEmployees(employees);
 
-//-------------------------
-const roads = Roads.roads(2500);
-Roads.createCsvForRoads(roads);
+    //-------------------------
+    const roads = await Roads.roads(2500);
+    await Roads.createCsvForRoads(roads);
 
-const times = Times.times(2500);
-Times.createCsvForTimes(times);
+    const times = await Times.times(2500);
+    await Times.createCsvForTimes(times);
 
-const cars = Cars.cars(2500);
-Cars.createCsvForCars(cars);
+    const cars = await Cars.cars(2500);
+    await Cars.createCsvForCars(cars);
 
-//-------
-const courses = Courses.courses(40, roads, cars, employees, times);
-Courses.createCsvForCourses(courses);
+    //-------
+    const courses = await Courses.courses(5000, roads, cars, employees, times);
+    await Courses.createCsvForCourses(courses);
+};
+
+startApp();

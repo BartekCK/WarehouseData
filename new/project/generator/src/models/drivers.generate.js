@@ -1,7 +1,7 @@
 const cryptoRandomString = require('crypto-random-string');
 const { createCsv } = require('../utils/utils');
 
-const generateDrivers = (identityCards) => {
+const generateDrivers = async (identityCards) => {
     const drivers = [];
     for (let i = 0; i < identityCards.length; i++) {
         drivers.push({
@@ -22,11 +22,11 @@ const headers = [
     { id: 'identityCardId', title: 'id_dowodu' },
 ];
 
-const createCsvForDrivers = (drivers) => {
-    createCsv('kierowcy', headers, drivers);
+const createCsvForDrivers = async (drivers) => {
+    await createCsv('kierowcy', headers, drivers);
 };
 
 module.exports = {
-    drivers: (identityCards) => generateDrivers(identityCards),
+    drivers: async (identityCards) => await generateDrivers(identityCards),
     createCsvForDrivers,
 };

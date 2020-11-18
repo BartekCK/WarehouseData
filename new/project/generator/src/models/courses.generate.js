@@ -21,16 +21,16 @@ const generateRandomCourses = async (count, roads, cars, employees, times) => {
         if (end.isBefore(start)) end.add(1, 'day'); // NOT
         const d = moment.duration(end.diff(start)); // NOT
         d.subtract(30, 'minutes'); // NOT
-        const timeRoad = moment.utc(+d).format('H:mm')
+        const timeRoad = moment.utc(+d).format('H:mm');
         /////////////////
         const priceAdult = countAdultTicket * road.priceAdult;
         const priceNormal = countNormalTicker * road.priceNormal;
 
         ///////
-        const hours = moment(timeRoad, "H:mm").hours();
-        const minutes = moment(timeRoad, "H:mm").minutes();
-        const seconds = (hours * 3600) + (minutes * 60);
-        const roadLength = (20 * seconds)/1000;
+        const hours = moment(timeRoad, 'H:mm').hours();
+        const minutes = moment(timeRoad, 'H:mm').minutes();
+        const seconds = hours * 3600 + minutes * 60;
+        const roadLength = (20 * seconds) / 1000;
 
         courses.push({
             id: i + 1,
@@ -60,15 +60,15 @@ const headers = [
     { id: 'timeRoad', title: 'czas_przejazdu' },
     { id: 'fillLevel', title: 'poziom_wypelnienia' },
     { id: 'roadLength', title: 'odleglosc' },
-    { id: 'salary', title: 'przychod' }
+    { id: 'salary', title: 'przychod' },
 ];
 
-const createCsvForCourses = (courses) => {
-    createCsv('kursy', headers, courses);
+const createCsvForCourses = async (courses) => {
+    await createCsv('kursy', headers, courses);
 };
 
 module.exports = {
-    courses: (count, roads, cars, employees, times) =>
-        generateRandomCourses(count, roads, cars, employees, times),
+    courses: async (count, roads, cars, employees, times) =>
+        await generateRandomCourses(count, roads, cars, employees, times),
     createCsvForCourses,
 };

@@ -1,7 +1,7 @@
 const { createCsv, getRandIntNumberFromRange } = require('../utils/utils');
 const allAddresses = require('../data/addresses.json');
 
-const generateRoads = (count) => {
+const generateRoads = async (count) => {
     const { streets, cities } = allAddresses;
     const roads = [];
     for (let i = 0; i < count; i++) {
@@ -9,8 +9,8 @@ const generateRoads = (count) => {
             id: i + 1,
             startCity: cities[getRandIntNumberFromRange(0, cities.length)],
             endCity: cities[getRandIntNumberFromRange(0, cities.length)],
-            priceAdult: getRandIntNumberFromRange(10,15),
-            priceNormal: getRandIntNumberFromRange(2,10),
+            priceAdult: getRandIntNumberFromRange(10, 15),
+            priceNormal: getRandIntNumberFromRange(2, 10),
         });
     }
     return roads;
@@ -24,11 +24,11 @@ const headers = [
     { id: 'priceNormal', title: 'cena_biletu_ulg' },
 ];
 
-const createCsvForRoads = (roads) => {
-    createCsv('trasy', headers, roads);
+const createCsvForRoads = async (roads) => {
+    await createCsv('trasy', headers, roads);
 };
 
 module.exports = {
-    roads: (count) => generateRoads(count),
+    roads: async (count) => await generateRoads(count),
     createCsvForRoads,
 };

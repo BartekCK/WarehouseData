@@ -24,16 +24,13 @@ module.exports = {
         );
     },
 
-    createCsv: (csvName, headers, records) => {
+    createCsv: async (csvName, headers, records) => {
         const csvWriter = createCsvWriter({
             path: path.join(__dirname, `../csv/${csvName}.csv`),
             header: headers,
         });
-        csvWriter
-            .writeRecords(records) // returns a promise
-            .then(() => {
-                console.log(`${csvName} created`);
-            });
+        await csvWriter.writeRecords(records); // returns a promise
+        console.log(`${csvName} created`);
     },
 
     createRandomIp: () => {
