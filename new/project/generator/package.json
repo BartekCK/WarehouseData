@@ -1,0 +1,21 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "crypto-random-string": "^3.3.0",
+    "csv-writer": "^1.6.0",
+    "geolib": "^3.3.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}
