@@ -2,7 +2,7 @@ const allAddresses = require('../data/addresses.json');
 const { getRandIntNumberFromRange, createCsv } = require('../utils/utils');
 const cryptoRandomString = require('crypto-random-string');
 
-const generateRandomAddresses = (count) => {
+const generateRandomAddresses = async (count) => {
     const addresses = [];
     const { streets, cities } = allAddresses;
     for (let i = 0; i < count; i++) {
@@ -31,11 +31,11 @@ const headers = [
     { id: 'streetNumber', title: 'kod_pocztowy' },
 ];
 
-const createCsvForAddresses = (addresses) => {
-    createCsv('adresy', headers, addresses);
+const createCsvForAddresses = async (addresses) => {
+    await createCsv('adresy', headers, addresses);
 };
 
 module.exports = {
-    addresses: (count) => generateRandomAddresses(count),
+    addresses: async (count) => await generateRandomAddresses(count),
     createCsvForAddresses,
 };

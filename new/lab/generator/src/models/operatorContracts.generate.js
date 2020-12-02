@@ -6,7 +6,7 @@ const {
 } = require('../utils/utils');
 const moment = require('moment');
 
-const generateRandomOperatorContracts = (operators, count) => {
+const generateRandomOperatorContracts = async (operators, count) => {
     const operatorContracts = [];
     for (let i = 0; i < count; i++) {
         const startDate = getRandomDate(new Date(1990, 0, 1), new Date(Date.now()));
@@ -30,12 +30,12 @@ const headers = [
     { id: 'usedDataNumber', title: 'ilosc_wykorzystanych_danych' },
 ];
 
-const createCsvForOperatorContracts = (addresses) => {
-    createCsv('umowy-operatora', headers, addresses);
+const createCsvForOperatorContracts = async (addresses) => {
+    await createCsv('umowy_operatora', headers, addresses);
 };
 
 module.exports = {
-    operatorContracts: (operators, count) =>
-        generateRandomOperatorContracts(operators, count),
+    operatorContracts: async (operators, count) =>
+        await generateRandomOperatorContracts(operators, count),
     createCsvForOperatorContracts,
 };

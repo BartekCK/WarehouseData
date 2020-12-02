@@ -1,6 +1,6 @@
 const { createRandomIp, createCsv } = require('../utils/utils');
 
-const generateRandomTelecommunicationsAddresses = (operatorContracts) => {
+const generateRandomTelecommunicationsAddresses = async (operatorContracts) => {
     return operatorContracts.map((contract, id) => ({
         id: id + 1,
         routerAddress: createRandomIp(),
@@ -14,12 +14,18 @@ const headers = [
     { id: 'contractID', title: 'id_umowy' },
 ];
 
-const createCsvForTelecommunicationsAddresses = (telecommunicationsAddresses) => {
-    createCsv('adresy-telekomunikacyjne', headers, telecommunicationsAddresses);
+const createCsvForTelecommunicationsAddresses = async (
+    telecommunicationsAddresses,
+) => {
+    await createCsv(
+        'adresy_telekomunikacyjne',
+        headers,
+        telecommunicationsAddresses,
+    );
 };
 
 module.exports = {
-    telecommunicationsAddresses: (operatorContracts) =>
-        generateRandomTelecommunicationsAddresses(operatorContracts),
+    telecommunicationsAddresses: async (operatorContracts) =>
+        await generateRandomTelecommunicationsAddresses(operatorContracts),
     createCsvForTelecommunicationsAddresses,
 };

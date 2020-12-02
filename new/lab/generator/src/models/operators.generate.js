@@ -1,7 +1,7 @@
 const allOperators = require('../data/operators.json');
 const { createCsv } = require('../utils/utils');
 
-const generateRandomOperators = () => {
+const generateRandomOperators = async () => {
     return allOperators.map((operatorName, id) => ({ id: id + 1, operatorName }));
 };
 
@@ -10,11 +10,11 @@ const headers = [
     { id: 'operatorName', title: 'nazwa' },
 ];
 
-const createCsvForOperators = (operators) => {
-    createCsv('operatorzy', headers, operators);
+const createCsvForOperators = async (operators) => {
+    await createCsv('operatorzy', headers, operators);
 };
 
 module.exports = {
-    operators: () => generateRandomOperators(),
+    operators: async () => await generateRandomOperators(),
     createCsvForOperators,
 };

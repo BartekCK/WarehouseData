@@ -6,7 +6,7 @@ const {
 } = require('../utils/utils');
 const moment = require('moment');
 
-const generateRandomSuspects = (
+const generateRandomSuspects = async (
     criminals,
     cars,
     crimes,
@@ -61,15 +61,15 @@ const headers = [
     { id: 'isOnCriminalPlace', title: 'obecnosc_na_miejscu_zbrodni' },
     { id: 'numberOfYear', title: 'liczba_lat_wyroku' },
     { id: 'startTime', title: 'rozpoczecie_pozbawienia_wolnosci' },
-    { id: 'endTime', title: 'zakonczenie_pozbawienia_wolnosci'},
+    { id: 'endTime', title: 'zakonczenie_pozbawienia_wolnosci' },
 ];
 
-const createCsvForSuspects = (suspects) => {
-    createCsv('podejrzani', headers, suspects);
+const createCsvForSuspects = async (suspects) => {
+    await createCsv('podejrzani', headers, suspects);
 };
 
 module.exports = {
-    suspects: (
+    suspects: async (
         criminals,
         cars,
         crimes,
@@ -78,7 +78,7 @@ module.exports = {
         krs,
         count,
     ) =>
-        generateRandomSuspects(
+        await generateRandomSuspects(
             criminals,
             cars,
             crimes,

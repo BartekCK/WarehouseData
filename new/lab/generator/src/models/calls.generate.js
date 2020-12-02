@@ -6,7 +6,7 @@ const {
 } = require('../utils/utils');
 const moment = require('moment');
 
-const generateRandomCalls = (count) => {
+const generateRandomCalls = async (count) => {
     const calls = [];
     for (let i = 0; i < count; i++) {
         const startDate = getRandomDate(new Date(1990, 0, 1), new Date(Date.now()));
@@ -28,11 +28,11 @@ const headers = [
     { id: 'endDate', title: 'data_zakonczenia_polaczenia' },
 ];
 
-const createCsvForCalls = (calls) => {
-    createCsv('polaczenia', headers, calls);
+const createCsvForCalls = async (calls) => {
+    await createCsv('polaczenia', headers, calls);
 };
 
 module.exports = {
-    calls: (count) => generateRandomCalls(count),
+    calls: async (count) => await generateRandomCalls(count),
     createCsvForCalls,
 };

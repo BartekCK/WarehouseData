@@ -9,7 +9,7 @@ const {
 } = require('../utils/utils');
 const allCars = require('../data/cars.json');
 
-const generateRandomCars = (count) => {
+const generateRandomCars = async (count) => {
     const cars = [];
     const countMark = allCars.length;
     for (let i = 0; i < count; i++) {
@@ -55,11 +55,11 @@ const headers = [
     { id: 'vinNumber', title: 'numer_vin' },
 ];
 
-const createCsvForCars = (cars) => {
-    createCsv('pojazdy', headers, cars);
+const createCsvForCars = async (cars) => {
+    await createCsv('pojazdy', headers, cars);
 };
 
 module.exports = {
-    cars: (count) => generateRandomCars(count),
+    cars: async (count) => await generateRandomCars(count),
     createCsvForCars,
 };

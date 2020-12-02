@@ -3,7 +3,7 @@ const allSurnames = require('../data/surnames.json');
 const { getRandIntNumberFromRange, createCsv } = require('../utils/utils');
 const cryptoRandomString = require('crypto-random-string');
 
-const generateRandomCriminals = (addresses, count) => {
+const generateRandomCriminals = async (addresses, count) => {
     const criminals = [];
     for (let i = 0; i < count; i++) {
         criminals.push({
@@ -28,11 +28,12 @@ const headers = [
     { id: 'addressID', title: 'id_adresu' },
 ];
 
-const createCsvForCriminals = (criminals) => {
-    createCsv('przestepcy', headers, criminals);
+const createCsvForCriminals = async (criminals) => {
+    await createCsv('przestepcy', headers, criminals);
 };
 
 module.exports = {
-    criminals: (addresses, count) => generateRandomCriminals(addresses, count),
+    criminals: async (addresses, count) =>
+        await generateRandomCriminals(addresses, count),
     createCsvForCriminals,
 };

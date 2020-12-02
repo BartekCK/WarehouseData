@@ -6,7 +6,7 @@ const {
 } = require('../utils/utils');
 const cryptoRandomString = require('crypto-random-string');
 
-const generateRandomKrs = (legalForms, count) => {
+const generateRandomKrs = async (legalForms, count) => {
     const krs = [];
     for (let i = 0; i < count; i++) {
         const registerDate = getRandomDate(
@@ -41,11 +41,11 @@ const headers = [
     { id: 'initCapital', title: 'kapital_zalozycielski' },
 ];
 
-const createCsvForKrs = (krs) => {
-    createCsv('krs', headers, krs);
+const createCsvForKrs = async (krs) => {
+    await createCsv('krs', headers, krs);
 };
 
 module.exports = {
-    krs: (legalForms, count) => generateRandomKrs(legalForms, count),
+    krs: async (legalForms, count) => await generateRandomKrs(legalForms, count),
     createCsvForKrs,
 };

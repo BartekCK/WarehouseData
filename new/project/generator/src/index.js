@@ -20,7 +20,7 @@ const startApp = async () => {
     const employees = await Employees.employees(drivers, addresses);
     await Employees.createCsvForEmployees(employees);
 
-    //-------------------------
+    // -------------------------
     const roads = await Roads.roads(2500);
     await Roads.createCsvForRoads(roads);
 
@@ -30,9 +30,9 @@ const startApp = async () => {
     const cars = await Cars.cars(2500);
     await Cars.createCsvForCars(cars);
 
-    //-------
+    // -------------------------
     const courses = await Courses.courses(5000, roads, cars, employees, times);
     await Courses.createCsvForCourses(courses);
 };
 
-startApp();
+startApp().then(() => console.log('All tables have been generated'));

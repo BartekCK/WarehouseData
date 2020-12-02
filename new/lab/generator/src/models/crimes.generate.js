@@ -1,7 +1,7 @@
 const allCrimes = require('../data/crimeTypes.json');
 const { createCsv } = require('../utils/utils');
 
-const generateRandomCrimes = () => {
+const generateRandomCrimes = async () => {
     return allCrimes.map((crimeName, id) => ({ id: id + 1, crimeName }));
 };
 
@@ -10,11 +10,11 @@ const headers = [
     { id: 'crimeName', title: 'opis' },
 ];
 
-const createCsvForCrime = (crimes) => {
-    createCsv('rodzaje-przestepstw', headers, crimes);
+const createCsvForCrime = async (crimes) => {
+    await createCsv('rodzaje_przestepstw', headers, crimes);
 };
 
 module.exports = {
-    crimes: () => generateRandomCrimes(),
+    crimes: async () => await generateRandomCrimes(),
     createCsvForCrime,
 };

@@ -10,49 +10,56 @@ const Krs = require('./models/krs.generate');
 const Criminals = require('./models/criminals.generate');
 const Suspects = require('./models/suspects.generate');
 
-const cars = Car.cars(2500);
-Car.createCsvForCars(cars);
+const startApp = async () => {
+    const cars = await Car.cars(2500);
+    await Car.createCsvForCars(cars);
 
-const addresses = Address.addresses(2500);
-Address.createCsvForAddresses(addresses);
+    const addresses = await Address.addresses(2500);
+    await Address.createCsvForAddresses(addresses);
 
-const crimes = Crimes.crimes();
-Crimes.createCsvForCrime(crimes);
+    const crimes = await Crimes.crimes();
+    await Crimes.createCsvForCrime(crimes);
 
-const operators = Operators.operators();
-Operators.createCsvForOperators(operators);
+    const operators = await Operators.operators();
+    await Operators.createCsvForOperators(operators);
 
-const legalForms = LegalForms.legalForms();
-LegalForms.createCsvForLegalForms(legalForms);
+    const legalForms = await LegalForms.legalForms();
+    await LegalForms.createCsvForLegalForms(legalForms);
 
-const calls = Calls.calls(2500);
-Calls.createCsvForCalls(calls);
+    const calls = await Calls.calls(2500);
+    await Calls.createCsvForCalls(calls);
 
-// ------------------------------------------------
+    // ------------------------------------------------
 
-const operatorContracts = OperatorContracts.operatorContracts(operators, 2500);
-OperatorContracts.createCsvForOperatorContracts(operatorContracts);
+    const operatorContracts = await OperatorContracts.operatorContracts(
+        operators,
+        2500,
+    );
+    await OperatorContracts.createCsvForOperatorContracts(operatorContracts);
 
-const telecommunicationsAddresses = TelecommunicationsAddresses.telecommunicationsAddresses(
-    operatorContracts,
-);
-TelecommunicationsAddresses.createCsvForTelecommunicationsAddresses(
-    telecommunicationsAddresses,
-);
+    const telecommunicationsAddresses = await TelecommunicationsAddresses.telecommunicationsAddresses(
+        operatorContracts,
+    );
+    await TelecommunicationsAddresses.createCsvForTelecommunicationsAddresses(
+        telecommunicationsAddresses,
+    );
 
-const krs = Krs.krs(legalForms, 2500);
-Krs.createCsvForKrs(krs);
+    const krs = await Krs.krs(legalForms, 2500);
+    await Krs.createCsvForKrs(krs);
 
-const criminals = Criminals.criminals(addresses, 2500);
-Criminals.createCsvForCriminals(criminals);
+    const criminals = await Criminals.criminals(addresses, 2500);
+    await Criminals.createCsvForCriminals(criminals);
 
-const suspects = Suspects.suspects(
-    criminals,
-    cars,
-    crimes,
-    telecommunicationsAddresses,
-    calls,
-    krs,
-    5000,
-);
-Suspects.createCsvForSuspects(suspects);
+    const suspects = await Suspects.suspects(
+        criminals,
+        cars,
+        crimes,
+        telecommunicationsAddresses,
+        calls,
+        krs,
+        5000,
+    );
+    await Suspects.createCsvForSuspects(suspects);
+};
+
+startApp().then(() => console.log('Tables generated'));

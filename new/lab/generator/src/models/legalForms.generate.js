@@ -1,7 +1,7 @@
 const allLegalForms = require('../data/legalForms.json');
 const { createCsv } = require('../utils/utils');
 
-const generateRandomLegalForms = () => {
+const generateRandomLegalForms = async () => {
     return allLegalForms.map((legalForm, id) => ({ id: id + 1, legalForm }));
 };
 
@@ -10,11 +10,11 @@ const headers = [
     { id: 'legalForm', title: 'opis' },
 ];
 
-const createCsvForLegalForms = (crimes) => {
-    createCsv('formy-prawne', headers, crimes);
+const createCsvForLegalForms = async (crimes) => {
+    await createCsv('formy_prawne', headers, crimes);
 };
 
 module.exports = {
-    legalForms: () => generateRandomLegalForms(),
+    legalForms: async () => await generateRandomLegalForms(),
     createCsvForLegalForms,
 };
