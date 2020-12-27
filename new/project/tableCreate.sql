@@ -44,10 +44,10 @@ create table pracownicy(
 
 create table trasy(
 	id int not null primary key,
-	miasto_odjazu varchar(40) not null,
-	miasto_przyjazdu varchar(40) not null,
-	cena_biletu_nor float not null, 
-	cena_biletu_ulg float not null, 
+	miasto_odjazu varchar(100) not null,
+	miasto_przyjazdu varchar(100) not null,
+	cena_biletu_nor int not null, 
+	cena_biletu_ulg int not null, 
 );
 
 
