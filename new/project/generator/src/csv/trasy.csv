@@ -1,0 +1,2501 @@
+id,miasto_odjazu,miasto_przyjazdu,cena_biletu_nor,cena_biletu_ulg
+1,Suchowola,Ledziny,11,6
+2,Krzywin,Blazowa,14,4
+3,Szczekociny,Siedlce,14,4
+4,Katy Wroclawskie,Ilowa,12,9
+5,Smigiel,Tuchola,11,7
+6,Nowa Ruda,Puszczykowo,11,5
+7,Wielbark,Zlotoryja,11,7
+8,Wegorzyno,Pasym,12,7
+9,Borne Sulinowo,Otwock,11,2
+10,Lipno,Pyskowice,11,3
+11,Opole,Dzierzoniow,12,6
+12,Miastko,Bychawa,13,4
+13,Olsztynek,Libiaz,13,5
+14,Ryki,Alwernia,10,4
+15,Lesko,Bielsk Podlaski,14,8
+16,Krzeszowice,Ruciane-Nida,10,5
+17,Trzebnica,Golczewo,10,2
+18,Bogatynia,Bogatynia,10,2
+19,Katy Wroclawskie,Sucha Beskidzka,13,2
+20,Skwierzyna,Brzeg,10,9
+21,Belzyce,Oborniki,10,8
+22,Naklo nad Notecia,Baborow,12,5
+23,Sucha Beskidzka,Lubaczow,11,5
+24,Baborow,Trzcinsko-Zdroj,13,5
+25,Chrzanow,Opatowek,10,5
+26,Skwierzyna,Dolsk,11,2
+27,Krzanowice,Lidzbark,11,3
+28,Czestochowa,Ciechanowiec,13,2
+29,Warta,Witkowo,13,6
+30,Dabrowa Gornicza,Zagorow,10,7
+31,Uniejow,Ustka,13,4
+32,Drawsko Pomorskie,Proszowice,14,4
+33,Zloczew,Szlichtyngowa,10,5
+34,Krzeszowice,Tarnobrzeg,10,4
+35,Pultusk,Boguchwala,12,4
+36,Poniec,Gryfino,10,7
+37,Poniec,Skawina,10,8
+38,Sokolow Podlaski,Pasym,11,3
+39,Wolow,Gryfino,12,6
+40,Szamotuly,Pruszcz Gdanski,13,7
+41,Nowy Staw,Skorcz,14,8
+42,Kluczbork,Hel,10,4
+43,Szydlow,Stopnica,12,7
+44,Urzedow,Dzierzgon,10,3
+45,Miechow,Pakosc,14,9
+46,Barcin,Klobuck,14,6
+47,Leknica,Szczuczyn,13,6
+48,Korfantow,Tuchola,14,8
+49,Kostrzyn,Radkow,12,4
+50,Tomaszow Mazowiecki,Brzostek,10,9
+51,Grabow nad Prosna,Malogoszcz,11,2
+52,Szprotawa,Piaseczno,13,4
+53,Dobiegniew,Lubomierz,12,8
+54,Biala Piska,Srem,13,9
+55,Czchow,Wlen,11,4
+56,Kamien Krajenski,Nysa,13,7
+57,Goldap,Cybinka,10,4
+58,Krzanowice,Pyrzyce,10,9
+59,Dobrodzien,Wagrowiec,10,5
+60,Pieniezno,Lubowidz,11,6
+61,Oborniki Slaskie,Bielawa,11,8
+62,Kudowa-Zdroj,Bialy Bor,14,2
+63,Lidzbark,Kowary,11,5
+64,Radymno,Kruszwica,11,4
+65,Milanowek,Swarzedz,14,7
+66,Nowy Tomysl,Rozan,11,2
+67,Krzyz Wielkopolski,Zywiec,10,6
+68,Raciborz,Myslowice,10,5
+69,Glogow Malopolski,Ilowa,14,6
+70,Zawiercie,Sokolow Podlaski,14,9
+71,Pierzchnica,Slawkow,12,9
+72,Wyszogrod,Zator,10,7
+73,Mikolow,Trzemeszno,13,3
+74,Nowa Slupia,Piensk,11,2
+75,Marki,Kolonowskie,12,8
+76,Brzeg,Baborow,12,2
+77,Krzyz Wielkopolski,Bobowa,11,6
+78,Nowy Staw,Pacanow,13,7
+79,Bialystok,Piaseczno,12,6
+80,Sieniawa,Olesnica,12,9
+81,Lubomierz,Drezdenko,11,7
+82,Wegrow,Bialystok,11,5
+83,Bielawa,Nisko,12,7
+84,Czarnkow,Nowogrod Bobrzanski,13,7
+85,Zelow,Busko-Zdroj,13,6
+86,Mlynary,Sanniki,12,6
+87,Jozefow nad Wisla,Trzebnica,11,3
+88,Chojna,Cieszyn,10,9
+89,Klodawa,Swietochlowice,11,8
+90,Swidwin,Knurow,13,6
+91,Miloslaw,Wolsztyn,12,2
+92,Lublin,Warka,11,8
+93,Ostrowiec Swietokrzyski,Tykocin,13,5
+94,Barlinek,Wojnicz,14,3
+95,Lwowek,Lubowidz,10,7
+96,Staszow,Lubniewice,13,9
+97,Czarne,Gryfow Slaski,13,3
+98,Szubin,Kostrzyn nad Odra,11,2
+99,Belzyce,Dolsk,14,8
+100,Myslenice,Monki,10,3
+101,Kuznia Raciborska,Kolbuszowa,14,6
+102,Kowalewo Pomorskie,Czersk,12,4
+103,Szydlow,Strzelin,11,8
+104,Uniejow,Malbork,12,7
+105,Slawno,Drawno,14,7
+106,Wielun,Piaski,11,9
+107,Wielbark,Sulkowice,13,3
+108,Blazowa,Jeziorany,12,3
+109,Myszyniec,Myszkow,12,8
+110,Annopol,Jaraczewo,11,9
+111,Zloczew,Sedziszow,12,9
+112,Glubczyce,Wieliczka,13,3
+113,Koscierzyna,Dziwnow,10,4
+114,Pilawa,Zabno,11,2
+115,Chocianow,Sosnicowice,13,8
+116,Przedecz,Wielen,12,6
+117,Jordanow,Makow Mazowiecki,10,3
+118,Kedzierzyn-Kozle,Chociwel,13,5
+119,Lubien Kujawski,Ruda Slaska,14,7
+120,Ilowa,Biskupiec,10,4
+121,Bystrzyca Klodzka,Skoki,13,4
+122,Skierniewice,Zarow,12,4
+123,Kamienna Gora,Karlino,10,2
+124,Golub-Dobrzyn,Tluszcz,11,2
+125,Sieradz,Ciechanow,11,4
+126,Brodnica,Mikolow,10,6
+127,Zerkow,Kazimierz Dolny,11,7
+128,Lobzenica,Biecz,13,3
+129,Slawa,Cieszanow,11,6
+130,Golancz,Poddebice,14,6
+131,Ksiaz Wielkopolski,Bialogard,11,8
+132,Czechowice-Dziedzice,Bialy Bor,13,9
+133,Stalowa Wola,Gostynin,14,7
+134,Zelow,Lagow,10,8
+135,Blonie,Laszczow,14,9
+136,Kowary,Kolonowskie,11,4
+137,Suraz,Borek Wielkopolski,14,3
+138,Czlopa,Goniadz,14,7
+139,Ladek-Zdroj,Przysucha,11,4
+140,Halinow,Zgierz,12,5
+141,Lubin,Myslenice,12,6
+142,Szamocin,Korsze,14,9
+143,Zakroczym,Radomsko,13,7
+144,Tuchow,Swiatniki Gorne,12,5
+145,Polczyn-Zdroj,Nowe Miasto nad Pilica,14,2
+146,Janikowo,Miejska Gorka,14,8
+147,Zlocieniec,Strzyzow,10,7
+148,Bochnia,Jelenia Gora,14,8
+149,Strzegom,Wrzesnia,12,3
+150,Nowy Dwor Mazowiecki,Zalewo,13,8
+151,Klodzko,Kartuzy,12,9
+152,Opatowek,Rychwal,12,4
+153,Wyszogrod,Rymanow,12,4
+154,Osieczna,Gryfino,13,7
+155,Nowa Sol,Wilamowice,13,3
+156,Lodz,Szczytno,10,9
+157,Okonek,Brzeziny,12,6
+158,Tomaszow Mazowiecki,Miroslawiec,14,6
+159,Izbica Kujawska,Chojnice,13,6
+160,Cieszanow,Zambrow,10,9
+161,Puszczykowo,Rabka-Zdroj,14,5
+162,Busko-Zdroj,Biecz,10,7
+163,Grudziadz,Belzyce,11,5
+164,Twardogora,Przeclaw,10,6
+165,Lubin,Zloczew,11,6
+166,Zlocieniec,Siewierz,12,4
+167,Krzyz Wielkopolski,Sosnowiec,14,4
+168,Ryn,Szczebrzeszyn,13,9
+169,Swidnica,Aleksandrow Kujawski,10,3
+170,Szczyrk,Niemcza,11,9
+171,Pruszcz Gdanski,Belchatow,11,7
+172,Bartoszyce,Mrocza,10,5
+173,Stawiszyn,Dynow,13,2
+174,Choszczno,Sepolno Krajenskie,10,3
+175,Sroda Wielkopolska,Czempin,14,2
+176,Lubomierz,Glogow Malopolski,14,5
+177,Olecko,Marki,14,5
+178,Rzeszow,Jozefow nad Wisla,11,6
+179,Wiazow,Zgorzelec,12,7
+180,Polanow,Wegliniec,11,8
+181,Ledziny,Ciechanowiec,11,2
+182,Wisla,Ozimek,13,9
+183,Niemcza,Zwierzyniec,13,4
+184,Krobia,Biskupiec,11,2
+185,Nowa Sol,Murowana Goslina,14,9
+186,Strzegom,Slawa,11,7
+187,Praszka,Miedzyrzec Podlaski,11,5
+188,Czestochowa,Przedecz,10,2
+189,Nowy Dwor Mazowiecki,Lesna,11,3
+190,Wasosz,Nowa Slupia,11,3
+191,Radziejow,Belchatow,12,2
+192,Zwolen,Szepietowo,13,4
+193,Jozefow (powiat otwocki),Ropczyce,13,6
+194,Poreba,Czlopa,10,9
+195,Skawina,Torun,10,7
+196,Nowe Warpno,Lipiany,11,3
+197,Sokolow Malopolski,Chocz,10,6
+198,Kuznia Raciborska,Szczuczyn,11,4
+199,Zgierz,Golczewo,11,2
+200,Dobrodzien,Makow Podhalanski,11,5
+201,Bierutow,Drawsko Pomorskie,14,6
+202,Twardogora,Miroslawiec,12,7
+203,Siemiatycze,Kalwaria Zebrzydowska,11,3
+204,Poddebice,Biezun,14,9
+205,Leszno,Ilawa,10,5
+206,Mieroszow,Lipno,11,4
+207,Krosniewice,Krzepice,14,2
+208,Kety,Slawno,11,8
+209,Krajenka,Bisztynek,13,7
+210,Goniadz,Swieradow-Zdroj,14,5
+211,Busko-Zdroj,Chorzele,10,9
+212,Gliwice,Czeladz,14,8
+213,Klecko,Siemiatycze,10,8
+214,Jozefow nad Wisla,Osiek,13,3
+215,Niepolomice,Drawsko Pomorskie,13,3
+216,Gdynia,Knurow,10,3
+217,Ustrzyki Dolne,Ksiaz Wielkopolski,10,3
+218,Wodzislaw Slaski,Pakosc,11,5
+219,Lasin,Plonsk,14,4
+220,Wolczyn,Ciechanow,14,3
+221,Laziska Gorne,Zory,12,4
+222,Libiaz,Wyszkow,11,7
+223,Wolbrom,Wegorzyno,14,3
+224,Pszow,Pniewy,10,4
+225,Zagorow,Nowe Warpno,10,8
+226,Bobolice,Skarzysko-Kamienna,10,9
+227,Gora,Czeladz,11,2
+228,Rydultowy,Jozefow (powiat bilgorajski),14,9
+229,Strumien,Margonin,13,8
+230,Nowe Miasto Lubawskie,Lukow,10,6
+231,Krzywin,Zloczew,13,2
+232,Trzciel,Jaworzno,10,4
+233,Starachowice,Kleczew,11,3
+234,Kolobrzeg,Barwice,11,6
+235,Dobczyce,Mikolow,12,9
+236,Szczekociny,Krapkowice,14,8
+237,Bialystok,Tuczno,10,6
+238,Buk,Choszczno,10,9
+239,Radymno,Kleszczele,14,5
+240,Miejska Gorka,Radzionkow,10,8
+241,Nowe Miasto nad Pilica,Chojnice,10,6
+242,Slubice,Wolin,10,4
+243,Stepnica,Bychawa,10,9
+244,Wadowice,Brwinow,10,3
+245,Zabludow,Wojnicz,14,5
+246,Tolkmicko,Blaszki,13,4
+247,Sierpc,Sianow,14,9
+248,Annopol,Pilawa,11,6
+249,Lesna,Piechowice,13,6
+250,Jozefow (powiat bilgorajski),Szczucin,14,8
+251,Raciborz,Ostrorog,14,3
+252,Pszczyna,Wachock,13,7
+253,Pieniezno,Knyszyn,14,3
+254,Skwierzyna,Sedziszow,12,3
+255,Pleszew,Modliborzyce,13,2
+256,Brzesc Kujawski,Glinojeck,10,3
+257,Mielec,Gniezno,12,7
+258,Slomniki,Zator,14,9
+259,Dobrzany,Sompolno,13,3
+260,Rypin,Sedziszow,14,7
+261,Jastrzebie-Zdroj,Wyszkow,10,7
+262,Lasin,Lowicz,13,7
+263,Gostynin,Pyzdry,11,5
+264,Deblin,Grodzisk Wielkopolski,11,9
+265,Sieniawa,Czeladz,11,3
+266,Gorlice,Wiecbork,10,5
+267,Wielichowo,Raszkow,10,5
+268,Gabin,Makow Podhalanski,10,5
+269,Twardogora,Parczew,14,9
+270,Jozefow (powiat otwocki),Czarna Woda,10,3
+271,Wronki,Lipsk,11,4
+272,Kalwaria Zebrzydowska,Gorzow Wielkopolski,10,6
+273,Siemiatycze,Sejny,11,4
+274,Rozan,Przeclaw,12,9
+275,Nowy Korczyn,Jelenia Gora,10,4
+276,Barwice,Namyslow,10,8
+277,Debno,Glowno,13,2
+278,Sepolno Krajenskie,Nowa Ruda,14,3
+279,Ujscie,Nowogrodziec,12,8
+280,Chodecz,Chocz,14,3
+281,Sopot,Drzewica,13,8
+282,Nowa Slupia,Krobia,10,8
+283,Dobra (powiat turecki),Nowy Dwor Gdanski,13,8
+284,Nowy Staw,Goldap,14,6
+285,Proszkow,Krynica-Zdroj,10,7
+286,Monki,Opole Lubelskie,11,8
+287,Milicz,Koprzywnica,10,8
+288,Nowa Slupia,Brzozow,12,4
+289,Ostrow Mazowiecka,Dabrowa Gornicza,13,8
+290,Stalowa Wola,Bialystok,13,4
+291,Lezajsk,Brwinow,14,4
+292,Lublin,Rozan,14,8
+293,Janikowo,Libiaz,13,9
+294,Rawa Mazowiecka,Zakliczyn,14,9
+295,Ulanow,Zerkow,11,3
+296,Barlinek,Boleslawiec,12,9
+297,Skorcz,Czarna Bialostocka,11,3
+298,Sulmierzyce,Sosnicowice,13,6
+299,Bilgoraj,Rejowiec Fabryczny,11,3
+300,Dobczyce,Miedzyzdroje,11,4
+301,Hrubieszow,Zawichost,14,4
+302,Olesnica,Prudnik,13,2
+303,Zwolen,Jozefow (powiat otwocki),10,4
+304,Malomice,Leknica,13,4
+305,Zwierzyniec,Siemianowice Slaskie,11,8
+306,Kaluszyn,Sanok,11,7
+307,Wloszczowa,Paslek,10,2
+308,Nowogrod Bobrzanski,Tomaszow Mazowiecki,12,7
+309,Nowe Skalmierzyce,Myslowice,12,9
+310,Mosina,Miedzyrzec Podlaski,10,4
+311,Leknica,Trzebinia,13,2
+312,Chmielnik,Kanczuga,11,9
+313,Karczew,Starachowice,10,5
+314,Zlocieniec,Sulejowek,12,6
+315,Ruciane-Nida,Dobrodzien,14,6
+316,Aleksandrow Lodzki,Kalisz Pomorski,13,5
+317,Chocz,Twardogora,10,8
+318,Szczuczyn,Myslenice,10,7
+319,Bogatynia,Serock,10,5
+320,Kostrzyn nad Odra,Strzelce Opolskie,10,2
+321,Otwock,Gostyn,14,6
+322,Zawichost,Grodzisk Mazowiecki,13,3
+323,Ozimek,Polanica-Zdroj,13,3
+324,Mielno,Sokolow Podlaski,11,7
+325,Witkowo,Klodzko,10,3
+326,Wieliczka,Kcynia,11,4
+327,Wegorzyno,Wojcieszow,13,6
+328,Zakopane,Piaseczno,10,2
+329,Radom,Checiny,11,9
+330,Prusice,Mragowo,14,3
+331,Czerwinsk nad Wisla,Radymno,11,8
+332,Chocianow,Trzemeszno,12,6
+333,Iwonicz-Zdroj,Sulejow,12,4
+334,Miedzychod,Dobrzyca,13,6
+335,Slubice,Steszew,10,5
+336,Kunow,Zabludow,13,5
+337,Brzesc Kujawski,Przedecz,13,5
+338,Nieszawa,Ledziny,13,5
+339,Przemkow,Wasilkow,13,3
+340,Witkowo,Kolobrzeg,14,7
+341,Dabrowa Tarnowska,Szczyrk,13,2
+342,Stawiski,Gorzow Wielkopolski,14,4
+343,Starachowice,Gniewkowo,13,2
+344,Lublin,Piaski,11,3
+345,Chojnice,Byczyna,10,9
+346,Lagow,Pasym,10,2
+347,Kosow Lacki,Knyszyn,10,2
+348,Lesna,Pogorzela,11,3
+349,Otwock,Miedzyrzecz,12,6
+350,Janowiec Wielkopolski,Hajnowka,13,5
+351,Wegorzyno,Biala,10,3
+352,Tarnobrzeg,Niepolomice,10,7
+353,Krzanowice,Laskarzew,10,5
+354,Modliborzyce,Ujazd,10,6
+355,Choszczno,Walcz,12,3
+356,Ilawa,Leknica,11,6
+357,Trzcianka,Sejny,14,2
+358,Kety,Biecz,14,8
+359,Czchow,Rajgrod,14,5
+360,Krotoszyn,Dabie,13,5
+361,Kornik,Ciechanowiec,12,4
+362,Wolow,Libiaz,11,4
+363,Piechowice,Czerwinsk nad Wisla,14,5
+364,Lewin Brzeski,Ryki,14,9
+365,Dziwnow,Wroclaw,10,6
+366,Wasilkow,Brzeg,13,7
+367,Szamocin,Kalwaria Zebrzydowska,13,2
+368,Opole,Oleszyce,12,2
+369,Sulecin,Jaslo,13,9
+370,Ilza,Stepnica,13,4
+371,Kalisz Pomorski,Belzyce,13,4
+372,Prochowice,Lipiany,10,5
+373,Rudnik nad Sanem,Kunow,12,5
+374,Ciezkowice,Rejowiec Fabryczny,11,9
+375,Drzewica,Sulkowice,10,6
+376,Kowal,Krzywin,14,9
+377,Poniec,Janikowo,13,5
+378,Zelow,Borne Sulinowo,10,5
+379,Jedlicze,Rzeszow,10,4
+380,Wislica,Dobra (powiat lobeski),12,8
+381,Bilgoraj,Mragowo,11,4
+382,Zabno,Czarnkow,13,5
+383,Limanowa,Szubin,12,5
+384,Nowogard,Pakosc,14,3
+385,Swinoujscie,Lobzenica,14,2
+386,Toszek,Zwierzyniec,11,5
+387,Miedzyrzec Podlaski,Skoki,11,4
+388,Zary,Puck,13,8
+389,Sepopol,Brzesko,11,8
+390,Pruchnik,Grajewo,13,8
+391,Boguszow-Gorce,Polanica-Zdroj,12,2
+392,Parczew,Sokolow Podlaski,11,3
+393,Lubaczow,Bydgoszcz,12,5
+394,Pieniezno,Lesko,13,5
+395,Poddebice,Zagorow,14,2
+396,Strykow,Bielawa,11,4
+397,Lubraniec,Biecz,11,5
+398,Ksiaz Wielkopolski,Gluszyca,10,3
+399,Warta,Karlino,11,5
+400,Wieruszow,Swiecie,12,2
+401,Drezdenko,Wyrzysk,12,7
+402,Bojanowo,Kutno,13,2
+403,Czarna Bialostocka,Hel,12,6
+404,Kamien Pomorski,Raszkow,10,9
+405,Jedrzejow,Bialy Bor,11,7
+406,Ozimek,Olsztynek,10,5
+407,Wloclawek,Piotrkow Kujawski,10,4
+408,Lubawa,Kamien Pomorski,13,8
+409,Janowiec Wielkopolski,Zakliczyn,13,3
+410,Szczytno,Gubin,12,6
+411,Radomsko,Lesnica,13,5
+412,Stopnica,Szadek,10,3
+413,Margonin,Kamiensk,14,7
+414,Lublin,Glogow Malopolski,10,9
+415,Borek Wielkopolski,Prudnik,10,9
+416,Opatowek,Gostyn,10,5
+417,Brzesc Kujawski,Goscino,11,9
+418,Wrzesnia,Andrychow,11,3
+419,Bydgoszcz,Szadek,12,9
+420,Olecko,Warka,14,7
+421,Rozan,Rejowiec,13,7
+422,Lukow,Lowicz,14,6
+423,Radymno,Ropczyce,13,8
+424,Skierniewice,Jozefow (powiat bilgorajski),13,6
+425,Karpacz,Insko,10,7
+426,Ozarow Mazowiecki,Kowalewo Pomorskie,12,7
+427,Kozienice,Kornik,10,5
+428,Janikowo,Lochow,12,4
+429,Plonsk,Konin,10,4
+430,Barlinek,Wielichowo,12,4
+431,Dabrowa Bialostocka,Stepnica,13,2
+432,Koscian,Suchowola,11,8
+433,Drezdenko,Krosno Odrzanskie,13,8
+434,Kolonowskie,Lwowek Slaski,14,6
+435,Czarna Bialostocka,Piwniczna-Zdroj,12,2
+436,Trzcianka,Halinow,11,7
+437,Kolobrzeg,Kolno,11,6
+438,Jeziorany,Wabrzezno,14,8
+439,Daleszyce,Nieszawa,12,4
+440,Starachowice,Dynow,11,9
+441,Brwinow,Raciaz,12,6
+442,Kostrzyn nad Odra,Lesnica,12,5
+443,Otyn,Szczytna,13,9
+444,Drzewica,Gliwice,10,2
+445,Swieradow-Zdroj,Miastko,12,3
+446,Dobra (powiat turecki),Przasnysz,14,5
+447,Ostrorog,Skarszewy,12,3
+448,Niemodlin,Bialystok,11,9
+449,Debrzno,Siemianowice Slaskie,14,2
+450,Ilza,Swidnica,13,7
+451,Nowa Sarzyna,Kolonowskie,11,6
+452,Blonie,Miedzyzdroje,11,3
+453,Poniatowa,Goscino,12,5
+454,Nekla,Gizycko,12,2
+455,Rajgrod,Kamiensk,13,9
+456,Ozorkow,Starogard Gdanski,12,9
+457,Modliborzyce,Moryn,12,6
+458,Zawadzkie,Rydultowy,14,8
+459,Piaseczno,Knurow,14,2
+460,Jaraczewo,Wronki,10,3
+461,Swietochlowice,Reszel,10,6
+462,Konin,Rydzyna,14,6
+463,Wabrzezno,Szczyrk,12,7
+464,Turek,Chelm,11,5
+465,Konstancin-Jeziorna,Narol,11,6
+466,Olszyna,Kcynia,11,9
+467,Poreba,Zamosc,10,5
+468,Gozdnica,Olszyna,11,7
+469,Ilawa,Margonin,11,9
+470,Lubin,Otyn,11,3
+471,Ploty,Zagan,14,6
+472,Sedziszow Malopolski,Gabin,14,6
+473,Zawichost,Sztum,14,8
+474,Stargard,Monki,11,3
+475,Glogow Malopolski,Trzciel,14,7
+476,Wschowa,Zambrow,14,9
+477,Szczytno,Ciechanow,12,3
+478,Miechow,Swiebodzin,11,7
+479,Gorzow Slaski,Zawidow,14,9
+480,Nowy Wisnicz,Wagrowiec,12,8
+481,Ploty,Swiatniki Gorne,11,5
+482,Poddebice,Milicz,12,5
+483,Krzeszowice,Rumia,13,6
+484,Dobra (powiat lobeski),Chodziez,14,3
+485,Nowe Brzesko,Piekary Slaskie,10,5
+486,Pelczyce,Dynow,12,3
+487,Staszow,Jozefow (powiat otwocki),14,6
+488,Chelmza,Dzierzgon,12,4
+489,Piotrkow Trybunalski,Sulmierzyce,12,9
+490,Milanowek,Pultusk,12,4
+491,Nowa Sol,Barlinek,12,6
+492,Sieniawa,Stoczek Lukowski,11,9
+493,Zloty Stok,Opalenica,13,5
+494,Zamosc,Lomza,10,7
+495,Pszow,Bytow,13,3
+496,Gorzow Wielkopolski,Ledziny,12,5
+497,Wolczyn,Konstancin-Jeziorna,14,7
+498,Poreba,Imielin,13,9
+499,Alwernia,Zakliczyn,10,4
+500,Koszyce,Lezajsk,13,6
+501,Checiny,Wieruszow,13,4
+502,Mieszkowice,Zlocieniec,13,5
+503,Orzesze,Wislica,13,3
+504,Nowe Miasto Lubawskie,Trzebiatow,10,6
+505,Brzeziny,Chojna,11,8
+506,Krosno Odrzanskie,Grybow,12,3
+507,Bystrzyca Klodzka,Wisla,10,2
+508,Przemkow,Grodzisk Mazowiecki,10,5
+509,Wejherowo,Dzierzoniow,11,4
+510,Wasosz,Bielawa,10,2
+511,Glucholazy,Pyrzyce,14,4
+512,Legnica,Zator,12,3
+513,Pilica,Stoczek Lukowski,12,7
+514,Piechowice,Nowogrod,10,2
+515,Nowe Brzesko,Olsztynek,11,8
+516,Miedzyrzecz,Zakliczyn,14,9
+517,Bobolice,Polanica-Zdroj,11,7
+518,Dobrzany,Myslenice,12,4
+519,Rydzyna,Opatowek,11,4
+520,Mrocza,Rabka-Zdroj,12,7
+521,Bodzentyn,Olszyna,10,2
+522,Belzyce,Boleslawiec,12,9
+523,Annopol,Sulkowice,13,7
+524,Chojnow,Police,12,3
+525,Malogoszcz,Nieszawa,14,9
+526,Wielun,Bielsk Podlaski,13,9
+527,Pszow,Garwolin,11,3
+528,Zlotoryja,Zgierz,11,4
+529,Kolno,Zagorz,12,2
+530,Otwock,Morag,14,2
+531,Ulanow,Ostroleka,14,2
+532,Lesnica,Zagorz,12,5
+533,Kazimierz Dolny,Wachock,10,6
+534,Wiazow,Bilgoraj,14,9
+535,Koprzywnica,Osno Lubuskie,14,6
+536,Sroda Wielkopolska,Tyszowce,14,2
+537,Lublin,Pinczow,11,7
+538,Bedzin,Puszczykowo,11,7
+539,Siemianowice Slaskie,Swiebodzice,13,5
+540,Kalisz,Wojnicz,10,3
+541,Suchedniow,Ropczyce,14,8
+542,Brzesc Kujawski,Ryki,10,5
+543,Kozieglowy,Skarszewy,10,7
+544,Poddebice,Podkowa Lesna,10,9
+545,Jaworzno,Jaraczewo,14,8
+546,Nowe Miasto Lubawskie,Nowy Staw,14,2
+547,Swidwin,Kaluszyn,12,3
+548,Dabie,Lomza,14,8
+549,Drawsko Pomorskie,Czlopa,14,5
+550,Blazowa,Ploty,14,8
+551,Brzesko,Kolno,11,6
+552,Terespol,Mragowo,11,2
+553,Gorowo Ilaweckie,Sieradz,10,5
+554,Niemodlin,Korsze,10,3
+555,Milakowo,Ledziny,14,9
+556,Krzeszowice,Knurow,12,4
+557,Wieruszow,Radziejow,12,6
+558,Moryn,Miedzychod,11,8
+559,Jozefow (powiat otwocki),Tarnow,12,8
+560,Kazimierz Dolny,Aleksandrow Kujawski,13,8
+561,Gizycko,Zory,12,5
+562,Gubin,Kazimierz Dolny,14,6
+563,Goldap,Nysa,13,6
+564,Zlotow,Rabka-Zdroj,10,7
+565,Pulawy,Mogilno,12,6
+566,Dukla,Ostrzeszow,14,6
+567,Swierzawa,Zawidow,12,8
+568,Sycow,Nowe,10,2
+569,Nowogrod Bobrzanski,Brzeziny,14,6
+570,Nowa Ruda,Jeziorany,14,3
+571,Tuszyn,Stoczek Lukowski,14,3
+572,Wadowice,Jelenia Gora,11,9
+573,Alwernia,Myslowice,14,8
+574,Gostynin,Tarczyn,14,3
+575,Zawiercie,Makow Podhalanski,13,6
+576,Sieradz,Gorzow Wielkopolski,13,6
+577,Jawor,Obrzycko,10,8
+578,Kosow Lacki,Ryglice,12,2
+579,Tyczyn,Wieruszow,14,5
+580,Zabkowice Slaskie,Otmuchow,12,9
+581,Grajewo,Nowa Ruda,14,6
+582,Trzcinsko-Zdroj,Nowy Targ,12,5
+583,Nekla,Srem,10,4
+584,Biezun,Szczawno-Zdroj,14,8
+585,Dzialoszyce,Janikowo,14,8
+586,Poddebice,Narol,10,6
+587,Witkowo,Mieroszow,11,6
+588,Chrzanow,Strzegom,10,3
+589,Toszek,Krasnobrod,14,5
+590,Konskie,Dobiegniew,14,3
+591,Lomza,Brok,10,2
+592,Krzepice,Staporkow,10,9
+593,Witkowo,Bierun,13,7
+594,Krynica-Zdroj,Mogielnica,14,4
+595,Rozan,Jozefow (powiat bilgorajski),14,9
+596,Wyrzysk,Nasielsk,10,2
+597,Lezajsk,Swiatniki Gorne,10,5
+598,Nowa Ruda,Pionki,13,3
+599,Mogilno,Dabrowa Tarnowska,14,3
+600,Dobra (powiat turecki),Pruszkow,11,8
+601,Zagorz,Glucholazy,12,2
+602,Zukowo,Kolo,13,4
+603,Krapkowice,Krzepice,13,4
+604,Janikowo,Zdunska Wola,12,3
+605,Lochow,Bojanowo,11,4
+606,Chociwel,Blaszki,12,9
+607,Nowy Tomysl,Strzelno,12,3
+608,Dynow,Sulejowek,14,8
+609,Przedecz,Jaworzyna Slaska,10,3
+610,Gorowo Ilaweckie,Mielno,10,4
+611,Gliwice,Nowogrod,13,2
+612,Lubaczow,Prusice,12,7
+613,Swiatniki Gorne,Raszkow,13,3
+614,Osiek,Krobia,12,6
+615,Grudziadz,Chocianow,12,4
+616,Dobrzyn nad Wisla,Rypin,13,5
+617,Insko,Pakosc,11,5
+618,Dabie,Lipno,13,5
+619,Osiek,Ozimek,13,6
+620,Leknica,Ostrzeszow,13,4
+621,Glogowek,Szczekociny,14,9
+622,Grodkow,Ostrow Wielkopolski,12,3
+623,Dynow,Sochaczew,11,3
+624,Marki,Bierun,11,5
+625,Chrzanow,Barwice,12,8
+626,Janow Lubelski,Sanok,14,5
+627,Wabrzezno,Gryfino,11,5
+628,Slupsk,Miedzyrzec Podlaski,13,8
+629,Bialystok,Przemkow,11,6
+630,Pakosc,Ogrodzieniec,11,2
+631,Biezun,Laszczow,11,2
+632,Wlodawa,Karczew,13,7
+633,Koluszki,Reszel,12,2
+634,Janowiec Wielkopolski,Hrubieszow,12,8
+635,Malogoszcz,Leba,14,2
+636,Gniew,Myszkow,13,3
+637,Strzelce Krajenskie,Skarzysko-Kamienna,11,5
+638,Orzesze,Lezajsk,13,8
+639,Ujazd,Chelmek,12,4
+640,Marki,Zbaszyn,11,5
+641,Warka,Nowy Staw,14,2
+642,Wiazow,Radzyn Chelminski,11,8
+643,Dzialoszyn,Nowe Miasto nad Pilica,14,5
+644,Wisla,Myslowice,12,5
+645,Dabrowa Gornicza,Hajnowka,10,4
+646,Zary,Olszyna,12,6
+647,Oswiecim,Hel,11,7
+648,Izbica Kujawska,Zabrze,13,9
+649,Hrubieszow,Wasosz,12,3
+650,Raszkow,Skawina,10,5
+651,Nowa Sol,Walbrzych,12,8
+652,Olawa,Ruda Slaska,10,5
+653,Sokolow Malopolski,Nowe Warpno,14,5
+654,Susz,Wodzislaw Slaski,12,4
+655,Nidzica,Polczyn-Zdroj,11,6
+656,Raciborz,Mysliborz,13,5
+657,Gniew,Szczecin,10,7
+658,Chodziez,Suraz,12,5
+659,Stoczek Lukowski,Krakow,10,3
+660,Zelow,Slesin,11,9
+661,Sztum,Klecko,10,5
+662,Kruszwica,Rogozno,10,9
+663,Skorcz,Swiebodzice,13,5
+664,Sieniawa,Puszczykowo,10,5
+665,Czyzew,Tuchow,14,3
+666,Ploty,Wojcieszow,11,9
+667,Tarnow,Obrzycko,10,3
+668,Leknica,Karpacz,10,4
+669,Lask,Bytow,11,6
+670,Drzewica,Opalenica,13,9
+671,Wronki,Piensk,10,8
+672,Jasien,Dzialdowo,13,2
+673,Zawadzkie,Nowy Targ,10,9
+674,Malomice,Sulkowice,12,2
+675,Zawiercie,Szczyrk,13,2
+676,Jasien,Baranow Sandomierski,10,9
+677,Zgierz,Krobia,10,7
+678,Rejowiec,Alwernia,11,4
+679,Czechowice-Dziedzice,Reszel,10,2
+680,Ilza,Kolobrzeg,13,4
+681,Przedborz,Nowe Miasteczko,13,5
+682,Przeworsk,Jelcz-Laskowice,12,2
+683,Gryfice,Morawica,10,6
+684,Pyskowice,Wyrzysk,13,8
+685,Zaklikow,Glogow Malopolski,13,5
+686,Ostroda,Stawiski,14,9
+687,Rymanow,Pisz,14,7
+688,Szczebrzeszyn,Ilowa,11,6
+689,Gryfow Slaski,Dabrowa Gornicza,13,5
+690,Andrychow,Tluszcz,13,8
+691,Nisko,Darlowo,10,3
+692,Koprzywnica,Plock,10,2
+693,Grudziadz,Brusy,10,3
+694,Gabin,Prudnik,11,5
+695,Marki,Pilzno,12,8
+696,Chelmno,Poniatowa,11,2
+697,Gniew,Sobotka,12,8
+698,Ostrowiec Swietokrzyski,Kozuchow,14,7
+699,Wronki,Brzeszcze,14,8
+700,Cieszyn,Korfantow,13,4
+701,Swierzawa,Wolomin,13,5
+702,Opalenica,Insko,13,7
+703,Lochow,Radzyn Chelminski,12,4
+704,Wyszogrod,Nysa,10,3
+705,Cedynia,Ujscie,11,9
+706,Grojec,Bardo,13,6
+707,Pajeczno,Debrzno,10,8
+708,Ciechocinek,Strzelce Opolskie,14,4
+709,Szczawno-Zdroj,Okonek,12,8
+710,Drezdenko,Chelmek,14,5
+711,Debica,Pasym,13,3
+712,Wielichowo,Brzeg Dolny,12,7
+713,Sandomierz,Pyrzyce,12,5
+714,Ustrzyki Dolne,Lipiany,12,3
+715,Pilica,Kepice,11,9
+716,Recz,Mogilno,14,9
+717,Walcz,Glogow,10,3
+718,Cieszanow,Resko,13,7
+719,Krynki,Lukow,10,5
+720,Zlocieniec,Pacanow,11,2
+721,Police,Czchow,12,2
+722,Konstantynow Lodzki,Tuchola,11,8
+723,Tyczyn,Lwowek Slaski,12,8
+724,Miastko,Zmigrod,13,7
+725,Wyszogrod,Szczawno-Zdroj,13,4
+726,Sompolno,Staszow,14,5
+727,Nowa Ruda,Wolczyn,11,8
+728,Sulmierzyce,Lipno,10,7
+729,Miedzyrzec Podlaski,Milicz,11,6
+730,Czaplinek,Lidzbark,11,2
+731,Golub-Dobrzyn,Ostrowiec Swietokrzyski,12,4
+732,Sosnicowice,Bialogard,13,5
+733,Zlotoryja,Koluszki,13,8
+734,Glinojeck,Dobra (powiat lobeski),13,6
+735,Tolkmicko,Radzionkow,13,7
+736,Rudnik nad Sanem,Bialogard,10,9
+737,Szamotuly,Dobrzyca,13,4
+738,Drohiczyn,Bielawa,12,4
+739,Tarnowskie Gory,Police,11,3
+740,Bobowa,Prusice,11,3
+741,Mszczonow,Jelenia Gora,14,9
+742,Inowroclaw,Wolbrom,12,2
+743,Mieszkowice,Olesnica,14,7
+744,Krynica Morska,Daleszyce,13,6
+745,Krosno Odrzanskie,Tomaszow Mazowiecki,12,3
+746,Insko,Barlinek,12,4
+747,Tychowo,Nowe,14,4
+748,Tomaszow Mazowiecki,Katy Wroclawskie,13,2
+749,Morag,Brzostek,12,2
+750,Zychlin,Imielin,13,3
+751,Chojnow,Sanniki,10,7
+752,Blachownia,Darlowo,13,6
+753,Brzeg Dolny,Mikstat,13,4
+754,Wyszogrod,Rzepin,13,8
+755,Biskupiec,Koszyce,13,2
+756,Mlynary,Starachowice,14,6
+757,Ciechocinek,Orzysz,11,5
+758,Mielec,Buk,13,2
+759,Wolczyn,Sieniawa,12,9
+760,Legionowo,Karpacz,14,5
+761,Mikstat,Nowy Tomysl,13,2
+762,Skalbmierz,Szczawno-Zdroj,12,2
+763,Wysokie Mazowieckie,Dabrowa Tarnowska,14,2
+764,Klobuck,Zielona Gora,12,3
+765,Pobiedziska,Niepolomice,11,9
+766,Kock,Pelczyce,14,7
+767,Kolonowskie,Knurow,13,2
+768,Brusy,Ostrowiec Swietokrzyski,14,2
+769,Kosow Lacki,Brzeziny,12,8
+770,Myszyniec,Jedwabne,10,3
+771,Brzeg Dolny,Pajeczno,14,7
+772,Belchatow,Mragowo,11,3
+773,Dobra (powiat lobeski),Dolsk,12,7
+774,Sztum,Legionowo,11,6
+775,Barwice,Nieszawa,12,4
+776,Mordy,Puszczykowo,12,3
+777,Terespol,Katowice,10,2
+778,Tuczno,Radom,12,4
+779,Serock,Suprasl,14,5
+780,Krosniewice,Laziska Gorne,14,9
+781,Puszczykowo,Nowa Deba,10,8
+782,Drzewica,Piotrkow Kujawski,10,9
+783,Duszniki-Zdroj,Morag,11,5
+784,Strykow,Glucholazy,14,3
+785,Ozorkow,Wodzislaw Slaski,12,2
+786,Kozieglowy,Jaworzyna Slaska,10,8
+787,Warszawa,Kleczew,10,6
+788,Nowy Tomysl,Pszow,12,7
+789,Glogow Malopolski,Jaworzno,12,9
+790,Lesna,Hel,10,3
+791,Nidzica,Szydlowiec,14,7
+792,Pultusk,Pyrzyce,14,6
+793,Zychlin,Losice,14,2
+794,Nowa Sarzyna,Zarow,11,2
+795,Dziwnow,Oborniki Slaskie,11,2
+796,Kleszczele,Blaszki,11,8
+797,Nowa Ruda,Kock,12,8
+798,Sobotka,Babimost,11,9
+799,Michalowo,Bochnia,14,3
+800,Miedzyrzec Podlaski,Sedziszow,14,3
+801,Leknica,Kedzierzyn-Kozle,14,8
+802,Zloty Stok,Boleslawiec,12,6
+803,Krajenka,Daleszyce,10,5
+804,Grybow,Sulmierzyce,10,2
+805,Annopol,Izbica Kujawska,12,4
+806,Radzyn Podlaski,Pila,10,3
+807,Sandomierz,Nowy Wisnicz,11,6
+808,Radoszyce,Bodzentyn,11,2
+809,Tuszyn,Jaraczewo,12,2
+810,Pelczyce,Wloclawek,11,3
+811,Mysliborz,Opatowek,13,2
+812,Monki,Gniew,11,3
+813,Moryn,Zloczew,14,2
+814,Bialogard,Kamienna Gora,11,4
+815,Szubin,Lipsk,13,2
+816,Zagan,Drawsko Pomorskie,14,7
+817,Lobez,Knurow,14,2
+818,Rakoniewice,Radzymin,14,8
+819,Miastko,Morawica,10,8
+820,Biecz,Klobuck,14,5
+821,Tychy,Gizycko,10,8
+822,Sieradz,Wolborz,13,3
+823,Siechnice,Przeclaw,12,2
+824,Zawadzkie,Wielun,11,6
+825,Lesna,Oleszyce,12,4
+826,Czerwionka-Leszczyny,Boguchwala,13,6
+827,Bukowno,Krzepice,10,2
+828,Kudowa-Zdroj,Proszkow,11,3
+829,Jawor,Gdansk,14,8
+830,Zyrardow,Lubsko,12,3
+831,Lubon,Kielce,13,9
+832,Zloczew,Piaseczno,12,7
+833,Krotoszyn,Sucha Beskidzka,14,6
+834,Alwernia,Radzyn Chelminski,14,4
+835,Dzialoszyn,Krosniewice,12,8
+836,Ujscie,Skoki,11,6
+837,Niemodlin,Malogoszcz,11,5
+838,Kamiensk,Pieszyce,11,6
+839,Suchowola,Grybow,13,6
+840,Brusy,Trzebinia,11,2
+841,Jedwabne,Zlotow,12,5
+842,Grodzisk Wielkopolski,Pyskowice,12,7
+843,Suwalki,Golancz,10,8
+844,Pulawy,Zamosc,13,6
+845,Nowe Brzesko,Lubartow,13,7
+846,Debno,Lomza,14,8
+847,Ciechanowiec,Strzelce Opolskie,14,9
+848,Zaklikow,Debno,10,6
+849,Stawiszyn,Zielonka,14,5
+850,Trzemeszno,Nowe Brzesko,14,3
+851,Koscierzyna,Puszczykowo,11,7
+852,Busko-Zdroj,Swinoujscie,14,6
+853,Jaworzno,Nowe Miasteczko,11,2
+854,Lubon,Wronki,11,5
+855,Jeziorany,Lubawka,13,3
+856,Ryn,Wabrzezno,10,9
+857,Andrychow,Jaraczewo,13,2
+858,Trzcinsko-Zdroj,Monki,11,5
+859,Radomysl Wielki,Trzebnica,10,6
+860,Pierzchnica,Monki,14,2
+861,Radomysl Wielki,Nowe Miasteczko,11,7
+862,Ropczyce,Glinojeck,12,2
+863,Krajenka,Tuliszkow,10,8
+864,Radlin,Drobin,10,7
+865,Dobrzyn nad Wisla,Tulowice,14,5
+866,Wielen,Oswiecim,13,7
+867,Gluszyca,Szczuczyn,14,8
+868,Wloszczowa,Margonin,13,3
+869,Blazowa,Rabka-Zdroj,12,2
+870,Debrzno,Dobrzyn nad Wisla,13,2
+871,Lomza,Sanok,12,7
+872,Kosow Lacki,Nieszawa,13,9
+873,Bodzentyn,Lezajsk,10,8
+874,Strzelce Krajenskie,Dabrowa Bialostocka,13,3
+875,Dobrzany,Pultusk,11,3
+876,Lowicz,Andrychow,14,7
+877,Jedwabne,Glogow,11,4
+878,Busko-Zdroj,Kazimierz Dolny,14,6
+879,Piotrkow Trybunalski,Slesin,13,5
+880,Konstantynow Lodzki,Alwernia,12,7
+881,Rabka-Zdroj,Czerwionka-Leszczyny,11,7
+882,Debno,Nowe Brzesko,14,8
+883,Zwierzyniec,Bydgoszcz,14,3
+884,Miastko,Margonin,14,7
+885,Leba,Ostrorog,11,5
+886,Jaraczewo,Grodzisk Mazowiecki,13,9
+887,Wolczyn,Ozimek,13,4
+888,Ostrow Wielkopolski,Ostroleka,14,4
+889,Kowalewo Pomorskie,Kowal,13,6
+890,Ilza,Mogielnica,12,4
+891,Tuchola,Kepno,10,4
+892,Czarna Woda,Znin,10,4
+893,Sepolno Krajenskie,Krajenka,14,4
+894,Tyszowce,Borne Sulinowo,13,7
+895,Poreba,Koscierzyna,12,9
+896,Miasteczko Slaskie,Leczna,11,5
+897,Gniew,Wasosz,10,9
+898,Piekary Slaskie,Tarnow,11,8
+899,Dobrzany,Orzysz,10,6
+900,Myslowice,Swiatniki Gorne,11,8
+901,Dabrowa Tarnowska,Dobrzyn nad Wisla,14,6
+902,Gizycko,Radzyn Chelminski,10,8
+903,Tarnowskie Gory,Kamien Krajenski,14,7
+904,Szczytna,Bisztynek,11,3
+905,Zlotoryja,Jedlicze,14,4
+906,Mysliborz,Bogatynia,13,8
+907,Golczewo,Grojec,11,3
+908,Polaniec,Swiebodzice,10,3
+909,Sepopol,Debno,13,5
+910,Rzepin,Tuszyn,13,5
+911,Wieliczka,Wieruszow,12,5
+912,Ryki,Gniew,14,5
+913,Strykow,Szczytna,12,6
+914,Odolanow,Tarnowskie Gory,12,2
+915,Polaniec,Lubniewice,11,6
+916,Swieradow-Zdroj,Trzciel,10,8
+917,Mieroszow,Zlotow,10,4
+918,Aleksandrow Kujawski,Aleksandrow Lodzki,11,2
+919,Wysokie Mazowieckie,Sobotka,13,8
+920,Bolkow,Dobra (powiat turecki),12,5
+921,Szczawnica,Jelenia Gora,13,5
+922,Krynki,Proszowice,10,9
+923,Wyszogrod,Czaplinek,11,4
+924,Kalety,Piotrkow Kujawski,12,8
+925,Gniezno,Dabie,13,9
+926,Zarki,Leczna,11,5
+927,Slawkow,Czarna Bialostocka,10,4
+928,Checiny,Trzcianka,13,9
+929,Grodkow,Poniec,11,4
+930,Dukla,Tykocin,11,4
+931,Zawidow,Bialobrzegi,13,7
+932,Kutno,Paslek,12,2
+933,Zagorz,Wegorzyno,13,8
+934,Pilica,Pieszyce,11,2
+935,Sieniawa,Kietrz,11,6
+936,Kobylin,Dobra (powiat lobeski),10,9
+937,Wojkowice,Myslenice,10,7
+938,Ostrowiec Swietokrzyski,Ketrzyn,10,9
+939,Cieszyn,Lipno,12,5
+940,Nowe Miasto nad Pilica,Wolbrom,12,8
+941,Krobia,Nowogrodziec,13,2
+942,Augustow,Bytom,14,4
+943,Wiazow,Dabrowa Gornicza,12,4
+944,Glowno,Zwierzyniec,14,3
+945,Chociwel,Wrzesnia,13,2
+946,Nowa Sarzyna,Szczytno,13,2
+947,Plock,Mielec,13,6
+948,Opatow,Pila,11,9
+949,Piotrkow Trybunalski,Tyczyn,10,7
+950,Niepolomice,Odolanow,11,6
+951,Gostynin,Lubycza Krolewska,13,5
+952,Niemcza,Gabin,13,4
+953,Chociwel,Dynow,10,8
+954,Deblin,Jedlicze,12,7
+955,Zychlin,Brwinow,12,7
+956,Konstancin-Jeziorna,Leczyca,13,7
+957,Cieszanow,Darlowo,11,8
+958,Pasym,Klecko,14,5
+959,Strzegom,Klodawa,13,3
+960,Blazowa,Malbork,10,2
+961,Osiek,Brwinow,10,5
+962,Mordy,Mikolajki,12,6
+963,Wysokie Mazowieckie,Stalowa Wola,13,4
+964,Wolbrom,Bransk,11,3
+965,Mragowo,Kobylin,11,7
+966,Krasnystaw,Lubliniec,12,9
+967,Zduny,Czerwinsk nad Wisla,10,4
+968,Klimontow,Szczyrk,12,2
+969,Hrubieszow,Ostroleka,11,8
+970,Andrychow,Oleszyce,10,3
+971,Biala Piska,Mordy,10,8
+972,Bychawa,Czchow,12,2
+973,Lesko,Tolkmicko,12,2
+974,Ostroda,Susz,11,3
+975,Malbork,Strzegom,14,9
+976,Miastko,Szlichtyngowa,11,5
+977,Siemiatycze,Jelenia Gora,14,6
+978,Blazowa,Sycow,11,6
+979,Gostynin,Pinczow,11,6
+980,Debica,Ruda Slaska,14,2
+981,Zduny,Zagorz,11,9
+982,Bychawa,Czestochowa,11,3
+983,Kalety,Susz,12,4
+984,Gogolin,Srem,14,9
+985,Lobez,Witkowo,11,7
+986,Lubomierz,Zbaszyn,10,6
+987,Bransk,Rydzyna,13,7
+988,Bytom Odrzanski,Kobylka,12,4
+989,Czerwinsk nad Wisla,Nasielsk,11,2
+990,Jaslo,Kozieglowy,14,4
+991,Byczyna,Tuchola,14,8
+992,Proszowice,Grodkow,13,7
+993,Resko,Bilgoraj,10,7
+994,Przasnysz,Lochow,14,8
+995,Checiny,Uniejow,11,3
+996,Wieliczka,Glogowek,11,2
+997,Czarna Bialostocka,Swiecie,12,3
+998,Gubin,Biala Rawska,11,3
+999,Lochow,Wasosz,10,5
+1000,Halinow,Jaworzyna Slaska,14,2
+1001,Krynki,Oswiecim,12,8
+1002,Bisztynek,Malogoszcz,10,7
+1003,Grojec,Dobrzyn nad Wisla,10,4
+1004,Wysmierzyce,Wrzesnia,10,3
+1005,Zabki,Brzozow,14,2
+1006,Swidwin,Wojcieszow,11,6
+1007,Krobia,Slubice,14,4
+1008,Rzeszow,Leknica,12,7
+1009,Kcynia,Rychwal,13,2
+1010,Kalwaria Zebrzydowska,Olecko,11,3
+1011,Wiecbork,Korfantow,14,3
+1012,Gorzno,Ciechanowiec,14,5
+1013,Modliborzyce,Wlen,14,2
+1014,Gorzno,Bisztynek,12,6
+1015,Wolsztyn,Czlopa,11,8
+1016,Chojnow,Wrzesnia,11,4
+1017,Miasteczko Slaskie,Zabki,10,8
+1018,Stopnica,Swarzedz,11,6
+1019,Nowe Skalmierzyce,Reda,14,7
+1020,Czeladz,Lochow,14,3
+1021,Kozieglowy,Radlow,10,9
+1022,Ogrodzieniec,Bolkow,12,9
+1023,Goleniow,Sedziszow Malopolski,13,8
+1024,Piaski,Bielsk Podlaski,13,5
+1025,Srem,Bedzin,14,8
+1026,Bisztynek,Pszczyna,12,9
+1027,Przeclaw,Koszalin,10,7
+1028,Hel,Bobowa,14,4
+1029,Przeworsk,Ciechocinek,11,5
+1030,Czlopa,Gliwice,12,7
+1031,Imielin,Oborniki,12,4
+1032,Halinow,Nowe Miasto nad Pilica,11,8
+1033,Gora,Belchatow,10,4
+1034,Radzionkow,Pisz,11,9
+1035,Lowicz,Malbork,14,9
+1036,Przeclaw,Ostrowiec Swietokrzyski,12,9
+1037,Korfantow,Zary,12,4
+1038,Kepice,Piatek,13,5
+1039,Lobez,Olesno,10,6
+1040,Gorowo Ilaweckie,Sosnicowice,11,5
+1041,Jedlina-Zdroj,Wysmierzyce,11,8
+1042,Kisielice,Dobrzany,12,5
+1043,Skarszewy,Korsze,11,9
+1044,Sulmierzyce,Zlocieniec,10,8
+1045,Ploty,Tomaszow Lubelski,12,4
+1046,Wyrzysk,Miastko,13,2
+1047,Barczewo,Kobylka,10,7
+1048,Jozefow (powiat otwocki),Szczecinek,13,7
+1049,Koluszki,Rozan,14,9
+1050,Dobrodzien,Jedrzejow,11,6
+1051,Radzymin,Solec Kujawski,14,9
+1052,Poniatowa,Sztum,11,5
+1053,Wachock,Lubraniec,12,5
+1054,Muszyna,Gorlice,13,6
+1055,Gorzow Slaski,Lipsk,10,7
+1056,Brzeg,Margonin,11,9
+1057,Ostrow Wielkopolski,Koszalin,14,2
+1058,Skarszewy,Przedborz,14,5
+1059,Sulkowice,Suraz,13,9
+1060,Lidzbark Warminski,Wielichowo,10,6
+1061,Tykocin,Pruszcz Gdanski,13,2
+1062,Kamiensk,Opole Lubelskie,10,2
+1063,Parczew,Zuromin,12,7
+1064,Bialobrzegi,Radymno,11,7
+1065,Piaseczno,Dobrzyca,12,7
+1066,Blachownia,Ilowa,11,3
+1067,Suprasl,Brzesc Kujawski,14,3
+1068,Imielin,Gorzno,12,4
+1069,Leknica,Wolin,13,8
+1070,Blachownia,Nowogrod Bobrzanski,10,5
+1071,Ozorkow,Kutno,13,5
+1072,Pilawa Gorna,Bychawa,10,6
+1073,Nowy Dwor Gdanski,Zdunska Wola,12,9
+1074,Ozorkow,Chocianow,10,2
+1075,Nieszawa,Wegorzyno,11,9
+1076,Zelow,Pogorzela,14,4
+1077,Radkow,Brusy,12,9
+1078,Rydzyna,Kleczew,14,2
+1079,Poniec,Dobre Miasto,14,3
+1080,Szydlowiec,Golczewo,12,7
+1081,Radzionkow,Piotrkow Trybunalski,12,5
+1082,Wysokie Mazowieckie,Kalwaria Zebrzydowska,12,6
+1083,Krasnobrod,Miejska Gorka,12,5
+1084,Nowy Dwor Gdanski,Kazimierz Dolny,13,2
+1085,Muszyna,Mielno,11,7
+1086,Czchow,Ciechanow,13,4
+1087,Osieczna,Gozdnica,11,5
+1088,Suchedniow,Wegorzyno,11,7
+1089,Pila,Dukla,13,4
+1090,Jozefow nad Wisla,Warta,13,3
+1091,Bielawa,Kolo,14,9
+1092,Pacanow,Milomlyn,10,6
+1093,Swinoujscie,Lobzenica,12,8
+1094,Tomaszow Lubelski,Tuchola,13,7
+1095,Miedzylesie,Nowy Dwor Mazowiecki,12,6
+1096,Morawica,Pieszyce,12,4
+1097,Lubsko,Strzelin,13,8
+1098,Nowy Tomysl,Zloty Stok,12,2
+1099,Czarna Bialostocka,Jablonowo Pomorskie,13,4
+1100,Darlowo,Lidzbark,12,9
+1101,Nowy Korczyn,Ciechanow,14,5
+1102,Chocianow,Odolanow,11,9
+1103,Pelplin,Sulkowice,14,3
+1104,Przedborz,Myszyniec,12,5
+1105,Staszow,Mragowo,10,2
+1106,Wojnicz,Brwinow,13,7
+1107,Wlodawa,Ustrzyki Dolne,12,4
+1108,Ruciane-Nida,Rawa Mazowiecka,14,7
+1109,Wolomin,Sulmierzyce,10,6
+1110,Brzeszcze,Czarna Woda,10,8
+1111,Proszowice,Swidwin,11,7
+1112,Lubliniec,Rudnik nad Sanem,13,7
+1113,Suchan,Czechowice-Dziedzice,12,5
+1114,Tyszowce,Nowy Staw,10,9
+1115,Ladek-Zdroj,Laziska Gorne,12,3
+1116,Rawa Mazowiecka,Lidzbark Warminski,14,6
+1117,Solec Kujawski,Zabkowice Slaskie,12,2
+1118,Olesnica,Lasin,11,5
+1119,Lubniewice,Kazimierz Dolny,14,6
+1120,Ozarow,Brzesc Kujawski,10,9
+1121,Wlodawa,Zabludow,14,7
+1122,Polaniec,Bielsko-Biala,12,8
+1123,Rypin,Grudziadz,13,6
+1124,Tarczyn,Lesna,13,6
+1125,Ruda Slaska,Nowa Deba,11,2
+1126,Radom,Kietrz,10,7
+1127,Slawkow,Moryn,14,8
+1128,Pszow,Pilzno,14,9
+1129,Ilawa,Golina,12,5
+1130,Krynica Morska,Kolobrzeg,12,8
+1131,Piensk,Stoczek Lukowski,12,5
+1132,Kozieglowy,Warta,14,8
+1133,Wodzislaw Slaski,Steszew,13,2
+1134,Lewin Brzeski,Jedrzejow,10,6
+1135,Blazowa,Szepietowo,14,5
+1136,Szczytno,Gorowo Ilaweckie,10,9
+1137,Czarna Bialostocka,Przasnysz,13,4
+1138,Staszow,Krapkowice,13,6
+1139,Swiebodzice,Chojnow,10,2
+1140,Swiecie,Drohiczyn,11,4
+1141,Chelmno,Orzysz,14,9
+1142,Bogatynia,Mogilno,10,5
+1143,Szlichtyngowa,Sztum,12,4
+1144,Wlodawa,Wojcieszow,10,6
+1145,Olsztynek,Nowe Miasto nad Pilica,13,3
+1146,Milomlyn,Czerwinsk nad Wisla,14,7
+1147,Radkow,Olecko,12,7
+1148,Kolbuszowa,Jaroslaw,13,8
+1149,Ostrzeszow,Sokolow Podlaski,12,2
+1150,Witkowo,Gniezno,13,7
+1151,Kepice,Barczewo,14,8
+1152,Rajgrod,Sepopol,14,9
+1153,Kluczbork,Glubczyce,10,7
+1154,Sztum,Warka,11,9
+1155,Puszczykowo,Pszow,11,2
+1156,Babimost,Goleniow,13,6
+1157,Zbaszynek,Lobzenica,14,7
+1158,Zabkowice Slaskie,Sandomierz,10,6
+1159,Chmielnik,Czeladz,11,5
+1160,Borek Wielkopolski,Przedecz,10,2
+1161,Minsk Mazowiecki,Maszewo,10,9
+1162,Brzeziny,Daleszyce,11,5
+1163,Czarna Bialostocka,Jordanow,11,6
+1164,Swiebodzice,Swietochlowice,14,4
+1165,Mogielnica,Gorzno,11,9
+1166,Zduny,Nowa Deba,14,9
+1167,Raszkow,Prudnik,14,8
+1168,Niemodlin,Lipiany,10,5
+1169,Orneta,Krajenka,14,2
+1170,Bardo,Jaroslaw,11,4
+1171,Jaworzno,Raciaz,14,9
+1172,Rzeszow,Rybnik,10,7
+1173,Miedzyrzecz,Krzeszowice,13,6
+1174,Rawicz,Pinczow,10,7
+1175,Luban,Piensk,14,9
+1176,Pilawa Gorna,Miloslaw,12,9
+1177,Slesin,Gabin,12,6
+1178,Krasnik,Lowicz,12,5
+1179,Zakliczyn,Drobin,13,4
+1180,Orzysz,Trzciel,10,3
+1181,Sosnowiec,Lewin Brzeski,12,6
+1182,Chelmza,Jaroslaw,10,8
+1183,Rydzyna,Gorzno,14,9
+1184,Sosnowiec,Pyzdry,12,6
+1185,Kargowa,Nowe Miasto nad Pilica,14,8
+1186,Lapy,Chelm,10,9
+1187,Grodzisk Mazowiecki,Slubice,10,2
+1188,Deblin,Tolkmicko,14,4
+1189,Biala,Knurow,13,7
+1190,Miedzylesie,Sulejow,12,7
+1191,Strzyzow,Koscian,12,6
+1192,Czluchow,Annopol,13,3
+1193,Czechowice-Dziedzice,Strzelce Opolskie,11,3
+1194,Biala Podlaska,Wolow,14,9
+1195,Polczyn-Zdroj,Police,13,9
+1196,Lubraniec,Rejowiec Fabryczny,12,5
+1197,Kobylin,Zlotow,11,7
+1198,Kalisz Pomorski,Wasosz,10,8
+1199,Orzysz,Szprotawa,11,9
+1200,Makow Podhalanski,Czlopa,13,7
+1201,Wadowice,Lublin,12,2
+1202,Wroclaw,Halinow,12,6
+1203,Tychy,Baranow Sandomierski,12,8
+1204,Pilawa,Imielin,13,5
+1205,Miedzylesie,Nowa Slupia,10,8
+1206,Belzyce,Opalenica,12,5
+1207,Pilica,Grodkow,14,4
+1208,Goleniow,Rajgrod,10,7
+1209,Strykow,Skarzysko-Kamienna,13,7
+1210,Osiek,Olszyna,11,3
+1211,Zakliczyn,Lesna,10,7
+1212,Dobrzany,Grudziadz,14,6
+1213,Swierzawa,Czerwinsk nad Wisla,14,6
+1214,Ksiaz Wielkopolski,Drohiczyn,12,4
+1215,Libiaz,Szczawnica,12,7
+1216,Babimost,Proszkow,13,3
+1217,Ozimek,Bydgoszcz,10,2
+1218,Gostynin,Bedzin,14,8
+1219,Gorzno,Ujazd,14,8
+1220,Tomaszow Mazowiecki,Zielona Gora,11,8
+1221,Szczawno-Zdroj,Lasin,11,2
+1222,Lapy,Wlodawa,14,4
+1223,Wloclawek,Ziebice,12,6
+1224,Bedzin,Wyszogrod,14,3
+1225,Zarki,Bielawa,11,3
+1226,Twardogora,Slupca,10,5
+1227,Buk,Skawina,10,6
+1228,Sulejow,Przedborz,13,3
+1229,Szydlow,Dynow,12,7
+1230,Sulejowek,Zukowo,11,5
+1231,Nowogrod,Sedziszow,14,9
+1232,Pruszkow,Rawicz,10,2
+1233,Warta,Koniecpol,11,3
+1234,Muszyna,Bisztynek,10,3
+1235,Zagorow,Kleszczele,10,8
+1236,Chelmza,Brzeg Dolny,10,8
+1237,Rydultowy,Otwock,13,3
+1238,Szczecin,Mogilno,12,3
+1239,Czersk,Deblin,10,8
+1240,Kamien Pomorski,Zelechow,10,2
+1241,Ostroleka,Kedzierzyn-Kozle,10,3
+1242,Wadowice,Raciaz,12,3
+1243,Krotoszyn,Insko,14,7
+1244,Parczew,Tyszowce,13,7
+1245,Maszewo,Wejherowo,13,3
+1246,Legionowo,Pisz,10,8
+1247,Bielsk Podlaski,Pilawa Gorna,12,7
+1248,Mszana Dolna,Jablonowo Pomorskie,12,7
+1249,Kamienna Gora,Mlynary,12,6
+1250,Kobylka,Gryfino,10,2
+1251,Olsztynek,Skoki,12,6
+1252,Bielawa,Jastrzebie-Zdroj,12,3
+1253,Ujazd,Kosow Lacki,14,3
+1254,Dzierzoniow,Tomaszow Lubelski,13,4
+1255,Zakliczyn,Ogrodzieniec,12,4
+1256,Lubliniec,Sepopol,10,7
+1257,Kolonowskie,Strzelno,12,6
+1258,Piaseczno,Plock,11,4
+1259,Bukowno,Bielsk Podlaski,11,8
+1260,Legnica,Czlopa,12,4
+1261,Chelmno,Raszkow,13,3
+1262,Zabkowice Slaskie,Niemodlin,14,6
+1263,Brzozow,Krzeszowice,14,5
+1264,Skoki,Bierun,14,7
+1265,Lapy,Olesno,14,6
+1266,Zwierzyniec,Skalbmierz,12,6
+1267,Gniewkowo,Olecko,14,2
+1268,Chorzele,Jutrosin,11,4
+1269,Nowe Miasto nad Pilica,Chmielnik,10,4
+1270,Wolin,Dzialdowo,12,7
+1271,Lapy,Krajenka,14,5
+1272,Lubien Kujawski,Jaworzyna Slaska,14,2
+1273,Gora Kalwaria,Proszkow,11,5
+1274,Opatowek,Lubon,13,8
+1275,Zakroczym,Tuszyn,12,7
+1276,Kock,Brok,10,4
+1277,Pionki,Reszel,12,8
+1278,Zelechow,Gorlice,10,4
+1279,Gryfow Slaski,Slawno,10,4
+1280,Ustron,Hrubieszow,14,4
+1281,Rozan,Brzesc Kujawski,10,3
+1282,Rydultowy,Milicz,12,6
+1283,Namyslow,Wegorzyno,11,4
+1284,Pieszyce,Szczebrzeszyn,12,3
+1285,Golina,Jaraczewo,11,5
+1286,Kobylin,Ujazd,13,8
+1287,Pyskowice,Gryfice,14,4
+1288,Warka,Swiatniki Gorne,13,2
+1289,Sianow,Czerwiensk,14,8
+1290,Sosnicowice,Miroslawiec,10,7
+1291,Prochowice,Lipiany,14,5
+1292,Proszkow,Muszyna,10,6
+1293,Gorlice,Ilowa,12,8
+1294,Koprzywnica,Brzostek,10,3
+1295,Otyn,Klimontow,11,8
+1296,Bialogard,Opole Lubelskie,14,9
+1297,Ryki,Witnica,10,6
+1298,Piwniczna-Zdroj,Ilza,13,7
+1299,Stargard,Swinoujscie,12,7
+1300,Monki,Puszczykowo,10,5
+1301,Pultusk,Borne Sulinowo,12,4
+1302,Pelplin,Ostrorog,13,9
+1303,Mysliborz,Bierun,13,8
+1304,Stargard,Daleszyce,12,5
+1305,Strzegom,Kargowa,13,3
+1306,Lewin Brzeski,Lipsk,10,8
+1307,Solec Kujawski,Czaplinek,10,5
+1308,Gniewkowo,Swinoujscie,12,4
+1309,Szczytna,Nowy Dwor Mazowiecki,13,6
+1310,Tczew,Nisko,11,7
+1311,Piotrkow Trybunalski,Kolonowskie,11,7
+1312,Lapy,Gdynia,13,5
+1313,Jelcz-Laskowice,Lebork,14,3
+1314,Ryn,Rydzyna,12,8
+1315,Baborow,Parczew,12,2
+1316,Sulejow,Nowe Miasteczko,14,9
+1317,Wagrowiec,Poznan,14,7
+1318,Ziebice,Drawsko Pomorskie,10,3
+1319,Stawiski,Przysucha,11,2
+1320,Mszana Dolna,Stawiski,10,4
+1321,Bodzentyn,Zielonka,10,7
+1322,Borek Wielkopolski,Trzcianka,10,3
+1323,Kostrzyn,Walbrzych,12,6
+1324,Rypin,Pruszkow,14,6
+1325,Opoczno,Sulejow,11,3
+1326,Lobzenica,Kamienna Gora,13,8
+1327,Sosnowiec,Janikowo,10,2
+1328,Choroszcz,Cieszanow,12,4
+1329,Duszniki-Zdroj,Pasym,12,5
+1330,Strzegom,Sierakow,11,5
+1331,Gabin,Swiecie,12,9
+1332,Barcin,Bochnia,13,2
+1333,Lodz,Krzywin,12,7
+1334,Ilawa,Skawina,14,7
+1335,Osieczna,Twardogora,14,4
+1336,Nowy Sacz,Drobin,13,5
+1337,Milicz,Miasteczko Slaskie,10,5
+1338,Skarzysko-Kamienna,Biskupiec,12,9
+1339,Sieniawa,Zagan,14,7
+1340,Piaseczno,Jordanow,12,3
+1341,Kleszczele,Zabkowice Slaskie,14,6
+1342,Starogard Gdanski,Losice,14,2
+1343,Golczewo,Sepolno Krajenskie,10,4
+1344,Rabka-Zdroj,Naklo nad Notecia,14,5
+1345,Gabin,Ilawa,12,8
+1346,Miasteczko Slaskie,Slawno,13,6
+1347,Tychowo,Ploty,14,6
+1348,Poreba,Muszyna,11,7
+1349,Olsztynek,Srem,14,5
+1350,Radzyn Podlaski,Karpacz,10,4
+1351,Radlow,Bisztynek,10,8
+1352,Jelcz-Laskowice,Czerniejewo,14,8
+1353,Nowe Miasto nad Pilica,Skawina,10,3
+1354,Krzepice,Warszawa,10,9
+1355,Trzebiatow,Radymno,13,4
+1356,Lututow,Koniecpol,11,3
+1357,Marki,Walbrzych,12,2
+1358,Borne Sulinowo,Ilowa,12,6
+1359,Leczna,Mragowo,14,8
+1360,Sokolow Podlaski,Stronie Slaskie,10,3
+1361,Siemianowice Slaskie,Olszyna,13,9
+1362,Lubomierz,Dabrowa Gornicza,14,9
+1363,Nowa Deba,Myszkow,13,2
+1364,Nowe,Stary Sacz,12,5
+1365,Miroslawiec,Grojec,12,4
+1366,Raciborz,Insko,14,7
+1367,Belzyce,Karczew,12,9
+1368,Grudziadz,Braniewo,14,6
+1369,Ryki,Sulkowice,13,5
+1370,Wyszogrod,Trzebinia,14,4
+1371,Plonsk,Bochnia,13,5
+1372,Suchowola,Nowe,13,5
+1373,Losice,Strumien,12,8
+1374,Bielawa,Zagorz,12,9
+1375,Lagow,Malbork,10,2
+1376,Daleszyce,Gryfow Slaski,14,2
+1377,Rajgrod,Klodzko,13,8
+1378,Pilzno,Nisko,12,4
+1379,Rabka-Zdroj,Zagorz,13,2
+1380,Gorzow Wielkopolski,Zator,13,2
+1381,Dobczyce,Rzepin,13,2
+1382,Krzywin,Polanow,13,9
+1383,Wojcieszow,Kozmin Wielkopolski,10,4
+1384,Dzierzgon,Rawa Mazowiecka,11,3
+1385,Blazowa,Grudziadz,12,4
+1386,Czerwinsk nad Wisla,Dabrowa Gornicza,12,5
+1387,Nasielsk,Pionki,10,7
+1388,Kalisz,Nowe Warpno,10,3
+1389,Raciborz,Solec Kujawski,14,7
+1390,Wielen,Dzierzoniow,11,5
+1391,Opole,Swierzawa,11,3
+1392,Plock,Chojnice,11,4
+1393,Slawno,Sucha Beskidzka,11,2
+1394,Wlodawa,Bielsko-Biala,13,9
+1395,Milomlyn,Drobin,12,6
+1396,Swinoujscie,Kamien Pomorski,10,4
+1397,Puck,Ciezkowice,14,8
+1398,Szadek,Skierniewice,11,4
+1399,Szprotawa,Glubczyce,14,4
+1400,Konin,Boleslawiec,11,9
+1401,Tarnobrzeg,Biala Piska,10,9
+1402,Kolonowskie,Buk,10,4
+1403,Tarnobrzeg,Krobia,13,8
+1404,Pszczyna,Blazowa,11,4
+1405,Kepice,Paczkow,11,7
+1406,Tarczyn,Walbrzych,11,5
+1407,Zalewo,Staporkow,12,8
+1408,Morag,Oleszyce,14,7
+1409,Wojkowice,Pelczyce,13,2
+1410,Przeworsk,Wloclawek,13,8
+1411,Pinczow,Milakowo,10,4
+1412,Nowy Korczyn,Orneta,14,3
+1413,Golina,Lowicz,12,4
+1414,Paczkow,Rakoniewice,14,7
+1415,Lubien Kujawski,Sepolno Krajenskie,14,8
+1416,Zlotoryja,Kalwaria Zebrzydowska,14,5
+1417,Kowalewo Pomorskie,Zloty Stok,12,3
+1418,Polkowice,Jarocin,13,6
+1419,Tarnow,Myszyniec,13,5
+1420,Grybow,Gniezno,12,8
+1421,Czerwiensk,Wegrow,10,7
+1422,Barlinek,Ryn,14,7
+1423,Proszkow,Kluczbork,12,7
+1424,Polaniec,Czlopa,13,7
+1425,Krzeszowice,Rawa Mazowiecka,10,7
+1426,Wolbrom,Zagan,12,3
+1427,Klimontow,Czarna Woda,11,7
+1428,Gora,Stopnica,10,9
+1429,Mikolajki,Kazimierz Dolny,11,9
+1430,Swidnik,Baborow,10,5
+1431,Zawidow,Annopol,13,6
+1432,Wodzislaw Slaski,Zamosc,12,9
+1433,Olesnica,Obrzycko,10,9
+1434,Zabrze,Leczna,14,4
+1435,Glowno,Lancut,12,2
+1436,Swiebodzin,Piastow,11,3
+1437,Brok,Morawica,14,6
+1438,Olawa,Milicz,14,9
+1439,Zabludow,Bobolice,14,5
+1440,Klecko,Aleksandrow Kujawski,14,6
+1441,Sopot,Lubawa,13,8
+1442,Opole,Tarnowskie Gory,14,6
+1443,Luban,Lask,14,7
+1444,Grybow,Rumia,13,7
+1445,Strzyzow,Bardo,11,2
+1446,Oborniki,Koprzywnica,11,8
+1447,Wabrzezno,Starachowice,12,8
+1448,Chorzow,Recz,14,3
+1449,Krzywin,Bielawa,14,8
+1450,Szamotuly,Lipiany,14,7
+1451,Wachock,Trzciel,13,6
+1452,Ciechanowiec,Kock,11,2
+1453,Bytom Odrzanski,Imielin,12,4
+1454,Pelplin,Bialobrzegi,10,8
+1455,Rzeszow,Siewierz,13,2
+1456,Michalowo,Bydgoszcz,10,3
+1457,Skarszewy,Bojanowo,10,2
+1458,Zaklikow,Zawiercie,10,7
+1459,Bogatynia,Janow Lubelski,12,7
+1460,Drawno,Kanczuga,11,9
+1461,Stawiszyn,Malogoszcz,10,6
+1462,Wysokie Mazowieckie,Szepietowo,13,2
+1463,Janikowo,Staszow,12,6
+1464,Gubin,Bystrzyca Klodzka,12,4
+1465,Czlopa,Baranow Sandomierski,10,8
+1466,Szubin,Pyrzyce,10,5
+1467,Slubice,Ujscie,12,3
+1468,Ustron,Slupsk,10,9
+1469,Ilowa,Kazimierz Dolny,13,9
+1470,Ryn,Piaseczno,13,3
+1471,Nieszawa,Slesin,14,2
+1472,Olszyna,Augustow,10,6
+1473,Terespol,Sosnicowice,11,2
+1474,Krynica-Zdroj,Glubczyce,12,5
+1475,Bukowno,Sokolow Podlaski,12,7
+1476,Chodecz,Ustrzyki Dolne,14,2
+1477,Wolsztyn,Drezdenko,11,6
+1478,Ustron,Checiny,11,2
+1479,Rejowiec Fabryczny,Lidzbark,12,8
+1480,Terespol,Milanowek,10,8
+1481,Wyszkow,Barcin,12,8
+1482,Tarnow,Kowary,11,4
+1483,Wegrow,Lubraniec,12,9
+1484,Stronie Slaskie,Wronki,10,5
+1485,Kock,Obrzycko,11,9
+1486,Lipno,Zdunska Wola,12,7
+1487,Karlino,Swiecie,12,9
+1488,Lasin,Dobczyce,13,4
+1489,Slupca,Wysoka,10,2
+1490,Krosno Odrzanskie,Nowa Ruda,10,6
+1491,Zwolen,Brzozow,10,6
+1492,Miedzyrzecz,Tarczyn,12,5
+1493,Bielsko-Biala,Choszczno,11,6
+1494,Boguszow-Gorce,Gora,11,6
+1495,Rumia,Ustron,11,3
+1496,Koszalin,Resko,11,9
+1497,Kleczew,Oborniki,11,8
+1498,Malogoszcz,Zakopane,14,8
+1499,Przysucha,Blachownia,12,2
+1500,Nieszawa,Steszew,13,6
+1501,Lesko,Ciezkowice,14,6
+1502,Konstancin-Jeziorna,Jasien,12,9
+1503,Gryfice,Jozefow (powiat otwocki),13,6
+1504,Nowogard,Ciechanow,10,5
+1505,Rydzyna,Lesna,12,8
+1506,Mikolow,Aleksandrow Kujawski,13,2
+1507,Zywiec,Kwidzyn,14,5
+1508,Swiebodzice,Radoszyce,13,6
+1509,Siemiatycze,Nowe Miasteczko,12,3
+1510,Zloty Stok,Zwierzyniec,11,4
+1511,Pobiedziska,Gora,14,8
+1512,Dobra (powiat turecki),Nasielsk,10,5
+1513,Kalisz,Ulanow,13,8
+1514,Lomianki,Tarczyn,11,5
+1515,Radomysl Wielki,Opatowek,14,3
+1516,Ustka,Laskarzew,12,8
+1517,Tuchola,Poreba,14,2
+1518,Miedzyzdroje,Warka,12,5
+1519,Nowa Deba,Ciechocinek,13,6
+1520,Rypin,Tykocin,14,9
+1521,Wabrzezno,Lomianki,12,6
+1522,Grodkow,Piatek,12,8
+1523,Zakopane,Korsze,10,3
+1524,Bialobrzegi,Piaski,12,7
+1525,Jawor,Przeclaw,14,7
+1526,Jutrosin,Raszkow,10,2
+1527,Zychlin,Bogatynia,14,4
+1528,Katowice,Kunow,10,8
+1529,Modliborzyce,Ploty,13,2
+1530,Zielona Gora,Nowa Slupia,10,9
+1531,Leknica,Sucha Beskidzka,14,6
+1532,Mikolow,Ozarow,12,9
+1533,Przasnysz,Pulawy,12,6
+1534,Stargard,Tomaszow Mazowiecki,14,4
+1535,Gora,Monki,14,5
+1536,Wieliczka,Biecz,10,7
+1537,Torun,Szczebrzeszyn,12,8
+1538,Brzozow,Annopol,12,3
+1539,Czaplinek,Lezajsk,11,5
+1540,Gdansk,Solec Kujawski,10,6
+1541,Lubliniec,Sulmierzyce,10,4
+1542,Ozorkow,Czarne,10,7
+1543,Pierzchnica,Mragowo,14,6
+1544,Rymanow,Zakliczyn,11,8
+1545,Turek,Czyzew,13,4
+1546,Borne Sulinowo,Serock,12,8
+1547,Lasin,Plock,14,2
+1548,Swieradow-Zdroj,Pulawy,12,2
+1549,Tychowo,Szczytno,14,6
+1550,Milanowek,Gryfow Slaski,14,8
+1551,Wschowa,Suprasl,13,5
+1552,Kalisz,Slupca,13,3
+1553,Rydzyna,Kowary,10,5
+1554,Witnica,Muszyna,13,4
+1555,Brzeziny,Susz,12,5
+1556,Czersk,Klimontow,10,3
+1557,Braniewo,Drezdenko,13,5
+1558,Dobczyce,Bardo,10,4
+1559,Gdynia,Radzyn Podlaski,12,3
+1560,Strzyzow,Mordy,13,7
+1561,Bialy Bor,Bilgoraj,12,2
+1562,Malbork,Malogoszcz,10,9
+1563,Suraz,Sokolka,11,9
+1564,Reszel,Kisielice,13,9
+1565,Choroszcz,Biecz,11,7
+1566,Kaluszyn,Strzelin,13,3
+1567,Kolbuszowa,Kwidzyn,13,9
+1568,Jablonowo Pomorskie,Brzeg,10,3
+1569,Sochaczew,Sepolno Krajenskie,11,6
+1570,Skaryszew,Legnica,12,5
+1571,Szczekociny,Wolow,11,8
+1572,Chojnice,Szczucin,11,4
+1573,Pilawa,Osiek,14,5
+1574,Nowogrod,Hajnowka,14,8
+1575,Lubomierz,Sierakow,14,6
+1576,Wyszogrod,Lubycza Krolewska,14,6
+1577,Gryfino,Zawidow,14,9
+1578,Jozefow (powiat otwocki),Szamocin,14,8
+1579,Jozefow (powiat otwocki),Cieszyn,11,9
+1580,Strykow,Cieszyn,11,6
+1581,Sulejowek,Ladek-Zdroj,13,9
+1582,Nowy Wisnicz,Zarow,11,3
+1583,Tuliszkow,Wodzislaw Slaski,11,7
+1584,Szczuczyn,Pieniezno,12,5
+1585,Sierpc,Dobra (powiat lobeski),10,5
+1586,Czersk,Ropczyce,13,8
+1587,Przedborz,Bytom Odrzanski,11,7
+1588,Pruchnik,Karpacz,13,6
+1589,Wegrow,Mrozy,11,3
+1590,Pruszcz Gdanski,Barlinek,11,7
+1591,Mszczonow,Zarow,14,2
+1592,Wegorzewo,Hel,13,9
+1593,Kozmin Wielkopolski,Kolbuszowa,10,4
+1594,Lagow,Miejska Gorka,10,9
+1595,Jaraczewo,Wachock,12,5
+1596,Kozienice,Krynki,10,5
+1597,Skarszewy,Krobia,14,5
+1598,Myslowice,Choszczno,13,9
+1599,Modliborzyce,Koluszki,12,3
+1600,Sulmierzyce,Jedlicze,13,3
+1601,Myszyniec,Nowy Wisnicz,10,9
+1602,Ryn,Szczebrzeszyn,10,9
+1603,Lagow,Piaski,11,8
+1604,Golczewo,Miedzyrzecz,14,8
+1605,Wolbrom,Pilica,14,6
+1606,Otwock,Smigiel,12,4
+1607,Lubycza Krolewska,Margonin,12,9
+1608,Cedynia,Tykocin,12,8
+1609,Proszowice,Hajnowka,12,8
+1610,Wozniki,Zyrardow,14,9
+1611,Augustow,Sulechow,10,3
+1612,Smigiel,Debno,13,2
+1613,Kwidzyn,Jaslo,10,2
+1614,Lubsko,Chojna,10,7
+1615,Cybinka,Hel,11,4
+1616,Skalbmierz,Przemysl,13,4
+1617,Lapy,Blachownia,10,6
+1618,Pilawa Gorna,Kalety,14,7
+1619,Poznan,Dobre Miasto,11,4
+1620,Czerwinsk nad Wisla,Chojnow,13,9
+1621,Szczecinek,Wrzesnia,10,5
+1622,Rawa Mazowiecka,Toszek,11,2
+1623,Pilica,Wieruszow,12,3
+1624,Lidzbark Warminski,Wladyslawowo,11,8
+1625,Kuznia Raciborska,Kowalewo Pomorskie,12,4
+1626,Opole,Dobra (powiat lobeski),12,2
+1627,Jedrzejow,Annopol,13,6
+1628,Kowary,Debica,12,8
+1629,Tuchola,Kalisz,10,3
+1630,Recz,Dobra (powiat lobeski),12,9
+1631,Zagorow,Wegorzyno,10,8
+1632,Grajewo,Mogilno,10,3
+1633,Bialobrzegi,Radom,12,8
+1634,Zduny,Laszczow,10,5
+1635,Ustron,Skarzysko-Kamienna,12,5
+1636,Inowroclaw,Dobrzyca,14,4
+1637,Wasilkow,Korsze,12,6
+1638,Szydlow,Rakoniewice,12,2
+1639,Otmuchow,Chelm,11,7
+1640,Miastko,Malbork,10,2
+1641,Czarnkow,Zagorow,11,3
+1642,Plonsk,Lubin,14,3
+1643,Jordanow,Bochnia,14,2
+1644,Czarnkow,Chelmza,14,2
+1645,Drezdenko,Luban,11,9
+1646,Ujazd,Wilamowice,14,8
+1647,Bobolice,Zwierzyniec,11,3
+1648,Okonek,Piastow,12,4
+1649,Bojanowo,Chelmno,14,8
+1650,Oborniki,Nowe Miasteczko,11,5
+1651,Swiecie,Wozniki,11,2
+1652,Kuznia Raciborska,Leczna,14,6
+1653,Wlen,Pilawa,10,2
+1654,Kock,Sztum,11,9
+1655,Gostyn,Opalenica,12,3
+1656,Steszew,Koluszki,11,2
+1657,Nekla,Srem,12,2
+1658,Labiszyn,Zywiec,10,4
+1659,Kock,Pulawy,12,7
+1660,Rawicz,Debno,14,2
+1661,Odolanow,Szczawno-Zdroj,14,6
+1662,Bytom,Dobra (powiat lobeski),12,9
+1663,Miechow,Babimost,11,5
+1664,Lipiany,Bialogard,12,2
+1665,Lask,Bielsk Podlaski,11,8
+1666,Dabie,Daleszyce,14,4
+1667,Gozdnica,Serock,11,4
+1668,Bytom,Mieszkowice,12,3
+1669,Insko,Brwinow,14,9
+1670,Kazimierz Dolny,Lututow,11,2
+1671,Zwolen,Jozefow (powiat otwocki),13,8
+1672,Radymno,Grodzisk Wielkopolski,14,8
+1673,Lask,Mirsk,12,5
+1674,Miedzyzdroje,Trzebnica,11,2
+1675,Cybinka,Debica,11,3
+1676,Lidzbark Warminski,Kaluszyn,12,6
+1677,Ksiaz Wielkopolski,Swiebodzin,13,7
+1678,Augustow,Mrocza,14,5
+1679,Opoczno,Rybnik,11,4
+1680,Srem,Witkowo,10,6
+1681,Gniewkowo,Miroslawiec,10,8
+1682,Tychy,Lubowidz,12,4
+1683,Pyrzyce,Czaplinek,11,9
+1684,Pruszkow,Wrzesnia,12,5
+1685,Pilzno,Sanok,12,9
+1686,Ostrzeszow,Pasym,11,7
+1687,Krzeszowice,Orzesze,13,3
+1688,Dzialdowo,Ladek-Zdroj,12,9
+1689,Goscino,Szczecin,12,8
+1690,Sokolow Podlaski,Polanow,14,7
+1691,Kietrz,Karczew,13,7
+1692,Milomlyn,Mlynary,10,7
+1693,Chelm,Czluchow,13,2
+1694,Checiny,Tuchola,14,5
+1695,Szczawnica,Jaslo,12,4
+1696,Oborniki,Goniadz,12,9
+1697,Lebork,Debica,12,6
+1698,Nekla,Zlotoryja,14,5
+1699,Pila,Niepolomice,12,7
+1700,Gorowo Ilaweckie,Lodz,14,8
+1701,Prochowice,Jedlina-Zdroj,12,5
+1702,Biecz,Jarocin,13,7
+1703,Wysmierzyce,Puszczykowo,14,6
+1704,Dzierzgon,Mielno,12,8
+1705,Brodnica,Pelplin,10,6
+1706,Smigiel,Mszczonow,12,4
+1707,Jawor,Ozimek,13,7
+1708,Lancut,Ropczyce,11,6
+1709,Osiek,Janowiec Wielkopolski,14,9
+1710,Swiebodzin,Zielona Gora,11,4
+1711,Ozorkow,Sulmierzyce,11,8
+1712,Zlotoryja,Mielec,12,9
+1713,Olsztynek,Bolkow,11,4
+1714,Swiecie,Laszczow,14,8
+1715,Dynow,Przeworsk,13,3
+1716,Rydultowy,Bobowa,14,2
+1717,Sroda Wielkopolska,Bukowno,10,7
+1718,Wagrowiec,Korfantow,10,6
+1719,Lubon,Sedziszow Malopolski,14,9
+1720,Zamosc,Lubniewice,12,3
+1721,Lubawka,Gubin,14,9
+1722,Lubsko,Niemodlin,11,4
+1723,Miedzyrzec Podlaski,Bialy Bor,10,9
+1724,Okonek,Jordanow,11,5
+1725,Nowe Miasteczko,Hel,11,9
+1726,Pyskowice,Chelmno,14,6
+1727,Zamosc,Chojnice,10,4
+1728,Plonsk,Staporkow,12,6
+1729,Gorzow Slaski,Ilowa,14,6
+1730,Grajewo,Karczew,12,2
+1731,Szydlowiec,Gora,13,8
+1732,Pionki,Niemodlin,10,3
+1733,Szepietowo,Lubawa,14,2
+1734,Jasien,Piechowice,14,4
+1735,Lapy,Miastko,14,2
+1736,Starachowice,Wejherowo,11,4
+1737,Skepe,Grojec,12,7
+1738,Korfantow,Zaklikow,12,2
+1739,Barcin,Drobin,10,6
+1740,Kuznia Raciborska,Ryki,10,6
+1741,Wiecbork,Skoczow,13,3
+1742,Kaluszyn,Labiszyn,14,4
+1743,Lomza,Skaryszew,13,2
+1744,Kolo,Pleszew,12,3
+1745,Pionki,Sucha Beskidzka,12,6
+1746,Trzciel,Radziejow,13,3
+1747,Jeziorany,Tuchow,11,6
+1748,Moryn,Rymanow,12,4
+1749,Zabrze,Ostrow Wielkopolski,12,5
+1750,Wolborz,Bialobrzegi,12,3
+1751,Leszno,Gryfice,12,9
+1752,Mikstat,Barczewo,10,9
+1753,Skarszewy,Aleksandrow Kujawski,14,7
+1754,Zukowo,Drawsko Pomorskie,12,4
+1755,Skepe,Mszczonow,14,2
+1756,Raszkow,Rakoniewice,12,9
+1757,Leczyca,Odolanow,14,9
+1758,Slawkow,Swietochlowice,10,3
+1759,Janow Lubelski,Jutrosin,11,3
+1760,Pruszcz Gdanski,Sroda Wielkopolska,11,2
+1761,Tuchola,Borek Wielkopolski,12,9
+1762,Gorzow Slaski,Hel,14,4
+1763,Bielsk Podlaski,Milicz,12,7
+1764,Cieszyn,Lazy,14,7
+1765,Stary Sacz,Nowy Sacz,12,6
+1766,Odolanow,Glinojeck,14,2
+1767,Wegorzewo,Miedzylesie,12,5
+1768,Jozefow (powiat otwocki),Trzcianka,10,2
+1769,Deblin,Wegorzewo,11,3
+1770,Prusice,Blaszki,13,2
+1771,Lezajsk,Krosniewice,13,5
+1772,Polanow,Olesnica,13,2
+1773,Brusy,Prudnik,14,2
+1774,Wloclawek,Rejowiec,11,3
+1775,Slupca,Ropczyce,10,5
+1776,Ostrow Wielkopolski,Wojkowice,13,5
+1777,Turek,Ilowa,13,2
+1778,Szczecinek,Lodz,14,9
+1779,Rydzyna,Zory,11,4
+1780,Grodkow,Rozan,10,7
+1781,Zawidow,Wiazow,13,7
+1782,Krotoszyn,Zawadzkie,13,4
+1783,Bielawa,Szydlowiec,13,4
+1784,Tyszowce,Chmielnik,12,4
+1785,Ladek-Zdroj,Mszczonow,14,3
+1786,Starachowice,Kudowa-Zdroj,10,9
+1787,Witkowo,Raciaz,12,4
+1788,Terespol,Chociwel,13,6
+1789,Stepnica,Pilzno,13,8
+1790,Urzedow,Smigiel,14,5
+1791,Trzcianka,Aleksandrow Kujawski,11,4
+1792,Strzyzow,Malogoszcz,12,5
+1793,Sycow,Zwolen,12,5
+1794,Bukowno,Odolanow,11,8
+1795,Bychawa,Ziebice,13,4
+1796,Zory,Biala Podlaska,10,9
+1797,Klimontow,Krynica-Zdroj,12,9
+1798,Ruciane-Nida,Grodzisk Mazowiecki,13,9
+1799,Kielce,Polaniec,12,6
+1800,Wojkowice,Czerwinsk nad Wisla,14,2
+1801,Krajenka,Lubliniec,11,5
+1802,Sulejow,Wronki,14,6
+1803,Zabrze,Knyszyn,10,7
+1804,Kutno,Wroclaw,11,6
+1805,Ustron,Pieszyce,14,8
+1806,Pabianice,Wegorzyno,14,7
+1807,Zakopane,Swierzawa,10,3
+1808,Namyslow,Grojec,13,9
+1809,Zabkowice Slaskie,Nowy Wisnicz,13,5
+1810,Mragowo,Piwniczna-Zdroj,11,3
+1811,Dukla,Twardogora,14,7
+1812,Libiaz,Laszczow,11,2
+1813,Siedlce,Kolno,11,5
+1814,Ilza,Hrubieszow,11,2
+1815,Inowroclaw,Mlynary,11,8
+1816,Daleszyce,Tuchow,12,3
+1817,Nowa Deba,Rydultowy,10,8
+1818,Zarow,Brzeg Dolny,13,3
+1819,Rawa Mazowiecka,Osiek,13,7
+1820,Oborniki,Szlichtyngowa,12,6
+1821,Kock,Nowe Brzesko,14,5
+1822,Pajeczno,Tarnow,10,9
+1823,Swinoujscie,Warka,13,2
+1824,Zawadzkie,Orzysz,13,3
+1825,Krosno,Piatek,10,7
+1826,Szamocin,Jaworzyna Slaska,13,5
+1827,Grodkow,Zamosc,10,2
+1828,Slawa,Slawkow,14,9
+1829,Miedzychod,Wysoka,10,5
+1830,Piensk,Mielec,14,9
+1831,Pisz,Puszczykowo,10,9
+1832,Sulkowice,Goniadz,11,7
+1833,Wieruszow,Zelechow,13,6
+1834,Dolsk,Otyn,12,4
+1835,Zwolen,Zakliczyn,11,7
+1836,Jedwabne,Cieszyn,14,3
+1837,Nowe Brzesko,Brok,11,5
+1838,Belzyce,Kolonowskie,14,8
+1839,Borek Wielkopolski,Bukowno,13,7
+1840,Puszczykowo,Bodzentyn,13,5
+1841,Grybow,Kobylka,11,5
+1842,Zator,Suchowola,11,7
+1843,Szprotawa,Brzeziny,10,6
+1844,Miroslawiec,Ciechanowiec,14,5
+1845,Lipsko,Andrychow,12,6
+1846,Malomice,Inowroclaw,13,7
+1847,Zabno,Korsze,10,5
+1848,Radzyn Chelminski,Golczewo,10,5
+1849,Wiecbork,Tarnow,14,8
+1850,Biala Podlaska,Sierpc,14,2
+1851,Dynow,Grajewo,13,5
+1852,Twardogora,Wozniki,12,3
+1853,Pieniezno,Kozmin Wielkopolski,13,8
+1854,Pierzchnica,Rzgow,10,9
+1855,Dolsk,Gryfow Slaski,10,2
+1856,Bierun,Poznan,10,8
+1857,Zwierzyniec,Choszczno,12,2
+1858,Lowicz,Gorlice,12,5
+1859,Nowa Sol,Karpacz,13,9
+1860,Wyszkow,Lipno,10,5
+1861,Opalenica,Brzeziny,10,2
+1862,Grodzisk Mazowiecki,Nowe Brzesko,14,8
+1863,Kozienice,Namyslow,13,7
+1864,Halinow,Sejny,14,2
+1865,Nowogrod Bobrzanski,Gryfow Slaski,14,6
+1866,Brzesc Kujawski,Zory,10,2
+1867,Opoczno,Lapy,12,3
+1868,Leknica,Resko,11,9
+1869,Brusy,Bialy Bor,13,8
+1870,Modliborzyce,Piechowice,11,2
+1871,Proszowice,Piechowice,10,4
+1872,Zlocieniec,Pyskowice,13,2
+1873,Lancut,Wieliczka,10,6
+1874,Ostroda,Zduny,13,3
+1875,Sokolow Malopolski,Rymanow,12,5
+1876,Myszyniec,Biala Podlaska,14,6
+1877,Mordy,Wlodawa,12,9
+1878,Gdansk,Slupsk,12,6
+1879,Opatowek,Niepolomice,14,3
+1880,Ulanow,Bukowno,14,7
+1881,Twardogora,Swidnica,13,8
+1882,Chorzow,Dzialoszyn,13,5
+1883,Jaworzno,Murowana Goslina,10,2
+1884,Bydgoszcz,Sopot,12,9
+1885,Ropczyce,Tarczyn,11,7
+1886,Strzelce Krajenskie,Laziska Gorne,14,8
+1887,Leczna,Lubawka,12,3
+1888,Siemiatycze,Wloclawek,14,4
+1889,Ostroleka,Iwonicz-Zdroj,11,7
+1890,Lubsko,Wegrow,11,9
+1891,Ploty,Ladek-Zdroj,10,9
+1892,Czerwinsk nad Wisla,Daleszyce,14,4
+1893,Siechnice,Strzelno,14,9
+1894,Poniec,Jedlicze,14,2
+1895,Pruszcz Gdanski,Kedzierzyn-Kozle,13,6
+1896,Ostroleka,Ujazd,10,3
+1897,Pila,Niemcza,10,7
+1898,Bolkow,Wolsztyn,11,7
+1899,Mlawa,Blachownia,14,5
+1900,Dziwnow,Sokolow Podlaski,11,3
+1901,Raciborz,Trzemeszno,11,4
+1902,Myszyniec,Korfantow,10,2
+1903,Mlynary,Szydlow,12,2
+1904,Busko-Zdroj,Krajenka,10,7
+1905,Osieczna,Osiek,11,7
+1906,Twardogora,Tychy,11,3
+1907,Dynow,Chorzele,14,2
+1908,Wysmierzyce,Wolomin,10,5
+1909,Kamiensk,Chodziez,10,3
+1910,Twardogora,Kozieglowy,11,6
+1911,Boguszow-Gorce,Gorzno,14,3
+1912,Kobylin,Sochaczew,14,5
+1913,Labiszyn,Nowy Targ,13,7
+1914,Wysmierzyce,Niemcza,10,3
+1915,Mielno,Kielce,10,2
+1916,Muszyna,Skawina,10,2
+1917,Kalety,Wschowa,12,4
+1918,Warta,Chelmek,10,6
+1919,Kolbuszowa,Kcynia,10,5
+1920,Piotrkow Kujawski,Sztum,11,6
+1921,Goldap,Suchan,13,8
+1922,Sepopol,Mosina,10,9
+1923,Pinczow,Brzesc Kujawski,12,8
+1924,Tuliszkow,Laskarzew,13,4
+1925,Rumia,Ploty,14,3
+1926,Radzionkow,Tuchola,11,8
+1927,Tuchow,Janow Lubelski,12,9
+1928,Narol,Sosnicowice,14,5
+1929,Klimontow,Zelechow,13,9
+1930,Gora,Kock,12,6
+1931,Radziejow,Paslek,13,8
+1932,Tarnogrod,Zagan,11,5
+1933,Sztum,Toszek,10,9
+1934,Koszalin,Skierniewice,10,6
+1935,Wloclawek,Boguszow-Gorce,13,2
+1936,Bogatynia,Dzialoszyn,11,9
+1937,Sulmierzyce,Ostrzeszow,14,9
+1938,Opoczno,Daleszyce,14,2
+1939,Wieruszow,Barwice,12,7
+1940,Leba,Dabrowa Tarnowska,10,4
+1941,Opole,Strzegom,11,9
+1942,Leczna,Brzeg,14,2
+1943,Biskupiec,Proszkow,14,9
+1944,Korsze,Jastrzebie-Zdroj,13,2
+1945,Pieniezno,Koprzywnica,10,3
+1946,Lubin,Gozdnica,11,6
+1947,Nowy Targ,Sanniki,12,5
+1948,Rabka-Zdroj,Staszow,11,7
+1949,Mrozy,Ksiaz Wielkopolski,12,4
+1950,Prabuty,Kuznia Raciborska,11,5
+1951,Kartuzy,Nekla,13,8
+1952,Swiebodzice,Stronie Slaskie,14,8
+1953,Radymno,Myslenice,10,8
+1954,Czerwiensk,Chorzow,14,7
+1955,Czluchow,Zabrze,10,6
+1956,Gluszyca,Rumia,12,6
+1957,Radom,Bartoszyce,11,9
+1958,Odolanow,Kock,10,9
+1959,Tczew,Zabkowice Slaskie,11,9
+1960,Olkusz,Mlynary,14,6
+1961,Konstancin-Jeziorna,Cieszyn,11,4
+1962,Lesko,Czerniejewo,14,3
+1963,Chelmza,Ledziny,11,6
+1964,Poznan,Lipiany,12,5
+1965,Brzeziny,Zlocieniec,14,3
+1966,Lubaczow,Karlino,13,6
+1967,Mszana Dolna,Wolow,10,4
+1968,Rudnik nad Sanem,Kepice,14,6
+1969,Skalbmierz,Nowogrod,11,6
+1970,Biala Rawska,Wschowa,10,5
+1971,Lubsko,Zory,12,6
+1972,Police,Srem,11,8
+1973,Gubin,Lubartow,14,5
+1974,Ostrow Lubelski,Rozan,12,8
+1975,Oswiecim,Tarnowskie Gory,12,3
+1976,Brodnica,Mosina,13,3
+1977,Pilawa,Zagorz,11,5
+1978,Muszyna,Prudnik,12,8
+1979,Pakosc,Polkowice,10,9
+1980,Byczyna,Namyslow,14,9
+1981,Tykocin,Lubawka,11,9
+1982,Piaseczno,Sycow,10,2
+1983,Kostrzyn nad Odra,Skoczow,10,3
+1984,Bialobrzegi,Lipsko,12,9
+1985,Koprzywnica,Opole,11,8
+1986,Zdunska Wola,Rydzyna,12,8
+1987,Otmuchow,Szczucin,10,3
+1988,Dobiegniew,Sejny,11,4
+1989,Kornik,Wagrowiec,13,8
+1990,Wlen,Pakosc,13,4
+1991,Bisztynek,Wysoka,12,8
+1992,Insko,Janikowo,14,4
+1993,Mlawa,Siedlce,11,3
+1994,Kargowa,Poddebice,14,3
+1995,Slawno,Deblin,10,9
+1996,Ostrorog,Wysmierzyce,14,6
+1997,Tuczno,Olesnica,12,2
+1998,Chorzow,Zator,10,4
+1999,Gdynia,Jedlicze,12,3
+2000,Lesnica,Ryki,10,4
+2001,Wozniki,Lipsk,14,2
+2002,Ciechanowiec,Uniejow,10,4
+2003,Rajgrod,Lubliniec,11,9
+2004,Krynica-Zdroj,Czarna Bialostocka,10,4
+2005,Pacanow,Szepietowo,14,9
+2006,Olsztyn,Szczawnica,13,9
+2007,Blaszki,Drohiczyn,10,5
+2008,Zabrze,Ladek-Zdroj,11,3
+2009,Grodzisk Wielkopolski,Rydzyna,12,2
+2010,Wislica,Bogatynia,13,9
+2011,Skoczow,Zgierz,10,9
+2012,Grajewo,Radymno,11,3
+2013,Zabki,Blachownia,10,3
+2014,Margonin,Janikowo,14,9
+2015,Ziebice,Stawiski,11,5
+2016,Pacanow,Radom,11,8
+2017,Strzegom,Szczekociny,12,8
+2018,Drawno,Tomaszow Lubelski,13,4
+2019,Pilawa Gorna,Lesna,13,3
+2020,Wrzesnia,Duszniki-Zdroj,10,7
+2021,Koscierzyna,Plock,10,8
+2022,Glowno,Swarzedz,12,4
+2023,Kostrzyn,Golina,13,5
+2024,Mielec,Starachowice,13,4
+2025,Debrzno,Pieszyce,13,3
+2026,Krobia,Lubien Kujawski,10,2
+2027,Opole Lubelskie,Golancz,13,5
+2028,Piatek,Daleszyce,10,5
+2029,Kazimierz Dolny,Krapkowice,11,8
+2030,Wolsztyn,Tluszcz,13,7
+2031,Biala Rawska,Maszewo,11,8
+2032,Ciechanowiec,Lubniewice,13,4
+2033,Rymanow,Skaryszew,11,7
+2034,Wiecbork,Kornik,10,8
+2035,Poddebice,Ketrzyn,14,8
+2036,Zukowo,Kwidzyn,12,8
+2037,Suchowola,Olawa,11,3
+2038,Jastarnia,Kolbuszowa,13,4
+2039,Czaplinek,Reszel,12,3
+2040,Czerwinsk nad Wisla,Szklarska Poreba,14,2
+2041,Mielno,Prusice,11,9
+2042,Lipno,Walbrzych,10,9
+2043,Suraz,Lazy,13,4
+2044,Zwolen,Wachock,11,2
+2045,Imielin,Dzialdowo,13,9
+2046,Wiazow,Sokolow Podlaski,13,2
+2047,Strykow,Kazimierza Wielka,12,2
+2048,Hrubieszow,Golub-Dobrzyn,11,7
+2049,Wodzislaw Slaski,Pszczyna,13,7
+2050,Pieniezno,Otwock,13,8
+2051,Bychawa,Sobotka,14,4
+2052,Chorzele,Plock,14,2
+2053,Bardo,Szydlowiec,10,2
+2054,Osiek,Ostrow Mazowiecka,13,9
+2055,Kielce,Halinow,10,8
+2056,Pierzchnica,Busko-Zdroj,10,3
+2057,Bierutow,Tomaszow Mazowiecki,12,3
+2058,Brzeszcze,Lasin,14,7
+2059,Piotrkow Trybunalski,Lubawa,11,8
+2060,Rzgow,Miedzylesie,10,7
+2061,Oswiecim,Nasielsk,12,4
+2062,Byczyna,Boguszow-Gorce,12,2
+2063,Slawa,Gizycko,12,2
+2064,Lipsk,Wladyslawowo,10,5
+2065,Nowe Warpno,Dabrowa Tarnowska,13,4
+2066,Cedynia,Boguszow-Gorce,10,5
+2067,Praszka,Toszek,13,4
+2068,Kolaczyce,Starachowice,11,4
+2069,Ropczyce,Nysa,14,3
+2070,Kolo,Suraz,11,8
+2071,Bolkow,Dabrowa Bialostocka,14,3
+2072,Debica,Zabludow,10,7
+2073,Poreba,Chelmza,14,6
+2074,Goldap,Nowy Tomysl,14,3
+2075,Orzesze,Swarzedz,12,7
+2076,Sulejowek,Krynica Morska,14,8
+2077,Glinojeck,Krosniewice,13,6
+2078,Brzostek,Opatowiec,11,8
+2079,Podkowa Lesna,Lubawka,13,5
+2080,Przemkow,Miechow,14,6
+2081,Lodz,Chociwel,13,2
+2082,Wasosz,Iwonicz-Zdroj,10,9
+2083,Raciborz,Radomsko,14,7
+2084,Hrubieszow,Wegorzyno,11,2
+2085,Zagorow,Orzysz,13,8
+2086,Goldap,Klecko,12,8
+2087,Jeziorany,Konstancin-Jeziorna,10,7
+2088,Szlichtyngowa,Bielawa,10,8
+2089,Wysoka,Starachowice,13,6
+2090,Opoczno,Koprzywnica,13,2
+2091,Dobra (powiat lobeski),Radlin,10,5
+2092,Zaklikow,Krobia,13,9
+2093,Lidzbark Warminski,Sobotka,13,9
+2094,Bialogard,Lukow,12,6
+2095,Jaslo,Poznan,10,8
+2096,Szubin,Chorzow,11,4
+2097,Szczyrk,Kalisz,13,3
+2098,Sulecin,Wolin,13,2
+2099,Mlynary,Ostrow Wielkopolski,14,3
+2100,Chorzow,Lodz,14,6
+2101,Kazimierza Wielka,Police,10,7
+2102,Orneta,Stawiski,11,7
+2103,Lancut,Gryfow Slaski,14,7
+2104,Chorzele,Szamotuly,12,7
+2105,Bardo,Myslenice,12,7
+2106,Bobowa,Janow Lubelski,14,3
+2107,Czerwiensk,Gogolin,14,8
+2108,Pilawa,Bytom,14,8
+2109,Lezajsk,Wolow,11,8
+2110,Kowal,Jarocin,12,9
+2111,Janikowo,Swiebodzice,13,9
+2112,Piaski,Dobre Miasto,13,7
+2113,Zmigrod,Zelow,10,8
+2114,Jedrzejow,Strzelin,10,9
+2115,Miedzyrzecz,Szczawno-Zdroj,12,2
+2116,Pelczyce,Wejherowo,10,9
+2117,Jedlina-Zdroj,Kozieglowy,12,5
+2118,Oleszyce,Trzemeszno,12,9
+2119,Chelmek,Olesno,11,3
+2120,Bobolice,Radomysl Wielki,10,5
+2121,Przasnysz,Golina,12,8
+2122,Ciechanowiec,Ogrodzieniec,13,3
+2123,Radzyn Podlaski,Toszek,13,5
+2124,Debica,Kutno,10,3
+2125,Serock,Zalewo,10,6
+2126,Tomaszow Mazowiecki,Dobre Miasto,12,9
+2127,Plonsk,Wyszogrod,13,3
+2128,Sucha Beskidzka,Skarzysko-Kamienna,11,2
+2129,Jozefow nad Wisla,Czarnkow,12,2
+2130,Kornik,Andrychow,14,5
+2131,Lubon,Zgorzelec,14,2
+2132,Szadek,Miedzyzdroje,14,2
+2133,Ruda Slaska,Swietochlowice,13,9
+2134,Czyzew,Rzepin,10,9
+2135,Miloslaw,Koluszki,10,5
+2136,Zychlin,Dobrodzien,13,3
+2137,Bardo,Wloclawek,10,4
+2138,Lubartow,Leknica,10,6
+2139,Tczew,Ustron,13,4
+2140,Stargard,Nasielsk,12,9
+2141,Zabludow,Radzyn Podlaski,10,5
+2142,Gorzow Slaski,Kielce,10,3
+2143,Bielsk Podlaski,Tarnobrzeg,13,6
+2144,Wielbark,Drawsko Pomorskie,12,8
+2145,Dabrowa Gornicza,Dynow,11,3
+2146,Suchowola,Klecko,10,8
+2147,Osno Lubuskie,Kalisz,11,8
+2148,Tomaszow Mazowiecki,Goniadz,13,9
+2149,Strumien,Swietochlowice,10,6
+2150,Rabka-Zdroj,Ustka,13,9
+2151,Checiny,Zgierz,13,8
+2152,Lomza,Walbrzych,13,4
+2153,Brzeszcze,Olesno,10,8
+2154,Opole Lubelskie,Czarnkow,11,4
+2155,Swidnica,Swiatniki Gorne,13,6
+2156,Zory,Nowe,14,2
+2157,Kargowa,Kutno,14,7
+2158,Wschowa,Wojcieszow,13,9
+2159,Nidzica,Krosniewice,12,7
+2160,Choroszcz,Wielun,10,5
+2161,Warka,Dobiegniew,14,4
+2162,Zary,Gostyn,10,9
+2163,Lubartow,Pacanow,11,6
+2164,Warta,Radkow,11,7
+2165,Glinojeck,Paczkow,14,5
+2166,Dzierzgon,Zukowo,13,9
+2167,Sokolka,Bilgoraj,14,6
+2168,Zychlin,Bielsk Podlaski,14,4
+2169,Czerniejewo,Krosniewice,14,6
+2170,Okonek,Nekla,13,5
+2171,Czarne,Checiny,14,6
+2172,Gogolin,Ladek-Zdroj,14,8
+2173,Bardo,Chociwel,13,4
+2174,Grodzisk Wielkopolski,Suraz,12,5
+2175,Suraz,Osieczna,14,4
+2176,Golczewo,Duszniki-Zdroj,12,8
+2177,Miloslaw,Sepolno Krajenskie,14,4
+2178,Gryfice,Lidzbark,14,3
+2179,Mirsk,Piotrkow Kujawski,11,2
+2180,Chociwel,Miejska Gorka,11,4
+2181,Rogozno,Czluchow,14,8
+2182,Piensk,Pilzno,13,6
+2183,Braniewo,Debica,13,7
+2184,Rejowiec Fabryczny,Jablonowo Pomorskie,13,7
+2185,Lubin,Dabrowa Tarnowska,14,8
+2186,Zagan,Zabno,13,9
+2187,Wolsztyn,Siemianowice Slaskie,11,8
+2188,Skala,Debrzno,14,6
+2189,Rogozno,Kuznia Raciborska,14,3
+2190,Dzialoszyn,Lwowek Slaski,12,8
+2191,Nowa Sol,Zelow,11,5
+2192,Poniatowa,Raciaz,11,3
+2193,Ustrzyki Dolne,Nowy Korczyn,14,9
+2194,Tomaszow Mazowiecki,Pilzno,12,2
+2195,Miedzychod,Suraz,13,8
+2196,Pilzno,Dobre Miasto,11,5
+2197,Bielawa,Sieniawa,14,6
+2198,Gabin,Kcynia,11,5
+2199,Lubomierz,Chmielnik,12,9
+2200,Rejowiec,Bobolice,11,3
+2201,Tolkmicko,Brzeszcze,12,9
+2202,Zakroczym,Nowa Sol,14,7
+2203,Trzebiatow,Grybow,14,7
+2204,Lomza,Sieradz,10,2
+2205,Siemiatycze,Jaraczewo,12,4
+2206,Muszyna,Siewierz,11,9
+2207,Przedborz,Walcz,11,4
+2208,Kozienice,Minsk Mazowiecki,10,8
+2209,Dzialoszyce,Ryn,12,2
+2210,Malogoszcz,Szczawnica,13,8
+2211,Przeworsk,Duszniki-Zdroj,10,4
+2212,Pisz,Szklarska Poreba,14,6
+2213,Milomlyn,Tarnowskie Gory,13,2
+2214,Tykocin,Kamien Pomorski,13,7
+2215,Gora,Pleszew,11,5
+2216,Pieniezno,Nowe Skalmierzyce,10,4
+2217,Srem,Lubon,12,3
+2218,Poddebice,Bodzentyn,13,7
+2219,Olkusz,Sedziszow Malopolski,10,6
+2220,Wozniki,Krobia,11,2
+2221,Stawiszyn,Bobowa,11,9
+2222,Busko-Zdroj,Jozefow (powiat bilgorajski),11,2
+2223,Janikowo,Kietrz,11,7
+2224,Nidzica,Pinczow,12,4
+2225,Przemysl,Blachownia,11,3
+2226,Sokolow Malopolski,Zyrardow,10,2
+2227,Sierpc,Kozieglowy,13,8
+2228,Mlynary,Maszewo,10,5
+2229,Wachock,Janow Lubelski,12,9
+2230,Debica,Babimost,10,5
+2231,Wachock,Tychowo,10,5
+2232,Ustrzyki Dolne,Orzysz,12,2
+2233,Piaseczno,Bisztynek,12,4
+2234,Knurow,Jeziorany,13,5
+2235,Pilawa Gorna,Debica,12,4
+2236,Barwice,Slesin,13,3
+2237,Swierzawa,Tychowo,14,7
+2238,Mielno,Zerkow,10,3
+2239,Zawadzkie,Pelczyce,12,3
+2240,Bochnia,Konskie,12,3
+2241,Barczewo,Miastko,11,6
+2242,Myszkow,Turek,12,6
+2243,Ustrzyki Dolne,Osno Lubuskie,12,7
+2244,Rakoniewice,Nowy Korczyn,13,5
+2245,Ladek-Zdroj,Slawkow,13,8
+2246,Mielec,Rzepin,13,2
+2247,Skaryszew,Gabin,13,3
+2248,Gora,Ledziny,12,3
+2249,Zagorz,Olawa,12,8
+2250,Debrzno,Swieradow-Zdroj,11,7
+2251,Koscierzyna,Wachock,11,9
+2252,Rychwal,Zielona Gora,12,3
+2253,Wielbark,Zdunska Wola,10,6
+2254,Jelcz-Laskowice,Ozimek,14,6
+2255,Kowalewo Pomorskie,Krzyz Wielkopolski,10,9
+2256,Zabrze,Zagorow,13,3
+2257,Glubczyce,Trzebnica,10,2
+2258,Kalisz,Wronki,12,7
+2259,Nowy Targ,Slupsk,12,4
+2260,Lomza,Jawor,11,4
+2261,Krapkowice,Lobez,14,2
+2262,Hel,Margonin,11,7
+2263,Bydgoszcz,Wyszogrod,10,8
+2264,Mlawa,Krakow,13,7
+2265,Czeladz,Radoszyce,12,5
+2266,Nowa Slupia,Sopot,11,8
+2267,Rudnik nad Sanem,Lwowek Slaski,11,6
+2268,Legionowo,Prochowice,12,7
+2269,Olawa,Grybow,14,7
+2270,Krzepice,Zalewo,13,6
+2271,Bobowa,Czaplinek,11,5
+2272,Bytow,Andrychow,14,5
+2273,Rozan,Zagorz,13,2
+2274,Przasnysz,Lwowek,12,9
+2275,Wysmierzyce,Ujazd,11,4
+2276,Pulawy,Klodzko,13,3
+2277,Kcynia,Ogrodzieniec,10,9
+2278,Opatowek,Kartuzy,11,2
+2279,Moryn,Daleszyce,12,5
+2280,Biezun,Ujscie,13,8
+2281,Lodz,Nysa,10,9
+2282,Gdynia,Busko-Zdroj,13,9
+2283,Opole,Bochnia,12,2
+2284,Sierpc,Nowe,14,5
+2285,Korsze,Mielec,11,5
+2286,Wysoka,Wojnicz,13,8
+2287,Ozarow Mazowiecki,Sulecin,14,8
+2288,Kozuchow,Pabianice,14,3
+2289,Grudziadz,Bytom Odrzanski,11,8
+2290,Milakowo,Modliborzyce,10,3
+2291,Swiebodzice,Plonsk,13,4
+2292,Czyzew,Mysliborz,13,2
+2293,Radkow,Wasilkow,13,2
+2294,Jaslo,Lubin,14,7
+2295,Brzeg Dolny,Golina,13,6
+2296,Mlawa,Zerkow,13,9
+2297,Kisielice,Lochow,11,8
+2298,Goscino,Olesno,14,8
+2299,Minsk Mazowiecki,Czyzew,10,2
+2300,Pleszew,Krasnystaw,14,4
+2301,Michalowo,Orzysz,10,5
+2302,Wlen,Lezajsk,11,9
+2303,Karlino,Slupca,11,7
+2304,Pruszkow,Oborniki,13,3
+2305,Bilgoraj,Kalisz,11,6
+2306,Lubraniec,Siemianowice Slaskie,12,6
+2307,Tarczyn,Czeladz,11,5
+2308,Kornik,Poznan,11,4
+2309,Wyrzysk,Wronki,11,9
+2310,Knyszyn,Poznan,14,9
+2311,Ruciane-Nida,Nowa Ruda,11,7
+2312,Stawiski,Nowe Skalmierzyce,14,9
+2313,Brok,Szamocin,12,2
+2314,Wasosz,Gostyn,13,5
+2315,Stronie Slaskie,Jozefow (powiat otwocki),14,8
+2316,Koszalin,Zawadzkie,13,9
+2317,Legionowo,Drohiczyn,11,6
+2318,Solec Kujawski,Kudowa-Zdroj,10,8
+2319,Strzelno,Buk,12,6
+2320,Nowy Korczyn,Zielonka,12,7
+2321,Wojcieszow,Niemodlin,13,9
+2322,Ryn,Pisz,14,8
+2323,Malomice,Dobra (powiat lobeski),10,2
+2324,Czlopa,Skawina,12,9
+2325,Lubliniec,Bielawa,14,4
+2326,Gryfow Slaski,Wegorzyno,13,2
+2327,Ozarow Mazowiecki,Margonin,11,6
+2328,Suprasl,Lwowek,12,7
+2329,Wolczyn,Przeworsk,12,8
+2330,Sulejow,Krobia,10,3
+2331,Zlotow,Chojna,14,4
+2332,Ustrzyki Dolne,Wloszczowa,13,7
+2333,Zielona Gora,Nowe Miasto nad Pilica,11,6
+2334,Kalisz,Laszczow,11,4
+2335,Czerniejewo,Zdunska Wola,11,9
+2336,Szczawnica,Slawa,13,2
+2337,Ustka,Miedzyrzec Podlaski,11,4
+2338,Zlocieniec,Sejny,14,2
+2339,Kowary,Dabrowa Gornicza,10,8
+2340,Ulanow,Ziebice,12,4
+2341,Lesnica,Oleszyce,10,2
+2342,Orneta,Lublin,10,8
+2343,Wozniki,Zarow,11,9
+2344,Dzierzgon,Brok,13,2
+2345,Szubin,Nidzica,14,4
+2346,Strzelce Krajenskie,Sokolow Malopolski,11,4
+2347,Niemcza,Pila,10,4
+2348,Olesnica,Chorzele,11,9
+2349,Karczew,Murowana Goslina,11,2
+2350,Witkowo,Swidwin,11,5
+2351,Pruszcz Gdanski,Kolno,13,9
+2352,Kuznia Raciborska,Dobra (powiat lobeski),14,9
+2353,Buk,Jaslo,12,3
+2354,Golub-Dobrzyn,Szydlowiec,14,9
+2355,Miroslawiec,Starogard Gdanski,12,4
+2356,Piaski,Kanczuga,11,5
+2357,Mogielnica,Lidzbark,12,4
+2358,Gorowo Ilaweckie,Janow Lubelski,13,2
+2359,Zabno,Zelow,12,9
+2360,Ostrow Mazowiecka,Poreba,10,2
+2361,Brodnica,Kartuzy,10,3
+2362,Sycow,Olesnica,13,5
+2363,Blazowa,Wojkowice,12,9
+2364,Gorzno,Ozorkow,13,5
+2365,Przemkow,Wagrowiec,11,8
+2366,Skala,Tarnobrzeg,12,2
+2367,Police,Pajeczno,13,7
+2368,Sulejow,Konskie,10,9
+2369,Staszow,Sokolka,13,2
+2370,Wysoka,Chodziez,12,2
+2371,Orzysz,Nekla,13,4
+2372,Tuliszkow,Sanniki,12,7
+2373,Ruciane-Nida,Namyslow,14,7
+2374,Praszka,Pierzchnica,11,4
+2375,Lobez,Grybow,13,3
+2376,Czestochowa,Imielin,13,9
+2377,Ziebice,Debrzno,11,5
+2378,Lancut,Baranow Sandomierski,10,8
+2379,Okonek,Szczawnica,12,6
+2380,Mordy,Olsztyn,13,8
+2381,Kolaczyce,Goleniow,12,9
+2382,Kietrz,Szczyrk,10,2
+2383,Pelplin,Zabno,13,7
+2384,Kudowa-Zdroj,Golczewo,11,2
+2385,Krobia,Szlichtyngowa,10,6
+2386,Czestochowa,Pabianice,10,4
+2387,Lask,Wislica,10,6
+2388,Koscian,Serock,14,4
+2389,Ledziny,Chelm,10,3
+2390,Sejny,Miasteczko Slaskie,14,3
+2391,Skaryszew,Prusice,10,5
+2392,Miedzyborz,Zaklikow,11,7
+2393,Kleczew,Lagow,10,8
+2394,Wozniki,Tuchow,12,6
+2395,Gogolin,Aleksandrow Kujawski,12,5
+2396,Gryfino,Libiaz,12,9
+2397,Plonsk,Bialy Bor,11,5
+2398,Slupca,Konstancin-Jeziorna,11,9
+2399,Wronki,Suwalki,13,2
+2400,Sroda Slaska,Muszyna,14,7
+2401,Rychwal,Pszow,10,6
+2402,Zgorzelec,Brwinow,11,2
+2403,Swiecie,Gniewkowo,14,9
+2404,Wachock,Nowe Miasto Lubawskie,14,6
+2405,Jaslo,Sokolow Podlaski,10,5
+2406,Trzcinsko-Zdroj,Konin,12,3
+2407,Ryn,Siemianowice Slaskie,14,5
+2408,Zelow,Strumien,11,5
+2409,Labiszyn,Zwolen,12,3
+2410,Ryki,Steszew,13,9
+2411,Dobrzyca,Przeworsk,14,4
+2412,Stawiszyn,Mieroszow,10,9
+2413,Sulkowice,Zdzieszowice,11,2
+2414,Brzeg Dolny,Wegrow,10,7
+2415,Czarne,Chorzow,10,4
+2416,Slupca,Tarnowskie Gory,10,2
+2417,Ilowa,Nowe Miasteczko,14,2
+2418,Zelow,Olsztynek,11,7
+2419,Rabka-Zdroj,Kock,11,9
+2420,Radoszyce,Brzesc Kujawski,12,4
+2421,Witkowo,Sosnowiec,10,3
+2422,Kazimierz Dolny,Rozan,11,8
+2423,Kalisz Pomorski,Nowe Miasteczko,12,2
+2424,Dzierzgon,Wabrzezno,11,6
+2425,Skaryszew,Miedzyzdroje,10,7
+2426,Checiny,Nowy Staw,10,7
+2427,Lapy,Wejherowo,11,8
+2428,Susz,Szubin,13,9
+2429,Chorzow,Kalisz,10,4
+2430,Opalenica,Rybnik,10,7
+2431,Barlinek,Krynica-Zdroj,10,5
+2432,Szydlow,Kowal,13,6
+2433,Swidwin,Zduny,14,8
+2434,Szczuczyn,Glowno,11,4
+2435,Lubomierz,Rychwal,10,7
+2436,Sianow,Sepopol,14,7
+2437,Dabie,Sroda Slaska,13,6
+2438,Raciaz,Zyrardow,14,5
+2439,Krasnobrod,Bialobrzegi,14,5
+2440,Karpacz,Piotrkow Kujawski,11,9
+2441,Raciaz,Twardogora,13,5
+2442,Stopnica,Mlawa,12,8
+2443,Mosina,Czarna Woda,13,7
+2444,Opalenica,Wronki,11,5
+2445,Leszno,Zawadzkie,12,7
+2446,Raciborz,Poniec,12,8
+2447,Pilawa Gorna,Dzierzoniow,11,2
+2448,Lebork,Steszew,12,2
+2449,Slawa,Sokolow Malopolski,10,6
+2450,Tarnowskie Gory,Orneta,11,8
+2451,Pila,Opole,10,9
+2452,Sokolow Podlaski,Golina,14,2
+2453,Starachowice,Zary,14,4
+2454,Czerwinsk nad Wisla,Tychy,13,2
+2455,Proszowice,Chelmno,14,5
+2456,Klecko,Radzyn Chelminski,12,3
+2457,Strzyzow,Darlowo,11,2
+2458,Chelmno,Nowy Dwor Mazowiecki,11,6
+2459,Osieczna,Olesno,14,9
+2460,Rudnik nad Sanem,Pierzchnica,13,3
+2461,Wabrzezno,Zelow,14,5
+2462,Gniezno,Kalety,11,2
+2463,Pelplin,Podkowa Lesna,10,3
+2464,Nowa Sol,Grajewo,11,9
+2465,Nowogard,Radkow,14,4
+2466,Kowal,Pilawa,12,6
+2467,Sulecin,Trzemeszno,13,5
+2468,Jastrowie,Odolanow,13,7
+2469,Goldap,Dobre Miasto,13,3
+2470,Mogilno,Ziebice,12,7
+2471,Mlawa,Leknica,13,4
+2472,Radzionkow,Debica,14,9
+2473,Nowy Tomysl,Radkow,13,7
+2474,Sroda Slaska,Mikolow,14,9
+2475,Dobiegniew,Poniatowa,12,4
+2476,Dynow,Ropczyce,12,5
+2477,Kcynia,Daleszyce,12,7
+2478,Pilzno,Szamocin,11,3
+2479,Ilawa,Szubin,10,8
+2480,Sulmierzyce,Nowy Wisnicz,12,9
+2481,Czaplinek,Szczecin,13,5
+2482,Gdynia,Choszczno,12,4
+2483,Zakopane,Kalisz,10,9
+2484,Gubin,Dobrzyn nad Wisla,13,4
+2485,Pabianice,Czluchow,12,4
+2486,Jedlina-Zdroj,Pila,10,2
+2487,Grojec,Dobrzany,14,6
+2488,Wegliniec,Limanowa,13,6
+2489,Monki,Zloczew,13,2
+2490,Lwowek,Brzeszcze,13,2
+2491,Gniewkowo,Labiszyn,10,7
+2492,Lututow,Inowroclaw,12,7
+2493,Lomianki,Bukowno,11,4
+2494,Grybow,Ksiaz Wielkopolski,11,3
+2495,Swidnica,Nowy Targ,13,8
+2496,Wegorzyno,Opole Lubelskie,10,2
+2497,Zabrze,Krobia,10,2
+2498,Wielen,Zabrze,11,5
+2499,Chelmek,Dobrodzien,10,9
+2500,Chojnow,Krzyz Wielkopolski,14,8

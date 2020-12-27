@@ -1,0 +1,2501 @@
+id,miasto,ulica,numer_domu,kod_pocztowy
+1,Toszek,Dabrowska,23P,12-701
+2,Suchedniow,Zielna,119D,53-031
+3,Sokolow Malopolski,Wygon,102R,41-101
+4,Checiny,Swietego Leonarda,110L,57-496
+5,Piotrkow Trybunalski,Biskupa Mieczyslawa Jaworskiego,33E,81-645
+6,Belzyce,Krotka,23U,73-670
+7,Sanok,Opoczynska,57H,26-459
+8,Kalisz,Majora Henryka Sucharskiego,72V,95-802
+9,Skarszewy,Lopusznianska,173R,53-901
+10,Gdynia,Stacyjna,70V,53-629
+11,Terespol,Norweska,61A,31-512
+12,Brzozow,Nad Wizna,61C,81-264
+13,Szklarska Poreba,Jana Karskiego,49C,68-108
+14,Gryfino,Maksymiliana Strasza,41A,13-095
+15,Tolkmicko,Leszczynska,148C,48-224
+16,Sochaczew,Zniwna,120M,52-036
+17,Szczytna,Duza,126Z,77-198
+18,Bychawa,Cynkowa,118Z,23-513
+19,Steszew,Emilii Znojkiewiczowej,167L,52-561
+20,Trzebiatow,Wojciecha Bartosa Glowackiego,162N,68-899
+21,Chocz,Lotnicza,134Y,53-889
+22,Koniecpol,Przejazd,173L,48-713
+23,Wladyslawowo,Tobrucka,123Y,01-115
+24,Jutrosin,Mariana Raciborskiego,90J,88-061
+25,Polkowice,Jozefa Chelmonskiego,78S,76-882
+26,Zarow,Jana Samsonowicza,8Z,28-601
+27,Kalety,Zlota,110K,12-517
+28,Belzyce,Checinska,187J,91-688
+29,Biskupiec,Ksiedza Grzegorza Piramowicza,174G,65-364
+30,Oborniki Slaskie,Praussow,16P,13-522
+31,Blonie,Miodowa,7X,31-306
+32,Tulowice,Ludwika Zamenhofa,79N,97-384
+33,Radomysl Wielki,Fosforytowa,175U,68-690
+34,Dobrzyca,Admirala Jozefa Unruga,30L,00-553
+35,Bialogard,Swietojanska,132V,18-880
+36,Ostrow Mazowiecka,Bieszczadzka,171V,78-582
+37,Wielichowo,Gajowa,54G,59-541
+38,Staporkow,Kongresowa,43O,63-104
+39,Czerwiensk,Pietraszki,86L,80-103
+40,Tyszowce,Rafala Hadziewicza,31F,32-144
+41,Lipsk,Jozefa Zaorskiego,173J,80-091
+42,Leczna,Jedrusiow,80U,42-385
+43,Recz,Studencka,151H,52-488
+44,Plock,Szydlowek Gorny,188Y,36-882
+45,Paslek,Jerzego Bogumila Puscha,119O,99-384
+46,Gdynia,Klonowa,26L,62-116
+47,Kozuchow,Mala,7B,44-929
+48,Sianow,Jana Styki,66M,96-681
+49,Strzelce Krajenskie,Stawki,126A,66-725
+50,Skarszewy,Ksiedza Stanislawa Staszica,160W,67-935
+51,Grodkow,Bukowa,86F,79-900
+52,Brwinow,Sokola,40Y,85-936
+53,Kobylka,Wojewodzka,137Z,48-059
+54,Bierutow,Lubrzanka,175A,34-252
+55,Zelechow,Jozefa Chelmonskiego,75V,73-967
+56,Kamienna Gora,Mikolaja Kopernika,51M,33-203
+57,Kolo,Karola Szymanowskiego,192F,25-135
+58,Szczekociny,Ciekocka,1J,16-985
+59,Serock,Jeziorko,110E,69-602
+60,Bilgoraj,Studziankowska,75I,14-652
+61,Ostroda,Mostowa,92Z,27-220
+62,Kock,Skibowa,152D,18-902
+63,Solec Kujawski,Wasosz,169L,64-214
+64,Miedzychod,Stare Sieje,87M,96-239
+65,Paczkow,Oksywska,46R,80-069
+66,Debno,Gruchawka,87X,71-710
+67,Kluczbork,Pirytowa,163U,92-307
+68,Tarnow,Rzepichy,23V,30-696
+69,Golina,Krakowska,107B,53-405
+70,Jedrzejow,Jeziorko,135C,67-372
+71,Bytow,Cicha,101Q,70-342
+72,Opoczno,Sabinowek,27J,61-451
+73,Wodzislaw Slaski,Zlota,179I,16-672
+74,Biecz,Cisowa,123T,69-780
+75,Trzciel,Zamknieta,138Y,12-633
+76,Siedlce,Narciarska,5P,67-683
+77,Drobin,Tadeusza Boya-Zelenskiego,86G,54-262
+78,Stawiszyn,Dewonska,120T,03-546
+79,Leczna,Jedrusiow,187U,05-008
+80,Resko,Zakret,17I,08-619
+81,Radymno,Bodzentynska,101J,22-338
+82,Ropczyce,Kolonia,94B,79-714
+83,Gostyn,Astronautow,71Z,29-866
+84,Nekla,Tatarska,93Q,73-175
+85,Miedzyborz,Wojtostwo,72B,56-513
+86,Mieszkowice,Mostowa,73X,31-663
+87,Myslowice,Gabrieli Zapolskiej,131U,53-807
+88,Orzesze,Ignacego Daszynskiego,70T,35-734
+89,Jedwabne,Czarnowska,96Y,96-606
+90,Wschowa,Romualda,9E,52-953
+91,Tychy,Galenowa,174M,67-518
+92,Wloclawek,Lopusznianska,38D,13-676
+93,Turek,Starodomaszowska,10E,29-765
+94,Ostrzeszow,Lopusznianska,155R,53-144
+95,Sztum,Piotrkowska,66R,60-214
+96,Barwice,Zygmunta Kwasa,48F,82-578
+97,Kalisz Pomorski,Wygoda,60K,37-193
+98,Pelplin,Źrodlowa,14J,02-858
+99,Rakoniewice,Ignacego Paderewskiego,100Y,94-190
+100,Goscino,Jozefa Brandta,150F,04-215
+101,Zagorz,Konstantego Ildefonsa Galczynskiego,179A,56-760
+102,Sejny,Ludwika Solskiego,149G,24-829
+103,Lwowek Slaski,Pulkownika Dionizego Czachowskiego,29B,95-546
+104,Przemysl,Jasna,48M,05-742
+105,Kozieglowy,Hipoteczna,176W,18-648
+106,Brok,Klonowa,184X,90-943
+107,Imielin,Sloneczna,193A,34-649
+108,Sulejow,Radiowa,81S,36-388
+109,Grajewo,Ksiedza Augustyna Kordeckiego,126X,80-474
+110,Otyn,Kutnowska,150P,54-635
+111,Morawica,Przylogi,42L,08-041
+112,Wieliczka,Pallotynska,132B,46-487
+113,Sokolow Podlaski,Bruszniowa,122Y,65-382
+114,Pniewy,Wojska Polskiego,98T,59-800
+115,Klobuck,Zakret,36Z,16-496
+116,Annopol,Boleslawa Prusa,129Q,76-063
+117,Klodzko,Cisowa,39G,95-537
+118,Puck,Wronia,76T,74-970
+119,Ostrorog,Zwierzyniecka,16V,21-260
+120,Baborow,Krakowska,24S,79-800
+121,Lidzbark Warminski,Ksiedza Grzegorza Piramowicza,138B,77-388
+122,Pyskowice,Browarna,143W,85-100
+123,Tarnogrod,Wysoka,120Q,38-595
+124,Kanczuga,Lubrzanka,135W,91-454
+125,Cieszanow,Lubiczna,70Y,51-510
+126,Wladyslawowo,Jana Samsonowicza,111A,77-655
+127,Kolbuszowa,Zamkowa,87L,30-889
+128,Lochow,Malachitowa,172E,43-865
+129,Srem,Klonowa,172I,21-768
+130,Barlinek,Lopusznianska,56I,61-187
+131,Laszczow,Poprzeczna,89Q,30-798
+132,Zalewo,Prezydenta Ryszarda Kaczorowskiego,162P,92-586
+133,Klimontow,Krzemionkowa,26V,73-898
+134,Zmigrod,Maslowska,110O,16-942
+135,Orzysz,Diamentowa,64G,84-417
+136,Korsze,Podklasztorna,116H,65-675
+137,Smigiel,Otrocz,160O,29-277
+138,Wozniki,Tadeusza Boya-Zelenskiego,33M,94-733
+139,Malomice,Romualda,73Q,91-065
+140,Nisko,Nad Wizna,172L,85-130
+141,Kamiensk,Zgorska,94S,71-176
+142,Nidzica,Mokra,27K,25-365
+143,Myszkow,Zakret,129K,79-895
+144,Kruszwica,Obrzezna,141A,81-831
+145,Slomniki,Bialogonska,185V,44-320
+146,Czersk,Bakowa,11B,01-568
+147,Blachownia,Kutnowska,117A,49-797
+148,Zwolen,Zgorska,64N,94-193
+149,Ozorkow,Naleczow,134V,95-046
+150,Trzebiatow,Dewonska,140M,21-602
+151,Wolborz,Wojciecha Szczepaniaka,62Y,01-743
+152,Skawina,Zastawie,10F,97-828
+153,Koniecpol,Piotra Michalowskiego,19S,32-120
+154,Kaluszyn,Zgorska,111P,69-812
+155,Szczuczyn,Lopusznianska,8A,89-820
+156,Parczew,Marii Opielinskiej,70U,58-588
+157,Jozefow (powiat otwocki),Grzybowa,196P,72-938
+158,Kisielice,Podgorska,96J,48-979
+159,Dobrzany,Malikow,195P,02-856
+160,Lubin,Ceglana,197O,97-742
+161,Bierutow,Generala Romualda Traugutta,180Q,21-985
+162,Radymno,Dyrekcji Glownej Gorniczej,143C,34-395
+163,Blazowa,Kongresowa,53Z,96-538
+164,Ilawa,Nowowiejska,54W,01-285
+165,Sieradz,Cmentarna,7W,35-393
+166,Leszno,Swietojanska,198P,34-413
+167,Gora Kalwaria,Podklasztorna,82X,97-608
+168,Kartuzy,Krola Boleslawa Chrobrego,164H,71-745
+169,Drobin,Podlesna,172V,30-056
+170,Borek Wielkopolski,Kruszcowa,163L,86-005
+171,Tykocin,Wladyslawa Dzikowskiego,65X,50-308
+172,Tarnow,Rakowska,158V,70-511
+173,Nowa Deba,Mikolaja Gomolki,46I,60-834
+174,Czchow,Grobla,1G,84-834
+175,Bytow,Szydlowek Dolny,2C,35-507
+176,Lublin,Nowy Swiat,7L,75-370
+177,Jastrzebie-Zdroj,Jeleniowska,154W,33-381
+178,Zagorz,Jerzego Bogumila Puscha,197J,65-378
+179,Zlotow,Ceglana,186B,78-674
+180,Wojcieszow,Browarna,20Y,18-437
+181,Malbork,Wladyslawa Dzikowskiego,90C,93-621
+182,Sierpc,Lesniowka,51M,02-364
+183,Lewin Brzeski,Aleksandra Gierymskiego,174B,49-580
+184,Opatow,Ksiedza Hugona Kollataja,41K,40-003
+185,Koluszki,Batalionow Chlopskich,188X,24-168
+186,Lututow,Wierzbowa,101Z,66-225
+187,Brzeg,Lukowa,64N,97-878
+188,Brusy,Berberysowa,3L,95-621
+189,Oborniki Slaskie,Okrezna,35C,28-811
+190,Laziska Gorne,Hercynska,183H,76-060
+191,Slesin,Grobla,110P,49-932
+192,Skwierzyna,Ulanska,57P,61-555
+193,Proszowice,Na Lugach,176V,34-510
+194,Knyszyn,Konecka,56C,69-662
+195,Zabkowice Slaskie,Romualda Mielczarskiego,21E,27-020
+196,Koscierzyna,Kocka,193C,87-916
+197,Lazy,Podgorska,67T,03-657
+198,Laszczow,Astronautow,38I,00-216
+199,Kozmin Wielkopolski,Bakowa,23Q,70-413
+200,Monki,Wincentego z Kielc,101J,29-482
+201,Krasnobrod,Krysztalowa,50T,36-614
+202,Bialy Bor,Gustawa Morcinka,173N,96-873
+203,Wolin,Ksiecia Jozefa Poniatowskiego,176R,95-469
+204,Pajeczno,Aleksandra Janowskiego,44H,34-524
+205,Bardo,Wolbromska,157L,20-242
+206,Nidzica,Za Walcownia,136U,61-664
+207,Gryfice,Swietokrzyska,10I,03-573
+208,Glucholazy,Ksiedza Ignacego Jana Skorupki,3P,89-822
+209,Szczytna,Juliana Falata,101I,95-428
+210,Wolsztyn,Stokowa,41X,32-139
+211,Zwierzyniec,Lazy,110S,46-071
+212,Krynki,Gleboczka,48R,28-562
+213,Kcynia,Miedziana,100H,48-448
+214,Ciezkowice,Skalista,176J,91-514
+215,Radoszyce,Pietraszki,45X,32-492
+216,Biezun,Domaniowka,36A,70-452
+217,Tuczno,Fryderyka Chopina,195G,62-979
+218,Ziebice,Wolbromska,50T,18-753
+219,Janow Lubelski,Zascianek,193E,54-191
+220,Wisla,Ludwiki Wawrzynskiej,170D,71-700
+221,Sianow,Kalcytowa,5W,47-476
+222,Borne Sulinowo,Hetmana Stanislawa Zolkiewskiego,144P,57-853
+223,Ciezkowice,Emilii Znojkiewiczowej,69N,69-904
+224,Krynica Morska,Wojciecha Zywnego,183P,13-511
+225,Poniatowa,Kutnowska,166U,33-800
+226,Uniejow,Karola Szymanowskiego,96F,68-566
+227,Plock,Kasztanowa,40S,74-108
+228,Grodzisk Wielkopolski,Hetmana Stefana Czarnieckiego,152G,88-500
+229,Lochow,Targowa,178D,03-943
+230,Nysa,Niwy Lisowskie,122N,41-249
+231,Szamotuly,Miedziana,34U,61-703
+232,Pyrzyce,Cmentarna,137K,45-458
+233,Ujscie,Pancerna,144D,95-672
+234,Karpacz,Peryferyjna,50M,70-691
+235,Trzebiatow,Krola Kazimierza Wielkiego,143S,92-145
+236,Kudowa-Zdroj,Zacisze,196W,49-546
+237,Milanowek,Szwolezerow,79R,51-226
+238,Tyczyn,Sokola,195Z,96-264
+239,Tczew,Tatrzanska,153J,81-790
+240,Piastow,Powstania Styczniowego,75B,06-474
+241,Mieroszow,Machnowicka,132Y,80-810
+242,Tuchola,Nowy Swiat,178X,87-815
+243,Lobez,Owsiana,75H,73-482
+244,Plock,Robotnicza,44M,92-294
+245,Piatek,Hoza,3J,70-099
+246,Grojec,Zygmunta Noskowskiego,194U,78-679
+247,Bedzin,Jurajska,78T,82-582
+248,Sulmierzyce,Leona Skibinskiego,141A,80-740
+249,Chociwel,Klonowa,99D,45-970
+250,Brzesc Kujawski,Biskupa Mieczyslawa Jaworskiego,148N,49-655
+251,Losice,Przecznica,48S,53-247
+252,Nowogrod Bobrzanski,Piesza,121E,59-141
+253,Zagan,Marmurowa,29T,02-269
+254,Rogozno,Kozia,102L,68-485
+255,Pyskowice,Pirytowa,14X,43-158
+256,Krobia,Janczarska,196O,02-102
+257,Wolbrom,Olgi Boznanskiej,131J,58-251
+258,Pruszkow,Szkolna,151Y,31-488
+259,Szczawnica,Orla,63R,90-733
+260,Malomice,Ksiecia Franciszka Ksawerego Druckiego-Lubeckiego,153F,40-921
+261,Swierzawa,Karkonoska,41I,83-925
+262,Jastarnia,Wiosenna,121J,13-009
+263,Tychowo,Mariana Raciborskiego,26N,85-347
+264,Strzelin,Biskupa Czeslawa Kaczmarka,121H,23-721
+265,Cybinka,Romualda Mielczarskiego,150M,98-972
+266,Sobotka,Lopusznianska,75R,70-209
+267,Gniewkowo,Jesionowa,74J,70-297
+268,Pyzdry,Plazowa,82E,45-785
+269,Drobin,Hoza,126L,03-081
+270,Krasnobrod,Jana Chryzostoma Paska,65R,61-623
+271,Pajeczno,Mikolaja Gomolki,183H,01-826
+272,Nekla,Slaska,76E,96-067
+273,Polanow,Piesza,71B,46-276
+274,Krobia,Okrezna,141R,49-056
+275,Ostrow Wielkopolski,Leszczynska,43G,85-184
+276,Czerwiensk,Lukowa,81K,65-183
+277,Kaluszyn,Garbarska,146A,15-094
+278,Leczna,Machocka,125E,92-087
+279,Strzyzow,Niwy Lisowskie,99F,33-183
+280,Sepolno Krajenskie,Szczecinska,92Z,01-282
+281,Mlawa,Natalii Machalowej,29G,73-527
+282,Bychawa,Owsiana,16G,98-284
+283,Wielen,Zamosc,9S,63-730
+284,Orneta,Miodowa,102P,15-553
+285,Makow Podhalanski,Pulkownika Dionizego Czachowskiego,8X,46-642
+286,Gorlice,Mala Zgoda,31L,10-816
+287,Jastarnia,Swierczynska,79P,17-765
+288,Otwock,Swietego Pawla,174L,00-356
+289,Stopnica,Skladowa,175N,60-487
+290,Rymanow,Klonowa,172J,89-184
+291,Nowy Staw,Mieczyslawy cwiklinskiej,138Z,74-788
+292,Slawno,Berberysowa,89A,48-311
+293,Stepnica,Kazimierza Kaznowskiego,123I,06-469
+294,Nowy Staw,Batalionow Chlopskich,187Y,03-819
+295,Tarczyn,Rafala Hadziewicza,85L,63-822
+296,Terespol,Bobrowa,18J,61-574
+297,Olkusz,Aleksandra Janowskiego,182E,40-495
+298,Koronowo,Krzemionkowa,157E,63-906
+299,Mrocza,Stara,75F,14-449
+300,Pilica,Karola Henryka Kadena,46B,18-092
+301,Ploty,Agrestowa,50F,89-938
+302,Bialogard,Czolgistow,55H,78-132
+303,Wielen,Wielkopolska,177C,21-642
+304,Bogatynia,Mikolaja Reja,179I,00-866
+305,Krynki,Stokowa,157E,09-858
+306,Wojkowice,Litewska,8O,03-787
+307,Drezdenko,Checinska,96Z,37-699
+308,Chorzele,Kazimierza Smolaka,11A,36-418
+309,Kutno,Zolnierzy Wykletych,74A,27-437
+310,Sztum,Wygon,118M,18-558
+311,Pyzdry,Hilarego Mali,118J,35-364
+312,Gabin,Zagnanska,147J,92-741
+313,Strumien,Lukowa,33M,44-639
+314,Brusy,Zlota,62P,40-582
+315,Tarnow,Wita Stwosza,187H,37-235
+316,Bytom Odrzanski,Zlota,62Z,07-632
+317,Krynki,Kazimierza Kaznowskiego,98E,75-483
+318,Bilgoraj,Konecka,4F,94-272
+319,Ploty,Ksiedza Stanislawa Staszica,130M,00-010
+320,Wieliczka,Charsznicka,6Q,73-915
+321,Sosnowiec,Prezydenta Ryszarda Kaczorowskiego,17E,22-470
+322,Jedlina-Zdroj,Jagodowa,27C,79-516
+323,Szczawnica,Lesna,146T,17-629
+324,Marki,Henryka Sienkiewicza,148B,62-822
+325,Lancut,Stare Sieje,165Y,97-497
+326,Nowe Miasteczko,Jana Karskiego,52X,08-749
+327,Urzedow,Mahometanska,109P,75-490
+328,Mosina,Hubalczykow,183Y,91-145
+329,Czerwiensk,Lopianowa,134W,06-277
+330,Nekla,Podporucznika Zbigniewa Kruszelnickiego Wilka,57X,19-096
+331,Namyslow,Gipsowa,162D,83-261
+332,Chojna,Jarzynowa,191G,74-956
+333,Miedzychod,Wikaryjska,113Z,16-266
+334,Jutrosin,Hetmana Stanislawa Zolkiewskiego,144P,15-742
+335,Czersk,Biesak,34T,68-263
+336,Zaklikow,Natalii Machalowej,150P,29-718
+337,Zelechow,Ludomira Rozyckiego,89H,83-466
+338,Tyczyn,Czarnowska,154Z,08-495
+339,Stary Sacz,Bukowa,135J,66-020
+340,Lapy,Przemyslowa,74J,50-766
+341,Dobrzyn nad Wisla,Swietojanska,40E,58-832
+342,Szamotuly,Swietej Barbary,104U,38-210
+343,Piensk,Spacerowa,141B,35-269
+344,Zawiercie,Panska,199W,30-486
+345,Pionki,Petyhorska,19E,26-698
+346,Zambrow,Jeleniowska,91W,59-404
+347,Boguszow-Gorce,Owocowa,144A,41-233
+348,Sedziszow,Garbarska,135D,17-749
+349,Kolaczyce,Permska,164J,12-933
+350,Lomianki,Mala,191W,85-839
+351,Debrzno,Starowapiennikowa,180R,94-677
+352,Chojnow,Kuznikow,89M,39-783
+353,Puszczykowo,Ludwika Solskiego,50X,47-755
+354,Piaseczno,Rozmarynowa,173L,94-775
+355,Osieczna,Emilii Znojkiewiczowej,130W,54-815
+356,Kietrz,Maksymiliana Strasza,179T,89-324
+357,Zarki,Zapomniana,97J,92-291
+358,Nisko,Winnicka,3P,33-699
+359,Zabki,Otrocz,45U,39-288
+360,Jozefow (powiat bilgorajski),Mazurska,104J,42-090
+361,Zlotoryja,Targowa,106B,57-473
+362,Podkowa Lesna,Wincentego Witosa,106E,33-723
+363,Wolin,Skrzetlewska,101J,32-554
+364,Sosnicowice,Jozefa Zaorskiego,15A,44-299
+365,Osieczna,Wygon,13H,04-709
+366,Gozdnica,Jana Nowaka-Jezioranskiego,105A,14-264
+367,Radzyn Podlaski,Chabrowa,122U,70-124
+368,Ilowa,Nowa,15Z,15-260
+369,Szczytna,Folwarczna,62W,29-122
+370,Miedzyborz,Cypriana Kamila Norwida,121R,45-378
+371,Radom,Stacyjna,137I,68-052
+372,Siechnice,Tektoniczna,126U,63-525
+373,Wozniki,Ogrodowa,15G,24-263
+374,Wolbrom,Wojewodzka,44U,51-319
+375,Pionki,Czolgistow,136N,32-805
+376,Czeladz,Bursztynowa,190A,33-081
+377,Poniatowa,Andrzeja Struga,176Q,57-677
+378,Ciechanow,Studencka,90E,76-096
+379,Brzesko,Kalinowa,22I,46-137
+380,Dobrzyn nad Wisla,Oficerska,101B,01-256
+381,Slupsk,Bohaterow Warszawy,145L,82-349
+382,Chojnice,Szwedzka,113N,30-765
+383,Paczkow,Juliana Tuwima,126D,46-032
+384,Gorzno,Zgorska,34X,52-632
+385,Tychowo,Czolgistow,17I,75-289
+386,Slubice,Konecka,11N,28-000
+387,Milakowo,Zamknieta,177H,50-173
+388,Lubycza Krolewska,Pulkownika Dionizego Czachowskiego,49N,10-488
+389,Ruciane-Nida,Poligonowa,144P,00-283
+390,Krasnystaw,Przemyslawa Gosiewskiego,77O,48-281
+391,Radzymin,Galenowa,192L,24-909
+392,Piotrkow Trybunalski,Bernardynska,92U,68-385
+393,Lubomierz,Lysogorska,116H,38-078
+394,Sosnicowice,Barczanska,142F,32-231
+395,Lowicz,Jana i Jedrzeja Sniadeckich,5X,17-598
+396,Jozefow (powiat otwocki),Pulkownika Dionizego Czachowskiego,10B,80-897
+397,Ogrodzieniec,Nastole,106G,24-878
+398,Pultusk,Poligonowa,44V,18-077
+399,Nowe Warpno,Sandomierska,74M,29-748
+400,Nowy Wisnicz,Krola Wladyslawa Jagielly,100M,27-751
+401,Brzostek,Majora Jurija Gagarina,158R,82-171
+402,Kepno,Iglasta,28A,37-809
+403,Suprasl,Spoldzielcza,130D,10-783
+404,Brodnica,Mechanikow,142W,59-560
+405,Siemianowice Slaskie,Dyminska,191N,64-805
+406,Wodzislaw Slaski,Krola Kazimierza Wielkiego,50T,69-621
+407,Przedecz,Tektoniczna,18A,98-872
+408,Koszalin,Slawkowska,53U,04-475
+409,Olesnica,Bursztynowa,74Q,94-077
+410,Warka,Jedrusiow,119F,84-238
+411,Rejowiec,Lesniowka,167V,27-491
+412,Walbrzych,Sadowa,149J,97-463
+413,Swiebodzin,Turystyczna,49T,63-900
+414,Otyn,Franciszka Smuglewicza,16B,02-040
+415,Proszowice,Wloszczowska,78H,69-156
+416,Halinow,Konstantego Ildefonsa Galczynskiego,122T,69-300
+417,Oborniki Slaskie,Piekoszowska,41O,58-513
+418,Slawno,Karbonska,140Q,14-568
+419,Zloty Stok,Andrzeja Frycza Modrzewskiego,49F,89-907
+420,Kepno,Oskara Kolberga,180V,01-882
+421,Zlotow,Wisniowa,59E,08-511
+422,Dabrowa Tarnowska,Jasminowa,44Q,71-245
+423,Gniezno,Podporucznika Zbigniewa Kruszelnickiego Wilka,127N,51-975
+424,Rzeszow,Osobna,51N,58-622
+425,Goscino,Gietowka,148E,74-922
+426,Trzciel,Brzoskwiniowa,122O,03-886
+427,Slawkow,Swietej Weroniki,128M,52-869
+428,Swierzawa,Litewska,136Z,43-959
+429,Zerkow,Konecka,44W,83-935
+430,Golancz,Zimna,16A,54-706
+431,Reszel,Juliana Tuwima,143T,06-130
+432,Makow Mazowiecki,Zwierzyniecka,167H,95-408
+433,Sulecin,Checinska,18V,35-598
+434,Szamotuly,Radlinska,24K,59-546
+435,Wilamowice,Lotewska,155T,68-981
+436,Strzelce Opolskie,Orlat Lwowskich,181W,26-244
+437,Siewierz,Patrol,155K,30-182
+438,Glogow,Jana Chryzostoma Paska,199E,33-042
+439,Kleszczele,Klecka,179Z,14-160
+440,Pilawa,Rzeszowska,40M,44-095
+441,Szklarska Poreba,Karpacka,40Y,89-312
+442,Lidzbark Warminski,Zbozowa,110Y,98-167
+443,Radzyn Podlaski,Ustronie,61W,07-035
+444,Krasnystaw,Peryferyjna,126M,66-860
+445,Skierniewice,Bursztynowa,193O,57-390
+446,Zabki,Osobna,158U,14-337
+447,Drawsko Pomorskie,Zygmunta Kwasa,197Q,65-071
+448,Lomza,Niwy Lisowskie,67G,71-372
+449,Mielec,Prosta,141E,80-617
+450,Sopot,Wojciecha Kossaka,99Y,42-880
+451,Krasnobrod,Radlinska,96V,28-434
+452,Zwierzyniec,Kolejarzy,187E,65-298
+453,Zbaszyn,Jana Pawla II,1I,48-561
+454,Pilawa,Dzialkowa,16N,27-286
+455,Zaklikow,Kapitana Wladyslawa Raginisa,158R,09-845
+456,Chojnow,Garbarska,107X,96-693
+457,Bielsk Podlaski,Barwinek,128M,18-457
+458,Naklo nad Notecia,Lesniowka,41O,40-932
+459,Wloclawek,Ksiedza Antoniego Zralka,88A,03-192
+460,Orzesze,Fabryczna,185E,06-981
+461,Kolno,Majora Henryka Sucharskiego,176I,45-175
+462,Laziska Gorne,Piastowska,125D,35-723
+463,Szydlowiec,Helenowek,32U,37-628
+464,Trzebiatow,Planty,172X,31-707
+465,Zukowo,Domaniowka,23L,66-780
+466,Kozuchow,Wloszczowska,103L,29-525
+467,Zelechow,Nad Wizna,95B,62-125
+468,Sulmierzyce,Szczecinska,106I,55-715
+469,Kalety,Radlinska,105A,22-931
+470,Koszalin,Powstania Styczniowego,92S,05-281
+471,Aleksandrow Lodzki,Mikolaja Gomolki,186K,37-083
+472,Pionki,Jesionowa,41K,98-717
+473,Tyczyn,Koncowa,174C,13-340
+474,Zakroczym,Za Torem,29R,69-217
+475,Dobiegniew,Lubiczna,48B,06-063
+476,Gdansk,Podgorska,147M,30-615
+477,Suchedniow,Hoza,138P,84-048
+478,Pniewy,Lubelska,185M,00-721
+479,Slawkow,Borowa,66Y,96-812
+480,Poreba,Artura Grottgera,70F,11-968
+481,Miroslawiec,Folwarczna,128O,80-422
+482,Chojna,Niewachlowska,46W,03-760
+483,Sokolow Malopolski,Dobromysl,41K,65-239
+484,Kozieglowy,Astronautow,141V,87-767
+485,Strzelin,Przegony,38B,94-704
+486,Zielona Gora,Czolgistow,12I,06-406
+487,Drawno,Wesola,6W,87-846
+488,Sztum,Wladyslawa Franasia,146Q,38-130
+489,Szczuczyn,Bukowa,5C,19-373
+490,Nowogrodziec,Szybowcowa,154K,43-604
+491,Ciechocinek,Kwarciana,178F,23-544
+492,Sochaczew,Wysoka,25V,20-159
+493,Swierzawa,Swietego Stanislawa Kostki,172A,84-448
+494,Toszek,Wojtostwo,71Z,28-402
+495,Czerniejewo,Pawia,101E,54-333
+496,Piwniczna-Zdroj,Kazimierza Kaznowskiego,101S,58-957
+497,Strumien,Jana Matejki,176E,67-803
+498,Slawa,Kapielowa,24K,91-336
+499,Zwierzyniec,Swietego Leonarda,146N,44-125
+500,Garwolin,Generala Jozefa Bema,118V,90-505
+501,Aleksandrow Lodzki,Nowowiejska,30M,51-315
+502,Wolsztyn,Konecka,144J,11-267
+503,Pacanow,Krola Jana III Sobieskiego,165B,48-558
+504,Slupca,Zamknieta,192D,01-710
+505,Koniecpol,Generala Tadeusza Klimeckiego,91X,68-402
+506,Gora,Leszka Drogosza,10C,62-167
+507,Radzymin,Leszczynska,181H,81-373
+508,Insko,Podwalna,181I,50-336
+509,Pila,Wodna,128Q,54-500
+510,Steszew,Nowy Swiat,193I,71-825
+511,Pilawa,Brzozowa,138L,12-616
+512,Sulmierzyce,Jagiellonska,71N,01-897
+513,Wolczyn,Czarnowska,198P,97-465
+514,Malbork,Wystawowa,23N,18-948
+515,Suchedniow,Zamojska,54I,58-268
+516,Sokolka,Przechodnia,164R,05-716
+517,Walcz,Buska,24P,62-020
+518,Czarna Woda,Powstania Styczniowego,46I,17-569
+519,Smigiel,Alabastrowa,101L,90-081
+520,Raciaz,Grunwaldzka,147P,57-492
+521,Reszel,Poludniowa,59N,01-252
+522,Kazimierz Dolny,Pod Telegrafem,16K,82-323
+523,Ropczyce,Slusarska,19X,08-394
+524,Lidzbark,Saperow,81M,10-923
+525,Sochaczew,Studencka,78X,60-959
+526,Jastrzebie-Zdroj,Generala Stanislawa Maczka,88M,30-169
+527,Suwalki,Mikolaja Gomolki,15T,80-728
+528,Nowe Miasteczko,Tarasowa,88R,54-913
+529,Nowogrodziec,Brzechowska,59K,19-704
+530,Zgierz,Hetmana Stanislawa Zolkiewskiego,158Z,15-728
+531,Jawor,Domaniowka,73R,10-826
+532,Biskupiec,Hilarego Mali,65J,43-292
+533,Ustrzyki Dolne,Rozmarynowa,71D,66-113
+534,Czarna Woda,Bocznica,111V,07-162
+535,Jaworzno,Marmurowa,76G,80-764
+536,Losice,Cedrowa,164L,73-404
+537,Gorzow Slaski,Helenowek,161W,75-833
+538,Pelplin,Wita Stwosza,77S,31-465
+539,Uniejow,Dolna,162H,05-265
+540,Lubsko,Zascianek,19U,45-953
+541,Wyrzysk,Ksiecia Jozefa Poniatowskiego,38C,25-137
+542,Szadek,Weterynaryjna,192A,59-051
+543,Raciborz,Zgorska,183R,09-374
+544,Wisla,Hetmana Stanislawa Zolkiewskiego,70A,89-772
+545,Czaplinek,Pancerna,157N,44-972
+546,Nowy Korczyn,Andrzeja Frycza Modrzewskiego,147E,53-795
+547,Kostrzyn,Ciekocka,49W,84-061
+548,Nasielsk,Swietego Stanislawa Kostki,180K,89-993
+549,Ostrow Lubelski,Ksiecia Franciszka Ksawerego Druckiego-Lubeckiego,5T,11-150
+550,Puszczykowo,Jana Kasprowicza,32I,54-040
+551,Otyn,Jasminowa,96T,91-993
+552,Tarczyn,Starogorska,181F,60-675
+553,Nowy Korczyn,Grobla,75F,65-531
+554,Tczew,Generala Stefana Grota-Roweckiego,190M,45-423
+555,Krasnystaw,Obozna,38Y,31-904
+556,Milicz,Wojciecha Bartosa Glowackiego,184Y,50-549
+557,Wlen,Ciekocka,128W,06-389
+558,Belchatow,Hipoteczna,174I,61-638
+559,Biala Podlaska,Miedziana,179L,98-759
+560,Tyczyn,Fosforytowa,81N,71-280
+561,Olesnica,Borowa,194Y,58-711
+562,Wrzesnia,Studzienna,188Q,93-687
+563,Tarnow,Rybna,132U,17-366
+564,Rzeszow,Biskupa Wincentego Kadlubka,150W,85-345
+565,Szprotawa,Planty,38R,56-605
+566,Poniatowa,Browarna,3G,64-078
+567,Debica,Garbarska,148R,91-376
+568,Kargowa,Karola Kurpinskiego,143Q,57-567
+569,Malogoszcz,Biskupa Wincentego Kadlubka,103X,58-736
+570,Biala,Osobna,176O,18-173
+571,Osieczna,Boleslawa Prusa,136E,93-080
+572,Bielsk Podlaski,Aleksandrowka,35B,25-787
+573,Wieliczka,Boczna,3I,51-867
+574,Piotrkow Kujawski,Braterska,1H,83-727
+575,Warszawa,Jarzabek,82M,46-828
+576,Borek Wielkopolski,Jana Kochanowskiego,188Z,42-098
+577,Kisielice,Leszka Drogosza,135B,86-597
+578,Pniewy,Dewonska,101A,44-812
+579,Slomniki,Wojtostwo,19F,52-277
+580,Piastow,Stacyjna,85Y,96-933
+581,Brzeg Dolny,Krucza,75P,49-471
+582,Wyszkow,Jesionowa,85V,13-541
+583,Ryn,Dereniowa,129H,36-174
+584,Drzewica,Zygmunta Wroblewskiego,171C,35-913
+585,Karczew,Kapitulna,196B,74-684
+586,Krosno Odrzanskie,Wojewodzka,156Y,75-842
+587,Suprasl,Wysoka,108K,46-417
+588,Lewin Brzeski,Prochownia,55B,37-694
+589,Mysliborz,Checinska,46B,70-627
+590,Szczuczyn,Wikaryjska,163O,16-519
+591,Turek,Niewachlowska,25F,36-869
+592,Zielona Gora,Olkuska,99I,88-079
+593,Ostroda,Olkuska,57R,17-477
+594,Baranow Sandomierski,Stefana Starzynskiego,89O,55-981
+595,Malomice,Zagrabowicka,16O,45-929
+596,Lubniewice,Podgorska,172B,68-901
+597,Zbaszynek,Radostowa,2L,78-518
+598,Stawiszyn,Marii Krzyzanowskiej,180N,96-463
+599,Goldap,Stare Sieje,175U,71-939
+600,Zlotoryja,Krakowska,64J,61-764
+601,Piaseczno,Trzuskawicka,41H,37-977
+602,Zawadzkie,Szwedzka,128F,07-857
+603,Szamocin,Jozefa Szermentowskiego,1W,20-904
+604,Recz,Swietej Barbary,41C,43-742
+605,Barwice,Nowa,17J,19-931
+606,Kety,Dewonska,184I,87-930
+607,Kalety,Pancerna,173S,92-904
+608,Skwierzyna,Bakowa,186M,36-092
+609,Hrubieszow,Targowa,28X,82-428
+610,Sulecin,Krola Wladyslawa Lokietka,164M,83-382
+611,Mysliborz,Saperow,46K,39-378
+612,Lebork,Studziankowska,160A,50-745
+613,Piaseczno,Obozna,43T,99-969
+614,Golancz,Folwarczna,198J,08-473
+615,Opole Lubelskie,Swietej Weroniki,173G,00-276
+616,Zbaszyn,Rzeszowska,36A,85-622
+617,Nowa Sarzyna,Ustronie,160I,66-521
+618,Piaski,Prezydenta Stefana Artwinskiego,125P,11-049
+619,Jawor,Kujawska,59M,51-234
+620,Lochow,Lazy,98C,49-911
+621,Pniewy,Ceglana,49S,60-390
+622,Piwniczna-Zdroj,Stefana Zeromskiego,167Z,24-955
+623,Jastrzebie-Zdroj,Stare Sieje,85J,38-746
+624,Czyzew,Gromadzka,77O,54-797
+625,Stawiszyn,Karpacka,174D,12-365
+626,Lipsko,Pawia,95K,78-658
+627,Czarne,Litewska,24P,84-819
+628,Gabin,Janczarska,50C,12-605
+629,Kruszwica,Lopianowa,23V,53-593
+630,Pelczyce,Tartaczna,1V,18-358
+631,Tychy,Pallotynska,165H,05-724
+632,Czluchow,Dolna,139B,02-679
+633,Wielun,Jasna,132Z,82-993
+634,Przeclaw,Samuela Bogumila Lindego,194X,34-909
+635,Przeworsk,Mahometanska,119W,74-371
+636,Pogorzela,Maslana,145N,44-904
+637,Koronowo,Marii Sklodowskiej-Curie,91T,00-834
+638,Sroda Slaska,Slusarska,83K,07-903
+639,Bielsko-Biala,Parkowa,134M,97-497
+640,Szczyrk,Ksiecia Franciszka Ksawerego Druckiego-Lubeckiego,77W,46-386
+641,Lubomierz,Lotewska,173T,02-978
+642,Gorzno,Armii Krajowej,34J,51-067
+643,Lipiany,Morelowa,160J,25-872
+644,Namyslow,Machnowicka,171V,39-689
+645,Zukowo,Glogowa,55J,05-068
+646,Mrozy,Natalii Machalowej,171L,18-091
+647,Belchatow,Jana Kiepury,104K,84-491
+648,Swinoujscie,Machocka,56D,82-432
+649,Ozimek,Mikolaja Reja,48L,15-173
+650,Zelow,Sandomierska,190L,14-987
+651,Kolo,Wodna,138S,61-554
+652,Karpacz,Dluga,186L,29-852
+653,Hrubieszow,Olowiana,56V,65-875
+654,Nowa Ruda,Zdrojowa,73B,19-547
+655,Wielichowo,Ksiedza Piotra Sciegiennego,54U,02-972
+656,Pruszkow,Domki,62E,49-981
+657,Jaworzno,Swietego Rafala Kalinowskiego,49S,56-876
+658,Lipsko,Sadowa,155O,41-922
+659,Gozdnica,Niska,172A,88-356
+660,Rejowiec Fabryczny,Robotnicza,97E,60-534
+661,Nowa Deba,Kozia,179P,93-093
+662,Przeworsk,Jarzebinowa,119Z,09-978
+663,Wiecbork,Jana i Jedrzeja Sniadeckich,89L,22-499
+664,Opatowek,Mahometanska,48N,24-020
+665,Opatow,Graniczna,71H,96-787
+666,Labiszyn,Jozefa Elsnera,165T,57-187
+667,Olecko,Przylogi,39X,71-903
+668,Szydlowiec,Panoramiczna,169L,67-303
+669,Olawa,Okrezna,145J,23-001
+670,Wadowice,Bobrzanska,181P,12-036
+671,Ryki,Berberysowa,58L,09-514
+672,Gliwice,Marii Konopnickiej,103N,73-281
+673,Poniec,Topolowa,180O,33-775
+674,Ostroda,Podgorska,19M,84-841
+675,Jedwabne,Braterska,152Z,08-125
+676,Koronowo,Aleksandra Fredry,184D,64-965
+677,Nowogrod Bobrzanski,Orzechowa,85G,64-830
+678,Znin,Przelot,197W,34-491
+679,Pultusk,Zagrabowicka,136V,00-528
+680,Solec Kujawski,Klecka,85J,66-934
+681,Niepolomice,Generala Romualda Traugutta,56P,12-708
+682,Zbaszynek,Zagonowa,142K,29-485
+683,Mikstat,Rotmistrza Witolda Pileckiego,21G,84-870
+684,Zlotoryja,Podporucznika Zbigniewa Kruszelnickiego Wilka,150S,92-140
+685,Bierun,Grobla,199D,50-495
+686,Jordanow,Wesola,180K,03-827
+687,Lipno,Ksiedza Hugona Kollataja,92V,72-389
+688,Moryn,Leopolda Staffa,149M,00-372
+689,Wielun,Lesna,183C,11-306
+690,Staszow,Wronia,164P,86-760
+691,Zagorow,Kruszcowa,171U,41-755
+692,Babimost,Ksiedza Piotra Sciegiennego,79H,03-208
+693,Sztum,Garbarska,1V,50-062
+694,Dabie,Okolnik,3N,96-477
+695,Mikolow,Aleksandra Fredry,122R,99-619
+696,Biala Podlaska,Zastawie,129F,59-985
+697,Krasnik,Powstania Styczniowego,2A,90-479
+698,Belchatow,Polna,102Y,72-621
+699,Wschowa,Wojciecha Szczepaniaka,160D,35-825
+700,Warta,Jozefa Brandta,51L,66-083
+701,Wolin,Jana Kochanowskiego,108T,33-328
+702,Polanow,Kapitulna,140Q,63-135
+703,Warka,Morelowa,109F,31-075
+704,Konstancin-Jeziorna,Jana Pawla II,104B,21-701
+705,Dzierzoniow,Aleksandra Gierymskiego,32A,76-278
+706,Kleszczele,Ksiecia Mieszka I,39B,88-501
+707,Laskarzew,Zabia,135F,55-941
+708,Pleszew,Bodzentynska,155D,83-295
+709,Luban,Wincentego Witosa,119U,10-858
+710,Zakroczym,Wrobla,74A,94-436
+711,Dynow,Helska,103O,88-912
+712,Ryglice,Niestachowska,22T,70-641
+713,Zloczew,Zelaznogorska,109A,75-970
+714,Szczawno-Zdroj,Rakowska,92S,45-547
+715,Radoszyce,Ksiedza Stanislawa Staszica,95S,68-326
+716,Bilgoraj,Przeslowa,176D,19-372
+717,Ozorkow,Helska,94J,65-461
+718,Wolczyn,Ksiecia Mieszka I,109R,36-337
+719,Zawiercie,Armii Krajowej,199S,60-756
+720,Ostrow Wielkopolski,Dolomitowa,144G,20-576
+721,Oborniki,Napekowska,115X,12-007
+722,Krynki,Rybna,114O,21-405
+723,Bilgoraj,Wisniowa,78Z,39-018
+724,Ladek-Zdroj,Karbonska,113L,84-684
+725,Miedzyrzec Podlaski,Majora Jana Piwnika,61C,70-529
+726,Tuczno,Oksywska,105Z,80-664
+727,Bodzentyn,Edwarda Meissnera,189F,83-291
+728,Knurow,Beskidzka,41F,71-611
+729,Zaklikow,Karpacka,61L,10-972
+730,Baranow Sandomierski,Stolarska,41Q,17-039
+731,Mogielnica,Polna,164O,05-139
+732,Krakow,Barczanska,151J,01-738
+733,Libiaz,Mikolaja Gomolki,126H,80-091
+734,Nekla,Piaskowa,151F,64-695
+735,Debno,Mila,137W,06-083
+736,Walcz,Jana Karskiego,89B,03-223
+737,Milomlyn,Wystawowa,101Z,93-491
+738,Kazimierz Dolny,Wojciecha Bartosa Glowackiego,179H,85-490
+739,Starogard Gdanski,Domki,104U,14-334
+740,Bielawa,Gipsowa,1R,95-668
+741,Starogard Gdanski,Kapitulna,92K,40-786
+742,Gorzow Wielkopolski,Sienna,49Y,41-040
+743,Stargard,Malopolska,45P,94-937
+744,Trzebiatow,Marii Krzyzanowskiej,155A,19-304
+745,Skarszewy,Zabia,46Y,08-054
+746,Losice,Źrodlowa,194N,65-369
+747,Zawidow,Marii Konopnickiej,108Y,87-319
+748,Katy Wroclawskie,Krola Jana III Sobieskiego,17A,17-788
+749,Krosno,Dereniowa,194G,23-822
+750,Jordanow,Debowa,119Y,99-806
+751,Koszalin,Chlodna,132U,86-052
+752,Lubsko,Wrobla,33Z,42-535
+753,Lukow,Barczanska,45W,68-428
+754,Ilza,Okolnik,112X,89-136
+755,Sycow,Przygodna,45X,00-123
+756,Glinojeck,Janczarska,190A,54-708
+757,Szamotuly,Grzybowa,75Z,92-686
+758,Golub-Dobrzyn,Lesniowka,107H,48-711
+759,Ladek-Zdroj,Malopolska,14A,95-280
+760,Nowy Sacz,Poludniowa,141N,36-290
+761,Gluszyca,Jedrzejowska,48J,68-990
+762,Kcynia,Skrajna,81L,54-087
+763,Kobylin,Kazimierza Smolaka,14I,58-671
+764,Biala Piska,Krakowska,75D,10-070
+765,Dobiegniew,Stokowa,27M,32-917
+766,Duszniki-Zdroj,Grzybowa,101S,29-999
+767,Morawica,Zgoda,113L,02-905
+768,Zabrze,Braterska,63F,56-962
+769,Proszowice,Gajowa,42Z,25-520
+770,Dobczyce,Lukowa,71Q,61-437
+771,Swiatniki Gorne,Owsiana,188A,23-940
+772,Wysokie Mazowieckie,Panska,109M,85-781
+773,Piatek,Dolna,27Q,85-089
+774,Ostrzeszow,Tartaczna,18P,45-489
+775,Prudnik,Mlynska,113V,83-923
+776,Zabno,Jedrzejowska,86B,79-175
+777,Suraz,Piastowska,71T,87-440
+778,Nasielsk,Tadeusza Boya-Zelenskiego,45D,21-181
+779,Lukow,Lotnicza,169G,76-057
+780,Zawidow,Gliniana,159R,96-748
+781,Wegliniec,Podlesna,76C,03-577
+782,Miedzyzdroje,Majora Jurija Gagarina,132Y,52-436
+783,Krzepice,Husarska,18E,29-431
+784,Olkusz,Dzika,152P,83-664
+785,Pacanow,Kongresowa,53C,79-095
+786,Oborniki Slaskie,Gwarkow,132K,51-455
+787,Czchow,Solna,192L,79-704
+788,Lidzbark Warminski,Maksymiliana Strasza,54R,13-853
+789,Biezun,Brzoskwiniowa,136U,29-621
+790,Kuznia Raciborska,Maslowska,114R,77-144
+791,Sulechow,Saperow,186L,68-842
+792,Biala Piska,Grochowa,50N,77-082
+793,Zduny,Biesak,66J,60-664
+794,Muszyna,Skibowa,114L,88-665
+795,Szydlow,Zbozowa,158F,54-034
+796,Ryki,Lesniowka,54Y,88-790
+797,Przysucha,Koncowa,130U,91-044
+798,Poreba,Kruszcowa,126F,05-506
+799,Kruszwica,Wladyslawa Franasia,169X,59-089
+800,Bolkow,Warszawska,19A,48-565
+801,Karczew,Modlinska,173M,12-367
+802,Goldap,Stacyjna,92O,43-422
+803,Osieczna,Walerego Przyborowskiego,101P,89-723
+804,Dobrzany,Skrzetlewska,118N,25-738
+805,Tykocin,Opoczynska,167V,08-690
+806,Kozmin Wielkopolski,Glogowa,35N,56-199
+807,Odolanow,Stefana Starzynskiego,82V,76-480
+808,Minsk Mazowiecki,Klecka,115Y,21-296
+809,Chorzele,Sadowa,25J,28-361
+810,Chmielnik,Generala Tadeusza Klimeckiego,144U,16-418
+811,Kolobrzeg,Sandomierska,175I,06-432
+812,Ostrzeszow,Jedrusiow,161K,25-645
+813,Stawiski,Radlinska,44B,89-748
+814,Srem,Bruszniowa,87C,63-889
+815,Zelechow,Poslowicka,121I,73-030
+816,Opatow,Generala Romualda Traugutta,121Q,94-254
+817,Rajgrod,Zgorska,80C,92-183
+818,Ostrow Wielkopolski,Zofii Nalkowskiej,96K,18-121
+819,Chmielnik,Cypriana Kamila Norwida,60S,30-427
+820,Pyskowice,Zagorska,157D,73-371
+821,Drawsko Pomorskie,Dzielna,4Y,82-953
+822,Mieroszow,Krola Stefana Batorego,83D,35-917
+823,Terespol,Stacyjna,102E,22-049
+824,Kutno,Biskupa Czeslawa Kaczmarka,163S,19-508
+825,Radziejow,Majora Henryka Sucharskiego,76Q,83-576
+826,Lubin,Stolarska,147Q,04-977
+827,Krakow,Hetmana Jana Tarnowskiego,125V,25-329
+828,Boguchwala,Dzielna,78X,37-179
+829,Jablonowo Pomorskie,Armii Krajowej,42O,68-182
+830,Przemkow,Mechanikow,64A,11-137
+831,Chojnow,Skowronki,85G,33-729
+832,Krasnobrod,Tomasza Zielinskiego,104N,21-318
+833,Golancz,Srednia,165Y,46-347
+834,Mieroszow,Kujawska,65D,52-023
+835,Bedzin,Wita Stwosza,96K,04-045
+836,Kudowa-Zdroj,Mariana Raciborskiego,60B,23-187
+837,Tarczyn,Podwalna,81Q,78-302
+838,Sulecin,Chlopska,148V,22-427
+839,Mrozy,Czolgistow,60I,25-485
+840,Minsk Mazowiecki,Lotnicza,168B,32-591
+841,Lwowek Slaski,Jana i Jedrzeja Sniadeckich,25Y,21-145
+842,Przemkow,Panoramiczna,35O,72-965
+843,Sosnicowice,Wincentego z Kielc,176T,02-194
+844,Wolow,Swietego Leonarda,170S,20-330
+845,Radlin,Siedmiu Źrodel,58I,20-651
+846,Swidwin,Zygmunta Kwasa,155Y,02-147
+847,Boguchwala,Mineralna,180Z,48-321
+848,Kostrzyn nad Odra,Gustawa Morcinka,146I,41-676
+849,Golina,Marszalka Jozefa Pilsudskiego,91J,04-037
+850,Bochnia,Mariana Raciborskiego,83A,31-276
+851,Namyslow,Lopianowa,133S,19-340
+852,Skepe,Miechowska,105G,39-585
+853,Czempin,Pulkownika Dionizego Czachowskiego,153Q,75-523
+854,Czaplinek,Fryderyka Chopina,137U,78-549
+855,Kolonowskie,Rzeczna,45M,66-668
+856,Gozdnica,Franciszka Loefflera,118Y,95-294
+857,Pajeczno,Karkonoska,29L,64-335
+858,Biezun,Modlinska,124L,30-779
+859,Jozefow (powiat bilgorajski),Wojewodzka,110T,99-896
+860,Rozan,Wierzbowa,144P,96-053
+861,Mogilno,Miedziana,182O,22-235
+862,Dziwnow,Swietej Weroniki,104Q,91-845
+863,Kamien Krajenski,Za Torem,17S,84-860
+864,Wysoka,Krzywa,28T,62-681
+865,Krosno Odrzanskie,Zimna,159Q,23-359
+866,Chociwel,Kredowa,174X,93-941
+867,Staporkow,Diamentowa,83K,45-081
+868,Biezun,Dabrowska,75W,75-545
+869,Radzymin,Tarnowska,99C,75-074
+870,Opatowiec,Lopusznianska,99L,20-171
+871,Zielona Gora,Zielna,127R,92-583
+872,Suchan,Lysogorska,61Y,32-844
+873,Zakopane,Karpacka,153E,00-028
+874,Lubycza Krolewska,Armii Krajowej,28M,25-291
+875,Czyzew,Planty,90A,97-950
+876,Wachock,Stefana Okrzei,187D,30-363
+877,Swieradow-Zdroj,Karola Szymanowskiego,110Z,01-691
+878,Koniecpol,Stare Sieje,8O,23-524
+879,Kolonowskie,Pieninska,79Z,64-053
+880,Korsze,Piastowska,84D,67-048
+881,Miastko,Prochownia,34O,61-260
+882,Nieszawa,Narwicka,31C,68-039
+883,Losice,Lisowczykow,63R,71-519
+884,Zywiec,Radlinska,106C,31-859
+885,Kowalewo Pomorskie,Poslowicka,62G,17-996
+886,Dobrzyca,Tektoniczna,83M,71-074
+887,Slesin,Zygmunta Noskowskiego,175A,11-175
+888,Tarnowskie Gory,Jana i Jedrzeja Sniadeckich,34Z,27-945
+889,Wyszkow,Slichowicka,51M,88-334
+890,Mogielnica,Wladyslawa Franasia,59A,72-977
+891,Nowy Tomysl,Fabryczna,78G,07-227
+892,Losice,Lisia,192P,44-006
+893,Dukla,Wodna,92C,48-466
+894,Swieradow-Zdroj,Jozefa Chelmonskiego,113O,97-479
+895,Lubraniec,Lesna,9V,13-729
+896,Wilamowice,Lodzka,2N,93-982
+897,Pilzno,Otrocz,21X,00-661
+898,Zabki,Starowapiennikowa,15V,94-107
+899,Lodz,Wojciecha Bartosa Glowackiego,8A,47-910
+900,Wlodawa,Tarasowa,105A,32-551
+901,Lipno,Morelowa,17C,27-657
+902,Pilawa Gorna,Lesna,25R,34-082
+903,Suchedniow,Rakowska,102Z,78-134
+904,Klodawa,Wronia,166B,17-549
+905,Krzywin,Jarzynowa,78U,95-741
+906,Mlynary,Zygmunta Noskowskiego,95P,70-701
+907,Wojnicz,Kapitana Wladyslawa Raginisa,42U,99-922
+908,Uniejow,Wolbromska,157F,01-873
+909,Kozieglowy,Jadwigi Prendowskiej,33B,83-188
+910,Belzyce,Podwalna,62T,65-939
+911,Brok,Zelaznogorska,144G,93-645
+912,Recz,Hutnicza,191G,26-124
+913,Lebork,Gipsowa,80G,91-597
+914,Malbork,Zacisze,187P,00-942
+915,Skierniewice,Starowiejska,172N,92-410
+916,Nekla,Gruchawka,189R,40-162
+917,Krzyz Wielkopolski,Topolowa,12I,24-577
+918,Zlotow,Tartaczna,43T,95-813
+919,Choroszcz,Kapitulna,63V,37-414
+920,Jastrzebie-Zdroj,Zygmunta Wroblewskiego,29W,98-937
+921,Opole,Dzialkowa,185O,41-482
+922,Wiazow,Karpacka,184M,80-918
+923,Braniewo,Jarzebinowa,137N,24-102
+924,Rawa Mazowiecka,Rafala Hadziewicza,178J,90-559
+925,Sulmierzyce,Checinska,20P,97-364
+926,Dobra (powiat turecki),Szkolna,8I,36-144
+927,Kleszczele,Sedziszowska,14K,68-982
+928,Kanczuga,Zamkowa,138M,56-387
+929,Wasilkow,Czarnowska,142W,15-255
+930,Klobuck,Lisowczykow,48E,31-857
+931,Jastrowie,Modrzewiowa,149S,11-348
+932,Strzelce Krajenskie,Jana Kiepury,4I,55-247
+933,Goniadz,Dyrekcji Glownej Gorniczej,33B,21-230
+934,Lasin,Kosynierow,114X,53-709
+935,Muszyna,Ojca Kolumbina Tomaszewskiego,21K,19-552
+936,Nasielsk,Parkowa,104B,11-271
+937,Kamien Pomorski,Lotnicza,177E,64-541
+938,Rozan,Wodna,8H,58-611
+939,Klodawa,Diamentowa,65D,04-507
+940,Nowy Sacz,Marszalkowska,26H,92-283
+941,Bedzin,Piotra Michalowskiego,140N,77-696
+942,Nowogrodziec,Romualda Mielczarskiego,156D,86-695
+943,Kazimierz Dolny,Ksiezniczki Dabrowki,90G,42-804
+944,Chrzanow,Helska,197X,65-796
+945,Zbaszynek,Zagorska,42C,27-556
+946,Malomice,Bohaterow Warszawy,108T,81-182
+947,Gryfice,Olowiana,186V,52-238
+948,Pila,Spacerowa,164H,78-592
+949,Chodecz,Towarowa,86Q,67-915
+950,Olkusz,Helenowek,111J,64-855
+951,Mlynary,Machnowicka,56K,74-268
+952,Muszyna,Jana Kochanowskiego,176D,62-331
+953,Pniewy,Krola Kazimierza Wielkiego,30W,62-709
+954,Pyzdry,Cedrowa,174I,11-871
+955,Ostrow Lubelski,Fosforytowa,143D,68-490
+956,Skaryszew,Kutnowska,123S,61-056
+957,Koszyce,Sukowska,92O,03-136
+958,Zarki,Aleksandrowka,22D,34-558
+959,Krotoszyn,Janczarska,136K,43-962
+960,Tychowo,Ojca Kolumbina Tomaszewskiego,5F,84-668
+961,Swieradow-Zdroj,Biesak,95O,82-626
+962,Jedwabne,Artura Grottgera,196F,93-999
+963,Wadowice,Hilarego Mali,9O,62-668
+964,Wyszkow,Bocznica,113S,59-008
+965,Andrychow,Niecala,84U,41-802
+966,Wolbrom,Armii Krajowej,99W,78-552
+967,Grodkow,Peryferyjna,167P,17-920
+968,Rypin,Kongresowa,141S,30-991
+969,Chmielnik,Mikolaja Reja,157R,14-156
+970,Chojna,Kamienna,119F,80-361
+971,Kruszwica,Wladyslawa Franasia,169C,46-396
+972,Dolsk,Mostowa,67J,69-559
+973,Sianow,Tektoniczna,163S,97-661
+974,Radom,Karbonska,134D,79-778
+975,Kowal,Lopusznianska,5D,51-769
+976,Wilamowice,Zamosc,124O,21-286
+977,Dobrodzien,Jana Styki,110D,99-866
+978,Dabie,Cicha,165O,46-370
+979,Gizycko,Ciekocka,3Y,13-999
+980,Lwowek Slaski,Stefana Okrzei,128U,88-472
+981,Miedzyrzec Podlaski,Lanowa,84P,65-651
+982,Blonie,Wladyslawa Dzikowskiego,96Y,04-049
+983,Szczytno,Zamkowa,192B,78-964
+984,Lipsk,Juliana Falata,52P,60-311
+985,Sedziszow,Starogorska,5O,20-389
+986,Sulkowice,Mariana Raciborskiego,72V,86-092
+987,Kanczuga,Generala Stanislawa Maczka,176R,35-568
+988,Hrubieszow,Wladyslawa Orkana,125X,01-537
+989,Koszalin,Polna,167F,98-367
+990,Minsk Mazowiecki,Gabrieli Zapolskiej,52P,50-347
+991,Dzialoszyce,Ludomira Rozyckiego,38R,73-720
+992,Olawa,Zlota,165O,22-292
+993,Nowy Tomysl,Maslowska,23G,96-915
+994,Sulejow,Tartaczna,130P,42-758
+995,Otmuchow,Mala,149S,81-494
+996,Leszno,Orzechowa,105P,76-128
+997,Zawiercie,Majora Jana Piwnika,163G,30-170
+998,Chojnice,Husarska,92V,44-878
+999,Kozieglowy,Jasna,180K,95-779
+1000,Torzym,Zagrabowicka,59Y,23-175
+1001,Wyszkow,Jarzebinowa,27W,27-013
+1002,Ropczyce,Swietego Stanislawa Kostki,122R,66-638
+1003,Stary Sacz,Dobra,183P,32-979
+1004,Stepnica,Ludwika Solskiego,57J,69-930
+1005,Rajgrod,Krysztalowa,193B,80-550
+1006,Tarnogrod,Jedrusiow,105R,91-689
+1007,Blaszki,Towarowa,70U,29-622
+1008,Kutno,Rybna,158U,41-442
+1009,Stepnica,Polnocna,103H,06-970
+1010,Drzewica,Florentyny Malskiej,10S,76-002
+1011,Serock,Henryka Sienkiewicza,37G,78-182
+1012,Szczyrk,Bobrowa,140Z,75-361
+1013,Sepopol,Sandomierska,38A,02-098
+1014,Pilawa Gorna,Konstantego Miodowicza,37J,43-624
+1015,Gabin,Lisia,14B,80-356
+1016,Kuznia Raciborska,Winnicka,10L,55-033
+1017,Nowy Tomysl,Zapomniana,1Q,37-387
+1018,Imielin,Miodowa,175H,23-946
+1019,Lowicz,Jarzynowa,144H,61-549
+1020,Chelmek,Bieszczadzka,50M,92-786
+1021,Radlin,Zbigniewa Herberta,34A,78-399
+1022,Grojec,Konstantego Miodowicza,180C,39-673
+1023,Czechowice-Dziedzice,Hubalczykow,31G,40-917
+1024,Checiny,Krola Wladyslawa Jagielly,187G,28-780
+1025,Rajgrod,Szydlowek Dolny,168B,45-707
+1026,Wrzesnia,Lopusznianska,162J,66-612
+1027,Makow Podhalanski,Jarzabek,94Z,02-574
+1028,Oleszyce,Mikolaja Gomolki,136E,63-584
+1029,Kargowa,Rakowska,41S,08-779
+1030,Pruszkow,Prochownia,154X,10-332
+1031,Gdynia,Karkonoska,37L,45-089
+1032,Wegliniec,Legnicka,150R,53-268
+1033,Wabrzezno,Fryderyka Chopina,51I,49-321
+1034,Lubawka,Urzednicza,122U,36-092
+1035,Milomlyn,Pradlo,14C,72-242
+1036,Choszczno,Helska,173E,64-810
+1037,Ziebice,Zgorska,132V,91-142
+1038,Koronowo,Rozmarynowa,64V,32-213
+1039,Chodecz,Zamosc,135P,70-949
+1040,Kolonowskie,Turystyczna,147Y,95-762
+1041,Zagorow,Admirala Jozefa Unruga,129H,43-407
+1042,Grodzisk Mazowiecki,Pancerna,5N,38-815
+1043,Miedzyzdroje,Krola Kazimierza Wielkiego,68W,52-850
+1044,Zarki,Konstantego Ildefonsa Galczynskiego,8Y,81-276
+1045,Krzanowice,Garbarska,184E,47-018
+1046,Naleczow,Cedzynska,164H,01-986
+1047,Szczecinek,Herbska,108J,44-885
+1048,Wronki,Lisia,100H,25-433
+1049,Aleksandrow Lodzki,Siedmiu Źrodel,127C,87-246
+1050,Rabka-Zdroj,Zdrojowa,115R,27-810
+1051,Zduny,Barytowa,27D,01-070
+1052,Debica,Jurajska,105A,50-375
+1053,Osieczna,Niecala,7N,11-659
+1054,Sieniawa,Swietego Leonarda,29W,21-132
+1055,Wojcieszow,Jana Kiepury,179L,15-700
+1056,Zbaszyn,Bursztynowa,142Z,93-750
+1057,Bisztynek,Radostowa,73M,21-258
+1058,Jedwabne,Sosnowa,142Q,44-471
+1059,Wyszkow,Jasminowa,187V,81-979
+1060,Sulejow,Plazowa,135E,91-152
+1061,Baborow,Rzepichy,13A,02-128
+1062,Bialystok,Zwierzyniecka,30G,21-267
+1063,Ruciane-Nida,Biskupa Czeslawa Kaczmarka,165U,46-065
+1064,Mszana Dolna,Niwy Lisowskie,95J,09-178
+1065,Wieruszow,Sowia,88M,82-939
+1066,Swidnica,Permska,20A,23-390
+1067,Sierpc,Stefana Jaracza,63W,41-891
+1068,Lazy,Obozna,171E,63-913
+1069,Gizycko,Cedzynska,189A,25-753
+1070,Gniezno,Krola Boleslawa Chrobrego,49A,90-921
+1071,Dolsk,Zalesie,111Q,95-945
+1072,Strzelin,Granitowa,133T,55-940
+1073,Walcz,Admirala Jozefa Unruga,75R,69-231
+1074,Ogrodzieniec,Mala,6G,85-208
+1075,Gostynin,Krakowska,199P,02-882
+1076,Mirsk,Zwierzyniecka,46Z,57-502
+1077,Jedlina-Zdroj,Krakowska,174F,76-836
+1078,Pilzno,Swietej Weroniki,174R,53-333
+1079,Olesno,Stare Sieje,13D,21-114
+1080,Bransk,Emilii Znojkiewiczowej,197G,49-376
+1081,Bytow,Urzednicza,43H,13-877
+1082,Glowno,Jaskolcza,170N,09-982
+1083,Swiebodzin,Kolejarzy,12G,18-513
+1084,Grabow nad Prosna,Charsznicka,125E,66-203
+1085,Bialy Bor,Lisia,190X,95-093
+1086,Lubowidz,Wspolna,141C,22-288
+1087,Dabrowa Tarnowska,Pallotynska,186S,20-193
+1088,Scinawa,Pulkownika Stanislawa Dabka,80Y,58-657
+1089,Ciechanow,Malopolska,189D,70-414
+1090,Siechnice,Chabrowa,22Z,82-118
+1091,Konstantynow Lodzki,Ksiedza Grzegorza Piramowicza,22V,85-964
+1092,Twardogora,Stawki,75V,69-632
+1093,Kalisz,Pietraszki,36C,24-371
+1094,Glinojeck,Norweska,26V,89-530
+1095,Blonie,Ignacego Paderewskiego,49L,16-601
+1096,Rawa Mazowiecka,Marii Opielinskiej,167S,85-749
+1097,Ozarow Mazowiecki,Mojzesza Pelca,156M,31-708
+1098,Kalisz Pomorski,Rozmarynowa,187R,19-842
+1099,Wlodawa,Admirala Jozefa Unruga,36J,66-624
+1100,Lazy,Swietojanska,151C,74-020
+1101,Pieniezno,Swietego Pawla,153R,78-373
+1102,Bielawa,Jana Pawla II,190T,42-922
+1103,Tykocin,Slawkowska,145A,85-245
+1104,Miloslaw,Zagonowa,164C,36-282
+1105,Ksiaz Wielkopolski,Zytnia,183F,35-257
+1106,Siechnice,Jozefa Brandta,59H,51-202
+1107,Susz,Gruchawka,31U,38-529
+1108,Ozimek,Andrzeja Frycza Modrzewskiego,67N,89-010
+1109,Konstantynow Lodzki,Lodzka,54T,45-645
+1110,Rychwal,Szybowcowa,1H,27-792
+1111,Podkowa Lesna,Sandomierska,198X,92-483
+1112,Nowa Deba,Poligonowa,168G,46-295
+1113,Miedzylesie,Rafala Hadziewicza,93Z,12-184
+1114,Miastko,Cedrowa,167Q,52-152
+1115,Ostrowiec Swietokrzyski,Mostowa,40P,91-368
+1116,Miasteczko Slaskie,Checinska,173Y,99-896
+1117,Korfantow,Wesola,114S,05-135
+1118,Pabianice,Ptasia,13U,26-495
+1119,Kolno,Miechowska,11I,49-478
+1120,Krosno Odrzanskie,Lotnicza,137D,21-036
+1121,Zalewo,Swietokrzyska,130C,42-399
+1122,Kepno,Zenobiusza Klembowskiego,77J,39-343
+1123,Radziejow,Cedrowa,160T,40-886
+1124,Pinczow,Admirala Jozefa Unruga,96Q,09-570
+1125,Zabrze,Wikaryjska,15I,26-394
+1126,Czaplinek,Husarska,142G,11-764
+1127,Blonie,Daleszycka,107H,93-111
+1128,Proszkow,Piaskowa,187L,42-642
+1129,Rymanow,Pinczowska,102I,52-117
+1130,Cedynia,Biskupa Czeslawa Kaczmarka,118K,62-255
+1131,Leczna,Brzozowa,48I,18-387
+1132,Czarna Woda,Starodomaszowska,159A,11-753
+1133,Gorowo Ilaweckie,Gleboczka,15Q,57-857
+1134,Siewierz,Grunwaldzka,40T,40-577
+1135,Pszczyna,Jozefa Chelmonskiego,160O,58-670
+1136,Knurow,Lisowczykow,102B,09-418
+1137,Jutrosin,Jasna,113P,92-487
+1138,Orneta,Lisowczykow,76G,54-238
+1139,Piotrkow Trybunalski,Opatowska,163O,67-600
+1140,Twardogora,Szydlowek Dolny,136D,04-484
+1141,Suprasl,Ksiedza Grzegorza Piramowicza,181D,39-769
+1142,Zakopane,Leszczynska,136W,01-142
+1143,Poddebice,Jana Kaminskiego,173N,06-610
+1144,Czlopa,Karola Szymanowskiego,56U,94-250
+1145,Miedzychod,Silniczna,96W,92-268
+1146,Koniecpol,Kongresowa,79O,39-549
+1147,Szubin,Jana Chryzostoma Paska,172T,68-018
+1148,Biala Rawska,Daleszycka,54U,28-125
+1149,Krynki,Mahometanska,55L,14-320
+1150,Dabrowa Tarnowska,Jeziorko,181J,54-063
+1151,Belzyce,Jagodowa,62X,86-648
+1152,Monki,Juliusza Slowackiego,101J,48-097
+1153,Miedzyzdroje,Wielkopolska,1Y,48-426
+1154,Krasnik,Malikow,40G,43-882
+1155,Janow Lubelski,Nad Wizna,185W,22-758
+1156,Plock,Sedziszowska,179P,92-638
+1157,Pulawy,Zascianek,122Q,98-787
+1158,Koscian,Klonowa,100J,06-950
+1159,Grudziadz,Emilii Plater,45B,95-345
+1160,Rychwal,Leopolda Staffa,80X,84-686
+1161,Drezdenko,Planty,118H,25-855
+1162,Grabow nad Prosna,Swierczynska,126Z,63-675
+1163,Rejowiec Fabryczny,Kamienna,112E,90-088
+1164,Mikstat,Boleslawa Markowskiego,127J,28-225
+1165,Losice,Modrzewiowa,162M,67-567
+1166,Kazimierz Dolny,Jana Kasprowicza,154F,49-144
+1167,Glubczyce,Jana Nowaka-Jezioranskiego,149Z,94-159
+1168,Swarzedz,Lotewska,115D,68-769
+1169,Czerniejewo,Wiejska,121T,88-694
+1170,Piatek,Osobna,60L,26-625
+1171,Ilowa,Wspolna,108R,85-843
+1172,Andrychow,Slaska,76N,10-173
+1173,Poniec,Stanislawa Wyspianskiego,181V,42-179
+1174,Kedzierzyn-Kozle,Jana Matejki,178Z,32-457
+1175,Sulecin,Jozefa Szermentowskiego,113N,26-117
+1176,Krakow,Ptasia,191L,16-410
+1177,Sokolow Malopolski,Jozefa Brandta,78B,86-336
+1178,Gryfow Slaski,Artura Grottgera,18N,19-071
+1179,Otmuchow,Jana Nowaka-Jezioranskiego,19T,31-450
+1180,Wlodawa,Buska,190F,70-064
+1181,Pszczyna,Emilii Plater,181J,94-193
+1182,Szczebrzeszyn,Folwarczna,84A,50-148
+1183,Wiazow,Szwolezerow,163P,57-724
+1184,Kozmin Wielkopolski,Edwarda Taylora,56F,61-393
+1185,Olecko,Morelowa,5M,69-773
+1186,Zawadzkie,Tatarska,47I,68-289
+1187,Golancz,Zastawie,2I,82-520
+1188,Kostrzyn,Batalionow Chlopskich,21A,26-953
+1189,Wlen,Zwirowa,157N,64-146
+1190,Kalety,Zwierzyniecka,186Q,80-422
+1191,Tolkmicko,Pradlo,108T,70-848
+1192,Osno Lubuskie,Ludomira Rozyckiego,131W,59-309
+1193,Pisz,Jagiellonska,108U,54-949
+1194,Ploty,Zamkowa,110E,94-582
+1195,Hrubieszow,Laskowa,89L,28-603
+1196,Proszowice,Rowna,55X,63-571
+1197,Sanniki,Swietego Pawla,84P,32-156
+1198,Kozmin Wielkopolski,Wysoka,134M,24-875
+1199,Chelmza,Dabrowska,19F,45-849
+1200,Grybow,Checinska,142W,78-464
+1201,Sroda Slaska,Bohaterow Warszawy,190Z,39-754
+1202,Sokolka,Pomorska,165R,36-392
+1203,Skierniewice,Rybna,86E,22-918
+1204,Glucholazy,Diamentowa,11B,68-473
+1205,Olesnica,Sybirakow,136S,91-851
+1206,Stepnica,Okolnik,197W,84-575
+1207,Kamiensk,Czerwonego Krzyza,17Y,65-842
+1208,Klobuck,Sowia,22O,87-865
+1209,Babimost,Wybraniecka,149U,39-268
+1210,Mlawa,Ludwika Solskiego,142S,17-266
+1211,Dabie,Przechodnia,89S,21-653
+1212,Swarzedz,Podporucznika Zbigniewa Kruszelnickiego Wilka,19E,10-957
+1213,Kozuchow,Zagrodowa,21A,42-801
+1214,Skierniewice,Krola Wladyslawa Jagielly,54Z,86-331
+1215,Pila,Ksiedza Hugona Kollataja,7A,84-431
+1216,Hrubieszow,Sosnowa,168E,27-951
+1217,Olkusz,Sybirakow,130F,21-626
+1218,Mosina,Zelazna,69T,71-664
+1219,Wegorzyno,Polnocna,92M,01-883
+1220,Sianow,Majora Henryka Sucharskiego,80A,52-898
+1221,Pilica,Jesionowa,159U,36-152
+1222,Wroclaw,Polna,53H,23-874
+1223,Czluchow,Jalowcowa,112P,04-921
+1224,Nowe Miasto Lubawskie,Fryderyka Chopina,51E,09-428
+1225,Zukowo,Lesniowka,49C,85-466
+1226,Strzelce Opolskie,Ludwiki Wawrzynskiej,174E,82-348
+1227,Gryfice,Wygoda,123D,22-934
+1228,Gostynin,Zlota,133X,44-411
+1229,Sulejowek,Ciekocka,93B,13-676
+1230,Grabow nad Prosna,Ksiedza Hugona Kollataja,129Y,61-539
+1231,Zloty Stok,Przemyslowa,129G,28-085
+1232,Stawiski,Mlynska,175Q,21-837
+1233,Legionowo,Wladyslawa Dzikowskiego,152Y,15-106
+1234,Naleczow,Wysoka,98C,41-800
+1235,Zerkow,Garbarska,14L,88-899
+1236,Jarocin,Ksiedza Antoniego Zralka,109D,76-502
+1237,Ostrorog,Wybraniecka,93D,06-198
+1238,Biala Podlaska,Zabia,143I,83-091
+1239,Ksiaz Wielkopolski,Piaski Male,165J,04-515
+1240,Myszkow,Browarna,137M,39-837
+1241,Kostrzyn nad Odra,Edwarda Meissnera,70A,03-019
+1242,Sandomierz,Zgoda,6N,09-871
+1243,Kuznia Raciborska,Biskupa Czeslawa Kaczmarka,38R,92-755
+1244,Mieroszow,Kongresowa,96M,60-394
+1245,Stary Sacz,Piesza,151Q,79-112
+1246,Kudowa-Zdroj,Wystawowa,94Q,84-535
+1247,Radymno,Ulanska,62D,53-297
+1248,Lubowidz,Na Lugach,113H,09-121
+1249,Pszow,Dabrowska,127P,74-186
+1250,Gdynia,Marii Opielinskiej,100V,26-434
+1251,Kolaczyce,Jozefa Brandta,11A,97-704
+1252,Barwice,Podlesna,122Q,55-081
+1253,Pabianice,Kwarcytowa,147I,81-569
+1254,Brzeszcze,Zielna,124M,32-665
+1255,Gorzow Slaski,Ksiedza Piotra Sciegiennego,169J,80-577
+1256,Zawichost,Mlynska,138J,58-617
+1257,Koprzywnica,Wislicka,147S,17-399
+1258,Wegrow,Oskara Kolberga,75J,06-185
+1259,Leknica,Barczanska,194T,62-475
+1260,Siewierz,Podwalna,133X,14-903
+1261,Szubin,Marii Opielinskiej,167Q,57-436
+1262,Halinow,Wysoka,70N,03-406
+1263,Tomaszow Lubelski,Szydlowek Gorny,104R,24-650
+1264,Laskarzew,Wygon,91U,40-795
+1265,Lututow,Florentyny Malskiej,101F,57-865
+1266,Jedwabne,Do Modrzewia,12D,27-855
+1267,Swierzawa,Nowy Swiat,87O,42-606
+1268,Rymanow,Zapomniana,51J,58-014
+1269,Bojanowo,Kaczowa,140K,86-279
+1270,Dobrzany,Modlinska,89S,64-554
+1271,Olesno,Wislicka,88Y,31-486
+1272,Swietochlowice,Ludwika Zamenhofa,75K,05-332
+1273,Jozefow (powiat bilgorajski),1905 Roku,151Q,68-344
+1274,Karczew,Zamknieta,189J,05-608
+1275,Swierzawa,Marii Konopnickiej,18B,26-801
+1276,Suchan,Bieszczadzka,180M,83-198
+1277,Ledziny,Niska,158B,64-702
+1278,Kety,Panska,46J,48-729
+1279,Borek Wielkopolski,Zamknieta,19J,47-638
+1280,Nekla,Wojtostwo,100L,13-615
+1281,Kostrzyn,Sylurska,155R,52-456
+1282,Glogow,Panska,55G,60-751
+1283,Ustrzyki Dolne,Modrzewiowa,19O,67-138
+1284,Olkusz,Prezydenta Lecha Kaczynskiego,70H,08-961
+1285,Ustron,Stacyjna,62A,44-690
+1286,Annopol,Parkowa,180Z,88-242
+1287,Rabka-Zdroj,Hercynska,21N,30-625
+1288,Wojkowice,Zielna,131V,05-394
+1289,Krasnystaw,Marmurowa,141R,56-694
+1290,Sroda Wielkopolska,Olowiana,120R,67-976
+1291,Sedziszow Malopolski,Prezydenta Ryszarda Kaczorowskiego,24Q,99-906
+1292,Ostrorog,Lysogorska,28O,26-008
+1293,Modliborzyce,Szydlowek Gorny,91A,19-811
+1294,Ostroda,Wierzbowa,108S,99-078
+1295,Koscian,Turystyczna,169Y,17-903
+1296,Dzialoszyn,Olkuska,129I,76-812
+1297,Dzierzgon,Jaskolcza,2M,65-015
+1298,Zgorzelec,Folwarczna,184W,39-259
+1299,Jastarnia,Zielna,160B,98-731
+1300,Piotrkow Kujawski,Ciekocka,40I,47-529
+1301,Namyslow,Zakret,94P,89-406
+1302,Zakopane,Niska,37R,43-063
+1303,Swidwin,Kapitana Wladyslawa Raginisa,47P,92-953
+1304,Skwierzyna,Mokra,185K,54-316
+1305,Proszowice,Pomorska,198T,76-311
+1306,Ketrzyn,Olgi Boznanskiej,192L,73-066
+1307,Ploty,Wiosenna,123G,97-891
+1308,Wyszogrod,Machocka,163T,60-676
+1309,Labiszyn,Malopolska,45M,10-950
+1310,Naklo nad Notecia,Przejazd,22Y,55-690
+1311,Pieniezno,Swierkowa,119U,65-255
+1312,Checiny,Bobrzanska,104K,72-555
+1313,Krosniewice,Rolna,70U,80-070
+1314,Tuszyn,Artylerzystow,76T,50-451
+1315,Nieszawa,Jacka Malczewskiego,62Z,88-980
+1316,Torzym,Hipoteczna,186L,86-194
+1317,Brzesc Kujawski,Patrol,140K,61-257
+1318,Police,Ksiedza Ignacego Jana Skorupki,91Y,63-139
+1319,Skarszewy,Gustawa Morcinka,192B,88-611
+1320,Wojkowice,Przygodna,123Y,22-198
+1321,Namyslow,Sowia,116Z,68-191
+1322,Buk,Mleczna,94U,20-790
+1323,Gabin,Gruchawka,198O,64-737
+1324,Mrocza,Generala Mariana Langiewicza,68X,17-872
+1325,Drobin,Bakowa,109W,83-493
+1326,Turek,Biskupa Wincentego Kadlubka,65I,77-902
+1327,Szczecinek,Wronia,4N,07-000
+1328,Biala,Zbozowa,171X,45-689
+1329,Skarszewy,Dyminska,179Y,95-955
+1330,Moryn,Machocka,141A,15-327
+1331,Kalisz,Jalowcowa,172N,67-218
+1332,Resko,Tatarska,179D,36-892
+1333,Stoczek Lukowski,Pakosz,45R,00-755
+1334,Zagorz,Prosta,153V,29-709
+1335,Nowogrod Bobrzanski,Kasztanowa,144S,06-952
+1336,Osiek,Zimna,52C,50-505
+1337,Sokolka,Majora Jana Piwnika,6X,06-446
+1338,Krynki,Kujawska,169O,40-160
+1339,Przemysl,Karola Kurpinskiego,56E,08-719
+1340,Busko-Zdroj,Piastowska,195O,29-503
+1341,Koscierzyna,Pinczowska,43R,40-630
+1342,Jasien,Mieczyslawa Karlowicza,146G,65-895
+1343,Zabludow,Mloda,16W,24-848
+1344,Dziwnow,Juliusza Slowackiego,159F,16-606
+1345,Ketrzyn,Tadeusza Boya-Zelenskiego,73T,24-617
+1346,Wloszczowa,Marmurowa,79Q,63-734
+1347,Nowe Brzesko,Biskupa Adama Naruszewicza,123R,93-354
+1348,Sulmierzyce,Slawkowska,196W,95-014
+1349,Sopot,Ksiezniczki Dabrowki,173Z,90-762
+1350,Tarnow,Piaskowa,158Y,24-195
+1351,Nowy Tomysl,Silniczna,162N,10-129
+1352,Przeworsk,Stefana Jaracza,76A,37-809
+1353,Chojna,Zwierzyniecka,189T,38-485
+1354,Slawa,Klecka,30H,44-952
+1355,Krzyz Wielkopolski,Zbozowa,120W,84-172
+1356,Rejowiec,Ksiedza Hugona Kollataja,60K,36-252
+1357,Ksiaz Wielkopolski,Wloszczowska,140K,90-504
+1358,Iwonicz-Zdroj,Tarasowa,120S,50-815
+1359,Twardogora,Stare Sieje,159P,72-136
+1360,Sepopol,Ksiedza Ignacego Jana Skorupki,140I,79-477
+1361,Chodziez,Szpitalna,134G,12-091
+1362,Skarszewy,Jana i Jedrzeja Sniadeckich,41J,90-355
+1363,Zychlin,Boleslawa Prusa,106W,33-536
+1364,Zlocieniec,Plazowa,135S,29-172
+1365,Gogolin,Domaszowska,163D,99-083
+1366,Kolaczyce,Mahometanska,69F,20-406
+1367,Krzyz Wielkopolski,Zacisze,113Z,01-032
+1368,Trzebnica,Leona Skibinskiego,100J,72-388
+1369,Wabrzezno,Elizy Orzeszkowej,73J,88-323
+1370,Sulejowek,Lagowska,145C,18-318
+1371,Leczyca,Wincentego Witosa,16N,06-462
+1372,Tyczyn,Tomasza Zielinskiego,76U,99-296
+1373,Tczew,Hutnicza,179X,95-744
+1374,Radzyn Chelminski,Zniwna,70W,05-072
+1375,Wiazow,Leona Skibinskiego,183J,82-433
+1376,Grudziadz,Winnicka,167B,24-069
+1377,Bisztynek,Krola Boleslawa Chrobrego,97K,83-700
+1378,Jaroslaw,Fosforytowa,162H,72-385
+1379,Rabka-Zdroj,Aleksandra Fredry,74N,81-126
+1380,Swierzawa,Stefana Starzynskiego,40N,38-096
+1381,Lubon,Generala Franciszka Kleeberga,102X,82-468
+1382,Ulanow,Ciepla,104P,65-692
+1383,Bychawa,Helska,58V,82-303
+1384,Drawno,Swietego Stanislawa Kostki,46Z,26-355
+1385,Jutrosin,Mila,86T,34-402
+1386,Szydlow,Prezydenta Stefana Artwinskiego,193J,15-005
+1387,Sucha Beskidzka,Powstania Styczniowego,124W,96-487
+1388,Pelplin,Chorzowska,94X,60-826
+1389,Blachownia,Wojciecha Szczepaniaka,178X,87-634
+1390,Zabno,Litewska,72A,56-746
+1391,Mosina,Generala Boleslawa Szareckiego,173M,63-986
+1392,Slomniki,Permska,11J,13-078
+1393,Pniewy,Skladowa,52Q,93-804
+1394,Aleksandrow Lodzki,Barczanska,75Q,05-909
+1395,Niepolomice,Zbigniewa Herberta,31U,60-661
+1396,Gorzow Slaski,Obroncow Westerplatte,132I,79-234
+1397,Mielec,Spoldzielcza,45W,67-806
+1398,Bardo,Karola Szymanowskiego,123H,11-644
+1399,Torun,Tarnowska,100L,31-419
+1400,Szczucin,Krola Stefana Batorego,7T,42-813
+1401,Lidzbark,Sieje,49J,80-339
+1402,Rymanow,Malikow,173H,52-018
+1403,Kwidzyn,Ustronie,145L,04-139
+1404,Warta,Zgorska,18Z,15-412
+1405,Szczebrzeszyn,Wygoda,17V,94-797
+1406,Pleszew,Kredowa,14H,45-213
+1407,Olawa,Kongresowa,2H,06-051
+1408,Swieradow-Zdroj,Malachitowa,126I,83-789
+1409,Puszczykowo,Slawkowska,125A,04-529
+1410,Prabuty,Wystawowa,71F,63-462
+1411,Prusice,Zygmunta Wroblewskiego,53B,56-665
+1412,Myslowice,Spacerowa,145T,86-943
+1413,Smigiel,Za Torem,83W,44-019
+1414,Gliwice,Osobna,65U,16-867
+1415,Ruda Slaska,Bursztynowa,77I,31-391
+1416,Chocz,Spoldzielcza,50V,01-011
+1417,Krajenka,Czernidlo,179R,01-876
+1418,Kolonowskie,Silniczna,48C,19-594
+1419,Czarna Woda,Swierczynska,117Z,06-026
+1420,Jastrowie,Lesna,41H,42-105
+1421,Warka,Jasna,10M,32-121
+1422,Duszniki-Zdroj,Brzozowa,138G,63-463
+1423,Plock,Krysztalowa,138M,78-024
+1424,Tychy,Zygmunta Kwasa,40S,13-566
+1425,Jedrzejow,Aleksandra Fredry,6F,74-426
+1426,Plonsk,Borowa,164W,35-875
+1427,Kamien Krajenski,Srednia,104O,19-707
+1428,Hel,Oskara Kolberga,54Q,80-628
+1429,Resko,Zolnierzy Wykletych,185H,49-198
+1430,Polanow,Jarzabek,135J,56-473
+1431,Koniecpol,Wilenska,92K,06-705
+1432,Kock,Ulanska,129G,61-283
+1433,Zlocieniec,Generala Franciszka Kleeberga,190T,23-797
+1434,Konskie,Slaska,5L,54-459
+1435,Kozienice,Przemyslowa,172Z,96-959
+1436,Wroclaw,Gliniana,36Q,86-943
+1437,Imielin,Lubrzanka,182U,07-378
+1438,Siedlce,Pomorska,66M,33-361
+1439,Puck,Armii Krajowej,36A,12-541
+1440,Zduny,Malopolska,96L,69-576
+1441,Chelmno,Petyhorska,135E,81-736
+1442,Kunow,Srednia,76R,36-837
+1443,Milomlyn,Miodowa,4X,34-670
+1444,Modliborzyce,Kongresowa,44Q,10-242
+1445,Trzciel,Kongresowa,167O,09-518
+1446,Warszawa,Opoczynska,191D,10-824
+1447,Czarne,Chabrowa,177I,65-944
+1448,Makow Mazowiecki,Narwicka,23W,55-188
+1449,Kluczbork,Transportowcow,72Q,61-391
+1450,Czchow,Marszalka Jozefa Pilsudskiego,191Q,45-467
+1451,Sejny,Zamosc,187N,12-265
+1452,Krzanowice,Mala Zgoda,105Y,09-774
+1453,Turek,Hutnicza,19Q,58-119
+1454,Staszow,Boczna,8X,61-186
+1455,Wyszkow,Szklana,159I,09-813
+1456,Pieniezno,Lakowa,70D,29-674
+1457,Ciechanowiec,Orlat Lwowskich,74Y,93-857
+1458,Wlodawa,Lakowa,169X,59-176
+1459,Slawa,Jana i Jedrzeja Sniadeckich,44F,14-397
+1460,Golancz,Juliana Falata,196N,64-109
+1461,Drobin,Rafala Hadziewicza,143N,49-978
+1462,Zary,Buska,96A,70-636
+1463,Pilawa Gorna,Wierzbowa,153Z,62-414
+1464,Brzeg,Pinczowska,79B,53-278
+1465,Murowana Goslina,Aleksandra Janowskiego,122L,44-403
+1466,Wielun,Zalesie,61E,20-786
+1467,Szubin,Slichowicka,19B,62-178
+1468,Ladek-Zdroj,Zurawia,62Q,32-237
+1469,Lwowek Slaski,Orzechowa,47U,12-604
+1470,Pilzno,Grunwaldzka,131M,75-694
+1471,Kcynia,Klecka,99Y,64-910
+1472,Otmuchow,Daleka,139H,22-901
+1473,Lubowidz,Tartaczna,139J,09-117
+1474,Swieradow-Zdroj,Duza,68I,93-799
+1475,Miedzylesie,Rozana,112G,79-278
+1476,Pyrzyce,Generala Wladyslawa Sikorskiego,19O,39-702
+1477,Pieszyce,Za Walcownia,34A,55-535
+1478,Andrychow,Generala Franciszka Kleeberga,78E,86-904
+1479,Smigiel,Lopusznianska,98V,81-360
+1480,Kolo,Dluga,147T,44-427
+1481,Gniewkowo,Leszczynska,119S,04-377
+1482,Rawicz,Bedzinska,49I,20-000
+1483,Jozefow (powiat bilgorajski),Piastowska,43F,54-228
+1484,Grudziadz,Za Walcownia,119U,35-365
+1485,Zawadzkie,Wojska Polskiego,17E,43-374
+1486,Siechnice,Walerego Przyborowskiego,59Z,13-183
+1487,Dobrodzien,Prezydenta Ryszarda Kaczorowskiego,88Q,12-192
+1488,Sokolow Malopolski,Klonowa,83L,25-440
+1489,Wladyslawowo,Lisia,28D,95-989
+1490,Lezajsk,Berberysowa,111D,16-645
+1491,Murowana Goslina,Jaronskich,70Q,48-870
+1492,Szlichtyngowa,Laskowa,40V,07-923
+1493,Krynica Morska,Mariana Raciborskiego,190Z,98-029
+1494,Raszkow,Jacka Malczewskiego,134D,80-150
+1495,Brzeziny,Krysztalowa,31G,83-935
+1496,Skoczow,Mazurska,25A,34-509
+1497,Zdunska Wola,Zurawia,186H,04-314
+1498,Drohiczyn,Daleka,88B,71-894
+1499,Kostrzyn nad Odra,Praussow,190T,57-219
+1500,Gorowo Ilaweckie,Bobrzanska,36S,59-267
+1501,Karczew,Lodzka,78L,43-835
+1502,Rzgow,Pulkownika Stanislawa Dabka,93D,33-726
+1503,Nowe Warpno,Ciepla,191F,88-914
+1504,Golina,Solna,19M,69-560
+1505,Siemianowice Slaskie,Wysoka,130R,96-384
+1506,Grodzisk Wielkopolski,Stokowa,98D,25-221
+1507,Zalewo,Mikolaja Kopernika,152V,61-532
+1508,Ledziny,Poligonowa,38W,64-178
+1509,Paslek,Generala Stanislawa Maczka,155U,90-053
+1510,Wieruszow,Jana Karskiego,40C,64-023
+1511,Jastrzebie-Zdroj,Ludomira Rozyckiego,150B,23-565
+1512,Grudziadz,Narciarska,135J,76-143
+1513,Zdzieszowice,Browarna,188A,33-364
+1514,Zagorz,Kamienna,136X,18-619
+1515,Zdunska Wola,Zelaznogorska,120E,74-406
+1516,Olszyna,Cedrowa,74Q,17-006
+1517,Krzeszowice,Bruszniowa,176H,12-799
+1518,Barlinek,Kujawska,67X,19-336
+1519,Bukowno,Gipsowa,28R,56-081
+1520,Miedzyzdroje,Jana Styki,107X,53-216
+1521,Laskarzew,Zapomniana,143T,25-251
+1522,Kozienice,Jozefa Elsnera,110W,20-166
+1523,Stargard,Pancerna,14M,60-141
+1524,Niemodlin,Duza,110N,21-070
+1525,Poniec,Turystyczna,171O,92-286
+1526,Bilgoraj,Hoza,1A,73-633
+1527,Konstancin-Jeziorna,Prezydenta Ryszarda Kaczorowskiego,46U,82-705
+1528,Konin,Rakowska,152E,56-700
+1529,Ujazd,Kruszcowa,90C,96-053
+1530,Lidzbark Warminski,Domki,97S,92-780
+1531,Mszczonow,Zagrabowicka,32F,56-482
+1532,Myslenice,Praussow,7C,87-099
+1533,Wloszczowa,Chabrowa,61A,49-789
+1534,Chmielnik,Ewangelicka,155L,96-859
+1535,Olkusz,Rzeczna,87J,32-817
+1536,Chojnow,Piekoszowska,73Z,05-398
+1537,Ostrowiec Swietokrzyski,Wystawowa,73L,89-130
+1538,Dobra (powiat turecki),Skalista,88L,68-117
+1539,Zuromin,Mila,108W,66-419
+1540,Wysmierzyce,Pieninska,57R,94-944
+1541,Dobiegniew,Karpacka,150S,51-854
+1542,Ilawa,Prezydenta Lecha Kaczynskiego,111M,77-196
+1543,Lask,Mikolaja Kopernika,168N,17-503
+1544,Tulowice,Jacka Malczewskiego,175Y,45-382
+1545,Makow Podhalanski,Ptasia,3H,46-666
+1546,Leczna,Adama Mickiewicza,187J,73-492
+1547,Kostrzyn,Debowa,140E,25-574
+1548,Zabrze,Kazimierza Smolaka,44W,11-203
+1549,Kalisz Pomorski,Rumiankowa,167T,99-196
+1550,Kock,Mila,103U,92-947
+1551,Pajeczno,Biesak,27U,55-083
+1552,Inowroclaw,Brzozowa,125N,45-864
+1553,Zloczew,Pomorska,142A,57-087
+1554,Grodzisk Mazowiecki,Brzozowa,113M,08-865
+1555,Poniec,Wystawowa,173U,00-467
+1556,Lublin,Mleczna,52I,48-317
+1557,Wielun,Jasna,125Y,44-257
+1558,Kozuchow,Piotrkowska,147Y,10-389
+1559,Nowogrodziec,Mlynska,177J,20-233
+1560,Gorzow Slaski,Jozefa Szermentowskiego,25O,46-859
+1561,Grodzisk Wielkopolski,Mieczyslawy cwiklinskiej,78K,47-357
+1562,Sulechow,Obrzezna,112N,94-114
+1563,Chelm,Jana Kasprowicza,66A,45-638
+1564,Nowy Targ,Towarowa,52F,02-134
+1565,Brodnica,Skrzetlewska,182J,47-664
+1566,Swinoujscie,Tartaczna,178V,30-568
+1567,Debrzno,Towarowa,38F,87-771
+1568,Kozuchow,Zagorska,145Y,34-456
+1569,Gora,Dolomitowa,90G,93-603
+1570,Mieroszow,Modlinska,48T,54-328
+1571,Slawa,Lecha,94R,96-159
+1572,Radzyn Podlaski,Gustawa Morcinka,156F,76-298
+1573,Malomice,Wojciecha Szczepaniaka,17T,73-632
+1574,Jordanow,Fabryczna,175J,98-608
+1575,Marki,Herbska,160Q,51-868
+1576,Smigiel,Lecha,164D,31-907
+1577,Kozienice,Slichowicka,8J,23-042
+1578,Suraz,Ludomira Rozyckiego,65W,87-670
+1579,Zwierzyniec,Konstantego Miodowicza,184V,07-406
+1580,Lask,Barwinek,131A,33-296
+1581,Rzeszow,Karczowkowska,18S,95-403
+1582,Ujscie,Swietego Leonarda,100U,20-291
+1583,Zakliczyn,Hercynska,104E,18-817
+1584,Kozieglowy,Przelot,152D,09-367
+1585,Sulecin,Okolnik,166B,38-375
+1586,Zgierz,Szkolna,23T,50-806
+1587,Kock,Przylogi,143U,28-523
+1588,Mikstat,Jana Chryzostoma Paska,49P,44-789
+1589,Pierzchnica,Mikolaja Gomolki,197W,88-518
+1590,Walcz,Jeziorko,59Q,83-791
+1591,Pakosc,Wasosz,95Z,19-455
+1592,Dobre Miasto,Ksiedza Stanislawa Staszica,130W,06-159
+1593,Mirsk,Mokra,17Y,24-956
+1594,Tluszcz,Ksiedza Stanislawa Staszica,167N,63-996
+1595,Oswiecim,Dobromysl,94T,19-443
+1596,Starogard Gdanski,Niwy Lisowskie,172Z,59-424
+1597,Jastarnia,Zofii Nalkowskiej,55M,57-496
+1598,Barwice,Wojewodzka,141P,95-458
+1599,Bisztynek,Skrzetlewska,189L,62-376
+1600,Pyskowice,Adolfa Dygasinskiego,153N,46-532
+1601,Nowogrodziec,Wojciecha Kossaka,88D,39-341
+1602,Bystrzyca Klodzka,Biesak,57S,02-268
+1603,Barwice,Prezydenta Stefana Artwinskiego,83E,88-614
+1604,Ogrodzieniec,Lesniowka,191T,23-308
+1605,Sianow,Zacisze,135N,05-556
+1606,Pulawy,Leona Skibinskiego,28X,02-314
+1607,Blaszki,Podhalanska,129K,58-951
+1608,Przedecz,Bruszniowa,154A,28-365
+1609,Otyn,Zdrojowa,16S,82-464
+1610,Rawa Mazowiecka,Diamentowa,172P,48-724
+1611,Piwniczna-Zdroj,Grabinow,149B,28-715
+1612,Ksiaz Wielkopolski,Przejazd,32M,64-362
+1613,Dobra (powiat lobeski),Zakladowa,52E,09-312
+1614,Trzebinia,Srednia,20K,38-888
+1615,Swiebodzin,Marszalkowska,190Y,31-344
+1616,Dobczyce,Karpacka,196U,64-800
+1617,Szepietowo,Wladyslawa Orkana,105U,55-615
+1618,Ozimek,Slaska,182J,44-391
+1619,Ozimek,Miodowa,188F,62-149
+1620,Terespol,Zelazna,169X,83-150
+1621,Mragowo,Petyhorska,125T,41-252
+1622,Koszyce,Swietego Rafala Kalinowskiego,116Q,76-770
+1623,Wachock,Janczarska,112V,57-129
+1624,Czarna Woda,Krola Kazimierza Wielkiego,116T,17-334
+1625,Wozniki,Wojtostwo,34P,04-504
+1626,Mlynary,Dereniowa,82A,27-657
+1627,Plock,Bohaterow Warszawy,165E,51-320
+1628,Braniewo,Orzechowa,168Q,84-774
+1629,Sztum,Aleksandrowka,97S,34-336
+1630,Zelechow,Petyhorska,29K,15-889
+1631,Miedzyrzec Podlaski,Okrezna,170B,12-745
+1632,Swietochlowice,Podwalna,155D,52-880
+1633,Naleczow,Batalionow Chlopskich,170Y,96-896
+1634,Kazimierza Wielka,Stare Sieje,125N,22-051
+1635,Gora Kalwaria,Faldowa,134L,88-404
+1636,Nowy Staw,Faldowa,165S,79-937
+1637,Wladyslawowo,Siedmiu Źrodel,67L,16-759
+1638,Slubice,Krzywa,189V,47-549
+1639,Lowicz,Charsznicka,160Q,53-375
+1640,Kowalewo Pomorskie,Wybraniecka,57H,22-982
+1641,Piotrkow Trybunalski,Stolarska,197Q,15-363
+1642,Pilzno,Spoldzielcza,182H,79-455
+1643,Ulanow,Kozia,129K,99-539
+1644,Piekary Slaskie,Slaska,21S,72-782
+1645,Zerkow,Jesionowa,2Y,90-973
+1646,Olszyna,Magazynowa,102T,24-844
+1647,Krzepice,Swietego Pawla,77I,23-615
+1648,Drawsko Pomorskie,Generala Tadeusza Klimeckiego,24T,45-167
+1649,Zmigrod,Koncowa,171C,32-849
+1650,Czarnkow,Miedziana,32P,67-504
+1651,Tuliszkow,Szpitalna,2J,14-056
+1652,Radkow,Boleslawa Prusa,108M,13-382
+1653,Czerwionka-Leszczyny,Kredowa,93F,56-201
+1654,Radzyn Chelminski,Tarnowska,66J,26-403
+1655,Lubowidz,Pulkownika Stanislawa Dabka,34V,68-160
+1656,Sroda Slaska,Strycharska,100O,07-091
+1657,Zywiec,Ludwiki Wawrzynskiej,31Y,87-719
+1658,Murowana Goslina,Nastole,10C,17-964
+1659,Lututow,Batalionow Chlopskich,81T,23-033
+1660,Mragowo,Poleska,44S,89-885
+1661,Wladyslawowo,Jesionowa,48Z,33-063
+1662,Nowe Skalmierzyce,Finska,133Q,70-288
+1663,Lubraniec,Podwalna,174E,16-095
+1664,Ujscie,Zakret,102Z,68-495
+1665,Gorzow Slaski,Piesza,85M,02-609
+1666,Suchedniow,Domaniowka,151C,72-574
+1667,Darlowo,Ksiedza Stanislawa Staszica,57B,42-482
+1668,Tluszcz,Tobrucka,35I,26-028
+1669,Radomysl Wielki,Jana Kiepury,102E,16-889
+1670,Dabrowa Tarnowska,Finska,160L,82-239
+1671,Kargowa,Kosynierow,167N,58-608
+1672,Serock,Lanowa,23V,74-612
+1673,Pogorzela,Czarnowska,92D,89-514
+1674,Stary Sacz,Rowna,108E,35-643
+1675,Lebork,Cedrowa,29S,87-374
+1676,Ustka,Wodna,166U,09-212
+1677,Jasien,Marszalka Jozefa Pilsudskiego,25F,59-076
+1678,Biala,Ignacego Paderewskiego,3T,51-753
+1679,Pieniezno,Pulkownika Stanislawa Dabka,10B,27-345
+1680,Czchow,Hipoteczna,84N,83-168
+1681,Sanniki,Bialogonska,191R,34-407
+1682,Krzyz Wielkopolski,Helska,89N,36-644
+1683,Chelm,Cisowa,41E,55-955
+1684,Krapkowice,Pulkownika Stanislawa Dabka,51T,50-997
+1685,Czaplinek,Zlota,10Q,20-822
+1686,Kock,Czarnowska,76F,78-892
+1687,Lapy,Tatarska,143P,30-279
+1688,Myszyniec,Biesak,92O,37-282
+1689,Monki,Narciarska,140R,20-478
+1690,Jeziorany,Skladowa,21N,49-576
+1691,Lubin,Mila,170C,16-690
+1692,Piwniczna-Zdroj,Seminaryjska,149L,62-313
+1693,Skorcz,Malopolska,47O,03-499
+1694,Pilzno,Daleka,160U,10-774
+1695,Dzialdowo,Hetmana Jana Tarnowskiego,63K,77-639
+1696,Ciechocinek,Hetmana Stefana Czarnieckiego,166G,70-396
+1697,Ujscie,Studencka,30H,28-964
+1698,Wegorzewo,Oskara Kolberga,190S,09-840
+1699,Miedzyzdroje,Lubrzanka,196U,12-986
+1700,Opatowiec,Bernardynska,179K,54-196
+1701,Wiazow,Wojciecha Boguslawskiego,133Z,84-488
+1702,Olawa,Panska,106Y,27-115
+1703,Wasosz,Lagowska,123G,06-515
+1704,Gostynin,Buska,76G,08-089
+1705,Olesnica,Szczygla,83J,10-900
+1706,Bartoszyce,Rybna,195Y,69-026
+1707,Sobotka,Bukowa,135S,22-305
+1708,Lubowidz,Lanowa,85S,83-536
+1709,Szadek,Mechanikow,182K,45-377
+1710,Poniatowa,Zniwna,183T,99-607
+1711,Lubycza Krolewska,Slaska,87G,65-586
+1712,Checiny,Lisia,162S,51-995
+1713,Gniew,Weterynaryjna,119J,47-395
+1714,Steszew,Jana Kochanowskiego,125M,32-036
+1715,Muszyna,Przegony,71M,96-795
+1716,Czempin,Prezydenta Lecha Kaczynskiego,182J,60-153
+1717,Poniatowa,Wielkopolska,19R,23-639
+1718,Alwernia,Berberysowa,38G,85-460
+1719,Gryfice,Piaski nad Rzeka,83U,43-403
+1720,Recz,Krakowska,162N,43-764
+1721,Kielce,Przeslowa,5O,42-740
+1722,Lubomierz,Zdrojowa,35O,00-025
+1723,Grodkow,Wygon,19Y,54-498
+1724,Modliborzyce,Kapielowa,135Y,54-265
+1725,Gluszyca,Skladowa,42G,56-145
+1726,Urzedow,Tarnowska,47C,51-757
+1727,Kielce,Wodna,197A,92-926
+1728,Zlocieniec,Zurawia,179R,93-568
+1729,Prabuty,Osobna,94H,23-510
+1730,Kolonowskie,Barczanska,31B,49-572
+1731,Knyszyn,Wladyslawa Dzikowskiego,199B,67-702
+1732,Przeworsk,Szkolna,153P,42-679
+1733,Zyrardow,Finska,152W,55-469
+1734,Pruszcz Gdanski,Piotra Michalowskiego,125G,18-493
+1735,Sycow,Panoramiczna,64V,46-992
+1736,Brzesc Kujawski,Brzoskwiniowa,146X,22-745
+1737,Iwonicz-Zdroj,Lagowska,124B,87-793
+1738,Jarocin,Jarzebinowa,147F,24-174
+1739,Sierpc,Niestachowska,36X,79-692
+1740,Lipno,Lotnicza,35X,31-692
+1741,Boleslawiec,Dobra,135U,74-344
+1742,Mirsk,Tobrucka,80R,32-024
+1743,Krzywin,Barwinek,42L,26-830
+1744,Darlowo,Kujawska,23D,13-277
+1745,Brok,Rotmistrza Witolda Pileckiego,152A,41-733
+1746,Lewin Brzeski,Stanislawa Wyspianskiego,173M,13-874
+1747,Pionki,Mazurska,5V,73-924
+1748,Kleszczele,Napekowska,139L,72-943
+1749,Glucholazy,Parkowa,175S,99-744
+1750,Ruda Slaska,Machnowicka,111M,09-105
+1751,Gozdnica,Wapiennikowa,78B,20-527
+1752,Swiebodzice,Kamienna,169M,41-063
+1753,Prusice,Obroncow Westerplatte,177S,70-584
+1754,Znin,Bursztynowa,186F,06-358
+1755,Radomysl Wielki,Czolgistow,33P,64-952
+1756,Niemodlin,Peryferyjna,10L,60-203
+1757,Zawadzkie,Faldowa,190E,92-797
+1758,Wysoka,Olkuska,156M,73-524
+1759,Wolomin,Poligonowa,67Y,58-533
+1760,Nowe Brzesko,Trzuskawicka,142U,71-988
+1761,Pilawa Gorna,Majora Jana Piwnika,88X,87-573
+1762,Bukowno,Krola Kazimierza Wielkiego,13M,26-190
+1763,Dukla,Pulkownika Jozefa Teligi,151K,79-146
+1764,Mragowo,Swietego Leonarda,125P,29-766
+1765,Golina,Samuela Bogumila Lindego,185J,68-102
+1766,Osiek,Gipsowa,71W,89-555
+1767,Lubniewice,Przeslowa,172E,47-204
+1768,Sulecin,Kutnowska,125J,13-095
+1769,Swiatniki Gorne,Majora Jana Piwnika,16Y,37-859
+1770,Kcynia,Sucha,114C,26-009
+1771,Morawica,Franciszka Smuglewicza,115D,23-452
+1772,Leba,Slawkowska,7H,04-011
+1773,Olecko,Stawki,52Q,56-962
+1774,Wislica,Wojciecha Kossaka,195Z,30-269
+1775,Czerniejewo,Rzeszowska,125E,15-946
+1776,Lewin Brzeski,Radlinska,66B,91-705
+1777,Laziska Gorne,Otrocz,162Z,03-933
+1778,Stepnica,Krola Wladyslawa Jagielly,68M,61-680
+1779,Ostrow Wielkopolski,Berberysowa,44Q,01-831
+1780,Pinczow,Slazy,18K,94-732
+1781,Sucha Beskidzka,Wiejska,53F,26-948
+1782,Trzebiatow,Dewonska,83E,06-233
+1783,Zabno,Dolna,49Z,78-810
+1784,Rychwal,Gruchawka,144N,83-341
+1785,Mordy,Ptasia,35L,77-752
+1786,Rudnik nad Sanem,Brzechowska,142W,28-726
+1787,Chocz,Gorna,94V,33-595
+1788,Nowy Staw,Zniwna,157A,53-816
+1789,Krzywin,Wspolna,70I,87-579
+1790,Krotoszyn,Nowa,42R,41-908
+1791,Klecko,Mikolaja Reja,6M,41-982
+1792,Sochaczew,Zimna,137J,59-564
+1793,Sieradz,Swietojanska,130L,68-211
+1794,Czerwinsk nad Wisla,Dzielna,72X,75-131
+1795,Opalenica,Hetmana Jana Tarnowskiego,14D,78-539
+1796,Kolno,Dzika,174O,50-669
+1797,Annopol,Przygodna,122B,43-388
+1798,Zabno,Wojciecha Szczepaniaka,198W,57-503
+1799,Trzebnica,Norweska,158G,86-417
+1800,Krynica Morska,Hercynska,161R,08-746
+1801,Rawa Mazowiecka,Lopianowa,151T,41-715
+1802,Strumien,1905 Roku,154W,36-127
+1803,Lubomierz,Podklasztorna,85N,13-223
+1804,Kalisz Pomorski,Prezydenta Lecha Kaczynskiego,72B,42-979
+1805,Zalewo,Podporucznika Zbigniewa Kruszelnickiego Wilka,190A,65-302
+1806,Trzcinsko-Zdroj,Gliniana,91R,97-107
+1807,Kamiensk,Mieczyslawy cwiklinskiej,109P,16-744
+1808,Brzeszcze,Jeziorko,79H,18-249
+1809,Stary Sacz,Karola Szymanowskiego,27A,08-582
+1810,Raciaz,Ludwika Solskiego,3B,05-573
+1811,Kolonowskie,Wladyslawa Orkana,159T,44-131
+1812,Otyn,Warszawska,38Q,16-804
+1813,Lukow,Przylogi,5L,62-167
+1814,Gryfow Slaski,Peryferyjna,179E,10-609
+1815,Pelczyce,Jasna,85J,11-961
+1816,Kostrzyn,Pulkownika Stanislawa Dabka,195H,26-235
+1817,Insko,Silniczna,100C,71-799
+1818,Piensk,Ksiedza Hugona Kollataja,116W,51-925
+1819,Okonek,Kongresowa,3P,72-692
+1820,Kluczbork,Poprzeczna,72Q,53-619
+1821,Staporkow,Herbska,192R,82-228
+1822,Znin,Targowa,126O,28-286
+1823,Kozieglowy,Biskupa Mieczyslawa Jaworskiego,150I,78-031
+1824,Borne Sulinowo,Karkonoska,159F,96-382
+1825,Cybinka,Robotnicza,58U,52-724
+1826,Tluszcz,Stawki,53P,31-376
+1827,Ilawa,Oksywska,9V,53-685
+1828,Czarnkow,Szczygla,41B,08-806
+1829,Myslenice,Sadowa,52M,59-944
+1830,Chelm,Jana Kochanowskiego,193D,14-505
+1831,Bielsko-Biala,Jana Nowaka-Jezioranskiego,170M,56-148
+1832,Walbrzych,Zbozowa,24R,10-732
+1833,Sedziszow Malopolski,Majora Jurija Gagarina,84L,30-546
+1834,Czchow,Sloneczna,83K,17-531
+1835,Stoczek Lukowski,Jerzego Bogumila Puscha,31M,60-113
+1836,Lubawka,Szydlowek Gorny,150B,05-504
+1837,Wilamowice,Dzika,95S,99-368
+1838,Sierpc,Lodzka,34M,74-716
+1839,Wieliczka,Szwedzka,128L,65-046
+1840,Kalisz Pomorski,Krola Wladyslawa Lokietka,93N,93-014
+1841,Wachock,Tartaczna,38E,63-703
+1842,Ryglice,Przemyslowa,45F,57-651
+1843,Rychwal,Swietej Barbary,60J,18-153
+1844,Jedwabne,Sokola,3E,74-431
+1845,Leba,Szydlowek Gorny,89X,14-638
+1846,Krynki,Brzoskwiniowa,18K,10-680
+1847,Milicz,Adolfa Dygasinskiego,170R,42-955
+1848,Trzemeszno,Wrobla,89G,81-962
+1849,Sepolno Krajenskie,Transportowcow,106C,51-898
+1850,Janikowo,Gabrieli Zapolskiej,196Q,92-201
+1851,Zabludow,Dolomitowa,69C,18-951
+1852,Bialogard,Lopianowa,162F,60-215
+1853,Ogrodzieniec,Kalinowa,143W,15-631
+1854,Olesno,Edwarda Meissnera,90G,35-890
+1855,Miedzylesie,Dyrekcji Glownej Gorniczej,172I,98-053
+1856,Otwock,Helska,131M,34-836
+1857,Kowalewo Pomorskie,Niestachowska,182V,95-655
+1858,Pobiedziska,Wojciecha Boguslawskiego,184W,96-222
+1859,Mielec,Krotka,24T,01-733
+1860,Trzebiatow,Podwalna,67J,37-228
+1861,Lebork,Gajowa,96X,90-909
+1862,Strumien,Zagrabowicka,37I,63-395
+1863,Olsztynek,Przejazd,137X,39-685
+1864,Dzialoszyn,Poleska,90Y,18-221
+1865,Kazimierza Wielka,Zabia,27F,74-598
+1866,Kalwaria Zebrzydowska,Sybirakow,94Z,11-712
+1867,Piaski,Olkuska,162G,62-928
+1868,Sroda Slaska,Hutnicza,97O,37-212
+1869,Grabow nad Prosna,Poludniowa,23I,58-870
+1870,Poniatowa,Zytnia,41I,54-408
+1871,Szczawno-Zdroj,Wierzbowa,86I,12-751
+1872,Suchedniow,Rowna,173V,10-874
+1873,Suprasl,Kutnowska,174C,75-481
+1874,Chodecz,Hetmana Jana Karola Chodkiewicza,134H,30-824
+1875,Bogatynia,Szwedzka,150C,34-378
+1876,Tarnowskie Gory,Jagodowa,197C,01-260
+1877,Bielsko-Biala,Hetmana Stanislawa Zolkiewskiego,10N,09-371
+1878,Debica,Ksiedza Grzegorza Piramowicza,111E,04-725
+1879,Labiszyn,Franciszka Smuglewicza,75Y,97-563
+1880,Nowy Dwor Mazowiecki,Jalowcowa,66B,28-970
+1881,Przeworsk,Wikaryjska,104D,03-732
+1882,Pleszew,Tadeusza Szymona Wloszka,72M,97-374
+1883,Solec Kujawski,Pocieszka,107V,41-627
+1884,Cedynia,Armii Krajowej,146E,61-225
+1885,Zawiercie,Gromadzka,20J,67-966
+1886,Pelczyce,Kozia,191T,74-588
+1887,Rychwal,Lesna,89Y,07-016
+1888,Czestochowa,Kolonia,102P,41-430
+1889,Nowa Sarzyna,Pallotynska,97V,80-819
+1890,Gdynia,Ludwika Solskiego,128M,69-531
+1891,Jedwabne,Wystawowa,136P,78-345
+1892,Kolobrzeg,Lesniowka,41O,05-928
+1893,Bielsk Podlaski,Admirala Jozefa Unruga,83A,72-208
+1894,Wieliczka,Hetmana Jana Tarnowskiego,103A,27-988
+1895,Radom,Zgoda,168N,22-817
+1896,Goniadz,Kutnowska,112G,88-566
+1897,Karczew,Zapomniana,8U,29-070
+1898,Sroda Slaska,Piaseczny Dol,63J,52-414
+1899,Szczawnica,Dobromysl,90W,48-927
+1900,Strzyzow,Dabrowska,83E,56-259
+1901,Pieszyce,Marszalkowska,59Q,97-057
+1902,Boguchwala,Rzeszowska,11N,90-607
+1903,Golczewo,Wladyslawa Maleckiego,10C,23-050
+1904,Sepopol,Źrodlowa,98N,45-800
+1905,Pniewy,Slaska,55U,80-994
+1906,Dobrzyn nad Wisla,Kapitana Wladyslawa Raginisa,36U,46-970
+1907,Strzelce Opolskie,Mostowa,44G,20-085
+1908,Bialobrzegi,Sieje,126I,95-761
+1909,Makow Podhalanski,Gwarkow,75A,29-161
+1910,Lukow,Triasowa,124H,45-531
+1911,Zerkow,Jana Nowaka-Jezioranskiego,56M,69-275
+1912,Barcin,Samuela Bogumila Lindego,23H,75-389
+1913,Zielonka,Generala Jozefa Hauke-Bosaka,20D,11-014
+1914,Swietochlowice,Jana Samsonowicza,143E,35-631
+1915,Gizycko,Leona Skibinskiego,44H,49-459
+1916,Swarzedz,Fosforytowa,81H,38-279
+1917,Bystrzyca Klodzka,Mlynska,139O,32-737
+1918,Resko,Lysogorska,162H,62-199
+1919,Kozieglowy,Wolbromska,104B,32-273
+1920,Kobylin,Bukowa,65A,45-702
+1921,Czestochowa,Lopianowa,64J,50-896
+1922,Otyn,Okrezna,145C,79-941
+1923,Brok,Strycharska,69Q,94-493
+1924,Sztum,Wolbromska,174D,82-323
+1925,Ilza,Panska,175R,85-764
+1926,Brzeg Dolny,Majora Jana Piwnika,125S,70-839
+1927,Plock,Szwolezerow,135L,69-487
+1928,Sulkowice,1905 Roku,65Q,86-048
+1929,Mikolow,Zwierzyniecka,119Y,31-282
+1930,Skepe,Okrezna,1L,56-091
+1931,Jozefow (powiat bilgorajski),Biskupa Wincentego Kadlubka,7D,73-627
+1932,Plonsk,Zagrabowicka,35Y,12-401
+1933,Grabow nad Prosna,Bocznica,128U,53-079
+1934,Skepe,Dobromysl,189P,82-451
+1935,Malogoszcz,Rakowska,127F,56-761
+1936,Sejny,Mleczna,123H,81-597
+1937,Sroda Wielkopolska,Brzoskwiniowa,45R,48-320
+1938,Rozan,Zagnanska,71L,16-805
+1939,Wolbrom,Wojtostwo,31V,99-494
+1940,Puck,Ksiezniczki Dabrowki,70S,62-689
+1941,Ladek-Zdroj,Brzoskwiniowa,48T,93-907
+1942,Koscierzyna,Zascianek,141M,39-875
+1943,Grojec,Rowna,122S,16-255
+1944,Warka,Rowna,67E,55-823
+1945,Radlow,Warkocz,14B,86-416
+1946,Miedzyrzecz,Krola Boleslawa Chrobrego,123W,96-009
+1947,Nowy Dwor Mazowiecki,Chorzowska,16D,37-311
+1948,Zawidow,Kongresowa,61I,34-048
+1949,Kleczew,Zabia,164K,66-714
+1950,Moryn,Ksiedza Antoniego Zralka,52Q,37-274
+1951,Rymanow,Ksiecia Franciszka Ksawerego Druckiego-Lubeckiego,176Z,48-826
+1952,Stalowa Wola,Emilii Znojkiewiczowej,29C,47-797
+1953,Kleczew,Prezydenta Ryszarda Kaczorowskiego,78G,80-415
+1954,Lasin,Nowy Swiat,100O,87-290
+1955,Suraz,Skrajna,95H,05-611
+1956,Krotoszyn,Krola Wladyslawa Lokietka,94M,05-165
+1957,Knurow,Pallotynska,62Z,41-403
+1958,Zabrze,Edwarda Meissnera,66X,66-530
+1959,Stargard,Podlasie,81P,92-048
+1960,Orzesze,Chabrowa,151C,90-717
+1961,Wieruszow,Kozia,94S,39-769
+1962,Sulecin,Poligonowa,72D,43-191
+1963,Ozorkow,Warzywna,120H,82-289
+1964,Izbica Kujawska,Mahometanska,40X,53-089
+1965,Golczewo,Zagnanska,43G,33-763
+1966,Skalbmierz,Karola Henryka Kadena,45E,03-421
+1967,Laskarzew,Cmentarna,158Z,76-443
+1968,Ruciane-Nida,Agrestowa,86B,69-061
+1969,Szczawno-Zdroj,Fosforytowa,72R,57-163
+1970,Nowe,Olkuska,89D,45-969
+1971,Serock,Astronautow,9A,28-104
+1972,Slomniki,Braterska,197R,44-913
+1973,Ulanow,Malikow,126O,61-341
+1974,Tulowice,Bruszniowa,194M,01-291
+1975,Jedlina-Zdroj,Zapomniana,99N,72-500
+1976,Tyczyn,Dabrowska,149Z,39-301
+1977,Nowe Skalmierzyce,Orzechowa,29E,68-488
+1978,Jaroslaw,Bobrzanska,17O,31-148
+1979,Krosniewice,Solna,22R,04-961
+1980,Dabrowa Gornicza,Gleboczka,107P,25-194
+1981,Dabie,Miedziana,77V,79-461
+1982,Szczytno,Aleksandrowka,172T,81-351
+1983,Milanowek,Dobra,24X,82-572
+1984,Biskupiec,Strycharska,148W,98-162
+1985,Naleczow,Jaskolcza,126B,36-241
+1986,Zloty Stok,Swietokrzyska,109W,78-305
+1987,Myszyniec,Mikolaja Reja,141U,95-951
+1988,Kanczuga,Wiosenna,5N,61-622
+1989,Pajeczno,Radomska,152M,98-390
+1990,Zamosc,Juliana Tuwima,72I,54-443
+1991,Naleczow,Niecala,5V,30-255
+1992,Kamien Krajenski,Wilenska,119P,47-323
+1993,Kalwaria Zebrzydowska,Lopianowa,32Y,32-589
+1994,Malomice,Przeslowa,35P,11-813
+1995,Scinawa,Starogorska,84H,73-412
+1996,Jarocin,Jalowcowa,199T,00-261
+1997,Tuliszkow,Turystyczna,57W,26-769
+1998,Lubon,Wloszczowska,182T,62-073
+1999,Wielen,Boczna,142S,79-967
+2000,Skawina,Klecka,69Q,85-774
+2001,Jelcz-Laskowice,Rafala Hadziewicza,182E,88-434
+2002,Nowa Sol,Juliana Tuwima,69O,44-643
+2003,Szlichtyngowa,Karola Szymanowskiego,6W,13-029
+2004,Olsztyn,Skrajna,134T,62-967
+2005,Stargard,Kongresowa,71W,22-723
+2006,Dobrzyn nad Wisla,Tartaczna,125W,55-881
+2007,Blachownia,Franciszka Smuglewicza,173U,27-069
+2008,Bialogard,Nowowiejska,117K,33-739
+2009,Zabrze,Orzechowa,116O,47-613
+2010,Krzepice,Zagnanska,131H,53-812
+2011,Bielsko-Biala,Generala Stefana Grota-Roweckiego,41S,17-157
+2012,Bystrzyca Klodzka,Stacyjna,112R,46-870
+2013,Polanow,Jerzego Bogumila Puscha,165C,72-886
+2014,Szczuczyn,Ignacego Paderewskiego,144I,40-796
+2015,Zagorz,Narcyzowa,61D,43-036
+2016,Opatowiec,Helenowek,104R,75-699
+2017,Lipsko,Olgi Boznanskiej,181I,88-077
+2018,Kostrzyn nad Odra,Marii Krzyzanowskiej,4Z,17-601
+2019,Wegorzewo,Marii Konopnickiej,107Y,12-669
+2020,Checiny,Wspolna,90Y,55-093
+2021,Blazowa,Rumiankowa,36I,69-691
+2022,Walcz,Fabryczna,197O,81-942
+2023,Wodzislaw Slaski,Konecka,89T,39-338
+2024,Osieczna,Krola Wladyslawa Lokietka,116B,47-854
+2025,Orzesze,Studencka,111V,31-680
+2026,Wlen,Ksiecia Mieszka I,79U,49-044
+2027,Lobzenica,Jacka Malczewskiego,159O,01-169
+2028,Zdzieszowice,Niecala,155B,07-536
+2029,Swarzedz,Grenadierow,179Z,08-301
+2030,Pionki,Ksiedza Antoniego Zralka,47A,19-583
+2031,Grodzisk Wielkopolski,Dobromysl,128H,34-690
+2032,Wloszczowa,Pocieszka,186V,48-779
+2033,Konstancin-Jeziorna,Zastawie,134O,82-604
+2034,Drawno,Owsiana,50Z,20-558
+2035,Swidnica,Sienna,189R,56-648
+2036,Opoczno,Szklana,70U,67-748
+2037,Pilica,Ludwika Zamenhofa,171S,19-083
+2038,Lubawa,Konstantego Miodowicza,3X,62-800
+2039,Jarocin,Bukowa,140L,03-834
+2040,Nowe Skalmierzyce,Mahometanska,109I,88-393
+2041,Szydlow,Wincentego Witosa,153K,43-146
+2042,Goniadz,Wiejska,23G,69-171
+2043,Kedzierzyn-Kozle,Przemyslawa Gosiewskiego,160H,27-542
+2044,Mlawa,Buska,96E,47-711
+2045,Rymanow,Ksiedza Augustyna Kordeckiego,118O,27-352
+2046,Dobiegniew,Iglasta,109I,93-689
+2047,Strykow,Chabrowa,16S,06-980
+2048,Sepolno Krajenskie,Mleczna,73L,22-844
+2049,Goldap,Romualda Mielczarskiego,169V,72-576
+2050,Koluszki,Walerego Przyborowskiego,172Q,03-388
+2051,Radzyn Chelminski,Wisniowa,165O,37-053
+2052,Swiebodzin,Bedzinska,98N,18-849
+2053,Swiecie,Kwarciana,128T,68-449
+2054,Kolaczyce,Sucha,124E,18-340
+2055,Siechnice,Wspolna,102A,86-918
+2056,Mogielnica,Wystawowa,19H,27-954
+2057,Mogilno,Kozia,144B,27-378
+2058,Chmielnik,Tytusa Chalubinskiego,105B,28-502
+2059,Krosno Odrzanskie,Sabinowek,67F,42-220
+2060,Malbork,Poleska,65G,39-036
+2061,Milanowek,Tartaczna,4Y,23-759
+2062,Lubomierz,Wincentego z Kielc,17T,42-704
+2063,Lubniewice,Dzielna,176H,09-852
+2064,Lancut,Mleczna,65Y,83-256
+2065,Strumien,Urzednicza,133G,50-054
+2066,Rzgow,Szwedzka,138H,98-931
+2067,Stronie Slaskie,Mikolaja Gomolki,138L,81-276
+2068,Zary,Boleslawa Markowskiego,167W,51-880
+2069,Trzebinia,Braterska,136A,12-990
+2070,Kostrzyn nad Odra,Pomorska,68T,01-370
+2071,Wielun,Slichowicka,78N,10-795
+2072,Czeladz,Jalowcowa,156U,95-797
+2073,Proszowice,Orla,120W,54-076
+2074,Skoki,Leszczynska,108K,02-819
+2075,Wladyslawowo,Zbozowa,183Y,28-936
+2076,Miloslaw,Skibowa,73I,36-033
+2077,Ustron,Krysztalowa,96X,31-508
+2078,Barczewo,Radlinska,148Y,29-788
+2079,Olecko,Kolejarzy,19K,84-822
+2080,Skierniewice,Ustronie,14S,34-642
+2081,Tulowice,Karbonska,165Z,11-887
+2082,Piechowice,Ksiecia Jozefa Poniatowskiego,12W,06-482
+2083,Reda,Tomasza Zielinskiego,158I,44-379
+2084,Bytom Odrzanski,Grunwaldzka,102U,44-254
+2085,Ulanow,Seminaryjska,51Y,68-013
+2086,Swietochlowice,Kapitana Wladyslawa Raginisa,43V,77-495
+2087,Krosno,Przylogi,141V,95-281
+2088,Klobuck,Dobrzynska,154T,99-988
+2089,Polanica-Zdroj,Wesola,69T,22-159
+2090,Krosniewice,Sudecka,130G,32-663
+2091,Rydultowy,Jacka Malczewskiego,134K,55-681
+2092,Zaklikow,Okrezna,170H,94-040
+2093,Wyszogrod,Ulanska,176Y,34-742
+2094,Chociwel,Swietej Weroniki,172Z,32-097
+2095,Ryki,Niestachowska,105I,31-341
+2096,Prabuty,Mala Zgoda,61X,55-878
+2097,Bytom Odrzanski,Mikolaja Kopernika,81B,96-349
+2098,Krynica-Zdroj,Slawkowska,169O,30-212
+2099,Nowogrodziec,Gabrieli Zapolskiej,103O,43-195
+2100,Lubawa,Prezydenta Lecha Kaczynskiego,22R,79-851
+2101,Hrubieszow,Lagowska,113A,67-029
+2102,Skaryszew,Wladyslawa Maleckiego,41C,68-061
+2103,Cybinka,Plazowa,153Q,96-858
+2104,Nidzica,Rumiankowa,144N,76-659
+2105,Jedlina-Zdroj,Plazowa,41M,22-008
+2106,Katowice,Przegony,19F,25-556
+2107,Karlino,Orla,132E,81-046
+2108,Wabrzezno,Florentyny Malskiej,199O,05-210
+2109,Wolczyn,Mikolaja Reja,72T,88-480
+2110,Polczyn-Zdroj,Prochownia,39C,23-592
+2111,Lidzbark Warminski,Jana Kasprowicza,146U,70-499
+2112,Gliwice,Daleka,150G,63-454
+2113,Wrzesnia,Janczarska,106V,47-187
+2114,Plock,Osobna,22F,11-414
+2115,Sompolno,Wapiennikowa,131C,87-353
+2116,Sanok,Jesionowa,132Y,13-030
+2117,Jozefow (powiat bilgorajski),Jedrusiow,115Z,38-860
+2118,Krzeszowice,Prezydenta Lecha Kaczynskiego,67S,91-088
+2119,Wieruszow,Radomska,49C,70-334
+2120,Tarnow,Krysztalowa,165Z,72-317
+2121,Zaklikow,Karkonoska,126T,68-675
+2122,Prabuty,Mojzesza Pelca,96J,86-481
+2123,Sulkowice,Slawkowska,193D,51-459
+2124,Opoczno,Karczowkowska,54A,79-981
+2125,Szczekociny,Heleny Modrzejewskiej,104M,00-660
+2126,Wegorzewo,Podklasztorna,17M,17-387
+2127,Rzepin,Mazurska,177B,17-636
+2128,Raszkow,Wilenska,148A,31-936
+2129,Jarocin,Stare Sieje,28L,57-207
+2130,Lowicz,Domaniowka,143W,93-612
+2131,Ozarow Mazowiecki,Parkowa,66W,08-953
+2132,Gryfice,Ulanska,109V,16-332
+2133,Oborniki Slaskie,Machocka,32V,34-082
+2134,Jawor,Rolna,178Q,92-817
+2135,Zbaszynek,Kruszcowa,198W,63-035
+2136,Gora,Majora Jana Piwnika,147R,43-167
+2137,Piaseczno,Admirala Jozefa Unruga,98J,30-276
+2138,Suchan,Sokola,182C,93-265
+2139,Barlinek,Prochownia,64H,29-293
+2140,Lwowek Slaski,Wapiennikowa,8F,54-013
+2141,Krobia,Marszalkowska,11W,36-919
+2142,Alwernia,Wincentego Witosa,194Z,91-214
+2143,Lubawa,Grenadierow,114L,35-609
+2144,Rypin,Folwarczna,8F,22-718
+2145,Knurow,Nowy Swiat,102M,07-429
+2146,Leknica,Kruszcowa,84F,58-543
+2147,Janikowo,Czarnowska,44U,34-134
+2148,Trzebnica,Lopusznianska,111L,64-577
+2149,Zalewo,Opoczynska,71O,35-070
+2150,Paslek,Generala Stefana Grota-Roweckiego,23O,23-819
+2151,Wislica,Sukowska,126O,87-700
+2152,Janowiec Wielkopolski,Planty,101T,90-787
+2153,Siemiatycze,Cypriana Kamila Norwida,135I,72-694
+2154,Koniecpol,Elizy Orzeszkowej,98U,49-460
+2155,Dolsk,Majora Henryka Sucharskiego,163N,52-518
+2156,Sulejowek,Zwirowa,15X,68-934
+2157,Raciborz,Sieje,48X,19-356
+2158,Iwonicz-Zdroj,Wita Stwosza,75S,40-683
+2159,Nasielsk,Wojciecha Kossaka,140F,61-555
+2160,Jaraczewo,Kamienna,88J,73-796
+2161,Torun,Generala Tadeusza Kosciuszki,67G,50-222
+2162,Losice,Franciszka Smuglewicza,37K,15-823
+2163,Proszkow,Wladyslawa Maleckiego,80Z,29-350
+2164,Polanica-Zdroj,Do Modrzewia,195L,74-408
+2165,Inowroclaw,Generala Stefana Grota-Roweckiego,126O,91-586
+2166,Nowe Warpno,Artylerzystow,111S,34-019
+2167,Swieradow-Zdroj,Stacyjna,83Q,88-222
+2168,Polkowice,Skrzetlewska,97V,94-562
+2169,Chodecz,Konecka,94T,96-992
+2170,Tczew,Cynkowa,122D,74-341
+2171,Bochnia,Oskara Kolberga,165U,32-866
+2172,Wronki,Krotka,77H,29-085
+2173,Tykocin,Wikaryjska,28H,42-134
+2174,Bialy Bor,Aleksandry Dobrowolskiej,8B,36-668
+2175,Ustka,Zapomniana,44J,58-337
+2176,Obrzycko,Wisniowa,144L,69-889
+2177,Piatek,Lesna,170B,86-780
+2178,Jablonowo Pomorskie,Janusza Kusocinskiego,144Y,79-143
+2179,Lubaczow,Krola Jana III Sobieskiego,145Y,79-398
+2180,Tyczyn,Jana Matejki,81T,36-562
+2181,Turek,Boczna,40O,34-660
+2182,Kunow,Lesniowka,28W,17-069
+2183,Legnica,Skrajna,188B,40-201
+2184,Polkowice,Juliana Tuwima,162Y,07-999
+2185,Jaraczewo,Krotka,59S,26-329
+2186,Zakliczyn,Dobra,71I,17-474
+2187,Boleslawiec,Norweska,182H,64-600
+2188,Lipsko,Podlesna,51M,48-720
+2189,Bialy Bor,Rybna,1F,29-212
+2190,Goniadz,Krakowska,178W,94-371
+2191,Zielona Gora,Giserska,16C,97-431
+2192,Margonin,Pancerna,161R,59-905
+2193,Bodzentyn,Marii Krzyzanowskiej,110G,13-729
+2194,Losice,Hetmana Jana Tarnowskiego,46T,10-482
+2195,Jaslo,Siedmiu Źrodel,78A,67-715
+2196,Zator,Zagonowa,3H,23-017
+2197,Jaroslaw,Malinowa,51Y,12-943
+2198,Lesna,Prochownia,138A,74-755
+2199,Zloty Stok,Armii Krajowej,31E,92-232
+2200,Zlotoryja,Napekowska,47X,33-877
+2201,Pobiedziska,Stawki,118E,06-509
+2202,Annopol,Karczunek,101K,18-046
+2203,Lasin,Janusza Kusocinskiego,43C,56-545
+2204,Walcz,Wspolna,167Y,73-969
+2205,Bydgoszcz,Piaski Male,84V,86-519
+2206,Szprotawa,Duza,185W,19-396
+2207,Ropczyce,Kapielowa,158E,51-016
+2208,Gniewkowo,Pancerna,49I,83-462
+2209,Czlopa,Wilenska,35D,54-669
+2210,Reda,Sabinowek,132P,89-637
+2211,Pleszew,Solna,63C,91-146
+2212,Lancut,Gleboczka,109Z,49-209
+2213,Brzeszcze,Stefana Jaracza,90H,29-413
+2214,Katy Wroclawskie,Jesionowa,34A,55-459
+2215,Grudziadz,Gornicza,126E,45-160
+2216,Sedziszow Malopolski,Niecala,190S,05-484
+2217,Muszyna,Brzoskwiniowa,56Y,41-658
+2218,Knyszyn,Kalcytowa,70P,45-940
+2219,Murowana Goslina,Wolbromska,93M,04-686
+2220,Dziwnow,Ignacego Daszynskiego,29B,61-007
+2221,Wojcieszow,Piesza,103H,11-192
+2222,Zloty Stok,Kolejarzy,50C,86-370
+2223,Poniatowa,Ksiedza Stanislawa Staszica,120M,73-283
+2224,Koszyce,Iglasta,180Q,91-913
+2225,Choszczno,Czerwonego Krzyza,33J,18-797
+2226,Lwowek,Grabinow,35S,04-783
+2227,Lubliniec,Spoldzielcza,54R,49-413
+2228,Kobylin,Hoza,33W,40-013
+2229,Oswiecim,Zagorska,148X,57-094
+2230,Solec Kujawski,Leszczynska,119W,07-450
+2231,Ziebice,Jeziorko,34J,65-143
+2232,Prochowice,Dluga,52Z,17-898
+2233,Piekary Slaskie,Krakowska,1C,35-903
+2234,Skarszewy,Ptasia,104Z,24-687
+2235,Bielawa,Rozmarynowa,176Q,35-934
+2236,Jedrzejow,Helenowek,192E,59-353
+2237,Olsztynek,Sucha,177H,78-383
+2238,Kruszwica,Hutnicza,133U,78-436
+2239,Sandomierz,Czarnowska,124L,21-211
+2240,Kedzierzyn-Kozle,Lukowa,26R,57-689
+2241,Kostrzyn,Niestachowska,63O,29-908
+2242,Kepno,Orzechowa,57N,49-209
+2243,Rabka-Zdroj,Jana Matejki,172S,43-862
+2244,Krobia,Bieszczadzka,123F,16-098
+2245,Bolkow,Podlesna,83H,05-075
+2246,Blazowa,Rakowska,178K,92-156
+2247,Swietochlowice,Szwedzka,147M,62-681
+2248,Drezdenko,Miedziana,72E,45-117
+2249,Gabin,Rzeszowska,5Q,12-819
+2250,Luban,Starogorska,148Q,09-733
+2251,Olecko,Podporucznika Zbigniewa Kruszelnickiego Wilka,55Y,35-929
+2252,Zduny,Poslowicka,19W,53-623
+2253,Grybow,Wolbromska,26G,67-597
+2254,Gizycko,Graniczna,198W,54-658
+2255,Klimontow,Andrzeja Frycza Modrzewskiego,131K,48-598
+2256,Resko,Swietokrzyska,64C,47-202
+2257,Aleksandrow Lodzki,Polna,144I,35-711
+2258,Pelczyce,Lesna,54A,31-360
+2259,Barczewo,Swietego Stanislawa Kostki,111Y,63-415
+2260,Daleszyce,Przemyslowa,80R,91-564
+2261,Trzemeszno,Mikolaja Gomolki,172C,80-331
+2262,Opoczno,Oksywska,17N,55-724
+2263,Wyszogrod,Hoza,3I,38-061
+2264,Mieroszow,Barytowa,128Z,51-519
+2265,Nowogard,Marszalka Jozefa Pilsudskiego,110D,55-806
+2266,Mrozy,Radiowa,57U,23-600
+2267,Tarnobrzeg,Maslowska,22U,45-669
+2268,Tuszyn,Rzeszowska,196P,79-337
+2269,Slubice,Generala Jozefa Hauke-Bosaka,118Z,61-003
+2270,Rejowiec Fabryczny,Lubiczna,195Y,79-938
+2271,Radziejow,Ksiedza Piotra Sciegiennego,109J,92-157
+2272,Sulejowek,Powstania Styczniowego,106C,15-633
+2273,Luban,Browarna,141P,32-756
+2274,Zloty Stok,Jerzego Bogumila Puscha,83H,00-774
+2275,Przedborz,Pulkownika Stanislawa Dabka,104I,09-731
+2276,Aleksandrow Kujawski,Ojca Kolumbina Tomaszewskiego,10T,24-312
+2277,Ciechocinek,Krucza,156P,83-581
+2278,Twardogora,Pulkownika Jozefa Teligi,199J,38-645
+2279,Nowa Sol,Warkocz,135E,90-828
+2280,Kalisz Pomorski,Biesak,194J,97-904
+2281,Krzywin,Jana Chryzostoma Paska,12B,11-414
+2282,Slawkow,Turystyczna,98D,34-476
+2283,Blachownia,Mikolaja Reja,61D,48-624
+2284,Pyrzyce,Henryka Sienkiewicza,179I,90-223
+2285,Bochnia,Niska,141J,92-566
+2286,Wladyslawowo,Gwarkow,152O,23-709
+2287,Labiszyn,Przegony,78H,39-698
+2288,Konstancin-Jeziorna,Pirytowa,22F,40-452
+2289,Biskupiec,Kolejarzy,32G,20-479
+2290,Zielonka,Zamosc,183A,12-483
+2291,Skalbmierz,Szklana,79S,36-782
+2292,Swarzedz,Jana Nowaka-Jezioranskiego,85Y,15-468
+2293,Jawor,Jana Samsonowicza,77A,22-584
+2294,Chelmno,Swietego Rafala Kalinowskiego,34T,16-727
+2295,Miasteczko Slaskie,Jana Kasprowicza,196H,17-567
+2296,Tyczyn,Trzuskawicka,131P,00-648
+2297,Nieszawa,Hoza,48M,15-419
+2298,Miroslawiec,Ksiedza Grzegorza Piramowicza,86F,83-642
+2299,Gniewkowo,Maslana,186F,34-511
+2300,Nowogrodziec,Triasowa,78H,71-163
+2301,Makow Podhalanski,Ciepla,102X,71-476
+2302,Szamocin,Mila,111B,18-892
+2303,Lochow,Podhalanska,185D,78-005
+2304,Sierakow,Jarzebinowa,112H,78-700
+2305,Radzymin,Faldowa,195R,60-886
+2306,Janow Lubelski,Graniczna,27U,89-840
+2307,Rypin,Mokra,119W,22-190
+2308,Miedzyrzecz,Niska,111O,46-526
+2309,Wlen,Krakowska,199K,52-602
+2310,Wiazow,Skrajna,160L,26-028
+2311,Zakroczym,Dyminska,138Y,20-027
+2312,Tychy,Studziankowska,57C,75-907
+2313,Wolin,Zytnia,144C,75-444
+2314,Rzeszow,Dobromysl,195Q,15-462
+2315,Czechowice-Dziedzice,Helenowek,142U,29-221
+2316,Olszyna,Bohaterow Warszawy,159G,11-652
+2317,Bransk,Praussow,21G,63-109
+2318,Wolborz,Kujawska,127Z,48-981
+2319,Strzyzow,Biskupa Mieczyslawa Jaworskiego,106X,84-948
+2320,Trzemeszno,Zurawia,50G,55-536
+2321,Nowe Miasto Lubawskie,Prezydenta Lecha Kaczynskiego,56W,79-539
+2322,Lidzbark Warminski,Debowa,146Z,00-628
+2323,Pila,Zygmunta Kwasa,107S,76-008
+2324,Torzym,Leona Skibinskiego,155U,14-442
+2325,Czeladz,Tujowa,156F,13-337
+2326,Szydlowiec,Florentyny Malskiej,195F,47-852
+2327,Radomsko,Saperow,132C,46-070
+2328,Biala Piska,Generala Tadeusza Klimeckiego,77X,93-742
+2329,Plock,Zamkowa,177C,66-868
+2330,Staporkow,Jarzabek,19S,70-622
+2331,Barwice,Weterynaryjna,105U,20-767
+2332,Makow Podhalanski,Nowy Swiat,198J,91-027
+2333,Daleszyce,Sadowa,187I,60-124
+2334,Miastko,Kolonia,35L,54-170
+2335,Jablonowo Pomorskie,Trzuskawicka,115Z,83-264
+2336,Pacanow,Magazynowa,25U,88-882
+2337,Nowe,Lisia,161W,32-593
+2338,Szamotuly,Marszalkowska,15H,88-099
+2339,Kargowa,Rzeszowska,138R,45-142
+2340,Klecko,Piaski Male,183Z,55-024
+2341,Olesnica,Jozefa Szermentowskiego,194Y,30-876
+2342,Przasnysz,Miedziana,160M,18-095
+2343,Nowy Dwor Gdanski,Bakowa,156Q,57-331
+2344,Proszkow,Tarnowska,37V,21-923
+2345,Leba,Piaskowa,70K,36-832
+2346,Skaryszew,Lotewska,155S,28-054
+2347,Chrzanow,Hilarego Mali,123M,66-854
+2348,Lubniewice,Franciszka Loefflera,87I,09-611
+2349,Dzialoszyn,Swietego Leonarda,67G,50-360
+2350,Osiek,Leona Skibinskiego,29G,74-734
+2351,Kosow Lacki,Legnicka,42G,40-331
+2352,Swieradow-Zdroj,Krola Wladyslawa Jagielly,75E,37-307
+2353,Czestochowa,Wojciecha Boguslawskiego,115K,57-003
+2354,Slawa,Marii Opielinskiej,6Q,96-796
+2355,Aleksandrow Kujawski,Panska,141Z,31-167
+2356,Mikstat,Naleczow,6M,17-409
+2357,Wysoka,Starowapiennikowa,20U,81-271
+2358,Dzialoszyn,Glogowa,32D,70-910
+2359,Pruszkow,Prezydenta Ryszarda Kaczorowskiego,145U,51-651
+2360,Zaklikow,Emilii Plater,5S,11-214
+2361,Strumien,Monte Cassino,26R,16-988
+2362,Kartuzy,Mikolaja Gomolki,93X,45-735
+2363,Kowary,Podhalanska,92L,97-163
+2364,Tomaszow Lubelski,Wapiennikowa,82Z,04-439
+2365,Ruda Slaska,Bakowa,30K,72-046
+2366,Kamien Pomorski,Faldowa,193X,70-322
+2367,Znin,Grzybowa,26A,47-703
+2368,Nowogrod Bobrzanski,Prochownia,83C,67-102
+2369,Rejowiec Fabryczny,Leona Skibinskiego,95S,63-377
+2370,Stawiski,Pallotynska,37U,83-844
+2371,Sokolow Malopolski,Krzywa,48W,25-002
+2372,Stepnica,Slazy,82Q,51-702
+2373,Chorzele,Gabrieli Zapolskiej,175W,64-736
+2374,Orneta,Krola Wladyslawa Lokietka,65F,94-147
+2375,Biezun,Krzemionkowa,177V,85-784
+2376,Zakroczym,Biesak,38R,29-830
+2377,Debrzno,Wojtostwo,46G,59-813
+2378,Sulejowek,Agrestowa,84O,54-362
+2379,Warta,Piotra Michalowskiego,151J,35-568
+2380,Nowe Skalmierzyce,Bernardynska,4P,11-404
+2381,Czestochowa,Zelaznogorska,184D,67-450
+2382,Przedborz,Krola Wladyslawa Lokietka,174Z,65-462
+2383,Belchatow,Jozefa Zaorskiego,195L,11-066
+2384,Lubliniec,Grabinow,171V,52-350
+2385,Ozimek,Andrzeja Struga,93E,77-903
+2386,Lubomierz,Bobrzanska,135O,76-678
+2387,Ozarow,Podwalna,39F,67-164
+2388,Jozefow (powiat bilgorajski),Edwarda Meissnera,74F,95-344
+2389,Bardo,Kozia,111P,88-653
+2390,Sandomierz,Dolna,197W,72-450
+2391,Janow Lubelski,Generala Tadeusza Klimeckiego,199D,85-239
+2392,Opatowek,Zgoda,165Y,94-469
+2393,Mragowo,Sloneczna,146F,34-209
+2394,Gniewkowo,Alabastrowa,156J,06-290
+2395,Lancut,Orla,7T,89-362
+2396,Sokolow Podlaski,Husarska,57X,50-379
+2397,Lubraniec,Czarnowska,142N,14-386
+2398,Golancz,Prezydenta Ryszarda Kaczorowskiego,105A,41-275
+2399,Recz,Kongresowa,136W,94-507
+2400,Gora Kalwaria,Zbozowa,10B,66-910
+2401,Wolomin,Osobna,186H,75-225
+2402,Bolkow,Bakowa,162L,04-400
+2403,Warka,Czestochowska,114N,10-505
+2404,Konstantynow Lodzki,Trzuskawicka,77E,96-183
+2405,Swidnica,Ksiecia Jozefa Poniatowskiego,39A,98-217
+2406,Rumia,Ksiedza Grzegorza Piramowicza,68T,73-909
+2407,Nowe Warpno,Stare Sieje,173M,32-502
+2408,Malomice,Wysoka,41U,88-068
+2409,Orneta,Wierzbowa,140Q,53-947
+2410,Jutrosin,Bursztynowa,19N,86-019
+2411,Orneta,Swietego Rafala Kalinowskiego,79A,87-127
+2412,Sompolno,Jeziorko,174P,24-967
+2413,Daleszyce,Domaniowka,171C,33-065
+2414,Zory,Transportowcow,125J,00-778
+2415,Zabki,Pod Telegrafem,190N,62-385
+2416,Podkowa Lesna,Majora Jana Piwnika,16X,36-942
+2417,Chorzele,Debowa,107O,59-966
+2418,Olsztynek,Kapielowa,58M,15-431
+2419,Ujscie,Chorzowska,12G,39-012
+2420,Dobra (powiat lobeski),Kalinowa,158A,29-672
+2421,Chodecz,Orlat Lwowskich,160F,32-631
+2422,Moryn,Zimna,163K,23-094
+2423,Kostrzyn,Modlinska,45M,25-338
+2424,Augustow,Generala Stefana Grota-Roweckiego,68B,30-995
+2425,Rajgrod,Jozefa Chelmonskiego,144V,55-992
+2426,Warta,Sienna,63G,31-158
+2427,Plock,Mokra,180Y,08-608
+2428,Brzeszcze,Czernidlo,67O,51-066
+2429,Karpacz,Kolonia,49K,03-315
+2430,Wysoka,Wspolna,152H,23-533
+2431,Piekary Slaskie,Stefana Zeromskiego,44R,95-148
+2432,Barczewo,Lotewska,86J,17-294
+2433,Pilawa Gorna,Okrezna,44F,38-622
+2434,Przedborz,Ksiedza Piotra Sciegiennego,60C,74-038
+2435,Wielichowo,Mila,147W,54-659
+2436,Rakoniewice,Wojciecha Zywnego,152E,53-800
+2437,Bytow,Jodlowa,4R,68-060
+2438,Lomianki,Przegony,117Y,07-497
+2439,Gdansk,Dobrzynska,140L,13-294
+2440,Czempin,Mala,100J,36-746
+2441,Piensk,Karola Henryka Kadena,179P,75-628
+2442,Czempin,Za Walcownia,85L,68-723
+2443,Margonin,Bitwy nad Bzura,22T,12-977
+2444,Kargowa,Gornicza,119H,63-181
+2445,Steszew,Sienna,18A,89-906
+2446,Oborniki,Wrobla,161O,18-132
+2447,Oswiecim,Legnicka,133T,93-292
+2448,Miedzyzdroje,Karola Szymanowskiego,172Q,61-641
+2449,Polczyn-Zdroj,Zascianek,10J,82-034
+2450,Gostyn,Lotnicza,19E,24-417
+2451,Wysmierzyce,Marii Opielinskiej,54L,11-796
+2452,Ostrow Mazowiecka,Generala Mariana Langiewicza,148X,11-686
+2453,Miedzyborz,Wesola,25Z,24-853
+2454,Strzelno,Sokola,141L,58-118
+2455,Pierzchnica,Niska,61G,92-457
+2456,Darlowo,Franciszka Smuglewicza,140G,06-371
+2457,Gora Kalwaria,Prezydenta Stefana Artwinskiego,43Z,40-694
+2458,Siemianowice Slaskie,Buska,71R,39-630
+2459,Ziebice,Ignacego Daszynskiego,123X,72-698
+2460,Gniezno,Miechowska,35B,21-188
+2461,Piatek,Kongresowa,170J,22-196
+2462,Miedzyrzec Podlaski,Spacerowa,120O,38-430
+2463,Buk,Wielkopolska,78V,88-691
+2464,Siedliszcze,Bedzinska,108L,77-835
+2465,Steszew,Glogowa,92B,77-618
+2466,Skalbmierz,Cedrowa,193Y,44-407
+2467,Skala,Ksiedza Antoniego Zralka,103D,83-079
+2468,Skawina,Debowa,38V,63-013
+2469,Ziebice,Wojciecha Kossaka,29H,83-339
+2470,Malogoszcz,Rafala Hadziewicza,55A,92-216
+2471,Zory,Wojciecha Kossaka,115Z,72-581
+2472,Sierpc,Hetmana Jana Karola Chodkiewicza,169H,25-263
+2473,Czerwiensk,Prezydenta Stefana Artwinskiego,190Q,11-781
+2474,Szczucin,Wojska Polskiego,169U,51-469
+2475,Chociwel,Skalista,66W,56-582
+2476,Glogow Malopolski,Ludwika Solskiego,66S,21-592
+2477,Puck,Ilzecka,61S,82-932
+2478,Lubsko,Studencka,142R,82-321
+2479,Wolczyn,Sloneczna,56M,87-244
+2480,Wschowa,Mineralna,141E,67-574
+2481,Michalowo,Sybirakow,135Q,97-704
+2482,Wegorzewo,Adama Mickiewicza,23W,65-181
+2483,Laszczow,Wojska Polskiego,70F,43-079
+2484,Zagan,Marmurowa,178J,90-040
+2485,Zory,Janusza Kusocinskiego,89Q,17-124
+2486,Przysucha,Wspolna,8T,23-007
+2487,Opatow,Nowy Swiat,194F,28-828
+2488,Krapkowice,Sukowska,128X,18-274
+2489,Bialobrzegi,Karbonska,71X,30-507
+2490,Gora Kalwaria,Prezydenta Lecha Kaczynskiego,13J,17-865
+2491,Piwniczna-Zdroj,Bobrowa,180N,99-361
+2492,Pionki,Wybraniecka,24C,91-390
+2493,Cybinka,Okolnik,174E,42-010
+2494,Miechow,1905 Roku,103O,35-631
+2495,Krzeszowice,Dyrekcji Glownej Gorniczej,80N,90-749
+2496,Zgorzelec,Duza,74L,17-739
+2497,Wachock,Spokojna,165K,15-374
+2498,Tychowo,Gorna,138M,15-279
+2499,Orzesze,Zakladowa,139E,89-983
+2500,Suwalki,Cicha,148F,01-702

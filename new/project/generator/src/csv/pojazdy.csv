@@ -1,0 +1,2501 @@
+id,marka,model,pojemnosc_silnika,moc_km,liczba_miejsc
+1,Daihatsu,Rocky,3.7,109,20
+2,RAM,4500,2.3,196,29
+3,Subaru,Baja,3.3,168,17
+4,Pontiac,G5,1,197,14
+5,Freightliner,Sprinter,2.7,196,10
+6,Maybach,57,3.8,141,26
+7,Avanti,Convertible,3.2,122,18
+8,Chevrolet,Suburban,2.8,111,20
+9,Honda,Del Sol,1.8,170,22
+10,Scion,xD,3.4,125,34
+11,Lotus,Elise,2.8,149,21
+12,Tesla,Model S,1.8,197,13
+13,Renault,R18,3,155,23
+14,Pontiac,1000,2.6,148,25
+15,Scion,xA,1.1,108,34
+16,Lamborghini,Jalpa,1.3,106,28
+17,Geo,Tracker,3.4,183,13
+18,Maybach,62,2.5,159,15
+19,Land Rover,LR4,2.3,175,20
+20,Triumph,TR7,2.1,147,15
+21,Dodge,Ram 4500 Truck,1.8,169,31
+22,Dodge,Ram 3500 Truck,3.6,109,10
+23,Land Rover,Discovery,3.3,113,14
+24,Sterling,825,3.5,167,25
+25,Toyota,RAV4,2.7,136,31
+26,Lancia,Beta,3,120,28
+27,Datsun,510,3.8,116,33
+28,Buick,Century,2.8,145,27
+29,Plymouth,Arrow,2.5,119,11
+30,Mazda,MAZDA5,2.2,131,22
+31,Chrysler,Laser,2.4,109,24
+32,Renault,18i,1.6,135,22
+33,Suzuki,Forenza,1.7,125,13
+34,Honda,Civic,2.4,151,11
+35,Renault,Fuego,2.5,194,11
+36,Toyota,Venza,2.4,161,20
+37,Lexus,LS 600h,3.7,144,21
+38,McLaren,MP4-12C,1.6,134,28
+39,SRT,Viper,2,109,30
+40,Geo,Prizm,2.4,134,29
+41,Buick,Terraza,3.8,131,23
+42,Yugo,GVX,3.3,119,18
+43,Volkswagen,Tiguan,1.1,184,27
+44,Daewoo,Nubira,1.6,123,29
+45,Oldsmobile,88,3.3,123,11
+46,Yugo,GVX,1.6,153,23
+47,Bentley,Eight,2.4,146,18
+48,Jeep,Pickup,2.2,196,12
+49,Merkur,XR4Ti,3.2,108,14
+50,Alfa Romeo,164,3.2,101,14
+51,Chrysler,E Class,1.5,144,11
+52,Bentley,Corniche,1,187,25
+53,Subaru,Loyale,3.6,117,28
+54,smart,fortwo,1.7,146,17
+55,Cadillac,CTS,2.2,161,13
+56,Cadillac,Escalade ESV,2,101,31
+57,FIAT,Brava,1,101,16
+58,Maserati,GranSport,2.4,129,19
+59,Lexus,LX 570,2.4,137,32
+60,Maserati,Spyder,3.8,110,32
+61,Chrysler,Crossfire,1.7,121,21
+62,Jeep,Scrambler,2.8,197,23
+63,Daihatsu,Charade,1.7,114,29
+64,Dodge,Ram 4500 Truck,2.2,199,17
+65,Tesla,Model S,3.8,184,16
+66,Maserati,Coupe,2.1,160,12
+67,Lincoln,Blackwood,1.8,144,28
+68,Lamborghini,LM002,3.3,103,18
+69,Ford,LTD,2.7,186,11
+70,DeLorean,DMC-12,2.4,160,15
+71,Chevrolet,TrailBlazer,3.6,194,11
+72,Fisker,Karma,1.1,120,30
+73,Ferrari,F430,2.1,164,11
+74,Lamborghini,Gallardo,2.6,107,12
+75,Toyota,Cressida,3.4,137,28
+76,Freightliner,Sprinter,2.4,104,22
+77,Lancia,Zagato,3.8,147,26
+78,McLaren,MP4-12C,1.8,134,20
+79,GMC,Envoy XL,3,180,23
+80,Lancia,Beta,2.3,160,28
+81,SRT,Viper,1.5,166,16
+82,Lancia,Zagato,1.1,196,33
+83,Daihatsu,Rocky,1.8,173,27
+84,Datsun,Sentra,1.8,118,24
+85,Triumph,TR7,2.5,132,17
+86,Land Rover,Range Rover Sport,2.1,110,13
+87,Subaru,Legacy,1.5,168,13
+88,Mitsubishi,Lancer Evolution,1.2,189,26
+89,Ford,Flex,2.5,121,14
+90,Lamborghini,Countach,3.2,130,26
+91,Ford,Taurus X,2.1,158,24
+92,FIAT,2000 Spider,1.2,148,20
+93,Lotus,Esprit,2.4,102,17
+94,Toyota,Starlet,1.3,147,22
+95,Ford,Escort,3.4,188,26
+96,Triumph,TR8,1.3,182,16
+97,Alfa Romeo,164,2,182,14
+98,GMC,Terrain,1.4,100,21
+99,Oldsmobile,Aurora,1.6,162,31
+100,Scion,iQ,3.5,170,31
+101,Alfa Romeo,164,3.1,161,10
+102,Lincoln,Navigator,3.5,194,21
+103,Plymouth,Champ,2.6,183,20
+104,Lotus,Exige,2.2,189,13
+105,Daihatsu,Rocky,1.2,125,10
+106,MINI,Cooper S,1.1,141,29
+107,Chrysler,Concorde,3.2,128,19
+108,Kia,Rio,2.4,131,21
+109,Merkur,Scorpio,1.6,136,34
+110,Alfa Romeo,164,1.2,180,24
+111,Acura,3.2CL,2.5,158,27
+112,FIAT,500,2,180,21
+113,Acura,3.0CL,3.1,177,12
+114,Ford,Five Hundred,2.4,171,16
+115,Jeep,Scrambler,1,169,18
+116,Scion,FR-S,1.3,177,23
+117,Audi,S7,1.3,138,13
+118,Infiniti,QX56,2.1,183,16
+119,Oldsmobile,Achieva,3.2,105,32
+120,Porsche,Carrera GT,2.8,116,25
+121,Hyundai,Genesis Coupe,1.1,173,23
+122,Porsche,944,2.1,114,16
+123,Lotus,Elise,2.4,112,26
+124,Jeep,Scrambler,2.6,137,11
+125,Freightliner,Sprinter,1.1,184,16
+126,Acura,3.5 RL,3.4,182,13
+127,Geo,Metro,3.2,180,16
+128,Buick,Electra,2.6,120,24
+129,Mercedes-Benz,S55 AMG,2.3,138,27
+130,Ferrari,512M,3.5,127,27
+131,Chrysler,LHS,1.7,102,34
+132,Lotus,Elan,3.7,188,16
+133,Nissan,Titan,3.4,154,17
+134,Toyota,Paseo,3.4,140,30
+135,Alfa Romeo,Milano,1.8,150,27
+136,Freightliner,Sprinter,3.5,134,32
+137,Kia,Forte,1,186,26
+138,Land Rover,Range Rover Sport,3.5,191,14
+139,Buick,Electra,3.8,155,10
+140,GMC,Sierra C/K1500,1.6,113,10
+141,Pontiac,Grand Am,2.4,192,24
+142,Yugo,GVX,2.1,145,20
+143,Nissan,Titan,3.7,133,18
+144,Land Rover,Range Rover Evoque,3.6,169,34
+145,Buick,Somerset,3.4,165,27
+146,SRT,Viper,1.7,121,14
+147,Isuzu,Hombre,3.3,185,15
+148,Lincoln,MKS,2.7,118,34
+149,Lamborghini,LM002,2.2,126,25
+150,McLaren,MP4-12C,1.4,160,34
+151,Lotus,Exige,2.1,177,20
+152,McLaren,MP4-12C,2.6,199,32
+153,Jaguar,XJ,3.4,146,16
+154,BMW,330xi,1,169,32
+155,Mercedes-Benz,500SEC,1,189,30
+156,Avanti,Convertible,1.6,150,10
+157,Mercury,Marquis,2.1,165,13
+158,Kia,Amanti,3.1,188,10
+159,Rolls-Royce,Phantom,2.1,121,29
+160,AMC,Spirit,1.4,157,21
+161,McLaren,MP4-12C,1.2,116,26
+162,Scion,xD,1.6,174,21
+163,Scion,xD,2.3,126,33
+164,Nissan,370Z,3.8,130,16
+165,Mitsubishi,i,1.7,130,15
+166,Suzuki,Kizashi,2.7,195,21
+167,Renault,Le Car,1.7,182,26
+168,Nissan,Juke,1.6,107,31
+169,Suzuki,Esteem,1,176,31
+170,Freightliner,Sprinter,2.5,186,27
+171,smart,fortwo,1.7,110,27
+172,Tesla,Model S,1.6,108,28
+173,BMW,M3,2.5,129,17
+174,Eagle,Medallion,3,121,26
+175,Bentley,Eight,1,190,27
+176,Rolls-Royce,Phantom,3.2,150,18
+177,Plymouth,Trailduster,2.7,190,24
+178,Ferrari,512TR,2.1,176,25
+179,Acura,RDX,2.2,137,12
+180,smart,fortwo,1.8,158,20
+181,Mazda,626,1,139,19
+182,Cadillac,DTS,1.6,128,25
+183,Lotus,Elise,1.1,117,18
+184,Eagle,Medallion,1,147,33
+185,Aston Martin,Rapide,3.8,187,30
+186,Ford,C-MAX,3.5,101,21
+187,Ferrari,308 GTBI,3.7,164,25
+188,Alfa Romeo,8C Competizione,1.6,116,26
+189,Scion,xB,2.6,150,13
+190,AMC,Encore,3.7,118,29
+191,Saab,9-2X,1.4,163,28
+192,Jaguar,XJR-S,3.6,156,18
+193,Porsche,Panamera,3.4,188,22
+194,Volkswagen,Dasher,3.1,138,28
+195,Porsche,Cayman,1.7,165,12
+196,Honda,Crosstour,3,113,21
+197,HUMMER,H3,2.4,147,29
+198,Chevrolet,Metro,2.4,123,10
+199,Triumph,TR7,2.4,181,21
+200,Jaguar,XJ8 L,1.5,184,10
+201,Yugo,GV,3.3,107,11
+202,Daihatsu,Charade,1.8,162,23
+203,Infiniti,M35h,2,118,32
+204,Jaguar,XK8,1.8,144,12
+205,DeLorean,DMC-12,2,182,30
+206,Maserati,430,2.5,100,16
+207,Ford,Flex,2.1,162,22
+208,FIAT,2000 Spider,1.7,159,11
+209,Land Rover,Range Rover Sport,2.8,106,24
+210,RAM,2500,1.7,105,18
+211,Ferrari,308 GTS Quattrovalvole,1.5,116,15
+212,Subaru,XT,3.6,172,19
+213,Plymouth,Neon,3.4,126,34
+214,Nissan,Murano CrossCabriolet,1.6,130,29
+215,HUMMER,H1,3,134,31
+216,Daewoo,Nubira,3.5,143,19
+217,Geo,Metro,1.1,133,20
+218,Scion,iQ,3.3,173,10
+219,DeLorean,DMC-12,2.8,173,32
+220,AMC,Spirit,2.7,185,21
+221,SRT,Viper,2.3,101,33
+222,Acura,3.2CL,2.7,154,29
+223,Maserati,Spyder,3.7,161,28
+224,Lincoln,Mark VIII,2.4,111,30
+225,GMC,Safari,3.3,106,21
+226,Volkswagen,R32,3.6,189,11
+227,Lotus,Elan,2.7,190,29
+228,SRT,Viper,1.3,136,30
+229,Mercedes-Benz,SL320,2.4,166,30
+230,Bentley,Azure,1,179,29
+231,Lancia,Zagato,1.7,161,14
+232,GMC,S15 Pickup,1.8,134,18
+233,Audi,A8,1.7,172,30
+234,Peugeot,504,1.8,166,26
+235,BMW,323iT,2,143,17
+236,Bentley,Eight,1.1,151,22
+237,Triumph,TR8,1.3,147,24
+238,Mitsubishi,Diamante,1.2,189,29
+239,Pontiac,Montana,2.4,174,16
+240,Porsche,944,2.4,132,34
+241,Bentley,Corniche,2.1,173,15
+242,BMW,X6 M,2.6,192,14
+243,Eagle,Premier,3.5,111,33
+244,Lotus,Elise,1.5,156,23
+245,Chevrolet,Silverado and other C/K1500,2.8,152,29
+246,Scion,tC,1.2,117,15
+247,Volkswagen,Phaeton,1,183,34
+248,Daihatsu,Charade,2.6,187,23
+249,Land Rover,Range Rover,2.7,153,24
+250,Plymouth,Voyager,1.3,101,25
+251,Scion,xB,2.4,180,32
+252,Renault,18i,1.7,189,17
+253,Ford,Freestyle,2.3,169,30
+254,Infiniti,M30,3.8,123,30
+255,Lamborghini,Jalpa,1.1,102,25
+256,Mitsubishi,Lancer,2.8,155,12
+257,Daewoo,Nubira,3.6,117,31
+258,Volkswagen,Tiguan,1.2,125,31
+259,Alfa Romeo,164,3.5,118,24
+260,Cadillac,SRX,3.7,159,18
+261,Fisker,Karma,2.2,166,26
+262,Chrysler,Concorde,2.6,171,26
+263,Avanti,Coupe,3.8,110,33
+264,Avanti,Coupe,2.2,111,26
+265,DeLorean,DMC-12,1.8,151,24
+266,Fisker,Karma,2.8,139,23
+267,Kia,Soul,1.5,100,22
+268,Acura,2.2CL,3.6,185,16
+269,DeLorean,DMC-12,2,181,12
+270,Avanti,Coupe,3,131,26
+271,Chrysler,Fifth Avenue,3.4,167,27
+272,MINI,Cooper Clubman,3.7,142,23
+273,Mercedes-Benz,SLK350,2.6,186,26
+274,Lincoln,Mark LT,1.8,140,31
+275,Suzuki,Grand Vitara,3.1,184,30
+276,Cadillac,Eldorado,3,121,32
+277,Cadillac,Fleetwood,3.8,139,20
+278,Hyundai,Genesis Coupe,1,109,27
+279,HUMMER,H2,1.6,157,32
+280,Mercedes-Benz,300SE,1.8,132,24
+281,Daewoo,Nubira,1,192,34
+282,Cadillac,DTS,2.6,186,17
+283,Mazda,MX3,1.8,116,17
+284,Renault,Sportwagon,1.2,160,15
+285,MINI,Cooper Coupe,3.8,117,31
+286,Buick,LaCrosse,1,113,34
+287,Geo,Storm,3,121,24
+288,Dodge,Ram 4500 Truck,3.4,168,26
+289,Buick,Somerset,2.7,168,28
+290,Mercury,Grand Marquis,1.3,199,21
+291,DeLorean,DMC-12,2.5,108,29
+292,McLaren,MP4-12C,1.4,109,22
+293,Chevrolet,Aveo5,1.7,167,27
+294,Audi,Cabriolet,1.2,101,26
+295,DeLorean,DMC-12,3.1,159,11
+296,MINI,Cooper S Countryman,3.7,198,22
+297,Yugo,GVL,1.7,193,25
+298,Datsun,Maxima,1.3,117,20
+299,Saturn,SC2,1.8,199,18
+300,smart,fortwo,1.1,160,24
+301,Yugo,GVS,3.8,173,10
+302,Lancia,Beta,2.3,184,26
+303,SRT,Viper,1.2,139,30
+304,Acura,Legend,3.1,186,14
+305,Yugo,GV,1.1,125,28
+306,Aston Martin,DBS,1.3,103,18
+307,Sterling,825,1.4,129,17
+308,Peugeot,505,3,140,16
+309,Eagle,Medallion,1,175,28
+310,Pontiac,Grand Prix,3.8,145,23
+311,Sterling,827,2.8,177,33
+312,RAM,3500,2.5,102,25
+313,Land Rover,Discovery,2.1,189,11
+314,GMC,Vandura,2.2,175,27
+315,Freightliner,Sprinter,1.7,115,14
+316,Lancia,Zagato,1,187,33
+317,Chrysler,Prowler,2.2,158,28
+318,Lancia,Beta,2.5,173,15
+319,SRT,Viper,3.1,178,11
+320,Dodge,Charger,3.6,142,17
+321,Saab,9000,2.6,179,11
+322,Acura,2.5TL,1.2,171,14
+323,Ferrari,328 GTB,1.3,130,12
+324,Geo,Spectrum,1.2,119,29
+325,MINI,Cooper Coupe,1.8,171,15
+326,Daihatsu,Rocky,2.5,151,16
+327,Acura,2.2CL,3.5,176,23
+328,RAM,3500,3.2,194,31
+329,Chrysler,New Yorker,2.1,184,21
+330,HUMMER,H3T,2.3,127,22
+331,Merkur,Scorpio,1,191,25
+332,Cadillac,SRX,1.8,141,24
+333,smart,fortwo,3.3,117,27
+334,Renault,R18,3.1,177,25
+335,Lancia,Beta,1.2,109,27
+336,BMW,330i,1.2,140,28
+337,Maybach,57,1.4,180,17
+338,BMW,545i,2.6,146,10
+339,DeLorean,DMC-12,2.2,134,32
+340,Hyundai,Elantra Touring,1.6,130,22
+341,Toyota,Solara,2.6,185,13
+342,Saturn,Outlook,2.2,103,26
+343,Lexus,SC 300,1.8,170,10
+344,Ford,F250,3.8,105,18
+345,Sterling,825,1.2,196,34
+346,Daewoo,Nubira,1.3,195,34
+347,Daewoo,Nubira,1.5,138,28
+348,DeLorean,DMC-12,2.7,119,30
+349,Chevrolet,Cobalt,2.1,196,22
+350,Porsche,Boxster,1.2,119,28
+351,RAM,3500,2.2,141,32
+352,Chevrolet,Lumina,3.1,146,20
+353,Datsun,Sentra,1.1,195,11
+354,Saab,9-2X,1.3,181,20
+355,Plymouth,Scamp,3.3,145,18
+356,Dodge,Ram 3500 Truck,2.3,145,26
+357,Land Rover,LR2,1.2,198,20
+358,Subaru,Forester,2.2,124,33
+359,Saturn,SL2,1.5,125,14
+360,Maserati,Biturbo,1.2,167,17
+361,Lexus,SC 430,1.2,106,23
+362,SRT,Viper,2.2,136,19
+363,Rolls-Royce,Park Ward,3.5,188,23
+364,Saab,900,2.5,183,13
+365,Buick,Rendezvous,2.7,113,13
+366,Pontiac,Trans Sport,2.5,138,20
+367,Lincoln,MKT,2.7,119,17
+368,Plymouth,Conquest,1.1,106,32
+369,Saturn,L100,1.5,148,28
+370,Lincoln,LS,3.6,132,31
+371,Suzuki,XL7,2.6,141,12
+372,Dodge,Ram 3500 Truck,3.8,154,22
+373,Maybach,62,2.6,180,23
+374,Subaru,SVX,2.4,195,17
+375,Lincoln,Navigator,1,195,33
+376,Porsche,Cayenne,3.4,160,34
+377,Plymouth,Grand Voyager,3.2,142,10
+378,DeLorean,DMC-12,3.8,163,25
+379,DeLorean,DMC-12,3.2,188,33
+380,Mercedes-Benz,G63 AMG,2.7,150,20
+381,Dodge,Monaco,1.6,198,30
+382,Land Rover,Discovery,2.7,117,15
+383,Mercedes-Benz,ML320 Bluetec,1.5,132,30
+384,Renault,Sportwagon,1.7,169,12
+385,Merkur,XR4Ti,3.8,172,29
+386,RAM,1500,3.1,111,13
+387,Oldsmobile,Toronado,2.3,137,22
+388,Lamborghini,Aventador,2.2,133,34
+389,Jaguar,X-Type,1.5,191,11
+390,SRT,Viper,3.4,117,34
+391,DeLorean,DMC-12,3.2,192,26
+392,Cadillac,Escalade,2,119,33
+393,Maserati,Quattroporte,3.4,182,25
+394,Geo,Storm,1.5,151,28
+395,Datsun,Pulsar,3.2,126,20
+396,Porsche,968,2.6,178,26
+397,Cadillac,DTS,3.3,132,19
+398,Land Rover,Discovery,3.1,136,11
+399,Buick,Skyhawk,2.7,162,31
+400,Nissan,Versa,1.1,124,15
+401,Daewoo,Lanos,1.1,158,16
+402,GMC,S15 Pickup,1.4,176,24
+403,Suzuki,Vitara,2.7,147,20
+404,Kia,Sorento,1.7,172,24
+405,FIAT,500,3.6,126,17
+406,Maybach,57,3.3,117,34
+407,Avanti,Convertible,3.7,130,10
+408,Fisker,Karma,1.3,190,31
+409,Geo,Spectrum,2.1,148,15
+410,McLaren,MP4-12C,3.8,125,11
+411,BMW,323is,2.7,157,21
+412,Volvo,S90,2.1,192,18
+413,Suzuki,Aerio,3.5,188,22
+414,Daewoo,Lanos,2.3,143,25
+415,Subaru,Impreza,3.8,181,28
+416,Lancia,Zagato,1.2,132,32
+417,Infiniti,G20,2.8,140,14
+418,Ford,Aspire,1.2,107,31
+419,Audi,Q5,2.4,148,19
+420,Tesla,Model S,1.4,101,10
+421,Lexus,ES 300h,3.7,173,26
+422,Maserati,Coupe,3.8,143,33
+423,SRT,Viper,2.7,167,18
+424,Aston Martin,Virage,3.4,151,16
+425,Plymouth,Caravelle,1,190,25
+426,Audi,S6,3.6,187,13
+427,Rolls-Royce,Silver Spur,1.8,128,16
+428,Renault,Sportwagon,2.8,114,21
+429,AMC,Spirit,2,134,20
+430,Audi,80,1.2,180,18
+431,AMC,Encore,1.8,134,10
+432,Toyota,Prius,1.2,186,12
+433,Daewoo,Nubira,3,179,12
+434,Ferrari,458 Italia,1.7,124,13
+435,Jeep,Compass,1.7,116,17
+436,Chrysler,200,1.6,133,22
+437,smart,fortwo,1.1,191,10
+438,Chrysler,Aspen,3.8,135,32
+439,BMW,325Ci,1.8,143,20
+440,Land Rover,Range Rover Evoque,3.4,191,30
+441,Toyota,Cressida,2.5,140,23
+442,McLaren,MP4-12C,2.2,178,24
+443,Volvo,960,2,143,24
+444,Land Rover,Freelander,3.8,141,16
+445,Hyundai,Azera,2,166,30
+446,RAM,2500,3.7,193,13
+447,Renault,18i,2.1,111,33
+448,Land Rover,LR4,2.6,131,28
+449,Rolls-Royce,Ghost,1.2,110,17
+450,Volkswagen,R32,1.8,120,24
+451,Kia,Borrego,2.5,108,11
+452,AMC,Alliance,2.8,164,30
+453,BMW,ActiveHybrid 5,2,125,24
+454,Ferrari,Enzo,1.5,124,26
+455,McLaren,MP4-12C,2.6,130,31
+456,Peugeot,505,3.5,112,14
+457,Isuzu,i-350,2,131,17
+458,Lexus,ES 300,3,113,29
+459,Lotus,Exige,1.7,102,15
+460,Daewoo,Nubira,1.6,185,11
+461,Maserati,430,2.8,187,21
+462,McLaren,MP4-12C,2.5,148,28
+463,Volkswagen,Beetle,3.2,115,28
+464,Daihatsu,Charade,3.8,199,24
+465,RAM,4500,2.2,105,17
+466,Audi,TT RS,3.3,178,33
+467,Kia,Forte,2.6,138,23
+468,RAM,4500,2.7,166,32
+469,Land Rover,Defender,1.8,103,13
+470,Geo,Prizm,3,152,33
+471,Plymouth,Sapporo,1.4,115,32
+472,Mercury,Monterey,1.3,185,18
+473,Lotus,Esprit,3.1,119,33
+474,Cadillac,STS,1.3,182,17
+475,Bentley,Brooklands,2.7,125,14
+476,Maserati,Coupe,1.5,169,31
+477,Jaguar,XJ8 L,1.7,198,13
+478,Acura,3.2TL,2.8,158,16
+479,MINI,Cooper S Roadster,1.5,142,25
+480,Hyundai,XG300,1.5,179,23
+481,Acura,RSX,2.3,106,22
+482,Isuzu,Amigo,2.8,176,21
+483,Scion,xD,3.8,101,23
+484,Renault,Le Car,1.6,119,31
+485,Mitsubishi,Diamante,1.7,116,16
+486,Saturn,SW2,1.5,194,21
+487,Mazda,Navajo,3.1,153,17
+488,Chrysler,200,1.7,168,28
+489,Cadillac,Cimarron,3.2,176,13
+490,Avanti,Convertible,2.5,153,16
+491,Yugo,GVS,1.2,116,17
+492,Datsun,Stanza,2.8,133,20
+493,Lancia,Zagato,1.8,184,10
+494,BMW,318i,3.7,106,33
+495,Merkur,Scorpio,2.4,173,22
+496,DeLorean,DMC-12,1.1,177,25
+497,Volvo,S80,2.4,168,15
+498,Audi,S5,1.1,161,15
+499,Bentley,Mulsanne,2.5,131,24
+500,Saab,900,1.8,144,17
+501,Cadillac,Cimarron,3.8,186,10
+502,Geo,Tracker,3.8,165,25
+503,Isuzu,i-370,3.6,141,19
+504,Lotus,Elise,1.6,168,16
+505,FIAT,X1/9,1.1,197,24
+506,McLaren,MP4-12C,1.6,130,28
+507,Geo,Tracker,2.1,146,19
+508,Mazda,MAZDASPEED6,1.1,174,17
+509,Avanti,Coupe,1.3,181,33
+510,BMW,528xi,1.1,199,26
+511,Mitsubishi,Galant,2.8,156,19
+512,Chevrolet,Cruze,1,177,32
+513,Merkur,Scorpio,1.4,114,29
+514,Land Rover,LR2,2.6,155,30
+515,Land Rover,Discovery,3.1,106,31
+516,Mercury,Villager,2,133,11
+517,GMC,S15 Pickup,3.6,132,12
+518,Oldsmobile,Ninety-Eight,1.7,151,15
+519,FIAT,500,1.4,192,27
+520,MINI,Cooper S,3.7,177,28
+521,Honda,S2000,3.4,164,29
+522,Volkswagen,Dasher,3.8,131,12
+523,Mazda,Miata MX5,1.3,147,15
+524,Triumph,TR8,2.7,113,25
+525,Audi,100,2.6,176,33
+526,Chrysler,Newport,1.2,165,24
+527,Eagle,Talon,2.6,175,28
+528,Honda,Passport,3.2,143,12
+529,Mercedes-Benz,ML320 CDI,3.4,181,11
+530,Daewoo,Nubira,2.3,119,25
+531,Subaru,Brat,2.3,154,27
+532,Datsun,300ZX,1.4,138,21
+533,Ferrari,512TR,1.1,135,18
+534,Cadillac,Escalade EXT,2.4,111,17
+535,Honda,Fit,1.8,178,30
+536,Lincoln,MKZ,1,105,16
+537,Lamborghini,Diablo,1.7,153,19
+538,Saturn,SW2,3.8,141,16
+539,Mercury,Grand Marquis,1.7,101,28
+540,BMW,325,3.3,157,17
+541,Infiniti,FX45,1.4,191,21
+542,Volkswagen,Rabbit,2.5,175,32
+543,MINI,Cooper,3.3,190,12
+544,Datsun,Pulsar,1.3,193,18
+545,Eagle,Vision,1.1,146,29
+546,Eagle,Talon,3.5,158,14
+547,Saturn,SC1,3.1,165,14
+548,McLaren,MP4-12C,3.1,160,21
+549,Sterling,825,3.8,124,16
+550,SRT,Viper,2,100,26
+551,Porsche,968,2.2,145,29
+552,Mazda,CX-5,2.7,147,34
+553,Bentley,Brooklands,2.3,180,15
+554,Lamborghini,LM002,1,161,27
+555,Maserati,Spyder,1.1,155,10
+556,Hyundai,XG350,1,107,13
+557,Plymouth,Champ,2.5,165,25
+558,RAM,3500,3.2,151,27
+559,Ford,Ranger,1.5,170,28
+560,Audi,RS 4,2.1,149,20
+561,smart,fortwo,1.3,185,24
+562,Maybach,57,2.5,128,22
+563,Isuzu,i-350,2.4,142,14
+564,Land Rover,LR2,3.6,141,18
+565,Saturn,SC2,2.3,190,10
+566,Toyota,Tacoma,3.6,143,16
+567,Chevrolet,Avalanche,1.6,148,15
+568,Scion,xB,1.6,126,21
+569,Yugo,GVL,3.5,178,26
+570,Cadillac,Catera,1.5,161,22
+571,Ferrari,308 GTBI,2.7,158,29
+572,Lamborghini,Countach,2.6,102,13
+573,Eagle,Summit,3.5,141,14
+574,Avanti,Coupe,1.6,163,28
+575,Oldsmobile,Firenza,1.5,123,17
+576,Maybach,57,3.6,146,14
+577,Pontiac,J2000,2.5,177,22
+578,Eagle,Talon,3.3,191,13
+579,DeLorean,DMC-12,2.3,110,26
+580,Chevrolet,Venture,1.5,194,15
+581,Toyota,Tundra,1.3,177,24
+582,Mitsubishi,Raider,1.7,196,14
+583,Isuzu,Oasis,2.1,128,29
+584,Aston Martin,Vanquish,2.1,184,34
+585,Maserati,GranTurismo,3.2,144,13
+586,Nissan,Xterra,2.3,192,16
+587,Triumph,TR8,1.4,113,32
+588,Pontiac,6000,1,190,33
+589,Merkur,Scorpio,2.3,184,19
+590,Suzuki,X-90,1.3,111,29
+591,Kia,Rondo,2.6,189,13
+592,Mitsubishi,Diamante,1.1,169,16
+593,Peugeot,505,3.1,143,19
+594,Pontiac,Le Mans,1.2,111,11
+595,Renault,Le Car,1.3,189,33
+596,Volvo,C30,3.2,108,13
+597,Plymouth,Acclaim,1.7,171,14
+598,Acura,MDX,1.4,157,32
+599,Chevrolet,S10 Pickup,1.7,158,18
+600,Nissan,Sentra,3.5,108,22
+601,Isuzu,Rodeo,3.3,125,18
+602,AMC,Concord,3.7,170,30
+603,Ferrari,308 GTSI,3.4,177,23
+604,Rolls-Royce,Silver Spirit,3.1,178,34
+605,Rolls-Royce,Camargue,2.5,197,10
+606,Daewoo,Lanos,3.3,121,14
+607,Datsun,210,2,121,31
+608,Maybach,62,3.8,192,25
+609,Fisker,Karma,3.3,182,17
+610,Datsun,810,2.4,176,20
+611,Alfa Romeo,164,3.5,164,17
+612,Acura,3.0CL,3.2,196,32
+613,Hyundai,Elantra Coupe,3.5,195,10
+614,FIAT,Brava,3.7,104,29
+615,Renault,18i,1.3,105,28
+616,Audi,RS 6,3,179,31
+617,Oldsmobile,Intrigue,3.5,171,34
+618,Chrysler,Conquest,2.7,157,10
+619,Buick,Enclave,3.2,147,33
+620,Lancia,Beta,3.8,176,26
+621,Acura,RDX,2.2,141,17
+622,Infiniti,I30,1.5,193,27
+623,Kia,Sedona,3.3,128,28
+624,Maserati,GranSport,2.8,191,31
+625,Merkur,Scorpio,3,134,11
+626,Kia,Spectra5,1.6,181,15
+627,Maybach,62,1,120,26
+628,smart,fortwo,3.5,145,10
+629,Daewoo,Lanos,2.5,199,33
+630,Audi,A7,3.1,147,12
+631,MINI,Cooper S Countryman,2.1,141,20
+632,Peugeot,504,3.3,116,28
+633,Hyundai,Veloster,1.3,161,31
+634,Isuzu,Trooper,2.1,191,16
+635,Tesla,Roadster,3.4,197,19
+636,DeLorean,DMC-12,3.7,143,18
+637,Acura,RSX,1.6,146,19
+638,Porsche,Boxster,1.6,140,27
+639,Fisker,Karma,1.7,123,11
+640,SRT,Viper,3.4,181,11
+641,Lexus,GS 450h,3.3,173,21
+642,Oldsmobile,88,2.1,141,22
+643,Mercedes-Benz,GL550,1.8,196,18
+644,Alfa Romeo,164,3,151,24
+645,Jaguar,XJ12,1.3,126,10
+646,Lamborghini,Aventador,2.2,122,25
+647,Peugeot,604,2.6,140,10
+648,Saturn,Aura,2,144,20
+649,Daihatsu,Rocky,2.4,151,21
+650,Mitsubishi,Montero Sport,1.8,115,10
+651,Mercury,Capri,3.7,174,15
+652,Rolls-Royce,Silver Spur,3.5,170,33
+653,Mercury,Montego,1.5,107,33
+654,FIAT,Strada,1.2,112,10
+655,Geo,Tracker,1.3,177,11
+656,Porsche,Panamera,2.5,195,11
+657,Pontiac,Aztek,2.3,178,29
+658,Tesla,Roadster,3.8,113,25
+659,Jeep,CJ,2.4,119,33
+660,Merkur,Scorpio,2.8,171,28
+661,Isuzu,i-370,3.1,165,19
+662,Jeep,Grand Cherokee,3,111,23
+663,Triumph,TR8,2.2,121,17
+664,Maserati,Biturbo,1.1,140,29
+665,Saturn,SW2,1.5,117,20
+666,Pontiac,G6,2,150,20
+667,Yugo,GV,1.8,100,31
+668,Yugo,GVL,2.6,177,12
+669,Honda,Passport,1,166,31
+670,Ford,Taurus,1.5,159,25
+671,Nissan,200SX,1.2,190,30
+672,Maybach,57,3.6,110,26
+673,Mitsubishi,Outlander,2.6,149,13
+674,Renault,R18,3,125,26
+675,Mitsubishi,Eclipse,1,163,33
+676,MINI,Cooper S Coupe,1.2,102,32
+677,Chrysler,New Yorker,1.4,144,20
+678,Toyota,Land Cruiser,1.6,181,22
+679,Merkur,Scorpio,1.1,194,30
+680,Fisker,Karma,1.5,171,22
+681,Subaru,Legacy,1.6,177,12
+682,Isuzu,i-290,1.3,145,18
+683,Sterling,827,1.5,104,26
+684,Ford,Windstar,1.1,191,20
+685,Maybach,57,2.8,157,15
+686,MINI,Cooper S Countryman,1.7,121,16
+687,Volkswagen,GTI,1.5,108,13
+688,Honda,Civic,3.4,125,17
+689,Lexus,GS 300,3.4,141,22
+690,AMC,Alliance,1.1,189,26
+691,Lotus,Elise,2.6,101,31
+692,Subaru,Justy,2.8,151,22
+693,Acura,RSX,1.1,171,16
+694,Maybach,62,1.5,198,21
+695,Ferrari,456 GT,3.8,144,33
+696,Lamborghini,LM002,1,110,34
+697,Jeep,Grand Wagoneer,1,180,10
+698,BMW,525i,1.1,138,23
+699,smart,fortwo,3.8,150,26
+700,Audi,S8,3.2,181,28
+701,Renault,Sportwagon,2.3,103,33
+702,Toyota,Van,1.3,176,14
+703,Buick,LaCrosse,3.8,114,23
+704,Lexus,LS 600h,2.1,152,31
+705,FIAT,Bertone X1/9,1,178,27
+706,Ferrari,308 GTSI,2.5,182,25
+707,DeLorean,DMC-12,1,153,12
+708,McLaren,MP4-12C,2.4,176,20
+709,Lincoln,Mark VI,1.7,170,29
+710,Lexus,ES 300,2.6,147,29
+711,Volvo,260,1.8,138,26
+712,Geo,Storm,3.7,164,17
+713,Triumph,TR8,1.8,198,29
+714,Jaguar,XJ8 L,3.6,131,10
+715,MINI,Cooper S Coupe,1.1,146,26
+716,Alfa Romeo,164,1.2,192,27
+717,Merkur,XR4Ti,2,149,25
+718,Aston Martin,Vanquish,2.6,171,26
+719,Mercedes-Benz,R320 Bluetec,2.3,167,33
+720,Avanti,Convertible,2.7,175,28
+721,Tesla,Roadster,3.4,156,28
+722,Daihatsu,Charade,1.3,187,14
+723,Maybach,57,3.8,101,17
+724,Freightliner,Sprinter,1.5,184,10
+725,RAM,4500,1.3,134,23
+726,Avanti,Convertible,2.6,160,22
+727,Mitsubishi,Mirage,2.8,131,32
+728,Buick,Le Sabre,3.6,186,10
+729,BMW,323ci,2.3,135,26
+730,Cadillac,XTS,2.5,183,16
+731,Suzuki,Forenza,2.4,138,31
+732,Lincoln,MKX,1.1,105,32
+733,Mazda,MAZDA5,1.3,147,18
+734,Mercedes-Benz,CLS63 AMG,1.7,116,18
+735,Honda,Accord,1.4,144,19
+736,GMC,Sierra C/K1500,3.5,149,24
+737,Chevrolet,Captiva Sport,3.2,183,31
+738,Honda,Del Sol,1.5,134,29
+739,Chrysler,Conquest,1.1,116,13
+740,Ferrari,328 GTS,2.1,171,26
+741,Infiniti,M45,1.1,103,32
+742,Mercedes-Benz,CLK63 AMG,3.5,194,26
+743,Isuzu,i-290,3.7,188,29
+744,Jaguar,XKR,3.6,177,27
+745,Acura,MDX,1.2,158,16
+746,Jaguar,X-Type,3.6,162,34
+747,Audi,S6,1.1,155,29
+748,DeLorean,DMC-12,1.2,156,22
+749,Nissan,350Z,3.8,107,16
+750,Isuzu,Trooper,3.8,118,21
+751,RAM,1500,2.7,105,32
+752,McLaren,MP4-12C,3.4,171,18
+753,Lotus,Esprit,3.4,177,16
+754,Ferrari,550 Maranello,1.7,168,11
+755,Oldsmobile,Cutlass,1.7,157,27
+756,Sterling,825,1.7,129,10
+757,Sterling,825,1,164,10
+758,Lincoln,Zephyr,2.4,111,34
+759,Audi,V8 Quattro,3.3,177,30
+760,Merkur,XR4Ti,3.2,133,15
+761,Scion,xD,2.1,135,30
+762,HUMMER,H1,2,160,11
+763,Dodge,Spirit,2.4,194,27
+764,Scion,xD,2.4,122,20
+765,RAM,1500,3.8,129,29
+766,Daihatsu,Rocky,3.1,153,16
+767,Bentley,Turbo R,1.1,170,27
+768,Mazda,MAZDA2,3.8,169,30
+769,smart,fortwo,2.5,155,15
+770,Peugeot,405,2,178,17
+771,Saab,9-4X,1,111,32
+772,Honda,Crosstour,2.8,180,17
+773,Honda,Crosstour,2.6,101,15
+774,Rolls-Royce,Park Ward,1.5,125,15
+775,Chevrolet,Tracker,3.8,188,33
+776,Geo,Spectrum,3.2,178,19
+777,RAM,3500,2.6,177,32
+778,Buick,Riviera,1.8,119,18
+779,Nissan,NV,2.3,192,10
+780,Honda,Odyssey,3.3,170,22
+781,Lotus,Exige,1.3,191,13
+782,Daewoo,Nubira,2.2,115,32
+783,Mitsubishi,3000GT,1.2,124,17
+784,Lexus,RX 330,3.4,148,15
+785,Ferrari,308 GTBI,1.6,187,28
+786,MINI,Cooper S Roadster,2.5,139,22
+787,Ford,Flex,2,197,33
+788,McLaren,MP4-12C,3,180,17
+789,Buick,Rendezvous,1.6,166,19
+790,Mercedes-Benz,S350 Bluetec,1.8,170,31
+791,BMW,X6 M,3.3,175,30
+792,Oldsmobile,Cutlass Calais,3.5,166,21
+793,Freightliner,Sprinter,1.6,144,31
+794,Lancia,Beta,1.8,186,12
+795,Geo,Metro,1.4,144,13
+796,Saab,9-5,2.8,198,21
+797,BMW,318iS,2.6,130,20
+798,Acura,ZDX,3.1,110,26
+799,Isuzu,Ascender,1.5,146,32
+800,Fisker,Karma,3.5,186,14
+801,Eagle,Vision,1.1,189,19
+802,RAM,3500,2,119,25
+803,Peugeot,604,2.2,164,14
+804,Cadillac,Catera,3.4,102,23
+805,Lamborghini,Aventador,3.8,156,18
+806,BMW,533i,2,100,10
+807,Merkur,XR4Ti,1.6,184,12
+808,Toyota,MR2 Spyder,3.3,161,14
+809,Aston Martin,Rapide,3.8,103,24
+810,Buick,Le Sabre,1.4,166,31
+811,Peugeot,505,2.2,105,16
+812,Lotus,Evora,2.3,156,26
+813,Scion,tC,2.3,143,24
+814,Land Rover,Discovery,2.3,104,11
+815,Mitsubishi,Outlander,1.3,182,15
+816,Land Rover,Range Rover Sport,2.7,183,25
+817,Mazda,CX-9,2.5,126,29
+818,BMW,ActiveHybrid 3,3.3,191,19
+819,Plymouth,Grand Voyager,2.5,131,20
+820,Fisker,Karma,1.8,125,30
+821,Toyota,Tercel,1.4,121,17
+822,Eagle,Vision,3.4,197,10
+823,Ford,Escort,2.6,120,33
+824,Mitsubishi,Cordia,2.3,172,27
+825,Renault,Sportwagon,1.1,172,28
+826,Mitsubishi,Cordia,3.8,129,26
+827,Dodge,Shadow,1.2,110,10
+828,Renault,Le Car,2.6,113,19
+829,DeLorean,DMC-12,3,100,31
+830,Maybach,62,3.4,191,15
+831,Kia,Sedona,1.1,100,16
+832,Jeep,Pickup,1.5,111,32
+833,Isuzu,i-280,2.7,137,27
+834,Audi,R8,1.7,182,17
+835,Acura,TSX,2.2,118,10
+836,Mercedes-Benz,C220,1.2,124,20
+837,Mitsubishi,Tredia,3.1,160,14
+838,Saab,9-4X,3.5,136,14
+839,Triumph,TR7,3.4,108,19
+840,Nissan,Murano CrossCabriolet,2.2,113,19
+841,Eagle,Vision,3.6,194,10
+842,Tesla,Model S,1.6,105,17
+843,SRT,Viper,3.8,166,10
+844,Lincoln,Blackwood,2.5,183,27
+845,Cadillac,Escalade EXT,2.3,196,32
+846,MINI,Cooper Clubman,3.8,155,29
+847,RAM,2500,2.2,137,30
+848,Mercedes-Benz,280CE,3,132,10
+849,AMC,Alliance,3.7,152,15
+850,Mercedes-Benz,E320 Bluetec,3.5,144,33
+851,Hyundai,Santa Fe,3.4,169,20
+852,DeLorean,DMC-12,2.3,113,10
+853,Pontiac,Grand Am,1.6,182,29
+854,Avanti,Coupe,2.6,130,17
+855,FIAT,Bertone X1/9,1.4,196,10
+856,Toyota,Corolla,2.2,181,23
+857,Nissan,GT-R,3.1,124,16
+858,Isuzu,i-350,2,158,12
+859,Freightliner,Sprinter,3.1,164,20
+860,Infiniti,FX45,1.3,138,27
+861,Dodge,Ram 4500 Truck,1.7,136,28
+862,Freightliner,Sprinter,1.8,174,30
+863,Lamborghini,Jalpa,2.1,156,15
+864,SRT,Viper,2.1,127,14
+865,DeLorean,DMC-12,2.4,133,27
+866,Oldsmobile,Cutlass Ciera,2.7,173,10
+867,Oldsmobile,Ninety-Eight,3.5,173,28
+868,Eagle,Premier,2,187,31
+869,GMC,Vandura,3,147,11
+870,Chevrolet,Corvette,2.4,124,13
+871,Lancia,Zagato,1.8,189,14
+872,Toyota,Solara,1.7,128,26
+873,Avanti,Coupe,3.2,157,34
+874,Chevrolet,Equinox,2,177,10
+875,Infiniti,Q45,2.5,116,12
+876,Acura,3.0CL,2.6,116,28
+877,Aston Martin,V12 Vantage,3.4,187,22
+878,Dodge,D/W Truck,1.4,139,13
+879,Volvo,740,3.7,134,12
+880,Saturn,L300,2.3,188,32
+881,Volvo,C70,2.8,191,28
+882,Scion,xD,3.5,157,16
+883,Oldsmobile,Custom Cruiser,2,196,22
+884,Bentley,Brooklands,1.5,154,18
+885,Renault,R18,2,102,19
+886,Scion,xD,3.3,175,12
+887,Lexus,GS 300,3.5,116,34
+888,Jaguar,XK8,3.4,142,11
+889,Lexus,GS 300,2.1,144,19
+890,Land Rover,LR2,2.5,197,22
+891,Aston Martin,Lagonda,1.5,131,18
+892,Datsun,Sentra,2.6,195,10
+893,smart,fortwo,2.1,156,25
+894,Tesla,Model S,1.6,166,10
+895,Merkur,Scorpio,3.8,136,16
+896,HUMMER,H3T,3.5,158,33
+897,Buick,Le Sabre,3.6,181,17
+898,Eagle,Vision,3,168,16
+899,Lincoln,Aviator,1.2,104,13
+900,Lancia,Beta,3.6,194,11
+901,Plymouth,Reliant,1.8,101,32
+902,Tesla,Roadster,1,189,10
+903,Jeep,Compass,2.1,199,15
+904,Daihatsu,Rocky,2.4,187,17
+905,Mitsubishi,Tredia,1.7,119,18
+906,Daihatsu,Rocky,1,189,32
+907,Buick,Lucerne,3,197,19
+908,Daihatsu,Rocky,2.5,196,22
+909,smart,fortwo,3.4,195,25
+910,Subaru,Tribeca,1.8,137,18
+911,Lancia,Zagato,2.6,120,33
+912,Saturn,SW1,3.1,157,29
+913,Dodge,Ram 4500 Truck,2.3,115,11
+914,Tesla,Roadster,2.5,122,22
+915,Maserati,Biturbo,2.3,136,27
+916,MINI,Cooper Roadster,1.7,145,31
+917,BMW,318iS,2.3,101,20
+918,Sterling,827,3.3,182,34
+919,FIAT,Brava,3.5,151,24
+920,Lamborghini,Countach,1.4,193,28
+921,Kia,Spectra5,2.3,110,13
+922,Oldsmobile,Firenza,2,120,11
+923,Volkswagen,Jetta,2,111,29
+924,BMW,760i,3.7,108,34
+925,Mazda,626,3.5,162,15
+926,Kia,Sorento,1.1,148,26
+927,McLaren,MP4-12C,2.5,144,33
+928,Porsche,928,1.8,166,13
+929,AMC,Encore,3.3,164,29
+930,Maybach,62,1.5,117,23
+931,Toyota,Prius,2.8,138,12
+932,Lamborghini,Jalpa,3.4,146,14
+933,Tesla,Model S,2.1,112,16
+934,Mitsubishi,Montero,1.2,120,28
+935,Hyundai,Tiburon,3.3,129,25
+936,Mercedes-Benz,C320,3.1,177,22
+937,McLaren,MP4-12C,2.6,119,29
+938,Jaguar,XJ,1.4,161,26
+939,Lancia,Zagato,2.6,182,32
+940,Avanti,Sedan,3.7,106,12
+941,Land Rover,Range Rover Sport,2.3,197,32
+942,GMC,Jimmy,2.6,188,28
+943,Chrysler,200,2,169,20
+944,Kia,Sportage,2.6,129,34
+945,DeLorean,DMC-12,3.6,199,24
+946,Datsun,Pulsar,3.4,188,14
+947,Ford,Expedition,3.8,188,26
+948,MINI,Cooper S Roadster,1,188,28
+949,smart,fortwo,2,150,23
+950,Eagle,Medallion,2.8,133,24
+951,Fisker,Karma,2.8,122,25
+952,Yugo,GV,2.3,123,28
+953,Buick,Rendezvous,2.7,135,24
+954,Mitsubishi,Mirage,3.6,103,14
+955,Lotus,Evora,3.2,199,29
+956,AMC,Spirit,3.3,170,33
+957,Daewoo,Nubira,2,199,14
+958,Lincoln,Mark VI,1.1,113,34
+959,Audi,S8,1.1,146,18
+960,Jeep,Wagoneer,1,137,27
+961,Kia,Forte Koup,2.6,196,16
+962,Nissan,Leaf,2.5,140,27
+963,Mercedes-Benz,ML320,2.7,118,30
+964,Cadillac,Cimarron,1.7,117,27
+965,Sterling,825,2.7,162,34
+966,Maserati,Quattroporte,2.8,166,20
+967,Renault,R18,3.2,100,21
+968,Saab,900,3.7,151,24
+969,smart,fortwo,2,127,21
+970,Fisker,Karma,2.7,176,30
+971,Suzuki,Equator,1.4,113,19
+972,Aston Martin,V8 Vantage,1.7,150,19
+973,McLaren,MP4-12C,2.3,167,31
+974,Toyota,Cressida,3.1,179,15
+975,SRT,Viper,2,140,32
+976,Aston Martin,DBS,2.4,170,24
+977,Aston Martin,DB9,3.3,125,16
+978,Jeep,CJ,1,130,22
+979,Chrysler,200,2,190,16
+980,Mercedes-Benz,CL65 AMG,2.4,104,27
+981,Hyundai,XG350,3.5,125,24
+982,Datsun,810,3.4,101,23
+983,Dodge,Ram Wagon,2.4,183,29
+984,Sterling,827,2.2,151,17
+985,Freightliner,Sprinter,3,187,28
+986,Tesla,Model S,3,196,25
+987,McLaren,MP4-12C,2.6,181,15
+988,Freightliner,Sprinter,3.5,136,11
+989,Daihatsu,Rocky,2,198,26
+990,Lamborghini,Countach,2.6,101,15
+991,Lamborghini,LM002,3.5,154,23
+992,Rolls-Royce,Silver Spur,2.4,173,16
+993,Cadillac,Escalade,1.6,149,30
+994,Geo,Prizm,1.6,155,33
+995,Jaguar,XJ Vanden Plas,1.8,119,26
+996,Mercedes-Benz,300SDL,2.3,168,33
+997,Peugeot,604,2.6,186,10
+998,Chrysler,Neon,2.8,113,13
+999,Renault,Sportwagon,1,142,12
+1000,Tesla,Roadster,1.7,169,17
+1001,Dodge,Daytona,2.5,132,26
+1002,Avanti,Convertible,2.2,193,17
+1003,Maybach,62,3.5,198,18
+1004,Lexus,IS 250,3.8,101,15
+1005,Pontiac,Firebird,3.1,169,34
+1006,Volkswagen,Eos,3.7,158,29
+1007,Jaguar,XJR-S,1.5,124,21
+1008,Buick,Skyhawk,3.5,127,23
+1009,Audi,S7,1.6,129,23
+1010,Porsche,Cayenne,2.6,164,21
+1011,SRT,Viper,1.7,102,13
+1012,Ferrari,308 GTSI,3.7,121,23
+1013,HUMMER,H3,3,102,17
+1014,Fisker,Karma,1.6,149,23
+1015,Toyota,Corona,2,131,25
+1016,Maybach,57,1.5,114,26
+1017,Fisker,Karma,2.1,100,29
+1018,Jeep,Pickup,3.1,194,24
+1019,Maserati,Quattroporte,3.5,107,32
+1020,McLaren,MP4-12C,2.3,121,27
+1021,Bentley,Eight,2.7,161,29
+1022,Triumph,TR8,2.7,191,22
+1023,Daewoo,Nubira,2.1,110,27
+1024,Ferrari,348 GTB,2.5,158,14
+1025,Daewoo,Lanos,3.8,185,34
+1026,Honda,Insight,2.8,135,31
+1027,BMW,535i Gran Turismo,3.6,131,15
+1028,Lexus,ES 250,1.5,161,21
+1029,Tesla,Model S,1.5,132,19
+1030,Saab,9-3,1.5,102,11
+1031,Nissan,Stanza,1.5,115,20
+1032,Audi,S4,2.4,119,24
+1033,Pontiac,GTO,2.1,139,30
+1034,Acura,ILX,2.7,134,32
+1035,Mercedes-Benz,420SEL,2.5,194,30
+1036,Maserati,Coupe,3.8,149,34
+1037,Mercury,Cougar,3.2,171,27
+1038,Oldsmobile,Alero,3,108,22
+1039,Isuzu,Amigo,3.8,199,15
+1040,Daewoo,Nubira,3.7,134,14
+1041,Merkur,Scorpio,3.5,179,18
+1042,Scion,xB,1.4,144,17
+1043,Datsun,280ZX,3.3,161,26
+1044,Nissan,Stanza,1.7,196,15
+1045,Fisker,Karma,3.1,198,31
+1046,MINI,Cooper S Countryman,2.1,156,16
+1047,Subaru,SVX,2.5,164,25
+1048,Lancia,Beta,1.2,189,17
+1049,Isuzu,i-370,2.2,190,28
+1050,Maybach,62,3.2,127,26
+1051,Renault,Sportwagon,1.3,122,20
+1052,Porsche,Panamera,1.2,184,23
+1053,Saab,9-3,3.2,146,16
+1054,Subaru,Brat,1.3,103,17
+1055,Jaguar,S-Type,3.3,128,17
+1056,Lamborghini,Murcielago,1.5,151,23
+1057,Dodge,Durango,3.4,150,33
+1058,Mazda,Navajo,2.2,185,25
+1059,Sterling,827,1.4,135,27
+1060,Pontiac,Le Mans,2.2,110,33
+1061,Geo,Tracker,3.5,129,20
+1062,AMC,Concord,2.7,193,25
+1063,Hyundai,Veloster,2.8,137,15
+1064,Lincoln,Navigator L,1.7,124,31
+1065,Lincoln,Town Car,2.4,188,21
+1066,Subaru,BRZ,2,158,18
+1067,Freightliner,Sprinter,3,197,16
+1068,Scion,xB,2.2,185,21
+1069,Sterling,825,1.6,138,16
+1070,Maybach,57,1.2,130,22
+1071,Daewoo,Leganza,1.2,110,20
+1072,Avanti,Sedan,3.1,197,22
+1073,Saturn,L100,1.1,149,32
+1074,HUMMER,H2,1.2,120,20
+1075,Toyota,Van,3,199,27
+1076,Jaguar,XF,3.1,117,31
+1077,Datsun,280ZX,2.7,191,10
+1078,Ferrari,512TR,3.1,180,33
+1079,Lincoln,LS,2.8,161,28
+1080,Hyundai,Santa Fe,3.2,100,12
+1081,Daewoo,Nubira,3.4,114,28
+1082,Renault,18i,1.6,174,28
+1083,Aston Martin,V12 Vantage,1,191,17
+1084,Toyota,Echo,3.8,181,14
+1085,Porsche,944,2,188,28
+1086,Tesla,Roadster,3.1,110,27
+1087,Mercedes-Benz,E500,3.2,165,29
+1088,Scion,tC,2.6,149,14
+1089,Nissan,300ZX,2.4,189,30
+1090,Porsche,Panamera,3.6,184,20
+1091,Acura,Integra,3,117,18
+1092,Dodge,400,2.8,154,18
+1093,Lancia,Beta,1.7,101,19
+1094,Acura,TL,1.4,174,10
+1095,Tesla,Roadster,2.2,132,31
+1096,Bentley,Mulsanne,2.2,157,31
+1097,Volkswagen,Eos,3.4,192,13
+1098,Alfa Romeo,164,2.4,103,27
+1099,Plymouth,Champ,2.7,161,24
+1100,Freightliner,Sprinter,2.6,145,20
+1101,Cadillac,SRX,2,188,14
+1102,Mazda,MAZDASPEED6,3.7,137,16
+1103,Suzuki,Grand Vitara,1.4,139,15
+1104,AMC,Eagle,1.3,185,25
+1105,Volvo,780,2.7,168,33
+1106,Daewoo,Leganza,1.5,184,32
+1107,Volkswagen,GLI,2.6,122,16
+1108,FIAT,2000 Spider,3.1,181,16
+1109,Sterling,827,3.1,162,28
+1110,Lexus,LX 470,2.1,131,17
+1111,Peugeot,505,3.2,103,28
+1112,GMC,Sonoma,1.7,123,23
+1113,Porsche,Boxster,1.3,147,11
+1114,AMC,Alliance,1.5,108,23
+1115,Saturn,LS,1.8,173,21
+1116,Subaru,Legacy,1.8,190,11
+1117,Lexus,RX 330,1.1,159,24
+1118,smart,fortwo,3.7,136,14
+1119,FIAT,Pininfarina Spider,2,109,24
+1120,Maybach,62,2.5,116,13
+1121,Lancia,Zagato,2.6,167,13
+1122,Maybach,57,1.8,183,32
+1123,Merkur,XR4Ti,2.6,105,10
+1124,Mitsubishi,Lancer,1.1,126,16
+1125,Lincoln,MKZ,2.2,108,19
+1126,Mitsubishi,Expo,3.4,116,32
+1127,Saturn,L300,1.1,152,27
+1128,Avanti,Convertible,3.5,140,25
+1129,Isuzu,Oasis,1.2,164,33
+1130,Avanti,Convertible,1.7,152,18
+1131,Triumph,TR8,1.7,178,26
+1132,Chrysler,Pacifica,1.5,149,23
+1133,Pontiac,G3,1.8,113,29
+1134,Lexus,LFA,1.8,138,23
+1135,Lamborghini,Gallardo,3.8,129,28
+1136,Maserati,Spyder,1.2,198,17
+1137,Mitsubishi,Diamante,1.4,141,24
+1138,Infiniti,M35h,3.3,183,12
+1139,McLaren,MP4-12C,2.5,104,27
+1140,FIAT,2000 Spider,3.8,133,28
+1141,Land Rover,Range Rover Sport,3.6,139,10
+1142,Freightliner,Sprinter,1,165,30
+1143,Sterling,827,2.7,168,15
+1144,Daihatsu,Charade,1.6,122,26
+1145,Geo,Storm,2.1,176,12
+1146,Avanti,Convertible,3.3,126,26
+1147,Tesla,Model S,2.6,131,19
+1148,Maserati,Biturbo,3.1,124,21
+1149,Lamborghini,Jalpa,1.4,194,25
+1150,Mitsubishi,3000GT,3.2,172,13
+1151,Ferrari,512TR,2.5,173,31
+1152,Mercedes-Benz,SL63 AMG,2.4,121,17
+1153,GMC,Envoy,1.2,113,10
+1154,Lotus,Evora,2,194,31
+1155,HUMMER,H1,3.2,146,25
+1156,Ford,Transit Connect,2.6,106,14
+1157,Avanti,Coupe,2,142,32
+1158,Rolls-Royce,Camargue,2.1,142,30
+1159,Maybach,62,1.6,164,19
+1160,Jeep,Wrangler,3.6,138,33
+1161,Plymouth,Caravelle,2.3,117,16
+1162,DeLorean,DMC-12,1.3,188,19
+1163,Lexus,LX 450,3.1,189,31
+1164,Ford,LTD,3.5,172,16
+1165,Oldsmobile,Omega,1.7,158,13
+1166,Alfa Romeo,164,2.7,194,14
+1167,DeLorean,DMC-12,3.2,187,25
+1168,Alfa Romeo,164,1.4,122,28
+1169,Lotus,Elan,3.2,102,17
+1170,Tesla,Model S,2.1,182,29
+1171,Tesla,Roadster,3.5,175,29
+1172,Suzuki,Sidekick,2,140,29
+1173,Toyota,Tercel,2.4,134,13
+1174,Infiniti,M37,1.8,190,29
+1175,Hyundai,Excel,2.1,157,21
+1176,Oldsmobile,Cutlass Ciera,2.5,135,25
+1177,Lamborghini,Diablo,1.6,195,12
+1178,Jeep,CJ,1.1,199,14
+1179,Dodge,Conquest,3.4,118,31
+1180,Tesla,Model S,1.7,156,15
+1181,Isuzu,Amigo,3.3,172,27
+1182,Acura,MDX,2.8,163,12
+1183,Pontiac,Grand Prix,3.2,160,23
+1184,BMW,X5,2.8,176,23
+1185,Fisker,Karma,3.8,121,29
+1186,Honda,Accord Crosstour,1.3,114,31
+1187,Sterling,825,1.2,136,25
+1188,HUMMER,H3,3.7,174,34
+1189,Lincoln,Navigator L,3.5,107,23
+1190,Audi,TTS,1,148,34
+1191,Rolls-Royce,Silver Spur,2.5,147,11
+1192,Mitsubishi,Diamante,2.2,130,27
+1193,FIAT,2000 Spider,3.4,155,27
+1194,Pontiac,Grand Am,3.3,191,20
+1195,Lexus,LX 570,1.2,145,23
+1196,Jaguar,XJR,2.5,131,33
+1197,Geo,Metro,3.1,138,17
+1198,Alfa Romeo,8C Competizione,3.7,104,18
+1199,Infiniti,FX35,1.3,145,32
+1200,RAM,3500,2.1,100,14
+1201,HUMMER,H3T,3.3,190,24
+1202,Daihatsu,Charade,1.6,122,12
+1203,Datsun,300ZX,3.7,132,30
+1204,Datsun,Maxima,1.5,165,34
+1205,Lamborghini,LM002,1.4,151,28
+1206,Mazda,MX6,1.3,192,25
+1207,McLaren,MP4-12C,2.7,195,13
+1208,Infiniti,I35,3.3,128,16
+1209,BMW,318iC,1.3,125,16
+1210,Aston Martin,Vanquish,1.3,104,33
+1211,RAM,1500,3.5,109,14
+1212,smart,fortwo,2.7,151,13
+1213,Saab,9-4X,3.8,114,32
+1214,Volvo,V40,1,177,22
+1215,Lexus,LX 450,3.6,157,20
+1216,Lancia,Zagato,2.6,117,11
+1217,Mercedes-Benz,560SL,1.2,125,20
+1218,Peugeot,405,3.8,192,26
+1219,BMW,M Coupe,1.8,196,22
+1220,Hyundai,XG350,2.6,121,16
+1221,Sterling,825,1.4,177,19
+1222,Lotus,Elan,2.8,174,28
+1223,Sterling,825,2.7,117,12
+1224,Lincoln,Navigator L,3.7,122,34
+1225,Peugeot,604,1.5,142,33
+1226,AMC,Alliance,2,186,29
+1227,GMC,Sierra C/K1500,2.1,180,18
+1228,Freightliner,Sprinter,2.1,171,33
+1229,Oldsmobile,Cutlass,1.3,138,25
+1230,Cadillac,Cimarron,3.2,109,34
+1231,Infiniti,Q45,1.5,126,32
+1232,Yugo,GV,2.4,120,15
+1233,Jeep,Patriot,2.1,101,13
+1234,Sterling,825,3.3,119,11
+1235,Datsun,510,3.2,186,30
+1236,Maybach,57,1,148,11
+1237,Nissan,Titan,2,122,13
+1238,Buick,Riviera,1.4,107,25
+1239,Fisker,Karma,1.6,135,14
+1240,Honda,Ridgeline,1.7,147,33
+1241,GMC,TopKick C4500,3.3,186,12
+1242,Mercury,Mountaineer,1.1,135,31
+1243,Pontiac,Solstice,2.3,171,32
+1244,Chevrolet,G Van,1.5,147,16
+1245,Aston Martin,DB9,2.4,196,23
+1246,Toyota,MR2 Spyder,1.7,147,13
+1247,Lancia,Beta,2,144,15
+1248,Datsun,Pulsar,2.4,163,11
+1249,Fisker,Karma,1.2,158,22
+1250,Lamborghini,LM002,2.7,147,28
+1251,Plymouth,Acclaim,1,186,20
+1252,Toyota,MR2,2.4,111,25
+1253,Cadillac,Eldorado,1.4,140,16
+1254,Yugo,GVC,1.2,178,18
+1255,Mercedes-Benz,S550,2.4,122,11
+1256,Renault,Sportwagon,1.1,184,15
+1257,Lotus,Elan,3.4,124,30
+1258,BMW,750iL,2.7,169,16
+1259,Geo,Spectrum,2.2,166,19
+1260,Oldsmobile,Alero,1.6,130,10
+1261,Ferrari,328 GTS,3.6,100,13
+1262,Geo,Spectrum,1.5,160,29
+1263,Geo,Metro,2.4,175,30
+1264,Honda,Passport,1.4,147,31
+1265,Porsche,Boxster,2,182,31
+1266,Porsche,Cayenne,3.2,121,32
+1267,FIAT,X1/9,1.1,181,16
+1268,RAM,2500,1.8,145,10
+1269,Kia,Borrego,1.4,173,21
+1270,Oldsmobile,Omega,2.6,193,15
+1271,Alfa Romeo,164,1.2,123,25
+1272,Kia,Rondo,1.2,153,24
+1273,Chrysler,Cirrus,2.8,158,20
+1274,Honda,Fit,2,198,32
+1275,Lamborghini,Jalpa,2.5,132,33
+1276,Subaru,Forester,1.4,162,27
+1277,Isuzu,i-370,3.5,109,17
+1278,Peugeot,504,3.8,161,31
+1279,Dodge,Dynasty,1,129,20
+1280,DeLorean,DMC-12,1.7,161,23
+1281,GMC,Syclone,3.3,147,18
+1282,Chrysler,Concorde,2,111,22
+1283,Buick,Verano,1.2,184,17
+1284,Lotus,Esprit,2,137,14
+1285,Plymouth,Gran Fury,1.5,152,32
+1286,Kia,Forte Koup,2.5,139,18
+1287,Tesla,Roadster,3.4,155,11
+1288,Alfa Romeo,8C Competizione,2.7,143,20
+1289,Yugo,GV,3.4,166,18
+1290,Lotus,Evora,1,135,21
+1291,Ford,Escape,1.2,186,20
+1292,Jaguar,XJ Sport,2.1,140,33
+1293,Lamborghini,Jalpa,3.6,127,30
+1294,Tesla,Model S,1.3,103,18
+1295,Chevrolet,Spectrum,3,165,11
+1296,Maybach,57,1.4,102,23
+1297,HUMMER,H2,3.6,103,10
+1298,Daihatsu,Rocky,1.7,121,11
+1299,Infiniti,M56,2.2,182,27
+1300,Daihatsu,Rocky,1.5,111,34
+1301,smart,fortwo,1,146,20
+1302,Mazda,CX-9,1.3,172,34
+1303,SRT,Viper,3.5,112,31
+1304,Dodge,Lancer,1.4,165,12
+1305,Fisker,Karma,1.3,116,17
+1306,AMC,Spirit,2.4,125,30
+1307,Honda,S2000,2.4,136,19
+1308,Maserati,Quattroporte,2.5,144,26
+1309,FIAT,500,2.7,156,15
+1310,Chrysler,Prowler,3.1,194,20
+1311,Lamborghini,LM002,1.1,118,28
+1312,Cadillac,Allante,1.2,130,31
+1313,Lancia,Zagato,1.8,121,31
+1314,Oldsmobile,Omega,3.1,181,20
+1315,Lexus,SC 430,2.2,159,32
+1316,Scion,xA,1.2,133,28
+1317,Datsun,Pulsar,3.6,143,22
+1318,FIAT,Brava,1.7,170,23
+1319,Kia,Forte,2.3,161,33
+1320,Volkswagen,Eos,3,121,14
+1321,MINI,Cooper S Clubman,1.8,153,32
+1322,Subaru,Legacy,1.4,145,16
+1323,Ferrari,612 Scaglietti,1.4,114,31
+1324,Subaru,Outback,2.3,188,33
+1325,McLaren,MP4-12C,3.4,178,29
+1326,Maserati,GranTurismo,3,179,12
+1327,Cadillac,Allante,2,141,11
+1328,Yugo,GVC,2.1,130,28
+1329,Merkur,Scorpio,3.3,199,11
+1330,MINI,Cooper S Coupe,1.1,125,10
+1331,Lexus,GS 400,3.1,191,22
+1332,RAM,4500,1,134,27
+1333,Maybach,57,3.1,154,12
+1334,Pontiac,Le Mans,1.7,176,23
+1335,Nissan,Van,1.7,102,22
+1336,smart,fortwo,3.6,133,32
+1337,MINI,Cooper Clubman,3.5,199,30
+1338,Porsche,Cayman,2.3,122,20
+1339,SRT,Viper,2.8,104,19
+1340,Jaguar,XJ Sport,2.6,138,11
+1341,Mercury,Mariner,2.6,196,13
+1342,Hyundai,Genesis,1.3,171,23
+1343,Mazda,GLC,1,174,12
+1344,Merkur,Scorpio,2.5,180,24
+1345,GMC,Acadia,3.4,139,13
+1346,Yugo,GVL,3.2,179,16
+1347,Buick,Regal,2.6,127,13
+1348,Daewoo,Leganza,3.2,186,19
+1349,Kia,Spectra,2.1,100,25
+1350,Datsun,Maxima,2.3,132,29
+1351,GMC,Savana,2.5,155,10
+1352,AMC,Alliance,3.1,135,21
+1353,Peugeot,504,1.5,139,23
+1354,Saab,9-4X,1.3,119,19
+1355,Isuzu,i-350,3.8,185,14
+1356,Isuzu,i-290,1.4,140,28
+1357,Jeep,Scrambler,2.8,195,17
+1358,Mitsubishi,Montero,3.4,125,26
+1359,Yugo,GV,3.5,121,27
+1360,Geo,Tracker,3.6,170,18
+1361,Fisker,Karma,3.7,141,12
+1362,Dodge,Intrepid,1.4,166,28
+1363,Freightliner,Sprinter,1.8,164,23
+1364,Mitsubishi,Expo,2.1,190,10
+1365,Maybach,57,3.6,103,23
+1366,Bentley,Arnage,3.8,176,30
+1367,Oldsmobile,Toronado,1.2,178,17
+1368,Sterling,825,3.1,155,10
+1369,Maserati,GranSport,3.1,160,25
+1370,MINI,Cooper S Coupe,3,154,24
+1371,Kia,Sorento,3.2,172,16
+1372,Peugeot,604,2.8,156,31
+1373,Chrysler,Aspen,3,120,15
+1374,Land Rover,Discovery,2.5,158,31
+1375,Honda,Civic,3.4,187,11
+1376,Kia,Sedona,3.1,147,33
+1377,DeLorean,DMC-12,1.5,150,21
+1378,RAM,2500,3.7,186,33
+1379,Toyota,Tercel,3,195,26
+1380,Ford,E-350 and Econoline 350,3.7,138,30
+1381,Lexus,IS 350,1,146,15
+1382,Maybach,62,1.4,161,27
+1383,Kia,Rio,2.4,152,24
+1384,Daewoo,Lanos,3,185,13
+1385,AMC,Concord,1.2,141,13
+1386,Oldsmobile,Custom Cruiser,3.3,117,18
+1387,Lancia,Zagato,2.1,163,24
+1388,Dodge,Journey,1.8,190,12
+1389,BMW,128i,1.3,140,25
+1390,Rolls-Royce,Park Ward,1.7,128,16
+1391,Lotus,Elan,3.3,170,24
+1392,Buick,Roadmaster,3.3,102,19
+1393,Maybach,62,2.1,142,27
+1394,McLaren,MP4-12C,1.7,157,32
+1395,Audi,80,2.8,144,20
+1396,Bentley,Arnage,1.8,118,19
+1397,HUMMER,H2,1.3,170,30
+1398,MINI,Cooper Roadster,1.4,195,27
+1399,Isuzu,Trooper,2.6,174,33
+1400,Mercedes-Benz,560SEL,1.7,131,32
+1401,Infiniti,M37,2.4,121,33
+1402,Plymouth,Caravelle,2.4,195,30
+1403,Pontiac,Fiero,3.8,196,31
+1404,GMC,Canyon,3.6,155,19
+1405,Daihatsu,Charade,1,182,12
+1406,Saab,9-4X,3.2,183,19
+1407,Chrysler,Newport,1.4,120,27
+1408,Honda,Element,2.7,103,12
+1409,Nissan,Van,3.5,117,10
+1410,Bentley,Arnage,3.1,163,10
+1411,MINI,Cooper S Clubman,1,120,24
+1412,Saturn,Aura,3.1,138,27
+1413,Chrysler,200,2.5,192,17
+1414,Infiniti,I35,2.3,177,23
+1415,Jaguar,XJR-S,1.2,141,29
+1416,Daihatsu,Charade,1.4,196,34
+1417,Hyundai,Azera,3.1,141,13
+1418,Chrysler,Prowler,3.4,161,30
+1419,Scion,xA,1.3,161,26
+1420,Datsun,810,3.3,126,12
+1421,Triumph,TR8,1.8,167,27
+1422,Rolls-Royce,Silver Seraph,3.2,173,15
+1423,RAM,3500,3,111,20
+1424,Lexus,GS 430,3.8,169,25
+1425,Toyota,Prius V,3.3,145,17
+1426,Jaguar,XJ,3.8,193,11
+1427,Chevrolet,Nova,3.6,132,14
+1428,Mazda,MAZDASPEED6,1.1,153,32
+1429,Suzuki,Kizashi,2.7,112,24
+1430,Jaguar,XJ12,1.2,156,21
+1431,RAM,4500,2.8,175,29
+1432,Lexus,GX 470,3.8,115,12
+1433,BMW,633CSi,1.4,165,16
+1434,Sterling,825,2.4,184,34
+1435,Rolls-Royce,Corniche,2,196,14
+1436,Acura,ZDX,2.3,126,32
+1437,HUMMER,H1,3.2,152,14
+1438,Eagle,Summit,3.6,194,31
+1439,Saab,9-4X,2.8,190,14
+1440,Avanti,Sedan,2.2,146,28
+1441,Freightliner,Sprinter,1.4,111,20
+1442,Ferrari,California,3.1,147,19
+1443,Volvo,960,1.7,199,12
+1444,Lotus,Esprit,3,165,27
+1445,Mercury,Villager,3.1,180,22
+1446,Rolls-Royce,Silver Dawn,1.8,175,14
+1447,Nissan,370Z,2.4,196,34
+1448,Pontiac,Grand Am,3.3,132,23
+1449,Daihatsu,Charade,3.7,103,22
+1450,Daewoo,Lanos,1.1,181,16
+1451,Lincoln,LS,2.3,130,29
+1452,Mercedes-Benz,S430,1.7,140,21
+1453,Kia,Sedona,2.1,141,12
+1454,Peugeot,505,3.4,155,26
+1455,Audi,90,1.2,100,30
+1456,Saab,900,2,117,31
+1457,MINI,Cooper Countryman,3,119,18
+1458,Mitsubishi,Van,1.1,157,20
+1459,Maserati,Biturbo,1.2,145,24
+1460,Datsun,510,1.7,151,34
+1461,Volvo,C70,2.7,109,26
+1462,Geo,Prizm,2,193,14
+1463,Datsun,Maxima,3.5,105,10
+1464,Plymouth,Gran Fury,1.4,152,12
+1465,Ford,Five Hundred,2.6,166,23
+1466,GMC,Jimmy,2.7,141,22
+1467,Suzuki,Equator,3.7,193,33
+1468,Chevrolet,Blazer,2.5,129,33
+1469,Mazda,RX-7,1.5,116,23
+1470,Isuzu,Trooper,2.7,173,14
+1471,Saab,9000,2.5,174,19
+1472,Volvo,S60,1.8,173,14
+1473,Hyundai,XG300,2.8,180,28
+1474,Subaru,Justy,3.7,129,15
+1475,Merkur,Scorpio,2.5,123,11
+1476,Buick,Verano,1.5,110,34
+1477,smart,fortwo,3.3,169,14
+1478,Lancia,Zagato,2.6,169,11
+1479,Kia,Sorento,1.5,109,12
+1480,Ferrari,512 BBi,1.3,129,20
+1481,Suzuki,Swift,1.1,102,16
+1482,Chrysler,Sebring,1.1,164,19
+1483,MINI,Cooper S Clubman,1.8,182,32
+1484,GMC,S15 Pickup,3.6,140,30
+1485,Jaguar,XJ12,2.8,147,15
+1486,Daihatsu,Rocky,1.1,186,20
+1487,Mercedes-Benz,500SEC,3.1,170,19
+1488,Pontiac,Firebird,1.1,185,23
+1489,Porsche,Carrera GT,3.3,118,33
+1490,GMC,Sierra C/K3500,1.4,130,12
+1491,Yugo,GVC,3.7,193,19
+1492,Mazda,MAZDA6,1.6,135,23
+1493,Volkswagen,Tiguan,3.6,122,29
+1494,Ford,F250,2.7,145,20
+1495,Datsun,280ZX,2.3,123,16
+1496,AMC,Concord,2.1,127,22
+1497,Chevrolet,Equinox,1.8,102,12
+1498,Scion,xD,3.5,123,20
+1499,Sterling,827,1.7,169,29
+1500,Honda,Del Sol,3.1,169,24
+1501,DeLorean,DMC-12,2.4,108,26
+1502,BMW,X5 M,1.5,151,29
+1503,DeLorean,DMC-12,3.4,195,12
+1504,Triumph,TR7,3.2,175,24
+1505,Daewoo,Nubira,2,194,22
+1506,DeLorean,DMC-12,2.4,104,30
+1507,Nissan,Maxima,2.2,141,16
+1508,Lincoln,MKT,3.2,147,28
+1509,Mazda,626,1,192,16
+1510,Rolls-Royce,Park Ward,1.5,101,12
+1511,Jaguar,XJS,1.3,151,29
+1512,Mercedes-Benz,500SEC,2,183,16
+1513,Toyota,Prius C,1.8,173,30
+1514,Daihatsu,Charade,3.6,153,29
+1515,smart,fortwo,1.5,159,10
+1516,Volkswagen,GTI,2.5,128,28
+1517,Geo,Metro,3.3,183,22
+1518,Aston Martin,V12 Vantage,1.1,189,32
+1519,Dodge,Shadow,1.1,127,28
+1520,Suzuki,SX4,3.7,105,16
+1521,Infiniti,I30,3.7,169,19
+1522,Rolls-Royce,Park Ward,2.7,176,13
+1523,Saturn,LW1,3.4,106,10
+1524,Avanti,Convertible,1.4,117,18
+1525,Porsche,928,2.7,132,30
+1526,Daewoo,Lanos,1.7,137,26
+1527,Infiniti,EX35,2.3,162,15
+1528,DeLorean,DMC-12,3.1,132,29
+1529,FIAT,Bertone X1/9,1.4,108,34
+1530,Suzuki,XL7,2.8,183,29
+1531,Hyundai,Santa Fe,3.3,178,20
+1532,Alfa Romeo,GTV-6,3.1,183,29
+1533,Maybach,62,3,136,27
+1534,Rolls-Royce,Ghost,2.7,153,13
+1535,Pontiac,Safari,3,174,23
+1536,Lamborghini,Gallardo,3.6,105,32
+1537,Infiniti,FX37,1.6,178,18
+1538,Geo,Storm,3.7,191,22
+1539,Scion,tC,2.6,182,21
+1540,Avanti,Sedan,2.6,132,19
+1541,Fisker,Karma,2.7,180,20
+1542,Sterling,825,1.6,129,20
+1543,Infiniti,EX35,1.8,176,11
+1544,Triumph,TR8,3.7,133,20
+1545,Volkswagen,Passat,2.1,119,27
+1546,Datsun,Pickup,3.7,118,18
+1547,Rolls-Royce,Silver Spur,2.8,190,20
+1548,Jaguar,XJ8 L,2.3,120,18
+1549,Buick,Rendezvous,2.4,140,19
+1550,Lincoln,MKX,1.2,158,23
+1551,Sterling,827,2.4,116,33
+1552,Tesla,Model S,1.7,128,17
+1553,Renault,Le Car,3.4,195,10
+1554,Lancia,Beta,3,130,18
+1555,DeLorean,DMC-12,2.5,181,34
+1556,Saab,9000,1.5,181,13
+1557,Datsun,510,2.1,171,29
+1558,Maserati,GranTurismo,3.7,117,12
+1559,Renault,Sportwagon,3,141,15
+1560,Scion,FR-S,2.4,134,16
+1561,Scion,FR-S,3.3,100,33
+1562,Hyundai,Equus,2.3,110,19
+1563,Infiniti,FX45,1.4,180,26
+1564,SRT,Viper,2.3,194,24
+1565,Mazda,B-Series Pickup,1.7,115,13
+1566,Subaru,Justy,2.3,188,20
+1567,Cadillac,De Ville,3.4,129,15
+1568,Mazda,MAZDA5,2.4,109,20
+1569,Chrysler,Laser,1,127,24
+1570,Hyundai,Sonata,3.3,182,20
+1571,Mercury,Grand Marquis,1.2,191,24
+1572,Tesla,Model S,2.5,173,16
+1573,Lincoln,Mark LT,3,186,13
+1574,Freightliner,Sprinter,1,135,13
+1575,Suzuki,Verona,3.5,125,34
+1576,Volkswagen,Eos,3,173,30
+1577,Fisker,Karma,2.2,122,21
+1578,Audi,A4,3.8,143,31
+1579,Maybach,57,2.2,169,20
+1580,Oldsmobile,Silhouette,2.3,158,11
+1581,Sterling,827,1.8,184,11
+1582,Eagle,Premier,3.2,150,30
+1583,Jeep,Grand Cherokee,1.4,118,30
+1584,Plymouth,Trailduster,2.8,154,25
+1585,MINI,Cooper Countryman,1.6,193,11
+1586,RAM,2500,3.2,160,20
+1587,Subaru,Baja,1,173,33
+1588,Volvo,240,3,128,16
+1589,Aston Martin,DB9,3,178,26
+1590,Mitsubishi,Outlander Sport,1.1,110,32
+1591,RAM,3500,1.3,133,16
+1592,Lamborghini,LM002,2.7,126,22
+1593,Eagle,Talon,2,168,11
+1594,Chrysler,Pacifica,1.7,149,26
+1595,MINI,Cooper S,3.7,100,12
+1596,DeLorean,DMC-12,2.4,102,12
+1597,Scion,xD,3.7,182,15
+1598,Cadillac,Escalade,2.5,183,23
+1599,Cadillac,CTS,2.8,135,31
+1600,Mazda,MAZDA6,2,188,23
+1601,Lancia,Zagato,3.6,134,26
+1602,Kia,Sportage,2.2,104,22
+1603,SRT,Viper,1.8,121,33
+1604,Mercury,Marauder,2.1,152,14
+1605,Chevrolet,Suburban,2.5,157,19
+1606,BMW,323i,1.4,162,21
+1607,Land Rover,LR2,2.4,158,11
+1608,GMC,Sierra C/K1500,3.3,133,13
+1609,Bentley,Corniche,1.8,130,19
+1610,Isuzu,I-Mark,1,174,15
+1611,Maybach,57,2.2,123,16
+1612,Mitsubishi,Outlander,2.2,145,26
+1613,Sterling,827,2.1,105,19
+1614,Geo,Metro,2.5,129,20
+1615,AMC,Concord,1,165,12
+1616,Datsun,280ZX,2.1,113,32
+1617,SRT,Viper,1.2,119,17
+1618,Avanti,Sedan,2.1,167,15
+1619,Jaguar,XJR,1,147,29
+1620,Sterling,825,1.5,154,30
+1621,Volkswagen,Beetle,2.5,162,24
+1622,Volkswagen,Passat,3.8,119,32
+1623,Aston Martin,Rapide,3.5,102,28
+1624,Audi,5000,3.4,135,33
+1625,Audi,TT RS,2.6,128,17
+1626,Lincoln,Blackwood,2.6,168,11
+1627,Mazda,RX-7,3.2,140,31
+1628,Peugeot,405,1.6,185,30
+1629,Mercedes-Benz,ML55 AMG,2.8,127,17
+1630,Porsche,911,2.6,198,19
+1631,MINI,Cooper S,2.8,137,28
+1632,Honda,Passport,2,178,21
+1633,Porsche,911,3.6,166,14
+1634,Mercury,Tracer,3.3,151,10
+1635,Aston Martin,Vanquish,3.6,128,29
+1636,Lotus,Exige,3.6,137,34
+1637,Rolls-Royce,Corniche,2.6,114,28
+1638,Lotus,Elan,2.1,194,19
+1639,Daewoo,Nubira,2.3,184,28
+1640,Mazda,MX6,1.6,191,15
+1641,Merkur,XR4Ti,1.1,141,18
+1642,HUMMER,H1,2.1,119,19
+1643,Lincoln,Aviator,3.7,181,29
+1644,Plymouth,Grand Voyager,2,170,11
+1645,Ferrari,Testarossa,3.1,102,29
+1646,Mitsubishi,3000GT,1.8,122,28
+1647,Renault,Le Car,3.5,171,25
+1648,Infiniti,I35,3.6,173,32
+1649,Ford,LTD,1.8,125,23
+1650,Saab,9-2X,1.6,140,28
+1651,MINI,Cooper S Roadster,2.8,110,30
+1652,Scion,xA,2.1,110,26
+1653,Chrysler,Cirrus,2.7,102,26
+1654,Audi,5000,2.2,177,23
+1655,BMW,M Coupe,2.5,123,28
+1656,Volvo,240,3.5,169,33
+1657,Triumph,TR7,3.6,173,30
+1658,Saab,9000,2.5,114,32
+1659,Acura,2.2CL,1.4,191,18
+1660,Audi,TTS,2,129,34
+1661,Toyota,Starlet,3,137,16
+1662,Audi,200,1.7,142,30
+1663,Porsche,924,3.1,184,22
+1664,Eagle,Premier,1.6,101,13
+1665,FIAT,Strada,2.8,175,27
+1666,Ferrari,348 GTB,3.2,145,31
+1667,Plymouth,Grand Voyager,3.8,104,15
+1668,DeLorean,DMC-12,1.7,187,32
+1669,smart,fortwo,3,196,34
+1670,Saab,9-3,2.4,155,23
+1671,Freightliner,Sprinter,2.2,148,24
+1672,Mazda,Protege5,2.8,137,21
+1673,BMW,Z3,3.2,199,19
+1674,smart,fortwo,2,181,19
+1675,Mazda,RX-8,2.7,191,15
+1676,Aston Martin,Virage,2.4,178,33
+1677,Cadillac,Cimarron,2.5,161,23
+1678,FIAT,500,1,117,24
+1679,Lancia,Beta,3.3,128,16
+1680,BMW,X6,2.5,100,30
+1681,Mercury,Capri,1.2,160,29
+1682,Jeep,Comanche,2.6,176,33
+1683,Volkswagen,Cabrio,3.6,186,18
+1684,Cadillac,STS,1.3,177,20
+1685,Lotus,Elise,2.7,173,30
+1686,GMC,Envoy XUV,2.4,138,23
+1687,RAM,4500,1.2,122,11
+1688,Daihatsu,Rocky,2.8,129,14
+1689,Aston Martin,Vanquish,1.1,155,24
+1690,Lamborghini,Diablo,3.8,192,32
+1691,Sterling,825,2.6,145,19
+1692,Cadillac,De Ville,1.1,195,15
+1693,AMC,Encore,3,105,31
+1694,Hyundai,Elantra Coupe,1,163,27
+1695,Toyota,Paseo,3.8,179,13
+1696,Lotus,Exige,1.2,149,22
+1697,Lamborghini,Aventador,1,194,30
+1698,Mercury,Montego,3.2,143,16
+1699,Subaru,Justy,2.3,141,22
+1700,Mitsubishi,i,2.5,131,14
+1701,Triumph,TR8,1.4,199,11
+1702,Datsun,Pickup,2,100,12
+1703,Saab,9-3,1.4,110,20
+1704,Avanti,Coupe,1.1,173,10
+1705,Nissan,Murano,2.3,191,34
+1706,Lotus,Evora,3.1,100,16
+1707,Saab,900,1.3,145,28
+1708,Mercedes-Benz,G55 AMG,1.5,174,20
+1709,Dodge,Mirada,2.2,160,32
+1710,MINI,Cooper,3.4,154,32
+1711,Lexus,SC 430,1.3,108,34
+1712,Triumph,TR7,1.6,173,33
+1713,Freightliner,Sprinter,3.7,152,11
+1714,Lamborghini,Aventador,1.7,159,30
+1715,Daihatsu,Charade,1,114,13
+1716,Buick,Roadmaster,1.1,105,14
+1717,Saab,9-5,3.6,142,11
+1718,Chrysler,200,3.8,158,28
+1719,Buick,Terraza,3.2,180,14
+1720,Ferrari,360,2.6,154,23
+1721,DeLorean,DMC-12,3.4,160,12
+1722,Lotus,Elise,2.2,128,23
+1723,Volkswagen,Scirocco,3.2,181,24
+1724,Geo,Storm,3.8,197,22
+1725,Audi,TTS,1.3,107,30
+1726,smart,fortwo,2,146,27
+1727,Maserati,Spyder,1.2,147,29
+1728,Triumph,TR7,2.3,133,15
+1729,Hyundai,Scoupe,3.1,190,34
+1730,Acura,Vigor,3.4,158,16
+1731,HUMMER,H3,1.5,154,20
+1732,Porsche,Cayenne,2.7,185,13
+1733,Plymouth,Reliant,2.5,158,15
+1734,Avanti,Sedan,2.6,170,11
+1735,Jeep,Scrambler,3.4,159,29
+1736,DeLorean,DMC-12,2.3,138,22
+1737,Daewoo,Nubira,3.5,108,20
+1738,Cadillac,Catera,2.7,193,20
+1739,Jeep,Liberty,1.8,139,10
+1740,FIAT,500,3.5,157,14
+1741,Isuzu,Trooper II,2.2,158,22
+1742,Mercury,Topaz,1.8,181,15
+1743,AMC,Spirit,3.5,154,29
+1744,Chrysler,Fifth Avenue,1,176,22
+1745,Audi,allroad,1.4,118,20
+1746,Pontiac,Aztek,1.1,114,24
+1747,Renault,Le Car,2.3,157,29
+1748,Freightliner,Sprinter,2.6,167,23
+1749,Rolls-Royce,Corniche,2.1,184,20
+1750,Peugeot,405,1.6,166,21
+1751,Volkswagen,Eos,3.1,117,22
+1752,Lotus,Esprit,1.8,141,29
+1753,HUMMER,H1,1.5,180,14
+1754,Aston Martin,Lagonda,2.5,134,17
+1755,Bentley,Turbo R,3.1,199,12
+1756,Yugo,GV,1.1,162,17
+1757,Hyundai,Santa Fe,3.5,199,20
+1758,Nissan,Murano,3.2,149,17
+1759,Saturn,LW300,3.2,127,25
+1760,Pontiac,Grand Am,2.1,161,10
+1761,Bentley,Continental,3.6,154,21
+1762,Dodge,Omni,1.8,169,26
+1763,Buick,Rendezvous,3,140,14
+1764,Merkur,XR4Ti,1,111,28
+1765,Ferrari,328 GTB,1,134,23
+1766,Suzuki,Esteem,1.7,178,20
+1767,Lotus,Evora,1.4,184,19
+1768,Maserati,Spyder,2.6,165,18
+1769,Fisker,Karma,2,122,12
+1770,FIAT,500,2.7,130,23
+1771,Geo,Spectrum,2.6,122,17
+1772,Honda,Ridgeline,2.4,159,25
+1773,Jeep,Compass,1.2,138,21
+1774,Datsun,280ZX,1.4,185,11
+1775,Bentley,Corniche,2.6,162,21
+1776,Lotus,Elan,3.7,118,21
+1777,Infiniti,Q45,1.8,128,18
+1778,MINI,Cooper Clubman,3.3,140,34
+1779,Renault,Fuego,2.7,130,26
+1780,Mercury,Zephyr,3.4,195,23
+1781,Volkswagen,Tiguan,3.2,144,10
+1782,Kia,Sephia,2,199,12
+1783,Toyota,Tundra,2.1,174,23
+1784,Lotus,Elan,2.1,157,31
+1785,Lamborghini,Diablo,2.3,177,22
+1786,Eagle,Summit,1.6,154,18
+1787,Datsun,810,2.1,107,24
+1788,Audi,S7,1.8,138,11
+1789,RAM,1500,3.7,152,18
+1790,Sterling,825,3.5,170,14
+1791,AMC,Eagle,2.4,115,10
+1792,Saturn,LS,1.3,114,12
+1793,Maybach,62,2.4,125,33
+1794,Yugo,GV,1.3,102,30
+1795,Lotus,Esprit,1.2,100,10
+1796,Chrysler,LHS,2.7,134,34
+1797,Isuzu,Amigo,3.6,164,26
+1798,Datsun,280ZX,1.6,140,14
+1799,Volkswagen,R32,1.8,125,17
+1800,Renault,R18,1,144,29
+1801,Lotus,Evora,1.8,163,19
+1802,Chevrolet,Kodiak C4500,2.4,160,19
+1803,Cadillac,Eldorado,1.5,110,28
+1804,Mitsubishi,Cordia,3.4,165,19
+1805,Lamborghini,Jalpa,3.5,176,33
+1806,Eagle,Medallion,2.8,187,11
+1807,FIAT,Strada,3.6,156,22
+1808,Aston Martin,V12 Vantage,1.2,101,29
+1809,Datsun,200SX,2.5,196,23
+1810,Mercury,Lynx,1,181,12
+1811,Lincoln,Blackwood,3.4,152,24
+1812,Plymouth,Colt,1.6,125,22
+1813,Volkswagen,Pickup,2.3,197,13
+1814,Daihatsu,Rocky,2,151,11
+1815,McLaren,MP4-12C,3.8,198,10
+1816,Merkur,XR4Ti,1,173,10
+1817,Eagle,Medallion,2.8,144,16
+1818,Lotus,Exige,3.4,137,22
+1819,BMW,528xi,3.8,190,13
+1820,Toyota,Sienna,2.1,142,18
+1821,Avanti,Convertible,3.2,163,10
+1822,Toyota,Avalon,1.2,166,20
+1823,Chrysler,Crossfire,3.6,175,24
+1824,SRT,Viper,3.5,135,17
+1825,Saab,9-4X,3.8,189,15
+1826,Nissan,Pathfinder,3.1,173,19
+1827,Peugeot,604,1.6,148,12
+1828,Lancia,Beta,2.6,184,26
+1829,Mitsubishi,Outlander,3.5,161,34
+1830,Fisker,Karma,3.3,154,17
+1831,Tesla,Model S,1.6,146,34
+1832,Geo,Spectrum,2.7,118,24
+1833,McLaren,MP4-12C,1.8,150,14
+1834,Geo,Metro,1.7,153,17
+1835,Mazda,CX-5,2.8,100,34
+1836,Land Rover,LR3,1.2,181,12
+1837,Isuzu,Hombre,2,180,17
+1838,Bentley,Azure,3.2,165,30
+1839,Avanti,Convertible,2.4,152,11
+1840,Buick,Terraza,3.3,150,19
+1841,McLaren,MP4-12C,1.5,197,18
+1842,Aston Martin,Virage,1.8,132,11
+1843,Saturn,SL2,1.7,152,23
+1844,Daihatsu,Rocky,2,136,24
+1845,Aston Martin,Rapide,1.2,188,13
+1846,Eagle,Vision,2.6,136,26
+1847,Acura,Legend,2.1,129,24
+1848,Volkswagen,Dasher,1.5,134,29
+1849,Honda,Del Sol,2.6,102,16
+1850,Isuzu,Hombre,2.6,143,20
+1851,Lamborghini,LM002,2.3,160,22
+1852,Lamborghini,Murcielago,2.3,143,14
+1853,Lancia,Zagato,3.5,134,23
+1854,SRT,Viper,3,125,25
+1855,MINI,Cooper S Clubman,2.8,159,28
+1856,Oldsmobile,Regency,2.8,177,10
+1857,Plymouth,Prowler,1.8,179,24
+1858,Renault,Sportwagon,3.7,185,22
+1859,Bentley,Eight,1.2,110,33
+1860,DeLorean,DMC-12,2.5,116,17
+1861,Maybach,62,1,186,23
+1862,DeLorean,DMC-12,3.1,191,17
+1863,smart,fortwo,2.1,152,32
+1864,Isuzu,I-Mark,3.7,117,21
+1865,GMC,Sonoma,3.4,184,17
+1866,Audi,Q7,3.1,197,24
+1867,Subaru,Justy,1.8,103,21
+1868,Alfa Romeo,Spider,3.5,161,32
+1869,MINI,Cooper Coupe,2.5,138,17
+1870,HUMMER,H1,2.4,165,11
+1871,Suzuki,Equator,3,122,33
+1872,Volkswagen,Cabrio,2.2,155,28
+1873,Avanti,Convertible,3.2,197,18
+1874,Subaru,Impreza,3.5,166,34
+1875,Cadillac,CTS,2.2,153,11
+1876,Chevrolet,Spark,3.8,100,13
+1877,smart,fortwo,3.8,197,24
+1878,Volkswagen,R32,3.1,115,24
+1879,Nissan,370Z,2.5,189,29
+1880,Porsche,911,1.2,140,33
+1881,Jeep,Patriot,2.3,166,27
+1882,DeLorean,DMC-12,1.3,123,22
+1883,smart,fortwo,2.8,180,23
+1884,Yugo,GVX,3,112,11
+1885,Audi,Q5,2.2,108,22
+1886,Saab,9-4X,1.1,122,33
+1887,Lotus,Elan,1.3,129,14
+1888,Mercedes-Benz,ML350,2.7,143,15
+1889,Isuzu,i-290,3.5,186,32
+1890,Kia,Sorento,3.2,120,18
+1891,Land Rover,Freelander,1.8,145,12
+1892,Mercury,Topaz,1.4,157,27
+1893,Geo,Storm,2.4,114,10
+1894,Buick,Skyhawk,3,154,22
+1895,Sterling,825,3,155,18
+1896,Avanti,Convertible,3.3,176,22
+1897,Hyundai,Scoupe,2,162,29
+1898,Lincoln,Aviator,2.5,107,31
+1899,Isuzu,Ascender,3.2,136,26
+1900,Ford,F450,3.2,137,12
+1901,Infiniti,JX35,1.1,161,19
+1902,Mercury,Marquis,1.2,160,25
+1903,Volkswagen,Dasher,3,153,23
+1904,Freightliner,Sprinter,3.7,127,21
+1905,Porsche,968,3,152,28
+1906,Ferrari,F430,3.4,120,34
+1907,HUMMER,H2,3.6,166,20
+1908,Triumph,TR8,3.7,164,24
+1909,Datsun,Pulsar,3.4,184,24
+1910,Hyundai,Elantra Coupe,2.6,134,20
+1911,Jeep,Wagoneer,3.3,156,30
+1912,Bentley,Turbo R,3.7,165,27
+1913,Lincoln,MKZ,3.8,170,30
+1914,Rolls-Royce,Ghost,3.1,178,26
+1915,Lincoln,MKZ,2.8,150,10
+1916,Freightliner,Sprinter,1.6,126,24
+1917,Merkur,Scorpio,2.3,134,14
+1918,Daihatsu,Rocky,1.1,157,12
+1919,Freightliner,Sprinter,2.8,165,32
+1920,DeLorean,DMC-12,3.8,158,31
+1921,Mazda,MAZDASPEED3,3.2,157,30
+1922,AMC,Alliance,1.2,100,30
+1923,Subaru,Brat,1.8,134,31
+1924,Yugo,GVC,3.5,155,30
+1925,Avanti,Convertible,1.4,170,11
+1926,Saab,9000,1,199,10
+1927,Chrysler,Conquest,1.7,152,33
+1928,Geo,Storm,1.5,176,11
+1929,Sterling,825,3.7,147,21
+1930,Eagle,Premier,2.8,158,16
+1931,Land Rover,LR2,2.2,114,11
+1932,Alfa Romeo,GTV-6,3.2,158,21
+1933,Datsun,Maxima,1,137,31
+1934,GMC,Jimmy,2.7,197,20
+1935,Saab,9000,2.7,174,21
+1936,HUMMER,H3T,1.1,137,34
+1937,Maserati,GranSport,3.8,117,17
+1938,Lincoln,Navigator L,2.2,173,23
+1939,Bentley,Eight,1.7,138,32
+1940,HUMMER,H2,3.3,137,19
+1941,Plymouth,Colt,2.4,166,26
+1942,Porsche,Boxster,3.1,160,30
+1943,Mitsubishi,Expo,2.5,124,32
+1944,Maserati,430,1.1,148,26
+1945,MINI,Cooper S Roadster,3.8,168,23
+1946,GMC,Envoy XL,1.2,138,18
+1947,smart,fortwo,1.7,151,15
+1948,smart,fortwo,2.4,184,28
+1949,Mercury,Monterey,3,130,27
+1950,Lamborghini,Diablo,3.6,163,32
+1951,Bentley,Arnage,1.7,105,25
+1952,Sterling,827,2.3,187,34
+1953,Freightliner,Sprinter,2.8,102,31
+1954,Avanti,Coupe,3.7,159,14
+1955,Maserati,Quattroporte,1.1,171,15
+1956,GMC,Vandura,3.4,167,31
+1957,Porsche,968,3.7,171,24
+1958,Yugo,GVX,1.7,112,30
+1959,Maybach,62,1.7,196,25
+1960,Acura,NSX,2,103,27
+1961,Datsun,Pickup,3,162,17
+1962,Toyota,MR2,2.3,119,19
+1963,AMC,Eagle,1.5,152,20
+1964,Renault,Le Car,3,155,18
+1965,Cadillac,Eldorado,3.7,117,16
+1966,Mercury,Grand Marquis,3.8,177,28
+1967,McLaren,MP4-12C,3.8,113,14
+1968,Peugeot,505,3.7,171,27
+1969,Renault,R18,1.6,124,28
+1970,Suzuki,Verona,3.5,137,28
+1971,Fisker,Karma,1.3,195,11
+1972,Honda,Civic,1.5,180,23
+1973,Merkur,Scorpio,1.5,184,17
+1974,Renault,R18,1,108,13
+1975,Jeep,Cherokee,1.7,127,15
+1976,smart,fortwo,2.6,194,29
+1977,Ford,Flex,1.4,162,17
+1978,Isuzu,Impulse,1.3,177,11
+1979,SRT,Viper,1.7,111,11
+1980,Infiniti,EX35,3.8,142,27
+1981,Land Rover,Range Rover Sport,1.2,180,11
+1982,Dodge,Spirit,1.3,112,34
+1983,Eagle,Premier,2.7,111,16
+1984,Alfa Romeo,164,2.3,193,20
+1985,Mercury,Marquis,2.3,113,34
+1986,Pontiac,Firebird,1.1,146,31
+1987,Tesla,Model S,3,107,34
+1988,Hyundai,Equus,3.2,134,32
+1989,Plymouth,Sapporo,2.5,162,14
+1990,Mazda,MAZDA2,1.6,146,24
+1991,Subaru,Forester,2,181,25
+1992,Ferrari,FF,1.3,186,26
+1993,Dodge,Magnum,1.8,179,16
+1994,Datsun,720,1.7,155,11
+1995,McLaren,MP4-12C,1.4,132,31
+1996,Maserati,Quattroporte,1,167,11
+1997,Subaru,Brat,1.7,147,25
+1998,Lotus,Elan,1.1,149,15
+1999,Ferrari,FF,1.7,126,33
+2000,Saturn,SW1,1.8,166,20
+2001,Audi,90,1,107,10
+2002,Dodge,Caliber,1.8,121,15
+2003,Daewoo,Nubira,2.5,173,25
+2004,Daewoo,Lanos,1.8,165,13
+2005,Mercedes-Benz,G500,2,188,21
+2006,Volvo,740,3.8,184,26
+2007,Plymouth,Caravelle,3.3,185,25
+2008,FIAT,Bertone X1/9,3.6,155,21
+2009,Freightliner,Sprinter,2.4,135,21
+2010,Lincoln,Town Car,3.7,197,30
+2011,Subaru,Tribeca,3.3,136,20
+2012,Jaguar,XJR,3.8,150,23
+2013,Saab,9-5,2.1,119,31
+2014,SRT,Viper,3.1,103,16
+2015,BMW,530i,2.5,120,20
+2016,Jeep,Grand Wagoneer,3.6,118,16
+2017,Ford,Mustang,1.4,141,16
+2018,Chevrolet,Corvette,3,129,29
+2019,Buick,Skyhawk,1.2,184,18
+2020,Alfa Romeo,8C Competizione,1.4,138,29
+2021,Peugeot,504,3.7,197,18
+2022,Datsun,Maxima,2.8,137,26
+2023,Mitsubishi,Outlander Sport,2.2,138,24
+2024,Daewoo,Lanos,3.5,133,23
+2025,Maserati,GranTurismo,3,147,34
+2026,Jeep,Compass,3.2,149,14
+2027,GMC,Sierra C/K2500,3.7,198,18
+2028,Chrysler,Prowler,3.8,115,31
+2029,McLaren,MP4-12C,1.8,189,26
+2030,Mercury,Monterey,3,151,22
+2031,Rolls-Royce,Silver Spirit,2.3,194,18
+2032,Aston Martin,V8 Vantage,2.4,163,31
+2033,Lamborghini,Murcielago,1.2,190,30
+2034,Freightliner,Sprinter,1.7,134,24
+2035,Scion,xD,2.1,127,11
+2036,HUMMER,H2,1.7,180,20
+2037,Hyundai,Azera,2.5,180,31
+2038,Volkswagen,Eos,3.8,155,24
+2039,Dodge,Sprinter,1.7,179,22
+2040,DeLorean,DMC-12,2.2,123,15
+2041,Alfa Romeo,Spider,3,137,15
+2042,Mercedes-Benz,CL600,2.6,173,21
+2043,Rolls-Royce,Ghost,2.2,186,10
+2044,AMC,Eagle,1.4,112,29
+2045,Oldsmobile,Intrigue,2.7,156,23
+2046,Avanti,Coupe,3.5,124,32
+2047,MINI,Cooper Coupe,1.4,169,21
+2048,Lincoln,Mark VI,3.2,186,28
+2049,smart,fortwo,1.1,145,22
+2050,Lotus,Exige,3.2,153,17
+2051,Jeep,Grand Cherokee,1.1,127,31
+2052,McLaren,MP4-12C,1.3,162,10
+2053,Saturn,L300,1.2,154,20
+2054,Porsche,928,3.4,185,18
+2055,Tesla,Model S,2.6,110,16
+2056,Oldsmobile,Cutlass Ciera,1.4,101,25
+2057,Mercedes-Benz,240D,2.5,123,28
+2058,Volkswagen,Vanagon,1.3,162,18
+2059,Land Rover,Defender,1.5,199,30
+2060,FIAT,Pininfarina Spider,1.1,142,19
+2061,Ferrari,F50,1.1,125,18
+2062,Infiniti,EX35,1.1,152,14
+2063,Toyota,Tercel,1.3,149,34
+2064,Avanti,Sedan,1.2,178,12
+2065,DeLorean,DMC-12,2.6,123,20
+2066,Cadillac,Catera,2.5,154,28
+2067,Peugeot,604,1.8,151,11
+2068,Maserati,GranSport,2.4,175,11
+2069,Merkur,Scorpio,2.3,181,18
+2070,SRT,Viper,2.1,129,17
+2071,Dodge,400,1,198,20
+2072,Daewoo,Nubira,3.5,130,30
+2073,Lancia,Beta,2.4,194,25
+2074,Fisker,Karma,1.7,191,28
+2075,Aston Martin,V12 Vantage,1.2,140,28
+2076,Chevrolet,Corvette,2.2,182,20
+2077,Porsche,944,1,141,22
+2078,SRT,Viper,1.7,187,30
+2079,Mazda,RX-7,2.7,104,30
+2080,RAM,1500,3.6,191,20
+2081,Lexus,CT 200h,1.3,158,21
+2082,Audi,S4,3.5,142,23
+2083,Plymouth,Horizon,2.1,124,13
+2084,GMC,Sonoma,1.7,182,32
+2085,Mitsubishi,Mirage,1.2,139,18
+2086,DeLorean,DMC-12,1.2,187,11
+2087,Kia,Sephia,1.6,147,13
+2088,Land Rover,LR2,1,119,13
+2089,SRT,Viper,2.5,140,29
+2090,Jaguar,XK8,2,143,30
+2091,Volkswagen,CC,3.3,169,23
+2092,Saab,9-4X,1,148,13
+2093,Mitsubishi,Raider,2.4,112,32
+2094,Saab,9-5,1.4,143,14
+2095,Scion,xA,1.3,182,23
+2096,Volkswagen,Golf,3.2,175,23
+2097,Porsche,924,1.3,145,13
+2098,Daihatsu,Charade,2,114,28
+2099,Isuzu,Stylus,1.5,199,28
+2100,AMC,Concord,2.7,122,15
+2101,Lexus,RX 450h,2.2,143,24
+2102,Mercedes-Benz,R350,2.5,187,27
+2103,Lexus,IS 350C,1.7,137,22
+2104,Avanti,Convertible,3.4,141,30
+2105,Plymouth,Conquest,3.3,113,26
+2106,Infiniti,G20,2.7,161,23
+2107,Pontiac,Aztek,3.2,140,13
+2108,Alfa Romeo,Spider,3.7,161,10
+2109,Lotus,Esprit,3,101,13
+2110,Mercedes-Benz,SLK32 AMG,2,197,29
+2111,Freightliner,Sprinter,2.7,108,23
+2112,Infiniti,G35,3.4,125,22
+2113,Peugeot,405,2.2,106,32
+2114,RAM,1500,3.2,128,17
+2115,Ford,ZX2 Escort,1.2,196,12
+2116,Volkswagen,Eos,1.7,142,24
+2117,Volkswagen,Corrado,2,181,21
+2118,Kia,Sorento,2.6,147,14
+2119,Renault,18i,1.1,180,12
+2120,Suzuki,Esteem,2.5,164,29
+2121,Datsun,Pulsar,2.2,186,14
+2122,Maybach,57,3,140,28
+2123,Land Rover,Discovery,2.4,109,20
+2124,Chrysler,300,3.6,129,25
+2125,Oldsmobile,Cutlass,1.5,156,25
+2126,Tesla,Roadster,2.5,168,34
+2127,Chrysler,Conquest,2.3,103,31
+2128,Toyota,4Runner,2.7,143,21
+2129,Daihatsu,Charade,3.3,122,15
+2130,FIAT,Bertone X1/9,3.8,112,22
+2131,Volvo,S70,1.3,107,31
+2132,Avanti,Convertible,1.3,177,18
+2133,Maserati,Quattroporte,2.6,143,34
+2134,Isuzu,Impulse,1.6,122,10
+2135,Saab,9-7X,3.7,137,29
+2136,Alfa Romeo,GTV-6,3.7,111,18
+2137,Audi,S4,2.8,169,21
+2138,HUMMER,H3T,3.8,116,10
+2139,RAM,1500,1.6,154,27
+2140,Lancia,Beta,2.4,122,12
+2141,Jaguar,XJR-S,3.2,110,27
+2142,FIAT,Brava,1.8,127,32
+2143,Datsun,280ZX,1.3,183,26
+2144,Fisker,Karma,1.8,165,20
+2145,Porsche,928,1.6,197,10
+2146,BMW,ActiveHybrid X6,1.3,174,27
+2147,Volkswagen,Fox,1.2,186,10
+2148,Volvo,XC60,3.1,123,31
+2149,Oldsmobile,Cutlass Ciera,1.4,123,27
+2150,Volkswagen,CC,3.6,162,24
+2151,Land Rover,Range Rover Sport,2.5,190,23
+2152,Lotus,Elan,3.7,150,17
+2153,Cadillac,ATS,3.3,136,11
+2154,Saab,9-2X,2,146,19
+2155,Plymouth,Scamp,2.3,168,15
+2156,Avanti,Convertible,2.6,121,32
+2157,DeLorean,DMC-12,1.8,118,14
+2158,Alfa Romeo,164,1,146,10
+2159,Mazda,626,3.5,107,22
+2160,Tesla,Model S,3.8,132,20
+2161,Saturn,SL1,1,119,33
+2162,Oldsmobile,Toronado,1.8,177,26
+2163,Plymouth,Horizon,1,124,19
+2164,Freightliner,Sprinter,1.2,199,18
+2165,Lancia,Zagato,3.5,148,28
+2166,Mazda,MAZDA3,1.3,117,17
+2167,Lamborghini,LM002,2,114,14
+2168,Rolls-Royce,Park Ward,2.2,173,14
+2169,Daewoo,Lanos,3.4,119,14
+2170,Daihatsu,Charade,1.3,126,30
+2171,Oldsmobile,Ninety-Eight,2,118,26
+2172,RAM,2500,2.4,103,13
+2173,Avanti,Convertible,1.6,111,25
+2174,Volkswagen,Touareg,3.4,167,24
+2175,Freightliner,Sprinter,2.7,115,25
+2176,GMC,Envoy XL,3.3,142,12
+2177,Acura,3.5 RL,1.1,128,16
+2178,Freightliner,Sprinter,3.4,129,27
+2179,Lancia,Zagato,2.7,143,22
+2180,Chevrolet,Lumina,1.7,105,30
+2181,Avanti,Convertible,3.1,143,28
+2182,Honda,Ridgeline,3,175,27
+2183,Mitsubishi,Expo,3.1,129,32
+2184,Kia,Sephia,1,172,31
+2185,Pontiac,Aztek,2.5,164,32
+2186,Kia,Sorento,1.7,173,33
+2187,Lotus,Exige,2.6,135,21
+2188,Audi,RS 5,3.4,168,14
+2189,Avanti,Sedan,3,132,25
+2190,Jaguar,XJ8,1.7,105,26
+2191,Pontiac,Grand Prix,2.3,175,33
+2192,Cadillac,ATS,1.4,158,27
+2193,Porsche,Cayman,3.3,155,25
+2194,Eagle,Vision,2.2,127,17
+2195,BMW,328iS,1.6,149,24
+2196,Geo,Spectrum,3.8,128,24
+2197,Mazda,Protege5,3.8,100,32
+2198,Buick,Century,3.3,124,16
+2199,Jeep,CJ,3,126,16
+2200,Infiniti,FX37,3.4,141,15
+2201,Pontiac,Safari,3.4,177,10
+2202,Isuzu,i-370,3.3,117,24
+2203,Porsche,Cayman,2,140,14
+2204,Suzuki,Verona,1.7,168,16
+2205,Chrysler,Newport,3,154,29
+2206,Lamborghini,Jalpa,2.2,104,17
+2207,Plymouth,Sapporo,3.2,156,19
+2208,Volkswagen,Pickup,2.8,127,24
+2209,Geo,Storm,2.4,118,13
+2210,BMW,X6,3.8,179,29
+2211,Eagle,Premier,1.6,107,20
+2212,Freightliner,Sprinter,3.4,149,15
+2213,Mitsubishi,Mighty Max,2.4,126,28
+2214,Kia,Spectra,1.6,121,12
+2215,Yugo,GVX,3.5,118,17
+2216,Sterling,827,3.3,119,22
+2217,BMW,318iC,1.3,185,21
+2218,Suzuki,Equator,3.8,133,29
+2219,Mazda,Navajo,3.6,193,29
+2220,Maserati,Coupe,2.7,146,32
+2221,Volkswagen,Scirocco,2.1,198,33
+2222,Saab,9000,2.5,180,29
+2223,Land Rover,Range Rover,2.8,191,22
+2224,Mazda,CX-5,2.1,138,19
+2225,smart,fortwo,1.6,106,13
+2226,Daihatsu,Charade,1.2,154,29
+2227,Lincoln,Navigator,1.4,196,13
+2228,Mercury,Monterey,3.4,148,25
+2229,Yugo,GVC,2.8,178,32
+2230,MINI,Cooper S,2.2,146,13
+2231,BMW,745i,2.3,185,15
+2232,Honda,Ridgeline,2.5,184,19
+2233,Lamborghini,Jalpa,2.3,166,33
+2234,Plymouth,Sundance,3.2,118,23
+2235,Saab,9-4X,3.6,152,27
+2236,Pontiac,Safari,2.7,129,26
+2237,Saab,9000,2.1,161,20
+2238,Dodge,Ram SRT-10,2.6,185,24
+2239,Peugeot,405,3.1,191,34
+2240,Mercedes-Benz,E300,2.6,179,21
+2241,Triumph,TR7,3.5,108,16
+2242,Volvo,240,1.1,159,34
+2243,BMW,550i,1.7,141,16
+2244,Chrysler,Conquest,2.5,168,12
+2245,Rolls-Royce,Phantom,3,145,16
+2246,HUMMER,H1,2.8,153,24
+2247,Lexus,ES 250,1,169,17
+2248,Saturn,LW300,2.8,139,18
+2249,Volvo,960,3.6,154,13
+2250,Ferrari,575M Maranello,1,184,18
+2251,Oldsmobile,Omega,1.4,187,29
+2252,Pontiac,Firebird,2,128,27
+2253,Chrysler,300M,2.2,194,15
+2254,Alfa Romeo,8C Competizione,2.2,173,21
+2255,MINI,Cooper S,1.4,139,23
+2256,Suzuki,SX4,1.6,158,17
+2257,HUMMER,H2,3.3,135,24
+2258,Infiniti,M56,2.7,143,15
+2259,Merkur,XR4Ti,3.1,123,16
+2260,FIAT,500,2,155,19
+2261,Aston Martin,DBS,3.8,163,12
+2262,Ford,GT,2.2,138,33
+2263,Avanti,Convertible,3.1,158,14
+2264,Mercedes-Benz,CLK430,2.7,108,23
+2265,Audi,A8,1.6,197,16
+2266,Fisker,Karma,2.1,154,30
+2267,Land Rover,Range Rover Evoque,2.5,167,28
+2268,Volkswagen,Golf,1.6,140,26
+2269,Toyota,Solara,3.8,190,16
+2270,Triumph,TR8,1.6,126,12
+2271,Jeep,CJ,1,135,21
+2272,Acura,MDX,3.6,136,32
+2273,Saturn,SW1,3,176,21
+2274,Mitsubishi,3000GT,2.5,179,22
+2275,Peugeot,604,2,114,26
+2276,Yugo,GVS,2.7,177,14
+2277,Freightliner,Sprinter,3.2,105,22
+2278,Subaru,Outback,2.6,143,17
+2279,Subaru,Forester,1.3,199,12
+2280,Plymouth,Caravelle,1.5,185,17
+2281,Isuzu,Hombre,3.6,180,12
+2282,Avanti,Sedan,1.5,198,29
+2283,Tesla,Roadster,1.6,121,30
+2284,Peugeot,505,3.3,115,30
+2285,Lexus,RX 400h,1,181,33
+2286,Ferrari,348 GTS,2.6,180,25
+2287,Lexus,LX 570,1.6,117,29
+2288,Lamborghini,Jalpa,3.4,133,19
+2289,Maybach,57,1.4,198,30
+2290,Pontiac,Phoenix,3.2,118,11
+2291,Maserati,Quattroporte,1.7,183,18
+2292,Renault,Le Car,2.6,113,34
+2293,Geo,Storm,1.2,155,20
+2294,McLaren,MP4-12C,2.4,185,24
+2295,Lexus,ES 300h,2.3,127,25
+2296,HUMMER,H1,1.4,150,27
+2297,Oldsmobile,Omega,1,135,33
+2298,Lamborghini,Countach,3.3,153,29
+2299,Eagle,Summit,1.3,181,18
+2300,Subaru,Loyale,1.1,120,19
+2301,Buick,Skylark,3.3,193,25
+2302,Chrysler,200,2.7,136,29
+2303,Mercedes-Benz,E300,3.7,100,33
+2304,Hyundai,Genesis,3.7,150,32
+2305,Honda,Ridgeline,1.7,185,27
+2306,Daihatsu,Rocky,2.5,182,17
+2307,Lexus,GX 470,3.3,130,25
+2308,Acura,3.2CL,3.1,187,20
+2309,Acura,NSX,3,156,13
+2310,Land Rover,LR2,2.8,194,17
+2311,HUMMER,H1,3.6,172,30
+2312,AMC,Concord,2.1,162,11
+2313,Audi,allroad,2.5,193,13
+2314,Jaguar,XF,2.1,143,18
+2315,HUMMER,H2,2.3,176,23
+2316,Alfa Romeo,164,2.8,165,34
+2317,MINI,Cooper S Roadster,1.4,183,31
+2318,FIAT,X1/9,2,136,26
+2319,AMC,Alliance,3.6,121,32
+2320,Maserati,430,3.3,126,29
+2321,Mercury,Milan,2.6,146,14
+2322,Aston Martin,DB7,3.8,136,25
+2323,Renault,18i,3.3,115,22
+2324,Scion,FR-S,3.2,180,15
+2325,Chevrolet,Citation,3.6,168,25
+2326,Porsche,924,3.5,120,15
+2327,MINI,Cooper S,1.1,197,22
+2328,Chevrolet,Metro,3.4,165,16
+2329,RAM,3500,3.3,133,34
+2330,Volvo,V90,3.4,113,17
+2331,Saturn,SC2,1.3,191,22
+2332,Aston Martin,Lagonda,2.8,138,29
+2333,McLaren,MP4-12C,3.4,182,17
+2334,RAM,4500,3.2,139,33
+2335,Land Rover,Range Rover,2.7,161,13
+2336,Bentley,Turbo R,1.7,148,25
+2337,Daihatsu,Rocky,1.4,108,18
+2338,MINI,Cooper S Coupe,3.8,187,15
+2339,Porsche,Carrera GT,2.6,186,17
+2340,Chrysler,Aspen,1.1,117,26
+2341,Maybach,62,3,124,25
+2342,Saturn,ION,3.3,175,16
+2343,Sterling,827,1.7,123,10
+2344,Nissan,Quest,1.8,199,27
+2345,Pontiac,G3,1.4,115,25
+2346,Daewoo,Nubira,1.4,180,27
+2347,Maybach,57,2.1,118,31
+2348,Lotus,Evora,3.3,110,30
+2349,Renault,Fuego,1.3,168,25
+2350,DeLorean,DMC-12,1.3,155,12
+2351,Yugo,GVC,1.8,115,26
+2352,Cadillac,STS,2.1,101,31
+2353,Bentley,Arnage,2.6,168,14
+2354,Datsun,Pulsar,1.2,195,14
+2355,Chevrolet,Caprice,1.8,158,10
+2356,Ferrari,F40,2.1,133,18
+2357,smart,fortwo,1.4,141,19
+2358,Mazda,MAZDA6,2.2,100,32
+2359,Chrysler,Voyager,2.4,147,15
+2360,Mitsubishi,Outlander,2.6,198,28
+2361,Land Rover,LR2,3.1,141,20
+2362,Kia,Optima,1.1,181,10
+2363,BMW,325,2.7,114,11
+2364,Ferrari,Mondial,1,111,30
+2365,Daewoo,Lanos,2.4,156,19
+2366,Plymouth,Champ,1.3,125,21
+2367,Oldsmobile,Cutlass Supreme,2.1,182,34
+2368,Infiniti,G25,2.5,127,15
+2369,BMW,840Ci,3.1,199,33
+2370,Renault,R18,3.2,183,12
+2371,Lexus,IS F,2.8,130,23
+2372,Land Rover,Defender,3.4,146,15
+2373,Daewoo,Nubira,1.4,140,25
+2374,RAM,1500,1.1,130,21
+2375,AMC,Concord,2.1,114,17
+2376,MINI,Cooper S Countryman,3,117,27
+2377,smart,fortwo,1.8,128,13
+2378,Plymouth,Reliant,1.8,151,21
+2379,Freightliner,Sprinter,2.1,154,12
+2380,Chrysler,200,1.4,108,21
+2381,Avanti,Sedan,1.4,108,12
+2382,Avanti,Sedan,3.1,172,21
+2383,Peugeot,405,2.2,126,16
+2384,Mercury,Topaz,3.4,145,19
+2385,Daihatsu,Rocky,1,199,30
+2386,Saab,9-5,1.6,170,17
+2387,Isuzu,i-370,3.7,189,13
+2388,Suzuki,Samurai,2.1,176,22
+2389,Renault,Le Car,1.5,105,20
+2390,Avanti,Convertible,1.4,130,26
+2391,MINI,Cooper S Countryman,2,106,16
+2392,Isuzu,i-290,2.5,197,24
+2393,Lincoln,Mark VIII,2,144,28
+2394,Rolls-Royce,Silver Spirit,2.3,165,26
+2395,Porsche,911,3.8,119,33
+2396,Kia,Rio,3.8,105,28
+2397,Scion,FR-S,1.8,137,34
+2398,Mitsubishi,Montero Sport,2.2,134,23
+2399,Lexus,RX 450h,1.8,143,22
+2400,Peugeot,405,1.7,169,19
+2401,Lexus,GS 460,3.2,189,26
+2402,Alfa Romeo,164,1.1,180,29
+2403,Lancia,Beta,2.8,176,12
+2404,Bentley,Continental,2.2,145,18
+2405,Merkur,Scorpio,2.6,122,17
+2406,Geo,Metro,3.5,111,15
+2407,Bentley,Mulsanne,1.2,195,10
+2408,Chevrolet,Malibu,2,177,27
+2409,Suzuki,Verona,2,138,23
+2410,Renault,Sportwagon,1.3,145,14
+2411,Toyota,Cressida,2.4,146,34
+2412,Isuzu,Trooper,3.4,161,13
+2413,Cadillac,CTS,1.3,194,17
+2414,Lotus,Elan,2.6,191,30
+2415,Ford,Freestyle,3,136,16
+2416,Audi,S4,3.6,155,22
+2417,Plymouth,Grand Voyager,3.2,135,24
+2418,Avanti,Sedan,1.5,199,25
+2419,Volkswagen,Golf R,3.7,176,23
+2420,Lotus,Exige,3.1,152,25
+2421,Saturn,SC2,2.7,184,24
+2422,Scion,tC,1.1,145,34
+2423,Merkur,XR4Ti,1.4,173,27
+2424,Daewoo,Nubira,2.4,103,25
+2425,Rolls-Royce,Park Ward,3,176,23
+2426,Buick,Verano,3.8,171,16
+2427,Merkur,Scorpio,2.3,192,14
+2428,Chrysler,Neon,2.3,167,24
+2429,Ford,Explorer,3,148,25
+2430,Daewoo,Lanos,3,130,31
+2431,Saab,900,1.2,154,12
+2432,Dodge,Daytona,2.1,151,15
+2433,Lexus,IS 350C,2.8,101,26
+2434,DeLorean,DMC-12,3.4,143,15
+2435,Lotus,Elan,1.8,120,21
+2436,BMW,325e,3.8,119,26
+2437,Buick,Lucerne,1.1,122,14
+2438,HUMMER,H2,2.2,108,27
+2439,Plymouth,Caravelle,3.7,166,21
+2440,Toyota,Sienna,2.3,101,17
+2441,Mercury,Mariner,2.7,150,31
+2442,Dodge,Intrepid,1.4,123,20
+2443,MINI,Cooper Countryman,2,145,30
+2444,Subaru,BRZ,3.6,114,34
+2445,Lincoln,Town Car,2.1,108,17
+2446,Saturn,LW300,2.1,190,31
+2447,Mercedes-Benz,GL350 Bluetec,2.5,144,26
+2448,Chevrolet,Uplander,2.8,101,34
+2449,Jaguar,XF,2.2,157,18
+2450,Land Rover,LR2,2.1,119,34
+2451,Mitsubishi,Galant,1.6,146,20
+2452,Tesla,Model S,2.2,145,14
+2453,Lexus,LS 600h,3.8,103,27
+2454,Jeep,Cherokee,1.2,109,29
+2455,GMC,S15 Jimmy,1.1,154,18
+2456,Lotus,Esprit,3.1,188,25
+2457,GMC,Envoy XUV,1.4,131,18
+2458,Mitsubishi,Expo,1.2,167,32
+2459,Lotus,Elise,1.5,109,21
+2460,Jeep,Grand Cherokee,3.3,140,10
+2461,Triumph,TR7,1.2,182,28
+2462,Geo,Storm,1.7,135,24
+2463,SRT,Viper,2.7,189,12
+2464,Mazda,Miata MX5,3.4,182,30
+2465,Oldsmobile,Cutlass Supreme,3.4,196,14
+2466,Renault,Sportwagon,2.5,197,30
+2467,Land Rover,LR4,3.3,182,17
+2468,FIAT,2000 Spider,3.4,169,27
+2469,Dodge,RAM C/V,2.6,117,34
+2470,GMC,S15 Pickup,2.2,143,16
+2471,Nissan,200SX,1.8,118,30
+2472,Oldsmobile,88,3.1,120,33
+2473,Rolls-Royce,Camargue,3.6,116,21
+2474,Maserati,Biturbo,3.6,128,14
+2475,BMW,335d,2.5,102,20
+2476,Mercury,Mountaineer,2.1,143,20
+2477,Datsun,Pulsar,3.2,172,31
+2478,GMC,Terrain,2.5,152,29
+2479,FIAT,2000 Spider,2.8,135,18
+2480,smart,fortwo,2.4,162,27
+2481,Mercedes-Benz,GL450,3.7,128,20
+2482,Porsche,Panamera,2.3,196,14
+2483,AMC,Encore,1.7,170,10
+2484,Datsun,Sentra,2.3,185,11
+2485,Ford,F100,3.8,121,27
+2486,Bentley,Eight,3.8,145,31
+2487,Pontiac,Aztek,3.5,152,30
+2488,Datsun,280ZX,1.1,116,23
+2489,SRT,Viper,1.3,116,14
+2490,Triumph,TR7,2.5,186,12
+2491,Hyundai,Tiburon,3.5,152,31
+2492,Maybach,57,1.8,180,22
+2493,Tesla,Roadster,1.1,145,17
+2494,Geo,Tracker,1.2,100,23
+2495,Lancia,Beta,2.3,149,33
+2496,Jeep,Comanche,3.6,159,27
+2497,Subaru,Justy,3.1,158,26
+2498,DeLorean,DMC-12,1.5,116,16
+2499,Rolls-Royce,Silver Seraph,1,149,14
+2500,Lexus,ES 250,1.7,167,32
