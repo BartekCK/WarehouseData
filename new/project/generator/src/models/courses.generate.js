@@ -16,19 +16,20 @@ const generateRandomCourses = async (count, roads, cars, employees, times) => {
         const fillLevel = (countAdultTicket + countNormalTicker) / car.countPlace;
         ////////////
         const time = times[getRandIntNumberFromRange(0, times.length)];
-        const start = moment.utc(time.timeStart, 'HH:mm'); // NOT
-        const end = moment.utc(time.timeEnd, 'HH:mm'); // NOT
-        if (end.isBefore(start)) end.add(1, 'day'); // NOT
-        const d = moment.duration(end.diff(start)); // NOT
-        d.subtract(30, 'minutes'); // NOT
-        const timeRoad = moment.utc(+d).format('H:mm');
+        let hours;
+        let minutes;
+        minutes = time.timeEndMinutes - time.timeStartMinutes;
+        if(minutes < 0){
+            hours = time.timeEndHour - time.timeStartHour - 1;
+            minutes += 60;
+        }else {
+            hours = time.timeEndHour - time.timeStartHour;
+        }
         /////////////////
         const priceAdult = countAdultTicket * road.priceAdult;
         const priceNormal = countNormalTicker * road.priceNormal;
 
         ///////
-        const hours = moment(timeRoad, 'H:mm').hours();
-        const minutes = moment(timeRoad, 'H:mm').minutes();
         const seconds = hours * 3600 + minutes * 60;
         const roadLength = (20 * seconds) / 1000;
 
@@ -40,7 +41,8 @@ const generateRandomCourses = async (count, roads, cars, employees, times) => {
             timeID: time.id,
             countAdultTicket,
             countNormalTicker,
-            timeRoad,
+            timeRoadHours: hours,
+            timeRoadMinutes: minutes,
             fillLevel,
             roadLength,
             salary: priceAdult + priceNormal,
@@ -57,7 +59,8 @@ const headers = [
     { id: 'timeID', title: 'id_czasu' },
     { id: 'countAdultTicket', title: 'ilosc_biletow_nor' },
     { id: 'countNormalTicker', title: 'ilosc_biletow_ulg' },
-    { id: 'timeRoad', title: 'czas_przejazdu' },
+    { id: 'timeRoadHours', title: 'godzina_przejazdu' },
+    { id: 'timeRoadMinutes', title: 'minuty_przejazdu' },
     { id: 'fillLevel', title: 'poziom_wypelnienia' },
     { id: 'roadLength', title: 'odleglosc' },
     { id: 'salary', title: 'przychod' },

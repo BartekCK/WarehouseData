@@ -14,7 +14,9 @@ const generateRandomEmployees = async (drivers, addresses) => {
             driverID: drivers[i].id,
             addressID: addresses[getRandIntNumberFromRange(0, addresses.length)].id,
             salary: getRandIntNumberFromRange(2000, 3500),
-            date: moment(startDate).format('YYYY-MM-DD HH:mm:ss'),
+            year: startDate.getFullYear(),
+            month: startDate.getMonth() + 1,
+            day: startDate.getDate(),
         });
     }
     return employees;
@@ -25,7 +27,9 @@ const headers = [
     { id: 'driverID', title: 'id_kierowcy' },
     { id: 'addressID', title: 'id_adresu' },
     { id: 'salary', title: 'pensja_netto' },
-    { id: 'date', title: 'data_podpisania_umowy' },
+    { id: 'year', title: 'rok_podpisania_umowy' },
+    { id: 'month', title: 'miesiac_podpisania_umowy' },
+    { id: 'day', title: 'dzien_podpisania_umowy' },
 ];
 
 const createCsvForEmployees = async (employees) => {

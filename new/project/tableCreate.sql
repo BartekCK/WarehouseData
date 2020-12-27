@@ -37,7 +37,9 @@ create table pracownicy(
 	id_kierowcy int not null references kierowcy(id),
 	id_adresu int not null references adresy(id),
 	pensja_netto float not null, 
-	data_podpisania_umowy varchar(40) not null, 
+	rok_podpisania_umowy int not null, 
+    miesiac_podpisania_umowy int not null, 
+    dzien_podpisania_umowy int not null, 
 );
 
 create table trasy(
@@ -51,9 +53,13 @@ create table trasy(
 
 create table czas(
 	id int not null primary key,
-	czas_odjazdu varchar(40) not null,
-	czas_przyjazdu varchar(40) not null,
-	data_kursu datetime not null, 
+	godzina_odjazdu int not null,
+    minuty_odjazdu int not null,
+	godzina_przyjazdu int not null,
+    minuty_przyjazdu int not null,
+	rok_kursu int not null, 
+    miesiac_kursu int not null, 
+    dzien_kursu int not null, 
 );
 
 
@@ -74,7 +80,8 @@ create table kursy (
 	id_czasu int references czas(id),
 	ilosc_biletow_nor int not null,
 	ilosc_biletow_ulg int not null,
-	czas_przejazdu int not null,
+	godzina_przejazdu int not null,
+	minuty_przejazdu int not null,
 	poziom_wypelnienia float not null,
 	odleglosc float not null,
 	przychod float not null,
