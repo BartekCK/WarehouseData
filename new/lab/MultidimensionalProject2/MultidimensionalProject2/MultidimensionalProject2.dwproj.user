@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Sherlock</Id>
+            <Name>Sherlock</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjq8pwpcCvEWKzp4iaCgx1AAAAAASAAAAUwBoAGUAcgBsAG8AYwBrAAAAEGYAAAABAAAgAAAApLgktW+xvJ/dkvXrpZO1OClTaY01B0eoPxFWh8F2pEcAAAAADoAAAAACAAAgAAAAhve9XNVyQ2jEFRzrP4LAZq2Chs6TLRmpl2MyI6Y5rOkQAAAAiZRG5f1ZpcF9WAG1WZcUC0AAAAD5oBqKHYrBJBHb99WhhqDhcFUdecUkTzXX4JgqAYisgBMb2RhgRu1+sqe8PdvAPntxPMO2eSZbuJqUrS+fKCIn</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Sherlock</Id>
+            <Name>Sherlock</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjq8pwpcCvEWKzp4iaCgx1AAAAAASAAAAUwBoAGUAcgBsAG8AYwBrAAAAEGYAAAABAAAgAAAAXhRCaf9wtJKcnl3oO+5/+J8tLI8QrLHiMn6pxfbjoZIAAAAADoAAAAACAAAgAAAA2bW4eWz5YQxZ15MrQsGsKa7HMfpdfziTluQ8txLv/csQAAAAB4BvwcAHBtGd+WtXT3/SnUAAAAC644CPdmjdPweWu+funUmMXKEQfjnR+NMZYOvcmg1SuyNHPYWSESXA52tG4Opu/RtrT0G8lq7cCR5bZCoVGdEN</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>LAPTOP-BARTEK</TargetServer>
+        <TargetDatabase>sherlock</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

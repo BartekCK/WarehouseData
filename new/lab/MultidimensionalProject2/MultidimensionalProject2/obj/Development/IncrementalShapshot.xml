@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>sherlock</Database>
+    <Server>LAPTOP-BARTEK</Server>
+    <ConnectionString>Data Source=LAPTOP-BARTEK;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>dxa/tyju9GzKZjVEUNhM1CgZU1w=16.12.2020 19:44:4716.12.2020 18:38:59</TimeStamp>
+        <ID>
+          <String>Sherlock</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>WvWN9Z0ZV1DI6JDduylkPxB7Bpk=16.12.2020 18:44:3116.12.2020 18:44:31</TimeStamp>
+        <ID>
+          <String>Sherlock</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TeKMyRwfCEI7jIRcKXikfsyhFmQ=16.12.2020 18:49:3016.12.2020 18:49:29</TimeStamp>
+        <ID>
+          <String>Rodzaje Przestepstw</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4zTg74MQoQWXXKT3iOH72ZqQlmg=16.12.2020 18:49:3016.12.2020 18:49:29</TimeStamp>
+        <ID>
+          <String>Pojazdy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>49iMytlGjQrDaFtSgwdNqtPLmeM=16.12.2020 18:49:3016.12.2020 18:49:29</TimeStamp>
+        <ID>
+          <String>Polaczenia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LGvPdEBxIS7i6jrS8RQjc1ZHXOI=16.12.2020 18:49:3016.12.2020 18:49:29</TimeStamp>
+        <ID>
+          <String>Krs</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JVczpYp0m4/CtuD3zXLWuYJqxaQ=16.12.2020 18:49:3016.12.2020 18:49:29</TimeStamp>
+        <ID>
+          <String>Przestepcy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>g9e+j+i+X4/g+PVlIc6oqKoHpgI=16.12.2020 18:49:3016.12.2020 18:49:29</TimeStamp>
+        <ID>
+          <String>Adresy Telekomunikacyjne</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Szw8aQD+poRy5YHGBAiNWIeF0GA=16.12.2020 18:49:3016.12.2020 18:49:29</TimeStamp>
+        <ID>
+          <String>Podejrzani</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>PeDKwqLDcg92/ju0clh/KV1vdFw=16.12.2020 19:48:2016.12.2020 18:49:29EAkRxVgWTTXO11F+bZ2rZ0lMqpY=16.12.2020 18:49:3016.12.2020 18:49:29</TimeStamp>
+        <ID>
+          <String>Sherlock</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>IUQc2D+PdIFQOtd/4hKlcOcedHc=16.12.2020 18:34:0316.12.2020 18:34:03</TimeStamp>
+      <ID>
+        <String>sherlock</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-12-16T18:51:05.9Z</LastDeployed>
+</DeploymentSnapshot>
