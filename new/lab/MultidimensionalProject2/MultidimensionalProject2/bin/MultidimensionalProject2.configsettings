@@ -32,6 +32,9 @@
       <Dimension>
         <ID>Podejrzani</ID>
       </Dimension>
+      <Dimension>
+        <ID>Time</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>

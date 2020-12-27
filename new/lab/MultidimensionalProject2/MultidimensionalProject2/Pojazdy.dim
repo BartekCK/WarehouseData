@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="19482a35-e608-445b-9264-780445c9ab1e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d1f62c69-69c6-49c1-ae71-61bd291d9f4e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Pojazdy</ID>
   <Name>Pojazdy</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3406" scrolltop="-5147" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9948" y="14288" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="pojazdy" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3096" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000180c00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_pojazdy" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-3406</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-5147</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -42,32 +68,152 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e6280fd9-349b-434c-9a80-ae2b8942d3ad">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e74e581e-1703-484c-b71d-abb30c316e88">
     <DataSourceViewID>Sherlock</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="b8c64d1c-0afd-449b-91e0-48c7eb10db7a">
+  <ErrorConfiguration dwd:design-time-name="3158949e-7fc2-4cb9-9bff-8a97f462950d">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="927a28b4-dd10-440a-9ec4-1d054c7195b4">
+    <Attribute dwd:design-time-name="950fd052-e3a5-46f9-af65-f152179e872a">
       <ID>Id</ID>
       <Name>Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="00fd6c2e-3b99-45fe-bfa7-a83eeafb7e77">
+        <KeyColumn dwd:design-time-name="e98a7136-cd1b-4b06-8b7c-9eca3afd57fa">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f3eeffba-380e-494f-8393-e4e3a5783a50">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="85726b5f-4b6b-42ad-8ffd-ef12c49d310d">
             <TableID>dbo_pojazdy</TableID>
             <ColumnID>id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bcb1dc4c-59d1-45e5-9772-7ad26a1fb2ce">
+          <AttributeID>Marka</AttributeID>
+          <Name>Marka</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="537357e0-b838-4f95-ab66-7f7e7d8f99e2">
+          <AttributeID>Model</AttributeID>
+          <Name>Model</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="083907f4-aaa1-472f-95e4-ae72b9bb8edc">
+          <AttributeID>Data Produkcji</AttributeID>
+          <Name>Data Produkcji</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a3c6cc18-d30e-4938-ae4f-cd0895fa3900">
+          <AttributeID>Data Rejestracji</AttributeID>
+          <Name>Data Rejestracji</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="67ddad1a-137a-4a57-83e7-c2a12e6f7fb1">
+          <AttributeID>Numer Rej</AttributeID>
+          <Name>Numer Rej</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="060f0289-d357-4c3a-b0ea-69bfe1072e7d">
+          <AttributeID>Numer Vin</AttributeID>
+          <Name>Numer Vin</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="73f65d4d-08d4-4e93-8e7a-815f9bda7a4c">
+      <ID>Marka</ID>
+      <Name>Marka</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="787d4fc3-cb3d-4fdb-bd41-3f1046157f1b">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d19799be-52be-41c1-adb8-f6d671f7c93d">
+            <TableID>dbo_pojazdy</TableID>
+            <ColumnID>marka</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="94b160f8-8cff-4a8c-917f-21b114bde491">
+      <ID>Model</ID>
+      <Name>Model</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d787647d-3c0a-4147-99df-604b25eb4f16">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e15df3da-64da-4570-b4e4-1baf7bd2f4de">
+            <TableID>dbo_pojazdy</TableID>
+            <ColumnID>model</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f74d16a7-5d25-41b7-9234-5773e61f152f">
+      <ID>Data Produkcji</ID>
+      <Name>Data Produkcji</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9a0e5b51-a4c4-4fc5-b198-120a661fcb31">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0a4e7b7b-1164-41f6-8401-d9090cf9672c">
+            <TableID>dbo_pojazdy</TableID>
+            <ColumnID>data_produkcji</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d0721cb8-c096-4d1f-9d37-4ee2966c37cd">
+      <ID>Data Rejestracji</ID>
+      <Name>Data Rejestracji</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5e579d97-8c4b-430f-a83d-474b73eb68f3">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4960ff59-3057-4e38-be01-af0c53b21bce">
+            <TableID>dbo_pojazdy</TableID>
+            <ColumnID>data_rejestracji</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4101ef11-bcb5-46e9-b6de-6250deb082c3">
+      <ID>Numer Rej</ID>
+      <Name>Numer Rej</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f07f2113-34dc-472a-b490-e9ca24861ee8">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="67d7d6b7-4680-4c1a-97a6-f37b80e576c3">
+            <TableID>dbo_pojazdy</TableID>
+            <ColumnID>numer_rej</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6dde6b8e-7b1a-446e-a7cb-9252bd65e890">
+      <ID>Numer Vin</ID>
+      <Name>Numer Vin</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="24bd00b1-1869-4afb-abf0-ab14a531ffaa">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bcf2ee98-ac16-4ff3-918a-b5155f22742b">
+            <TableID>dbo_pojazdy</TableID>
+            <ColumnID>numer_vin</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

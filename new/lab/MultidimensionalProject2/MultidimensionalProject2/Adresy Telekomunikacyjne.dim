@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a32700cf-38d4-4056-8861-77019f5f6eff" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="be8e21ae-fbdf-449c-9749-80c8f0655a1f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Adresy Telekomunikacyjne</ID>
   <Name>Adresy Telekomunikacyjne</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,90 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="2" scrolltop="-3678" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="91" x="9948" y="14288" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="umowy_operatora" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5001" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000891300004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_umowy_operatora" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="adresy_telekomunikacyjne" left="1020" top="5549" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_adresy_telekomunikacyjne" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="operatorzy" left="7421" top="635" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_operatorzy" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4721" top="1175" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__umowy_ope__id_op__6EF57B66]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="12" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7421" y="1574" />
+              <point x="5021" y="1574" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2121" top="2650" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__adresy_te__id_um__72C60C4A]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="9" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2520" y="3149" />
+              <point x="2520" y="5549" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +105,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>2</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-3678</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -37,60 +121,88 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-      <Value>100</Value>
+      <Value>91</Value>
     </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="efb9b652-db7f-4c1e-b6ca-e9533569a2b9">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c79c7f75-b778-4ce3-98d6-f8c676a3d227">
     <DataSourceViewID>Sherlock</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="7957630a-ae30-4703-809d-a411126404d7">
+  <ErrorConfiguration dwd:design-time-name="f4822b4a-e2bc-40e2-a910-9a0f8aec5e82">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="898664bd-49d8-4043-acc7-0b47fb18eed5">
+    <Attribute dwd:design-time-name="985c9686-b02c-4913-b7f5-28e6ddfd126a">
       <ID>Id</ID>
       <Name>Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="17760f1c-606f-42fa-a8e4-193ff75583ba">
+        <KeyColumn dwd:design-time-name="31429283-fe3b-4616-aef6-4750c46fc7ec">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c443a630-fbc1-4a15-bdb5-46155fe8ee4e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f336ed29-1f4d-4273-a0f2-2df271a21c78">
             <TableID>dbo_adresy_telekomunikacyjne</TableID>
             <ColumnID>id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="bfc7d241-8391-4937-a6fa-26ce1ef0d277">
+        <AttributeRelationship dwd:design-time-name="27a7ca80-7d20-4314-b059-dffaac539753">
           <AttributeID>Umowy Operatora - Id</AttributeID>
           <Name>Umowy Operatora - Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="71b0da1c-0967-4ef0-8b0a-b0462818a058">
+          <AttributeID>Nazwa</AttributeID>
+          <Name>Nazwa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d4899122-ee52-4174-87d0-deb85fc2e24a">
+          <AttributeID>Id Opertora</AttributeID>
+          <Name>Id Opertora</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bd844049-123a-44f9-ba92-40937f833ccf">
+          <AttributeID>Data Rozpoczecia Umowy</AttributeID>
+          <Name>Data Rozpoczecia Umowy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9d754720-78cb-483e-bf66-95d36d579f00">
+          <AttributeID>Data Zakonczenia Umowy</AttributeID>
+          <Name>Data Zakonczenia Umowy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9c12f4fa-68dd-4465-94fc-5a2fd6ec3fb2">
+          <AttributeID>Ilosc Wykorzystanych Danych</AttributeID>
+          <Name>Ilosc Wykorzystanych Danych</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dcf9d26d-2778-4899-825a-1bb9755e9612">
+          <AttributeID>Adres Routera</AttributeID>
+          <Name>Adres Routera</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ac535ab2-cd19-4efb-be9b-1c682641c94a">
+          <AttributeID>Id Umowy</AttributeID>
+          <Name>Id Umowy</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a95c5e1f-1c25-4672-bc55-9f02623405c6">
+    <Attribute dwd:design-time-name="c3c73116-e090-474e-a4df-b8a99df13fbf">
       <ID>Umowy Operatora - Id</ID>
       <Name>Umowy Operatora - Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2891b522-9fbe-4399-89e1-517974a9758c">
+        <KeyColumn dwd:design-time-name="c2213574-d6f0-4536-8f21-d54d5d09bd9b">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e824bf83-be2f-4c15-a636-603e3c07f58f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f046ce87-7110-417b-beb3-d1bacfcae88d">
             <TableID>dbo_umowy_operatora</TableID>
             <ColumnID>id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="5d1cd37c-9dfd-431b-99cb-e1e1fbea1f48">
+        <AttributeRelationship dwd:design-time-name="8a4d3e05-621b-43f7-b37f-484d233e9cc9">
           <AttributeID>Operatorzy - Id</AttributeID>
           <Name>Operatorzy - Id</Name>
         </AttributeRelationship>
@@ -99,19 +211,126 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="9e4033dd-ee6b-4c17-ad08-27cd62545954">
+    <Attribute dwd:design-time-name="1ed518cf-7ea2-46a6-899d-6a74ef59c8a5">
       <ID>Operatorzy - Id</ID>
       <Name>Operatorzy - Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6ed3488c-ef97-4053-852e-ab5b17e832fc">
+        <KeyColumn dwd:design-time-name="fcd355b1-f4e9-4fb5-9672-2b22e96a9049">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e356b0ef-c4f9-4ca6-93b4-7d38a6c1b782">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e5af35fe-813d-4059-a8b9-ae97c6a41e66">
             <TableID>dbo_operatorzy</TableID>
             <ColumnID>id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a6fe14ab-5327-4d6c-af45-8cb2c15cca2f">
+      <ID>Nazwa</ID>
+      <Name>Nazwa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba375127-5f68-4388-a925-768b3c70e61d">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a78d2ee8-f9c5-4743-bd42-277c38541bdc">
+            <TableID>dbo_operatorzy</TableID>
+            <ColumnID>nazwa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4632293c-3240-4ad7-80dc-874b5e04cba7">
+      <ID>Id Opertora</ID>
+      <Name>Id Opertora</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="172436a1-c260-497d-868e-e283da7e41d1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ee423825-cf7c-4da1-82ec-f92b8eeec8b6">
+            <TableID>dbo_umowy_operatora</TableID>
+            <ColumnID>id_opertora</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1e430071-29c6-4338-95c4-0ff3effb1211">
+      <ID>Data Rozpoczecia Umowy</ID>
+      <Name>Data Rozpoczecia Umowy</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5b6684bf-1158-45f4-a3ca-87f7f11dd4f7">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cfcf1603-bb58-4871-97aa-449b5a39a433">
+            <TableID>dbo_umowy_operatora</TableID>
+            <ColumnID>data_rozpoczecia_umowy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="10787e4d-a359-4cf6-a2cd-a9fda4e6f142">
+      <ID>Data Zakonczenia Umowy</ID>
+      <Name>Data Zakonczenia Umowy</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e2203f6f-5b90-489d-aa20-9dc67fd3a699">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fae6f228-22cb-4427-b4a2-3244389c4ca7">
+            <TableID>dbo_umowy_operatora</TableID>
+            <ColumnID>data_zakonczenia_umowy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8f49d147-8adb-415f-92e1-1d2ecacbd158">
+      <ID>Ilosc Wykorzystanych Danych</ID>
+      <Name>Ilosc Wykorzystanych Danych</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1eb954d3-2359-4969-bb87-757b8b14d562">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="13cc05fd-7f88-4455-8455-6c53a3918935">
+            <TableID>dbo_umowy_operatora</TableID>
+            <ColumnID>ilosc_wykorzystanych_danych</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2a5ce841-0418-4217-af2c-17e9d132781b">
+      <ID>Adres Routera</ID>
+      <Name>Adres Routera</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8a242265-5d36-448b-9490-db0fe91ecea2">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9b121500-4f49-48d3-a66e-61837187318e">
+            <TableID>dbo_adresy_telekomunikacyjne</TableID>
+            <ColumnID>adres_routera</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eb12c911-bdfc-488b-aa6a-a423415175a1">
+      <ID>Id Umowy</ID>
+      <Name>Id Umowy</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b41eb22d-0c39-4e72-8d20-9debaf3f10b9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2154dd63-8371-4391-a206-1ec61340c3b0">
+            <TableID>dbo_adresy_telekomunikacyjne</TableID>
+            <ColumnID>id_umowy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

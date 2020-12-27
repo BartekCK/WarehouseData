@@ -47,6 +47,10 @@
       <Name>Podejrzani.dim</Name>
       <FullPath>Podejrzani.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Time.dim</Name>
+      <FullPath>Time.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fc1b1c75-2cc4-40ea-973e-ed57581e96aa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d7b4e0d1-d29b-48f1-b061-33f3699932ed" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Krs</ID>
   <Name>Krs</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,61 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3089" scrolltop="-3219" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9948" y="14288" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="krs" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3731" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000930e0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_krs" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="formy_prawne" left="385" top="5972" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_formy_prawne" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1486" top="3272" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__krs__id_formy_pr__797309D9]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1885" y="5972" />
+              <point x="1885" y="3572" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +76,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-3089</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-3219</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -42,54 +97,171 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3177945c-6a51-41a7-ac35-c52349cd5e00">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="40d1f6c5-3c1a-4087-8563-6f9c60da357c">
     <DataSourceViewID>Sherlock</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="836ebeaf-359e-4ba1-9f98-be2e0714088b">
+  <ErrorConfiguration dwd:design-time-name="a7bed3b7-1a8f-4fce-b8d4-75f3d172d27d">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="1cfd45ce-94f9-430b-bea6-a4773cf4368b">
+    <Attribute dwd:design-time-name="51906e73-7e10-418d-aaed-02bf0f99ca22">
       <ID>Id</ID>
       <Name>Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d4d092ae-d081-43dc-9a91-51099b4a2a89">
+        <KeyColumn dwd:design-time-name="b2daa8a7-ac8e-42eb-81d6-1a6478deaac1">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="50dbab50-bf08-4824-8f48-1bf45406fe88">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="91cfdfbe-3281-4906-b743-8fc885193d85">
             <TableID>dbo_krs</TableID>
             <ColumnID>id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="20fc01d8-8841-46b3-b925-90b1198e2d8d">
+        <AttributeRelationship dwd:design-time-name="4f8cbc06-100d-4c2f-ab04-61bfd437e55e">
           <AttributeID>Formy Prawne - Id</AttributeID>
           <Name>Formy Prawne - Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e2243fbe-ea67-4ec0-a668-e2bf088d9dc0">
+          <AttributeID>Nip</AttributeID>
+          <Name>Nip</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ca9a602f-916d-41c4-8bed-a91681d7a836">
+          <AttributeID>Regon</AttributeID>
+          <Name>Regon</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aabada0f-f91a-42d0-aa32-dff940cd64ea">
+          <AttributeID>Data Rejestracji</AttributeID>
+          <Name>Data Rejestracji</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="57c2b933-d8cf-4a5e-a3d2-eebfaa6d0458">
+          <AttributeID>Id Formy Prawnej</AttributeID>
+          <Name>Id Formy Prawnej</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="846a58a1-df9d-41aa-a43d-bd4481c0c35f">
+          <AttributeID>Kapital Zalozycielski</AttributeID>
+          <Name>Kapital Zalozycielski</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d3852bc1-73c4-46a1-bf11-e6927803d44d">
+          <AttributeID>Opis</AttributeID>
+          <Name>Opis</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="add73b45-baee-47e6-ac46-ac668b8123ef">
+    <Attribute dwd:design-time-name="e57629f2-95d0-4fe4-b938-f78ea5e21ac1">
       <ID>Formy Prawne - Id</ID>
       <Name>Formy Prawne - Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6b5fd09d-f316-42e7-8307-5592c598395d">
+        <KeyColumn dwd:design-time-name="99ac2e40-c56b-4b7a-a3d9-aff57f8ab5e5">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="fa881d0d-ad67-4b26-94f5-8aca738021c8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="009263b2-4221-4ee6-b789-5f7e18107825">
             <TableID>dbo_formy_prawne</TableID>
             <ColumnID>id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f8c69e1e-7b23-46a5-84f6-b90172e2afec">
+      <ID>Nip</ID>
+      <Name>Nip</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9e893b9c-2824-496c-a4a3-34741fda57d5">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9ecbbf42-628f-41ac-8050-7f9e26c7f7e8">
+            <TableID>dbo_krs</TableID>
+            <ColumnID>nip</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d1bd4df0-a80c-4b5e-8626-278352f00e12">
+      <ID>Regon</ID>
+      <Name>Regon</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="93db3f17-e052-4fc1-94b7-e8926a35ba2d">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="31896735-3ced-429c-95ec-4242fa2d2d79">
+            <TableID>dbo_krs</TableID>
+            <ColumnID>regon</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a7a069e4-1b5c-4485-ae56-8cfe64d88882">
+      <ID>Data Rejestracji</ID>
+      <Name>Data Rejestracji</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="10a98da0-b5ac-4e30-9125-8ae4d05a05d4">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="192de20a-5cde-467a-a655-88e0c4cb2176">
+            <TableID>dbo_krs</TableID>
+            <ColumnID>data_rejestracji</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d4a56414-71f1-4a44-a412-d6aba9d59cf8">
+      <ID>Id Formy Prawnej</ID>
+      <Name>Id Formy Prawnej</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="01c39c72-aeb9-4e64-a844-a08ddffc8e0e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4dd16af5-6393-4107-84e5-43bb4bd1d716">
+            <TableID>dbo_krs</TableID>
+            <ColumnID>id_formy_prawnej</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e94e582a-d21b-4027-b8a2-298183cc7428">
+      <ID>Kapital Zalozycielski</ID>
+      <Name>Kapital Zalozycielski</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="587ee075-0f8e-4620-abcb-bfba7b89c8bf">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8f42626f-4163-4830-9f77-dae0ac188e76">
+            <TableID>dbo_krs</TableID>
+            <ColumnID>kapital_zalozycielski</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4c5db74f-b730-48e5-8e0e-97bda0e26f5e">
+      <ID>Opis</ID>
+      <Name>Opis</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0c429b50-4093-4447-b2a0-a6fb4a9c9070">
+          <DataType>WChar</DataType>
+          <DataSize>150</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="baf689ab-d593-436d-80d3-d9956cb0ba39">
+            <TableID>dbo_formy_prawne</TableID>
+            <ColumnID>opis</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

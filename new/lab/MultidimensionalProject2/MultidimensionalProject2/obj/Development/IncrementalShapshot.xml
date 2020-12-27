@@ -33,42 +33,42 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>E40IPGZ4xqzRZ5Ek5ii1iCepArE=27.12.2020 18:02:5727.12.2020 18:02:57</TimeStamp>
+        <TimeStamp>gOly6nlaWz2AIy8lrD0ko0d+JL8=27.12.2020 18:53:1327.12.2020 18:02:57</TimeStamp>
         <ID>
           <String>Rodzaje Przestepstw</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>oahAbjOHfLt4sHIVtTgXeghLq4I=27.12.2020 18:02:5727.12.2020 18:02:57</TimeStamp>
+        <TimeStamp>eIXMi2QycgmY55PeGCvuLQPDZOk=27.12.2020 18:53:1327.12.2020 18:02:57</TimeStamp>
         <ID>
           <String>Pojazdy</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>GOHo/7ZmkFhPpwe2a/jzyYv4dQU=27.12.2020 18:02:5727.12.2020 18:02:57</TimeStamp>
+        <TimeStamp>xE6dZb0r95x+3mvEloTyNKwsYsI=27.12.2020 18:53:1327.12.2020 18:02:57</TimeStamp>
         <ID>
           <String>Polaczenia</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Plpbflrw2z/QEhPy+zXhDmNKYqQ=27.12.2020 18:02:5727.12.2020 18:02:57</TimeStamp>
+        <TimeStamp>Zj8UtyB1Rd5wFksAj68huAcjI/Q=27.12.2020 18:53:1327.12.2020 18:02:57</TimeStamp>
         <ID>
           <String>Krs</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>/a7+8oxI28at8HfriIzxKCLN1pc=27.12.2020 18:02:5727.12.2020 18:02:57</TimeStamp>
+        <TimeStamp>hKlaBb+yCYJHWe05KvjmZ9YzaVY=27.12.2020 18:53:1327.12.2020 18:02:57</TimeStamp>
         <ID>
           <String>Przestepcy</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>A7O5qAyDxw2xMCMRvtDnSJIZroM=27.12.2020 18:02:5727.12.2020 18:02:57</TimeStamp>
+        <TimeStamp>ie51eNQVDkFzs0IprApL0b5QOp4=27.12.2020 18:53:1327.12.2020 18:02:57</TimeStamp>
         <ID>
           <String>Adresy Telekomunikacyjne</String>
         </ID>
@@ -81,8 +81,15 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Yqo6uqdosoLk6oN//6lZMPJDLM0=27.12.2020 18:53:3227.12.2020 18:53:29</TimeStamp>
+        <ID>
+          <String>Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>9vU/VjIw3g1+fcC/8xJt6kcDfF4=27.12.2020 18:02:5727.12.2020 18:02:57SImm5oOysoGltAPtWUgm5KX/LR4=27.12.2020 18:02:5727.12.2020 18:02:57</TimeStamp>
+        <TimeStamp>ICZZ2gKRrMvtQ9XR05Sn1SHZ1lI=27.12.2020 18:53:1327.12.2020 18:02:57SImm5oOysoGltAPtWUgm5KX/LR4=27.12.2020 18:02:5727.12.2020 18:02:57</TimeStamp>
         <ID>
           <String>Sherlock</String>
         </ID>
@@ -99,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-12-27T17:03:07.12Z</LastDeployed>
+  <LastDeployed>2020-12-27T17:53:50.616667Z</LastDeployed>
 </DeploymentSnapshot>
